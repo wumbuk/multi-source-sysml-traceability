@@ -1,0 +1,482 @@
+[
+  {
+    "序号": 36,
+    "错误类型": "FN",
+    "CSV原始数据": {
+      "NameA": "in p3",
+      "pathA": "[1 Problem Domain::2 White Box::2 Conceptual Subsystems Communication::2 Conceptual Subsystems::1 Cooling::Cooling]",
+      "contextA": "The Cooling subsystem's physical port `in p3` receives cabin air through the Cabin Air Inlet for thermal management.",
+      "propertyA": "Cabin Air Inlet",
+      "typeA": "Physical_port",
+      "NameB": "Heating & Cooling",
+      "pathB": "[1 Problem Domain::1 Black Box::1 Stakeholder Needs::Stakeholder Needs::User Needs]",
+      "contextB": "The unit must be able to heat and cool.",
+      "propertyB": "",
+      "typeB": "Functional_Requirement",
+      "Relation_gold": "1/Refine"
+    },
+    "JSON预测结果": {
+      "是否存在追溯关系": false,
+      "选择的关系": null,
+      "推理过程": "1. 需求关注系统整体的加热与冷却能力，属于高层功能目标。2. 模型节点仅为物理端口，是空气进入的结构性接口，属于架构细节。3. 端口作为链路参与节点，不直接细化或满足高层能力需求，且候选关系 refineTo 语义不匹配。",
+      "决定关系的原因": "物理端口属于架构细节，无法直接细化或满足高层功能能力需求。",
+      "置信度": 0.95
+    }
+  },
+  {
+    "序号": 42,
+    "错误类型": "FN",
+    "CSV原始数据": {
+      "NameA": "out p5",
+      "pathA": "[1 Problem Domain::2 White Box::2 Conceptual Subsystems Communication::VCCU]",
+      "contextA": "The physical port \"out p5\" serves as the cabin air outlet of the VCCU, enabling conditioned air to exit the climate control subsystem into the vehicle cabin.",
+      "propertyA": "Cabin Air Outlet",
+      "typeA": "Physical_port",
+      "NameB": "Heating & Cooling",
+      "pathB": "[1 Problem Domain::1 Black Box::1 Stakeholder Needs::Stakeholder Needs::User Needs]",
+      "contextB": "The unit must be able to heat and cool.",
+      "propertyB": "",
+      "typeB": "Functional_Requirement",
+      "Relation_gold": "1/Refine"
+    },
+    "JSON预测结果": {
+      "是否存在追溯关系": false,
+      "选择的关系": null,
+      "推理过程": "1. 需求关注加热/冷却功能能力，模型节点仅为空气流出物理接口。2. 物理端口不执行温度调节动作，非功能核心实现者。3. 候选关系 refineTo 无法描述接口与功能能力的语义关联，故无追溯关系。",
+      "决定关系的原因": "物理端口仅承载结果而非实现加热冷却功能，不满足 refineTo 语义。",
+      "置信度": 0.95
+    }
+  },
+  {
+    "序号": 67,
+    "错误类型": "FN",
+    "CSV原始数据": {
+      "NameA": "inout p5",
+      "pathA": "[1 Problem Domain::2 White Box::2 Conceptual Subsystems Communication::2 Conceptual Subsystems::4 Human-Machine Interacting::Human-Machine Interacting]",
+      "contextA": "The inout p5 port facilitates bidirectional internal data transfer within the Human-Machine Interacting subsystem, enabling communication between conceptual components.",
+      "propertyA": "Internal Data Transfer",
+      "typeA": "Information_port",
+      "NameB": "Ambient Temperature",
+      "pathB": "[1 Problem Domain::1 Black Box::1 Stakeholder Needs::Stakeholder Needs::User Needs]",
+      "contextB": "I want to see the ambient temperature on the screen or some other output device",
+      "propertyB": "",
+      "typeB": "Interaction_Requirement",
+      "Relation_gold": "1/Refine"
+    },
+    "JSON预测结果": {
+      "是否存在追溯关系": false,
+      "选择的关系": null,
+      "推理过程": "1. 需求节点关注用户可见的外部输出（屏幕显示温度）。2. 模型节点明确为子系统内部双向数据传输接口，属于内部通信架构细节。3. 内部转发节点不直接承担显示功能，不符合直接满足或细化外部交互需求的语义，故判定无追溯关系。",
+      "决定关系的原因": "内部通信端口不直接实现用户可见的外部显示需求。",
+      "置信度": 0.95
+    }
+  },
+  {
+    "序号": 99,
+    "错误类型": "FP",
+    "CSV原始数据": {
+      "NameA": "Heating",
+      "pathA": "[1 Problem Domain::2 White Box::2 Conceptual Subsystems Communication::VCCU]",
+      "contextA": "The Heating part property of the VCCU enables cabin heating by controlling the heating subsystem to raise and regulate interior temperature.",
+      "propertyA": "",
+      "typeA": "Part_property",
+      "NameB": "Comfortable Temperature",
+      "pathB": "[1 Problem Domain::1 Black Box::1 Stakeholder Needs::Stakeholder Needs::User Needs]",
+      "contextB": "I'd like to feel comfortable temperature while being in the cabin",
+      "propertyB": "",
+      "typeB": "Functional_Requirement",
+      "Relation_gold": "0"
+    },
+    "JSON预测结果": {
+      "是否存在追溯关系": true,
+      "选择的关系": "refineTo",
+      "推理过程": "1. 模型节点 Heating 位于 Problem Domain 的 White Box 层，需求位于 Problem Domain 的 Black Box 层。2. 根据规则，Problem Domain 内概念模型对用户需求的分解构成细化关系。3. 尽管 Heating 是执行部件，但路径规则优先判定为 Refine。",
+      "决定关系的原因": "模型与需求同处 Problem Domain，符合路径规则优先判定的细化关系。",
+      "置信度": 0.9
+    }
+  },
+  {
+    "序号": 103,
+    "错误类型": "FP",
+    "CSV原始数据": {
+      "NameA": "Cool Down Temperature to Desired",
+      "pathA": "[1 Problem Domain::2 White Box::3 Functional Analysis::Reach Desired Temperature]",
+      "contextA": "The action reduces the current temperature to a desired setpoint, taking a temperature input and producing a cooled temperature output.",
+      "propertyA": "",
+      "typeA": "Action",
+      "NameB": "Comfortable Temperature",
+      "pathB": "[1 Problem Domain::1 Black Box::1 Stakeholder Needs::Stakeholder Needs::User Needs]",
+      "contextB": "I'd like to feel comfortable temperature while being in the cabin",
+      "propertyB": "",
+      "typeB": "Functional_Requirement",
+      "Relation_gold": "0"
+    },
+    "JSON预测结果": {
+      "是否存在追溯关系": true,
+      "选择的关系": "refineTo",
+      "推理过程": "1. 需求'Comfortable Temperature'定义目标状态，模型'Cool Down...'提供具体执行动作。2. 两者均位于Problem Domain，模型是对需求的功能分解与过程细化。3. 依据层级映射规则，高层需求向下层功能动作展开属于Refine关系。",
+      "决定关系的原因": "模型节点是需求在功能分析层的具体展开与细化，符合Problem Domain内的refineTo定义。",
+      "置信度": 0.95
+    }
+  },
+  {
+    "序号": 105,
+    "错误类型": "FN",
+    "CSV原始数据": {
+      "NameA": "Get Desired Temperature",
+      "pathA": "[1 Problem Domain::2 White Box::3 Functional Analysis::Reach Desired Temperature]",
+      "contextA": "The Get Desired Temperature action retrieves the target temperature setpoint, outputting it as a value for subsequent comparison in the heating control activity.",
+      "propertyA": "",
+      "typeA": "Action",
+      "NameB": "Comfortable Temperature",
+      "pathB": "[1 Problem Domain::1 Black Box::1 Stakeholder Needs::Stakeholder Needs::User Needs]",
+      "contextB": "I'd like to feel comfortable temperature while being in the cabin",
+      "propertyB": "",
+      "typeB": "Functional_Requirement",
+      "Relation_gold": "1/Refine"
+    },
+    "JSON预测结果": {
+      "是否存在追溯关系": false,
+      "选择的关系": null,
+      "推理过程": "1. 模型节点'Get Desired Temperature'仅为参数读取操作，不直接改变物理温度状态。2. 需求'Comfortable Temperature'关注最终用户体验结果，需加热/冷却动作直接实现。3. 该节点属于控制链路中的辅助数据准备环节，非核心贡献者，符合禁止链路扩散推理规则。",
+      "决定关系的原因": "该节点仅获取设定点参数，未直接实现舒适温度这一物理结果。",
+      "置信度": 0.95
+    }
+  },
+  {
+    "序号": 106,
+    "错误类型": "FN",
+    "CSV原始数据": {
+      "NameA": "Process Data",
+      "pathA": "[1 Problem Domain::2 White Box::3 Functional Analysis::Reach Desired Temperature]",
+      "contextA": "The Process Data action reads sensor measurements and setpoint values, then computes the control error to output a processed signal for the heating element regulation.",
+      "propertyA": "",
+      "typeA": "Action",
+      "NameB": "Comfortable Temperature",
+      "pathB": "[1 Problem Domain::1 Black Box::1 Stakeholder Needs::Stakeholder Needs::User Needs]",
+      "contextB": "I'd like to feel comfortable temperature while being in the cabin",
+      "propertyB": "",
+      "typeB": "Functional_Requirement",
+      "Relation_gold": "1/Refine"
+    },
+    "JSON预测结果": {
+      "是否存在追溯关系": false,
+      "选择的关系": null,
+      "推理过程": "1. 需求'Comfortable Temperature'是高层用户目标，关注最终体验结果。2. 模型节点'Process Data'是内部数据处理步骤，仅计算误差，不直接产生舒适温度。3. 两者存在语义粒度差异，且中间有'加热/冷却'等核心功能节点，直接关联违反禁止功能链路扩散规则。",
+      "决定关系的原因": "模型节点仅为内部计算细节，未直接承担实现用户舒适温度目标的语义贡献。",
+      "置信度": 0.95
+    }
+  },
+  {
+    "序号": 108,
+    "错误类型": "FN",
+    "CSV原始数据": {
+      "NameA": "massCool",
+      "pathA": "[1 Problem Domain::2 White Box::2 Conceptual Subsystems Communication::2 Conceptual Subsystems::1 Cooling::Cooling]",
+      "contextA": "The massCool value property represents the mass of the Cooling subsystem in kilograms, enabling weight analysis and mass budget tracking within the conceptual system architecture.",
+      "propertyA": "mass[kilogram]",
+      "typeA": "Value_property",
+      "NameB": "Total Mass",
+      "pathB": "[1 Problem Domain::1 Black Box::1 Stakeholder Needs::Stakeholder Needs::Design Constraints]",
+      "contextB": "Mass of the unit shall not exceed 2 percent of the total car mass.",
+      "propertyB": "",
+      "typeB": "Physical_Requirement",
+      "Relation_gold": "1/Refine"
+    },
+    "JSON预测结果": {
+      "是否存在追溯关系": false,
+      "选择的关系": null,
+      "推理过程": "1. 需求节点关注‘单元’总质量约束，模型节点仅定义‘冷却子系统’质量属性。2. 两者存在层级与粒度差异，子系统属性无法直接满足系统级总质量约束。3. 模型节点仅为质量计算链路的数据输入，未直接实现或细化需求目标，属于链路参与而非语义贡献。",
+      "决定关系的原因": "模型节点粒度（子系统）与需求粒度（单元）不匹配，无法直接满足或细化总质量约束。",
+      "置信度": 0.95
+    }
+  },
+  {
+    "序号": 111,
+    "错误类型": "FN",
+    "CSV原始数据": {
+      "NameA": "massHeat",
+      "pathA": "[1 Problem Domain::2 White Box::2 Conceptual Subsystems Communication::2 Conceptual Subsystems::2 Heating::Heating]",
+      "contextA": "It represents the mass of the Heating subsystem in kilograms, serving as a key parameter for weight calculations.",
+      "propertyA": "mass[kilogram]",
+      "typeA": "Value_property",
+      "NameB": "Total Mass",
+      "pathB": "[1 Problem Domain::1 Black Box::1 Stakeholder Needs::Stakeholder Needs::Design Constraints]",
+      "contextB": "Mass of the unit shall not exceed 2 percent of the total car mass.",
+      "propertyB": "",
+      "typeB": "Physical_Requirement",
+      "Relation_gold": "1/Refine"
+    },
+    "JSON预测结果": {
+      "是否存在追溯关系": false,
+      "选择的关系": null,
+      "推理过程": "1. 需求关注单元总质量全局约束，模型节点仅为加热子系统局部质量参数。2. 局部参数无法单独满足或细化全局约束，仅作为计算链路的输入数据。3. 根据禁止功能链路扩散原则，局部属性与全局需求间无直接语义贡献，故不存在追溯关系。",
+      "决定关系的原因": "局部子系统参数无法直接满足或细化系统级总质量约束。",
+      "置信度": 0.95
+    }
+  },
+  {
+    "序号": 138,
+    "错误类型": "FN",
+    "CSV原始数据": {
+      "NameA": "inout p5",
+      "pathA": "[1 Problem Domain::2 White Box::2 Conceptual Subsystems Communication::2 Conceptual Subsystems::3 Processing::Processing]",
+      "contextA": "The inout p5 port enables bidirectional internal data transfer for the Processing subsystem, facilitating communication with other conceptual subsystems.",
+      "propertyA": "Internal Data Transfer",
+      "typeA": "Information_port",
+      "NameB": "Setting Desired Temperature",
+      "pathB": "[2 Solution Domain::1 System Requirements::SRS for VCCS]",
+      "contextB": "The user shall be able to specify the temperature he/she desires in the cabin.",
+      "propertyB": "",
+      "typeB": "Interface_Requirement",
+      "Relation_gold": "1/Refine"
+    },
+    "JSON预测结果": {
+      "是否存在追溯关系": false,
+      "选择的关系": null,
+      "推理过程": "1. 需求'设定期望温度'核心在于用户交互接口，要求系统提供用户输入机制。2. 模型节点'p5'明确定义为子系统间内部双向数据传输端口，属于内部通信机制。3. 内部数据通道不直接承担用户指令接收功能，非需求实现的直接入口或细化描述。4. 根据禁止链路扩散规则，内部转发节点不构成对用户需求的有效追溯。",
+      "决定关系的原因": "内部通信端口不直接实现用户交互需求，缺乏直接语义映射。",
+      "置信度": 0.95
+    }
+  },
+  {
+    "序号": 165,
+    "错误类型": "FP",
+    "CSV原始数据": {
+      "NameA": "Read Desired Temperature",
+      "pathA": "[1 Problem Domain::2 White Box::3 Functional Analysis::Reach Desired Temperature]",
+      "contextA": "The Read Desired Temperature action retrieves the desired temperature setpoint and provides it as an output value for subsequent control steps.",
+      "propertyA": "",
+      "typeA": "Action",
+      "NameB": "Human-Machine Interactions",
+      "pathB": "[2 Solution Domain::1 System Requirements::SRS for VCCS]",
+      "contextB": "The system shall be able to accept data and commands from the user",
+      "propertyB": "",
+      "typeB": "Functional_Requirement",
+      "Relation_gold": "0"
+    },
+    "JSON预测结果": {
+      "是否存在追溯关系": true,
+      "选择的关系": "refineTo",
+      "推理过程": "1. 需求节点定义系统需接受用户数据。2. 模型节点位于问题域，将抽象需求细化为具体‘读取温度设定点’动作。3. 该动作直接承载用户输入语义，构成需求的功能分解而非最终实现，符合Refine定义。",
+      "决定关系的原因": "问题域节点将抽象需求细化为具体功能步骤，符合refineTo定义。",
+      "置信度": 0.92
+    }
+  },
+  {
+    "序号": 172,
+    "错误类型": "FN",
+    "CSV原始数据": {
+      "NameA": "in p2",
+      "pathA": "[1 Problem Domain::2 White Box::2 Conceptual Subsystems Communication::2 Conceptual Subsystems::3 Processing::Processing]",
+      "contextA": "The `in p2` information port receives sensor data transfers into the Processing subsystem for further analysis and integration.",
+      "propertyA": "Sensor Data Transfer",
+      "typeA": "Information_port",
+      "NameB": "Getting Ambient Temperature",
+      "pathB": "[2 Solution Domain::1 System Requirements::SRS for VCCS]",
+      "contextB": "The system shall take the ambient temperature from the vehicle temperature sensor.",
+      "propertyB": "",
+      "typeB": "Interface_Requirement",
+      "Relation_gold": "1/Refine"
+    },
+    "JSON预测结果": {
+      "是否存在追溯关系": false,
+      "选择的关系": "null",
+      "推理过程": "1. 模型语义解析：模型节点 'in p2' 是一个 Information_port，其功能描述为接收传感器数据（Sensor Data Transfer）进入处理子系统。这是一个通用的数据输入接口，未指定具体数据类型。\n2. 子系统语义背景：该子系统包含处理能耗、质量、声级等属性的节点，表明这是一个多参数处理单元，'in p2' 可能是其中任意传感器数据的入口，语义较为宽泛。\n3. 需求语义解析：需求 'Getting Ambient Temperature' 明确要求系统获取“环境温度”，这是一个具体的物理量约束，属于接口需求。\n4. 功能贡献分析：虽然 'in p2' 是数据入口，但其描述中的 'Sensor Data Transfer' 是通用术语，未明确指代“温度”数据。在 MBSE 中，通用输入端口通常不直接追溯至特定物理量的需求，除非端口属性或连接关系明确限定了数据类型。该端口可能传输温度，也可能传输其他传感器数据，缺乏对“环境温度”这一特定目标的唯一性或关键性贡献判定依据。\n5. 映射判断：模型节点与需求节点之间存在潜在的间接关联（可能通过），但缺乏直接的语义细化或满足关系。将通用端口直接映射到特定温度需求属于过度推断，不符合严格的语义追溯原则。\n6. 案例参考：参考高置信案例，只有当模型元素明确体现需求中的特定约束（如端口类型明确为温度传感器接口，或属性明确为温度值）时，才建立 satisfy/refine 关系。",
+      "决定关系的原因": "模型端口描述为通用传感器数据传输，未明确限定为环境温度，缺乏对特定需求的关键语义贡献。",
+      "置信度": 0.92
+    }
+  },
+  {
+    "序号": 211,
+    "错误类型": "FN",
+    "CSV原始数据": {
+      "NameA": "out p6",
+      "pathA": "[1 Problem Domain::2 White Box::2 Conceptual Subsystems Communication::2 Conceptual Subsystems::3 Processing::Processing]",
+      "contextA": "The out p6 control port transmits internal control signals from the Processing subsystem to coordinate conceptual subsystem interactions.",
+      "propertyA": "Internal Control",
+      "typeA": "Control_port",
+      "NameB": "Heating",
+      "pathB": "[2 Solution Domain::1 System Requirements::SRS for VCCS]",
+      "contextB": "The system shall be able to heat the air, if the user desires to increase the temperature in the cabin.",
+      "propertyB": "",
+      "typeB": "Functional_Requirement",
+      "Relation_gold": "1/Refine"
+    },
+    "JSON预测结果": {
+      "是否存在追溯关系": false,
+      "选择的关系": null,
+      "推理过程": "1. 模型节点 out p6 为内部控制端口，语义聚焦于子系统间信号协调，非物理功能执行。2. 需求 Heating 关注加热空气的物理能力，需具体执行器或逻辑支撑。3. 两者仅存在潜在链路关联，缺乏直接实现或细化语义，符合禁止链路扩散规则。",
+      "决定关系的原因": "内部控制端口仅为信号传输通道，未直接实现加热功能或细化需求逻辑。",
+      "置信度": 0.95
+    }
+  },
+  {
+    "序号": 216,
+    "错误类型": "FN",
+    "CSV原始数据": {
+      "NameA": "out p5",
+      "pathA": "[1 Problem Domain::2 White Box::2 Conceptual Subsystems Communication::VCCU]",
+      "contextA": "The physical port \"out p5\" serves as the cabin air outlet of the VCCU, enabling conditioned air to exit the climate control subsystem into the vehicle cabin.",
+      "propertyA": "Cabin Air Outlet",
+      "typeA": "Physical_port",
+      "NameB": "Heating",
+      "pathB": "[2 Solution Domain::1 System Requirements::SRS for VCCS]",
+      "contextB": "The system shall be able to heat the air, if the user desires to increase the temperature in the cabin.",
+      "propertyB": "",
+      "typeB": "Functional_Requirement",
+      "Relation_gold": "1/Refine"
+    },
+    "JSON预测结果": {
+      "是否存在追溯关系": false,
+      "选择的关系": null,
+      "推理过程": "1. 模型节点 out p5 为物理空气出口，仅定义气流通道，不具备加热功能属性。2. 需求 Heating 核心目标是系统具备加热能力，需热源及控制逻辑实现。3. 出口节点仅为功能链末端传输环节，不直接决定加热能力的实现，且非加热功能独有组件。4. 依据禁止链路扩散原则，该节点对加热需求无直接语义支撑，无法建立 refineTo 关系。",
+      "决定关系的原因": "物理出口节点仅提供气流通道，不直接实现加热功能，缺乏语义贡献。",
+      "置信度": 0.95
+    }
+  },
+  {
+    "序号": 229,
+    "错误类型": "FN",
+    "CSV原始数据": {
+      "NameA": "out p5",
+      "pathA": "[1 Problem Domain::2 White Box::2 Conceptual Subsystems Communication::VCCU]",
+      "contextA": "The physical port \"out p5\" serves as the cabin air outlet of the VCCU, enabling conditioned air to exit the climate control subsystem into the vehicle cabin.",
+      "propertyA": "Cabin Air Outlet",
+      "typeA": "Physical_port",
+      "NameB": "Cooling",
+      "pathB": "[2 Solution Domain::1 System Requirements::SRS for VCCS]",
+      "contextB": "The system shall be able to cool the air, if the user desires to decrease the temperature in the cabin.",
+      "propertyB": "",
+      "typeB": "Functional_Requirement",
+      "Relation_gold": "1/Refine"
+    },
+    "JSON预测结果": {
+      "是否存在追溯关系": false,
+      "选择的关系": null,
+      "推理过程": "1. 模型节点 out p5 为物理端口，仅定义空气输出接口，不执行热交换。2. 需求 Cooling 关注系统冷却能力，需由制冷部件实现。3. out p5 仅为功能链路末端输出，非冷却功能实现者或细化者，不符合语义贡献判定。",
+      "决定关系的原因": "物理端口仅作为输出通道，未直接实现或细化冷却功能。",
+      "置信度": 0.95
+    }
+  },
+  {
+    "序号": 238,
+    "错误类型": "FN",
+    "CSV原始数据": {
+      "NameA": "in p6",
+      "pathA": "[1 Problem Domain::2 White Box::2 Conceptual Subsystems Communication::2 Conceptual Subsystems::2 Heating::Heating]",
+      "contextA": "The Heating subsystem's `in p6` control port receives internal control commands to regulate heating operations.",
+      "propertyA": "Internal Control",
+      "typeA": "Control_port",
+      "NameB": "Central Processing",
+      "pathB": "[2 Solution Domain::1 System Requirements::SRS for VCCS]",
+      "contextB": "The system shall \"decide\" whether to cool or to heat the air in the cabin. For this, it shall take the ambient temperature and compare it to the desired temperature set by the user.",
+      "propertyB": "",
+      "typeB": "Functional_Requirement",
+      "Relation_gold": "1/Refine"
+    },
+    "JSON预测结果": {
+      "是否存在追溯关系": false,
+      "选择的关系": null,
+      "推理过程": "1. 需求节点关注‘中央处理’的决策逻辑（比较与决定），属于大脑功能。2. 模型节点是加热子系统的控制端口，仅负责接收指令，属于手脚执行接口。3. 两者语义层级不匹配，模型节点仅是决策结果的传递终点，未实现或细化决策过程本身。4. 根据禁止链路扩散规则，不能因处于控制链路而强行建立关系。",
+      "决定关系的原因": "模型节点仅为执行接口，不承担需求定义的决策逻辑功能。",
+      "置信度": 0.95
+    }
+  },
+  {
+    "序号": 250,
+    "错误类型": "FN",
+    "CSV原始数据": {
+      "NameA": "Initialize Cooling",
+      "pathA": "[1 Problem Domain::2 White Box::3 Functional Analysis::Reach Desired Temperature]",
+      "contextA": "The Initialize Cooling action sets the cooling system to its initial state, enabling subsequent temperature regulation to reach the desired setpoint.",
+      "propertyA": "",
+      "typeA": "Action",
+      "NameB": "Central Processing",
+      "pathB": "[2 Solution Domain::1 System Requirements::SRS for VCCS]",
+      "contextB": "The system shall \"decide\" whether to cool or to heat the air in the cabin. For this, it shall take the ambient temperature and compare it to the desired temperature set by the user.",
+      "propertyB": "",
+      "typeB": "Functional_Requirement",
+      "Relation_gold": "1/Refine"
+    },
+    "JSON预测结果": {
+      "是否存在追溯关系": false,
+      "选择的关系": null,
+      "推理过程": "1. 需求节点核心目标是‘决策’（比较温度并决定加热或冷却），而非执行动作。2. 模型节点‘Initialize Cooling’语义为冷却执行前的状态初始化，属于执行细节。3. 模型节点未包含决策逻辑，无法细化或满足需求的‘决策’目标。4. 两者仅处于同一功能域的不同阶段，缺乏直接语义支撑，属于禁止的链路扩散。",
+      "决定关系的原因": "模型节点是执行准备步骤，未实现需求核心的决策逻辑，无直接语义贡献。",
+      "置信度": 0.95
+    }
+  },
+  {
+    "序号": 251,
+    "错误类型": "FN",
+    "CSV原始数据": {
+      "NameA": "Read Desired Temperature",
+      "pathA": "[1 Problem Domain::2 White Box::3 Functional Analysis::Reach Desired Temperature]",
+      "contextA": "The Read Desired Temperature action retrieves the desired temperature setpoint and provides it as an output value for subsequent control steps.",
+      "propertyA": "",
+      "typeA": "Action",
+      "NameB": "Central Processing",
+      "pathB": "[2 Solution Domain::1 System Requirements::SRS for VCCS]",
+      "contextB": "The system shall \"decide\" whether to cool or to heat the air in the cabin. For this, it shall take the ambient temperature and compare it to the desired temperature set by the user.",
+      "propertyB": "",
+      "typeB": "Functional_Requirement",
+      "Relation_gold": "1/Refine"
+    },
+    "JSON预测结果": {
+      "是否存在追溯关系": false,
+      "选择的关系": null,
+      "推理过程": "1. 需求'Central Processing'核心语义为'决策'与'比较'。2. 模型节点'Read Desired Temperature'仅执行'读取'动作，属于数据准备。3. 读取参数不直接实现决策逻辑，仅为链路参与节点。4. 依据禁止功能链路扩散规则，两者无直接追溯关系。",
+      "决定关系的原因": "模型节点仅负责数据读取，未实现需求核心的决策与比较逻辑。",
+      "置信度": 0.95
+    }
+  },
+  {
+    "序号": 280,
+    "错误类型": "FP",
+    "CSV原始数据": {
+      "NameA": "out p5",
+      "pathA": "[1 Problem Domain::2 White Box::2 Conceptual Subsystems Communication::2 Conceptual Subsystems::1 Cooling::Cooling]",
+      "contextA": "The Cooling subsystem's physical port out p5 delivers conditioned air to the cabin through the Cabin Air Outlet.",
+      "propertyA": "Cabin Air Outlet",
+      "typeA": "Physical_port",
+      "NameB": "Hot Air Removal form VCCS",
+      "pathB": "[2 Solution Domain::1 System Requirements::SRS for VCCS]",
+      "contextB": "The system shall remove accumulated hot air from the VCCS to maintain stable cabin temperature and improve overall thermal comfort.",
+      "propertyB": "",
+      "typeB": "Interface_Requirement",
+      "Relation_gold": "0"
+    },
+    "JSON预测结果": {
+      "是否存在追溯关系": true,
+      "选择的关系": "satisfyTo",
+      "推理过程": "1. 模型语义解析：模型节点 'out p5' 是一个 Physical_port，功能描述明确指出其将‘调节后的空气’（conditioned air）通过‘舱室空气出口’输送到舱室。这是冷却子系统完成热管理功能后的最终物理输出接口。\n2. 子系统语义背景：同子系统节点包含 'in p3'（舱室空气入口）和 'in p6'（内部控制），表明该子系统通过吸入空气、内部处理（冷却）、再排出的流程工作。'out p5' 是该流程的终点，直接负责将处理后的冷/热空气释放到目标环境（舱室）。\n3. 需求语义解析：需求 'Hot Air Removal form VCCS' 要求系统‘移除 VCCS 中积聚的热空气’以维持温度稳定。该需求的核心动作是‘移除’（Remove），即通过物理手段将热空气排出系统或替换为冷空气。\n4. 功能贡献分析：'out p5' 是实现‘移除热空气’这一需求的关键执行节点。如果没有这个输出端口，调节后的空气（或排出的热空气）无法离开子系统进入舱室环境，需求中的‘移除’动作将无法在物理层面完成。它不是中间传输节点，而是功能实现的最终出口，对需求目标形成关键语义贡献。\n5. 映射判断：模型节点 'out p5' 直接实现了需求中关于空气移除/交换的物理动作。因此，模型节点对需求节点构成了‘满足’（satisfaction）关系。\n6. 案例参考：参考候选关系集合，'satisfyTo' 适用于模型元素直接实现需求约束的场景，符合此处端口作为功能输出接口满足系统热管理需求的模式。",
+      "决定关系的原因": "该物理端口是冷却子系统排出空气的关键出口，直接实现了需求中移除热空气的功能目标。",
+      "置信度": 0.95
+    }
+  },
+  {
+    "序号": 343,
+    "错误类型": "FN",
+    "CSV原始数据": {
+      "NameA": "cp",
+      "pathA": "[2 Solution Domain::2 System Structure::VCCS]",
+      "contextA": "The cp part property represents the Control Panel system within the Vehicle Climate Control System, serving as the user interface for adjusting cabin temperature and airflow settings.",
+      "propertyA": "CP System",
+      "typeA": "Part_property",
+      "NameB": "Central Processing",
+      "pathB": "[2 Solution Domain::1 System Requirements::SRS for VCCS]",
+      "contextB": "The system shall \"decide\" whether to cool or to heat the air in the cabin. For this, it shall take the ambient temperature and compare it to the desired temperature set by the user.",
+      "propertyB": "",
+      "typeB": "Functional_Requirement",
+      "Relation_gold": "1/Satisfy"
+    },
+    "JSON预测结果": {
+      "是否存在追溯关系": false,
+      "选择的关系": null,
+      "推理过程": "1. 模型节点 cp 为控制面板，语义核心是用户输入与界面展示。2. 需求 Central Processing 核心是逻辑决策与比较，属于处理单元功能。3. cp 仅提供数据源，不执行决策逻辑，二者功能语义错位。4. 依据禁止链路扩散规则，输入组件不视为处理需求的实现者。",
+      "决定关系的原因": "模型节点仅提供输入数据，未直接实现需求的决策逻辑功能。",
+      "置信度": 0.95
+    }
+  }
+]

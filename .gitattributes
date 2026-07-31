@@ -1,0 +1,17 @@
+* text=auto
+
+*.py text eol=lf
+*.md text eol=lf
+*.tex text eol=lf
+*.java text eol=lf
+*.gradle text eol=lf
+*.json text eol=lf
+*.jsonl text eol=lf
+*.csv text eol=lf
+*.txt text eol=lf
+*.xmi text eol=lf
+
+*.jar binary
+*.pdf binary
+*.png binary
+*.zip binary

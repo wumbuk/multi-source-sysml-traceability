@@ -1,0 +1,138 @@
+{
+  "meta": {
+    "gold_csv": "Data/GenerateContext/Air_Condition/Judge.csv",
+    "pred_json": "result/全组件实验/Qwen3.5-27B_Ablation/Interaction_context/first/output_result.json",
+    "mode": "both",
+    "json_records": 358,
+    "csv_rows": 358,
+    "length_match": true
+  },
+  "rq1": {
+    "tp": 35,
+    "fp": 5,
+    "tn": 308,
+    "fn": 10,
+    "accuracy": 0.9581005586592178,
+    "precision": 0.875,
+    "recall": 0.7777777777777778,
+    "f1": 0.823529411764706,
+    "total": 358
+  },
+  "rq2": {
+    "oracle": {
+      "setting": "oracle",
+      "pipeline_eval": null,
+      "macro_f1": 0.8810641627543037,
+      "type_accuracy": 0.7777777777777778,
+      "evaluated_total": 45,
+      "relation_types": [
+        "Refine",
+        "Satisfy"
+      ],
+      "classification_report": {
+        "Refine": {
+          "precision": 1.0,
+          "recall": 0.775,
+          "f1-score": 0.8732394366197184,
+          "support": 40
+        },
+        "Satisfy": {
+          "precision": 1.0,
+          "recall": 0.8,
+          "f1-score": 0.888888888888889,
+          "support": 5
+        },
+        "macro avg": {
+          "precision": 1.0,
+          "recall": 0.7875000000000001,
+          "f1-score": 0.8810641627543037,
+          "support": 45
+        },
+        "weighted avg": {
+          "precision": 1.0,
+          "recall": 0.7777777777777778,
+          "f1-score": 0.8749782646496261,
+          "support": 45
+        },
+        "micro avg": {
+          "precision": 1.0,
+          "recall": 0.7777777777777778,
+          "f1-score": 0.8750000000000001,
+          "support": 45
+        },
+        "accuracy": 0.7777777777777778
+      },
+      "correct_type_predictions": 35
+    },
+    "pipeline_conditional": {
+      "setting": "pipeline",
+      "pipeline_eval": "conditional",
+      "macro_f1": 1.0,
+      "type_accuracy": 1.0,
+      "evaluated_total": 35,
+      "relation_types": [
+        "Refine",
+        "Satisfy"
+      ],
+      "classification_report": {
+        "Refine": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 31
+        },
+        "Satisfy": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 4
+        },
+        "macro avg": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 35
+        },
+        "weighted avg": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 35
+        },
+        "micro avg": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 35
+        },
+        "accuracy": 1.0
+      },
+      "correct_type_predictions": 35
+    }
+  },
+  "coverage": {
+    "gold_positive_total": 45,
+    "predicted_positive_total": 40,
+    "evaluated_positive_total": 35,
+    "missed_gold_positive_total": 10,
+    "false_positive_link_total": 5
+  },
+  "paper_ready": {
+    "rq1": {
+      "precision": "0.875",
+      "recall": "0.778",
+      "f1": "0.824",
+      "accuracy": "0.958"
+    },
+    "rq2": {
+      "oracle": {
+        "macro_f1": "0.881",
+        "type_accuracy": "0.778"
+      },
+      "pipeline_conditional": {
+        "macro_f1": "1.000",
+        "type_accuracy": "1.000"
+      }
+    }
+  }
+}

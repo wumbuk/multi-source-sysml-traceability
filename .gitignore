@@ -1,0 +1,57 @@
+# Local secrets and machine-specific configuration
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+.venv/
+venv/
+env/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE and operating-system metadata
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Java/Gradle build outputs
+protege_reasoner/kg-reasoner/.gradle/
+protege_reasoner/kg-reasoner/build/
+protege_reasoner/kg-reasoner/bin/
+
+# Downloaded models and checkpoints
+models/
+checkpoints/
+*.safetensors
+*.ckpt
+*.pt
+*.pth
+
+# Large raw generation logs and local experiment scratch data
+result/**/SFTDatacollection/*.jsonl
+result/sft_samples/*.jsonl
+result/**/*.zip
+result/错误样例收集/
+result/实验图片/
+result/metrics/
+examples/
+temporary_results/
+tmp/
+output/
+
+# Generated knowledge-graph visualization
+lib/
+sysml_kg.html
+
+# Backups and editor artifacts
+*.bak
+*.old
+*.orig
+*~

@@ -1,0 +1,131 @@
+{
+  "meta": {
+    "gold_csv": "Data/GenerateContext/Air_Condition/Judge.csv",
+    "pred_json": "result/全组件实验/Qwen3.5-9B/second_experiment/6.6_Qwen3.5-9B_thinking.json",
+    "mode": "both",
+    "json_records": 358,
+    "csv_rows": 358,
+    "length_match": true
+  },
+  "rq1": {
+    "tp": 31,
+    "fp": 5,
+    "tn": 308,
+    "fn": 14,
+    "accuracy": 0.946927374301676,
+    "precision": 0.8611111111111112,
+    "recall": 0.6888888888888889,
+    "f1": 0.7654320987654321,
+    "total": 358
+  },
+  "rq2": {
+    "oracle": {
+      "setting": "oracle",
+      "pipeline_eval": null,
+      "macro_f1": 0.793939393939394,
+      "type_accuracy": 0.6666666666666666,
+      "evaluated_total": 45,
+      "relation_types": [
+        "Refine",
+        "Satisfy"
+      ],
+      "classification_report": {
+        "Refine": {
+          "precision": 1.0,
+          "recall": 0.65,
+          "f1-score": 0.7878787878787878,
+          "support": 40.0
+        },
+        "Satisfy": {
+          "precision": 0.8,
+          "recall": 0.8,
+          "f1-score": 0.8,
+          "support": 5.0
+        },
+        "micro avg": {
+          "precision": 0.967741935483871,
+          "recall": 0.6666666666666666,
+          "f1-score": 0.7894736842105263,
+          "support": 45.0
+        },
+        "macro avg": {
+          "precision": 0.9,
+          "recall": 0.7250000000000001,
+          "f1-score": 0.793939393939394,
+          "support": 45.0
+        },
+        "weighted avg": {
+          "precision": 0.9777777777777777,
+          "recall": 0.6666666666666666,
+          "f1-score": 0.7892255892255893,
+          "support": 45.0
+        }
+      },
+      "correct_type_predictions": 30
+    },
+    "pipeline_conditional": {
+      "setting": "pipeline",
+      "pipeline_eval": "conditional",
+      "macro_f1": 0.9350104821802935,
+      "type_accuracy": 0.967741935483871,
+      "evaluated_total": 31,
+      "relation_types": [
+        "Refine",
+        "Satisfy"
+      ],
+      "classification_report": {
+        "Refine": {
+          "precision": 1.0,
+          "recall": 0.9629629629629629,
+          "f1-score": 0.9811320754716981,
+          "support": 27.0
+        },
+        "Satisfy": {
+          "precision": 0.8,
+          "recall": 1.0,
+          "f1-score": 0.8888888888888888,
+          "support": 4.0
+        },
+        "accuracy": 0.967741935483871,
+        "macro avg": {
+          "precision": 0.9,
+          "recall": 0.9814814814814814,
+          "f1-score": 0.9350104821802935,
+          "support": 31.0
+        },
+        "weighted avg": {
+          "precision": 0.9741935483870967,
+          "recall": 0.967741935483871,
+          "f1-score": 0.9692297288158517,
+          "support": 31.0
+        }
+      },
+      "correct_type_predictions": 30
+    }
+  },
+  "coverage": {
+    "gold_positive_total": 45,
+    "predicted_positive_total": 36,
+    "evaluated_positive_total": 31,
+    "missed_gold_positive_total": 14,
+    "false_positive_link_total": 5
+  },
+  "paper_ready": {
+    "rq1": {
+      "precision": "0.861",
+      "recall": "0.689",
+      "f1": "0.765",
+      "accuracy": "0.947"
+    },
+    "rq2": {
+      "oracle": {
+        "macro_f1": "0.794",
+        "type_accuracy": "0.667"
+      },
+      "pipeline_conditional": {
+        "macro_f1": "0.935",
+        "type_accuracy": "0.968"
+      }
+    }
+  }
+}

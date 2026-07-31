@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmlns:xmi="http://www.omg.org/spec/XMI/20131001"
+         xmlns:uml="http://www.omg.org/spec/UML/20131001"
+         xmlns:sysml="http://www.omg.org/spec/SysML/20181001/SysML">
+  <xmi:Documentation>
+    <xmi:exporter>MagicDraw UML</xmi:exporter>
+    <xmi:exporterVersion>2022x</xmi:exporterVersion>
+  </xmi:Documentation>
+
+  <uml:Model xmi:type="uml:Model" xmi:id="demo_model" name="Model">
+    <uml:Package xmi:id="demo_package" name="Cooling Demo">
+      <packagedElement xmi:type="uml:Class" xmi:id="req_temperature"
+                       name="Control Cabin Temperature"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="req_status"
+                       name="Display Operating Status"/>
+
+      <packagedElement xmi:type="uml:Class" xmi:id="block_controller"
+                       name="Cooling Controller"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="block_display"
+                       name="Status Display"/>
+
+      <packagedElement xmi:type="uml:Activity" xmi:id="activity_control"
+                       name="Cooling Control Behavior">
+        <node xmi:type="uml:OpaqueAction" xmi:id="action_control"
+              name="Control Temperature"/>
+        <node xmi:type="uml:OpaqueAction" xmi:id="action_status"
+              name="Show Operating Status"/>
+      </packagedElement>
+    </uml:Package>
+  </uml:Model>
+
+  <sysml:Requirement xmi:id="req_temperature_app"
+                     base_Class="req_temperature"
+                     Id="REQ-001"
+                     Text="The cooling system shall control the cabin temperature to the requested value."/>
+  <sysml:Requirement xmi:id="req_status_app"
+                     base_Class="req_status"
+                     Id="REQ-002"
+                     Text="The cooling system shall display its current operating status to the user."/>
+
+  <sysml:Block xmi:id="block_controller_app" base_Class="block_controller"/>
+  <sysml:Block xmi:id="block_display_app" base_Class="block_display"/>
+</xmi:XMI>

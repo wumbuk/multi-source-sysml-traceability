@@ -1,0 +1,3 @@
+NameA,pathA,contextA,propertyA,typeA,NameB,pathB,contextB,propertyB,typeB,Relation
+Control Temperature,[Cooling Demo::Cooling Control Behavior],The action regulates cooling output to achieve the requested cabin temperature.,,Action,Control Cabin Temperature,[Cooling Demo],The cooling system shall control the cabin temperature to the requested value.,,Functional_Requirement,1/Satisfy
+Show Operating Status,[Cooling Demo::Cooling Control Behavior],The action presents the current cooling system operating status to the user.,,Action,Display Operating Status,[Cooling Demo],The cooling system shall display its current operating status to the user.,,Interface_Requirement,1/Satisfy

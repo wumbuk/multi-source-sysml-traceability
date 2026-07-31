@@ -1,0 +1,183 @@
+整体解读流程为：
+（Step 1）因此要进行端口的追溯关系判断时，应该先根据子系统的名称在第一部分中找到相应的子系统，
+（Step 2）然后在第一部分，进行这个子系统下进行端口的查找，确定这次要追溯的端口的xmi:id。
+（Step 3）然后根据这个端口的xmi:id在下面子系统之间的信息流动，去找到流动的信息，然后确定这个端口是用来传递什么信息。
+（Step 4）在第三部分中，根据<informationSource:idref>和<informationTarget:idref>，在上面的定义中找到发出这个信息的子系统，
+（Step 5）然后根据<realizingConnector xmi:idref>在上面定义的Connector中找到相应的Connector，
+（Step 6）在第二部分中，然后根据Connector中的两个role找到，这一次信息的流动是经过这两个子系统的哪两个端口。
+（Step 7）最终确定这个端口的作用，从而完成端口与需求之间的追溯。
+
+注意事项：此外要注意的是，在不同子系统中的端口名存在重复，但是端口的xmi:id是唯一确定的的。
+
+#====================================================（第一部分）定义子系统以及端口（xmi:id作为唯一标识）========================================================
+<packagedElement xmi:type="uml:Class" xmi:id="_19_0_2_534018e_1573224503966_88013_42824"  name="Vehicle Occupant"/>
+<packagedElement xmi:type="uml:Class" xmi:id="_19_0_2_534018e_1573224071750_518053_42721" name="VCCU">
+	<ownedAttribute xmi:type="uml:Port" xmi:id="_19_0_3_534018e_1576678946166_424000_42647" name="p1" visibility="public" aggregation="composite" type="_19_0_3_534018e_1576676160626_641798_42550"/>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_19_0_3_534018e_1576680022749_981312_42852" name="p2" visibility="public" aggregation="composite" type="_19_0_3_534018e_1576679926758_363592_42667"/>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_19_0_3_534018e_1576680025921_907977_42869" name="p3" visibility="public" aggregation="composite" type="_19_0_3_534018e_1576679926758_30020_42665"/>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_19_0_3_534018e_1576680029209_499094_42886" name="p4" visibility="public" aggregation="composite" type="_19_0_3_534018e_1576679926758_97504_42666"/>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_19_0_3_534018e_1576680030635_334354_42903" name="p5" visibility="public" aggregation="composite" type="_19_0_3_534018e_1576679926757_874167_42664"/>
+<packagedElement xmi:type="uml:Class" xmi:id="_19_0_3_534018e_1583333911778_287119_42741" name="Cooling">
+	<ownedAttribute xmi:type="uml:Port" xmi:id="_19_0_3_534018e_1583335395156_334092_42915" name="p3" visibility="public" aggregation="composite" type="_19_0_3_534018e_1576679926758_30020_42665"/>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_19_0_3_534018e_1583335591115_582655_42963" name="p5" visibility="public" aggregation="composite" type="_19_0_3_534018e_1576679926757_874167_42664"/>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_19_0_3_534018e_1583404522127_27751_43090" name="p6" visibility="public" aggregation="composite" isConjugated="true" type="_19_0_3_534018e_1576770411361_183977_43079"/>
+<packagedElement xmi:type="uml:Class" xmi:id="_19_0_3_534018e_1583333919928_645249_42783" name="Heating">
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_19_0_3_534018e_1583398782684_108040_42588" name="p3" visibility="public" aggregation="composite" type="_19_0_3_534018e_1576679926758_30020_42665"/>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_19_0_3_534018e_1583398794453_558071_42632" name="p5" visibility="public" aggregation="composite" type="_19_0_3_534018e_1576679926757_874167_42664"/>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_19_0_3_534018e_1583404510076_555477_43043" name="p6" visibility="public" aggregation="composite" isConjugated="true" type="_19_0_3_534018e_1576770411361_183977_43079"/>
+<packagedElement xmi:type="uml:Class" xmi:id="_19_0_3_534018e_1583333940249_780040_42825" name="Processing">
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_19_0_3_534018e_1583399475982_235109_42686" name="p2" visibility="public" aggregation="composite" type="_19_0_3_534018e_1576679926758_363592_42667"/>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_19_0_3_534018e_1583404022914_413159_42969" name="p5" visibility="public" aggregation="composite" isConjugated="true" type="_19_0_3_534018e_1576770411364_731385_43080"/>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_19_0_3_534018e_1583404483006_780454_43022" name="p6" visibility="public" aggregation="composite" type="_19_0_3_534018e_1576770411361_183977_43079"/>
+<packagedElement xmi:type="uml:Class" xmi:id="_19_0_3_534018e_1583333960885_390789_42867" name="Human-Machine Interacting">
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_19_0_3_534018e_1583399494116_244148_42734" name="p1" visibility="public" aggregation="composite" type="_19_0_3_534018e_1576676160626_641798_42550"/>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_19_0_3_534018e_1583399523283_774_42784" name="p4" visibility="public" aggregation="composite" type="_19_0_3_534018e_1576679926758_97504_42666"/>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_19_0_3_534018e_1583404015057_301167_42948" name="p5" visibility="public" aggregation="composite" type="_19_0_3_534018e_1576770411364_731385_43080"/>
+
+
+<role>表示的是端口的Element_id，并且这里的Connector包含两部分，
+一部分是VCCU系统内部各个子系统的端口之间的Connector，
+第二部分是VCCU的端口和子系统的端口之间的Connector
+
+
+
+#========================================（第二部分）这些是Connector，也就是连接线，这里的每个Connector下的两个role分别是两个端口========================================
+<ownedConnector xmi:type="uml:Connector" xmi:id="_19_0_3_534018e_1583335395154_761257_42912" visibility="public">
+<end xmi:type="uml:ConnectorEnd" xmi:id="_19_0_3_534018e_1583335395154_769567_42913" role="_19_0_3_534018e_1576680025921_907977_42869"/>
+<end xmi:type="uml:ConnectorEnd" xmi:id="_19_0_3_534018e_1583335395154_125943_42914" partWithPort="_19_0_3_534018e_1583333905119_835914_42707" role="_19_0_3_534018e_1583335395156_334092_42915"/>
+</ownedConnector>
+<ownedConnector xmi:type="uml:Connector" xmi:id="_19_0_3_534018e_1583335591114_572186_42960" visibility="public">
+<end xmi:type="uml:ConnectorEnd" xmi:id="_19_0_3_534018e_1583335591114_34613_42961" role="_19_0_3_534018e_1576680030635_334354_42903"/>
+<end xmi:type="uml:ConnectorEnd" xmi:id="_19_0_3_534018e_1583335591114_718660_42962" partWithPort="_19_0_3_534018e_1583333905119_835914_42707" role="_19_0_3_534018e_1583335591115_582655_42963"/>
+</ownedConnector>
+<ownedConnector xmi:type="uml:Connector" xmi:id="_19_0_3_534018e_1583398782666_625438_42585" visibility="public">
+<end xmi:type="uml:ConnectorEnd" xmi:id="_19_0_3_534018e_1583398782668_483296_42586" role="_19_0_3_534018e_1576680025921_907977_42869"/>
+<end xmi:type="uml:ConnectorEnd" xmi:id="_19_0_3_534018e_1583398782669_4079_42587" partWithPort="_19_0_3_534018e_1583333916375_240232_42749" role="_19_0_3_534018e_1583398782684_108040_42588"/>
+</ownedConnector>
+<ownedConnector xmi:type="uml:Connector" xmi:id="_19_0_3_534018e_1583398794444_511073_42629" visibility="public">
+<end xmi:type="uml:ConnectorEnd" xmi:id="_19_0_3_534018e_1583398794445_113586_42630" role="_19_0_3_534018e_1576680030635_334354_42903"/>
+<end xmi:type="uml:ConnectorEnd" xmi:id="_19_0_3_534018e_1583398794446_337607_42631" partWithPort="_19_0_3_534018e_1583333916375_240232_42749" role="_19_0_3_534018e_1583398794453_558071_42632"/>
+</ownedConnector>
+<ownedConnector xmi:type="uml:Connector" xmi:id="_19_0_3_534018e_1583399475973_502753_42683" visibility="public">
+<end xmi:type="uml:ConnectorEnd" xmi:id="_19_0_3_534018e_1583399475974_963671_42684" role="_19_0_3_534018e_1576680022749_981312_42852"/>
+<end xmi:type="uml:ConnectorEnd" xmi:id="_19_0_3_534018e_1583399475974_575534_42685" partWithPort="_19_0_3_534018e_1583333922264_393682_42791" role="_19_0_3_534018e_1583399475982_235109_42686"/>
+</ownedConnector>
+<ownedConnector xmi:type="uml:Connector" xmi:id="_19_0_3_534018e_1583399494113_37667_42731" visibility="public">
+<end xmi:type="uml:ConnectorEnd" xmi:id="_19_0_3_534018e_1583399494113_311762_42732" role="_19_0_3_534018e_1576678946166_424000_42647"/>
+<end xmi:type="uml:ConnectorEnd" xmi:id="_19_0_3_534018e_1583399494114_553221_42733" partWithPort="_19_0_3_534018e_1583333946330_590650_42833" role="_19_0_3_534018e_1583399494116_244148_42734"/>
+</ownedConnector>
+<ownedConnector xmi:type="uml:Connector" xmi:id="_19_0_3_534018e_1583399523278_96681_42781" visibility="public">
+<end xmi:type="uml:ConnectorEnd" xmi:id="_19_0_3_534018e_1583399523279_709075_42782" role="_19_0_3_534018e_1576680029209_499094_42886"/>
+<end xmi:type="uml:ConnectorEnd" xmi:id="_19_0_3_534018e_1583399523279_303115_42783" partWithPort="_19_0_3_534018e_1583333946330_590650_42833" role="_19_0_3_534018e_1583399523283_774_42784"/>
+</ownedConnector>
+<ownedConnector xmi:type="uml:Connector" xmi:id="_19_0_3_534018e_1583404022912_251260_42966" visibility="public">
+<end xmi:type="uml:ConnectorEnd" xmi:id="_19_0_3_534018e_1583404022912_770025_42967" partWithPort="_19_0_3_534018e_1583333946330_590650_42833" role="_19_0_3_534018e_1583404015057_301167_42948"/>
+<end xmi:type="uml:ConnectorEnd" xmi:id="_19_0_3_534018e_1583404022913_447064_42968" partWithPort="_19_0_3_534018e_1583333922264_393682_42791" role="_19_0_3_534018e_1583404022914_413159_42969"/>
+</ownedConnector>
+<ownedConnector xmi:type="uml:Connector" xmi:id="_19_0_3_534018e_1583404510071_995140_43040" visibility="public">
+<end xmi:type="uml:ConnectorEnd" xmi:id="_19_0_3_534018e_1583404510072_109748_43041" partWithPort="_19_0_3_534018e_1583333922264_393682_42791" role="_19_0_3_534018e_1583404483006_780454_43022"/>
+<end xmi:type="uml:ConnectorEnd" xmi:id="_19_0_3_534018e_1583404510072_51362_43042" partWithPort="_19_0_3_534018e_1583333916375_240232_42749" role="_19_0_3_534018e_1583404510076_555477_43043"/>
+</ownedConnector>
+<ownedConnector xmi:type="uml:Connector" xmi:id="_19_0_3_534018e_1583404522120_652026_43087" visibility="public">
+<end xmi:type="uml:ConnectorEnd" xmi:id="_19_0_3_534018e_1583404522121_416156_43088" partWithPort="_19_0_3_534018e_1583333922264_393682_42791" role="_19_0_3_534018e_1583404483006_780454_43022"/>
+<end xmi:type="uml:ConnectorEnd" xmi:id="_19_0_3_534018e_1583404522121_644489_43089" partWithPort="_19_0_3_534018e_1583333905119_835914_42707" role="_19_0_3_534018e_1583404522127_27751_43090"/>
+</ownedConnector>
+
+
+<informationSource:idref>表示的是发出这个信息的子系统xmi:id
+<informationTarget:idref>表示的是接收这个信息的子系统xmi:id
+<realizingConnector xmi:idref>表示的是Connector_id，表示的是这个信息流动是经过上面的哪个Connector。
+
+
+#======================================（第三部分）子系统之间的信息流动==========================================
+<packagedElement xmi:type="uml:InformationFlow" xmi:id="_19_0_3_534018e_1583335403414_162903_42952" name="flow for Air">
+<conveyed xmi:idref="_19_0_2_534018e_1575983285417_72246_42356"/>
+<informationSource xmi:idref="_19_0_2_534018e_1573224071750_518053_42721"/>
+<informationTarget xmi:idref="_19_0_3_534018e_1583333911778_287119_42741"/>
+<realizingConnector xmi:idref="_19_0_3_534018e_1583335395154_761257_42912"/>
+</packagedElement>
+<packagedElement xmi:type="uml:InformationFlow" xmi:id="_19_0_3_534018e_1583335603682_637229_43000" name="flow for Comfortable Air">
+<conveyed xmi:idref="_19_0_2_534018e_1575983285418_546485_42357"/>
+<informationSource xmi:idref="_19_0_3_534018e_1583333911778_287119_42741"/>
+<informationTarget xmi:idref="_19_0_2_534018e_1573224071750_518053_42721"/>
+</packagedElement>
+<packagedElement xmi:type="uml:InformationFlow" xmi:id="_19_0_3_534018e_1583398852860_54161_42669" name="flow for Air">
+<conveyed xmi:idref="_19_0_2_534018e_1575983285417_72246_42356"/>
+<informationSource xmi:idref="_19_0_2_534018e_1573224071750_518053_42721"/>
+<informationTarget xmi:idref="_19_0_3_534018e_1583333919928_645249_42783"/>
+<realizingConnector xmi:idref="_19_0_3_534018e_1583398782666_625438_42585"/>
+</packagedElement>
+<packagedElement xmi:type="uml:InformationFlow" xmi:id="_19_0_3_534018e_1583398862243_633934_42673" name="flow for Comfortable Air">
+<conveyed xmi:idref="_19_0_2_534018e_1575983285418_546485_42357"/>
+<informationSource xmi:idref="_19_0_3_534018e_1583333919928_645249_42783"/>
+<informationTarget xmi:idref="_19_0_2_534018e_1573224071750_518053_42721"/>
+</packagedElement>
+<packagedElement xmi:type="uml:InformationFlow" xmi:id="_19_0_3_534018e_1583399485488_11720_42723" name="flow for Ambient Temperature">
+<conveyed xmi:idref="_19_0_2_534018e_1575983285420_469216_42359"/>
+<informationSource xmi:idref="_19_0_2_534018e_1573224071750_518053_42721"/>
+<informationTarget xmi:idref="_19_0_3_534018e_1583333940249_780040_42825"/>
+<realizingConnector xmi:idref="_19_0_3_534018e_1583399475973_502753_42683"/>
+</packagedElement>
+<packagedElement xmi:type="uml:InformationFlow" xmi:id="_19_0_3_534018e_1583399510894_813093_42771" name="flow for User Command">
+<conveyed xmi:idref="_19_0_2_534018e_1575981327074_310604_42335"/>
+<informationSource xmi:idref="_19_0_2_534018e_1573224071750_518053_42721"/>
+<informationTarget xmi:idref="_19_0_3_534018e_1583333960885_390789_42867"/>
+<realizingConnector xmi:idref="_19_0_3_534018e_1583399494113_37667_42731"/>
+</packagedElement>
+<packagedElement xmi:type="uml:InformationFlow" xmi:id="_19_0_3_534018e_1583399515366_712856_42775" name="flow for Desired Temperature">
+<conveyed xmi:idref="_19_0_2_534018e_1575982109635_46916_42342"/>
+<informationSource xmi:idref="_19_0_2_534018e_1573224071750_518053_42721"/>
+<informationTarget xmi:idref="_19_0_3_534018e_1583333960885_390789_42867"/>
+<realizingConnector xmi:idref="_19_0_3_534018e_1583399494113_37667_42731"/>
+</packagedElement>
+<packagedElement xmi:type="uml:InformationFlow" xmi:id="_19_0_3_534018e_1583404042747_308479_43009" name="flow for Desired Temperature">
+<conveyed xmi:idref="_19_0_2_534018e_1575982109635_46916_42342"/>
+<informationSource xmi:idref="_19_0_3_534018e_1583333960885_390789_42867"/>
+<informationTarget xmi:idref="_19_0_3_534018e_1583333940249_780040_42825"/>
+<realizingActivityEdge xmi:idref="_19_0_3_534018e_1583418297793_148565_45462"/>
+<realizingConnector xmi:idref="_19_0_3_534018e_1583404022912_251260_42966"/>
+</packagedElement>
+<packagedElement xmi:type="uml:InformationFlow" xmi:id="_19_0_3_534018e_1583404051353_969514_43013" name="flow for Ambient Temperature">
+<conveyed xmi:idref="_19_0_2_534018e_1575983285420_469216_42359"/>
+<informationSource xmi:idref="_19_0_3_534018e_1583333940249_780040_42825"/>
+<informationTarget xmi:idref="_19_0_3_534018e_1583333960885_390789_42867"/>
+<realizingConnector xmi:idref="_19_0_3_534018e_1583404022912_251260_42966"/>
+</packagedElement>
+<packagedElement xmi:type="uml:InformationFlow" xmi:id="_19_0_3_534018e_1583404607721_558476_43130" name="flow for Cool">
+<conveyed xmi:idref="_19_0_3_534018e_1576771091762_248177_43238"/>
+<informationSource xmi:idref="_19_0_3_534018e_1583333940249_780040_42825"/>
+<informationTarget xmi:idref="_19_0_3_534018e_1583333911778_287119_42741"/>
+<realizingActivityEdge xmi:idref="_19_0_3_534018e_1583418361289_181358_45491"/>
+<realizingConnector xmi:idref="_19_0_3_534018e_1583404522120_652026_43087"/>
+</packagedElement>
+<packagedElement xmi:type="uml:InformationFlow" xmi:id="_19_0_3_534018e_1583404614914_654120_43134" name="flow for Heat">
+<conveyed xmi:idref="_19_0_3_534018e_1576771097954_37118_43243"/>
+<informationSource xmi:idref="_19_0_3_534018e_1583333940249_780040_42825"/>
+<informationTarget xmi:idref="_19_0_3_534018e_1583333919928_645249_42783"/>
+<realizingActivityEdge xmi:idref="_19_0_3_534018e_1583418436547_574641_45508"/>
+<realizingConnector xmi:idref="_19_0_3_534018e_1583404510071_995140_43040"/>
+</packagedElement>
+<packagedElement xmi:type="uml:InformationFlow" xmi:id="_19_0_3_534018e_1583404915717_448754_43138" name="flow for Cooled Air">
+<conveyed xmi:idref="_19_0_3_534018e_1576771496993_122861_43462"/>
+<informationSource xmi:idref="_19_0_3_534018e_1583333911778_287119_42741"/>
+<informationTarget xmi:idref="_19_0_2_534018e_1573224071750_518053_42721"/>
+<realizingConnector xmi:idref="_19_0_3_534018e_1583335591114_572186_42960"/>
+</packagedElement>
+<packagedElement xmi:type="uml:InformationFlow" xmi:id="_19_0_3_534018e_1583404926180_183881_43140" name="flow for Heated Air">
+<conveyed xmi:idref="_19_0_3_534018e_1576771504235_434954_43468"/>
+<informationSource xmi:idref="_19_0_3_534018e_1583333919928_645249_42783"/>
+<informationTarget xmi:idref="_19_0_2_534018e_1573224071750_518053_42721"/>
+<realizingConnector xmi:idref="_19_0_3_534018e_1583398794444_511073_42629"/>
+</packagedElement>
+<packagedElement xmi:type="uml:InformationFlow" xmi:id="_19_0_3_534018e_1583399538184_717923_42821" name="flow for Information">
+<conveyed xmi:idref="_19_0_2_534018e_1575982134011_253173_42345"/>
+<informationSource xmi:idref="_19_0_3_534018e_1583333960885_390789_42867"/>
+<informationTarget xmi:idref="_19_0_2_534018e_1573224071750_518053_42721"/>
+<realizingConnector xmi:idref="_19_0_3_534018e_1583399523278_96681_42781"/>
+</packagedElement>
+<packagedElement xmi:type="uml:InformationFlow" xmi:id="_19_0_3_534018e_1583404064706_597005_43017" name="flow for Status">
+<conveyed xmi:idref="_19_0_3_534018e_1576770494252_461088_43184"/>
+<informationSource xmi:idref="_19_0_3_534018e_1583333940249_780040_42825"/>
+<informationTarget xmi:idref="_19_0_3_534018e_1583333960885_390789_42867"/>
+<realizingConnector xmi:idref="_19_0_3_534018e_1583404022912_251260_42966"/>
+</packagedElement>

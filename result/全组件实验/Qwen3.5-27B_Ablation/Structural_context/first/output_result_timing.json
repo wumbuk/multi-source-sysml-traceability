@@ -1,0 +1,32 @@
+{
+  "unit": "ms",
+  "offline_timing": {},
+  "samples": [
+    {
+      "序号": 109,
+      "NameA": "massCool  ",
+      "NameB": "Total Mass ",
+      "timing_ms": {
+        "graph_context_extraction": 0.028299999939918052,
+        "case_based_retrieval": 320.2265999998417,
+        "ontology_reasoning": 2825.840700000299,
+        "llm_inference": 60287.47270000076,
+        "information_construction_overhead": 0.13130000024830224,
+        "online_total": 63433.710499999506
+      }
+    },
+    {
+      "序号": 110,
+      "NameA": "in p3",
+      "NameB": "Total Mass ",
+      "timing_ms": {
+        "graph_context_extraction": 0.03620000006776536,
+        "case_based_retrieval": 62.6220000003741,
+        "ontology_reasoning": 3098.9325999998982,
+        "llm_inference": 38883.52010000017,
+        "information_construction_overhead": 0.05660000078933081,
+        "online_total": 42045.1807999998
+      }
+    }
+  ]
+}

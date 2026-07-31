@@ -1,0 +1,138 @@
+{
+  "meta": {
+    "gold_csv": "Data/GenerateContext/Air_Condition/Judge.csv",
+    "pred_json": "result/全组件实验/Qwen3.5-27B_Ablation/Structural_context/second/output_result.json",
+    "mode": "both",
+    "json_records": 358,
+    "csv_rows": 358,
+    "length_match": true
+  },
+  "rq1": {
+    "tp": 38,
+    "fp": 7,
+    "tn": 306,
+    "fn": 7,
+    "accuracy": 0.9608938547486033,
+    "precision": 0.8444444444444444,
+    "recall": 0.8444444444444444,
+    "f1": 0.8444444444444444,
+    "total": 358
+  },
+  "rq2": {
+    "oracle": {
+      "setting": "oracle",
+      "pipeline_eval": null,
+      "macro_f1": 0.852054794520548,
+      "type_accuracy": 0.8222222222222222,
+      "evaluated_total": 45,
+      "relation_types": [
+        "Refine",
+        "Satisfy"
+      ],
+      "classification_report": {
+        "Refine": {
+          "precision": 1.0,
+          "recall": 0.825,
+          "f1-score": 0.9041095890410958,
+          "support": 40
+        },
+        "Satisfy": {
+          "precision": 0.8,
+          "recall": 0.8,
+          "f1-score": 0.8000000000000002,
+          "support": 5
+        },
+        "macro avg": {
+          "precision": 0.9,
+          "recall": 0.8125,
+          "f1-score": 0.852054794520548,
+          "support": 45
+        },
+        "weighted avg": {
+          "precision": 0.9777777777777777,
+          "recall": 0.8222222222222222,
+          "f1-score": 0.8925418569254184,
+          "support": 45
+        },
+        "micro avg": {
+          "precision": 0.9736842105263158,
+          "recall": 0.8222222222222222,
+          "f1-score": 0.891566265060241,
+          "support": 45
+        },
+        "accuracy": 0.8222222222222222
+      },
+      "correct_type_predictions": 37
+    },
+    "pipeline_conditional": {
+      "setting": "pipeline",
+      "pipeline_eval": "conditional",
+      "macro_f1": 0.9369817578772803,
+      "type_accuracy": 0.9736842105263158,
+      "evaluated_total": 38,
+      "relation_types": [
+        "Refine",
+        "Satisfy"
+      ],
+      "classification_report": {
+        "Refine": {
+          "precision": 1.0,
+          "recall": 0.9705882352941176,
+          "f1-score": 0.9850746268656716,
+          "support": 34
+        },
+        "Satisfy": {
+          "precision": 0.8,
+          "recall": 1.0,
+          "f1-score": 0.888888888888889,
+          "support": 4
+        },
+        "macro avg": {
+          "precision": 0.9,
+          "recall": 0.9852941176470589,
+          "f1-score": 0.9369817578772803,
+          "support": 38
+        },
+        "weighted avg": {
+          "precision": 0.9789473684210527,
+          "recall": 0.9736842105263158,
+          "f1-score": 0.9749498123417998,
+          "support": 38
+        },
+        "micro avg": {
+          "precision": 0.9736842105263158,
+          "recall": 0.9736842105263158,
+          "f1-score": 0.9736842105263158,
+          "support": 38
+        },
+        "accuracy": 0.9736842105263158
+      },
+      "correct_type_predictions": 37
+    }
+  },
+  "coverage": {
+    "gold_positive_total": 45,
+    "predicted_positive_total": 45,
+    "evaluated_positive_total": 38,
+    "missed_gold_positive_total": 7,
+    "false_positive_link_total": 7
+  },
+  "paper_ready": {
+    "rq1": {
+      "precision": "0.844",
+      "recall": "0.844",
+      "f1": "0.844",
+      "accuracy": "0.961"
+    },
+    "rq2": {
+      "oracle": {
+        "macro_f1": "0.852",
+        "type_accuracy": "0.822"
+      },
+      "pipeline_conditional": {
+        "macro_f1": "0.937",
+        "type_accuracy": "0.974"
+      }
+    }
+  }
+}

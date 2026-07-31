@@ -1,0 +1,135 @@
+{
+  "minimums": {
+    "xmi_supported_size_mb": 8.0,
+    "xmi_parse_success_rate": 0.72,
+    "xmi_parse_seconds": 38.0,
+    "candidate_field_completeness": 0.72,
+    "kg_cache_load_seconds": 13.0,
+    "kg_first_build_seconds": 150.0,
+    "trace_context_seconds": 38.0,
+    "llm_end_to_end_seconds": 150.0,
+    "existence_accuracy": 0.64,
+    "relation_type_accuracy": 0.56,
+    "review_relation_count": 800
+  },
+  "targets": {
+    "xmi_supported_size_mb": 10.0,
+    "xmi_parse_success_rate": 0.9,
+    "xmi_parse_seconds": 30.0,
+    "candidate_field_completeness": 0.9,
+    "kg_cache_load_seconds": 10.0,
+    "kg_first_build_seconds": 120.0,
+    "trace_context_seconds": 30.0,
+    "llm_end_to_end_seconds": 120.0,
+    "existence_accuracy": 0.8,
+    "relation_type_accuracy": 0.7,
+    "review_relation_count": 1000
+  },
+  "results": [
+    {
+      "name": "xmi_supported_size_mb",
+      "value": null,
+      "minimum": 8.0,
+      "target": 10.0,
+      "direction": "higher",
+      "status": "SKIP",
+      "note": "No --xmi-dir provided."
+    },
+    {
+      "name": "xmi_parse_success_rate",
+      "value": null,
+      "minimum": 0.72,
+      "target": 0.9,
+      "direction": "higher",
+      "status": "SKIP",
+      "note": "No --xmi-dir provided."
+    },
+    {
+      "name": "xmi_parse_seconds",
+      "value": null,
+      "minimum": 38.0,
+      "target": 30.0,
+      "direction": "lower",
+      "status": "SKIP",
+      "note": "No --xmi-dir provided."
+    },
+    {
+      "name": "candidate_field_completeness",
+      "value": null,
+      "minimum": 0.72,
+      "target": 0.9,
+      "direction": "higher",
+      "status": "SKIP",
+      "note": "No --candidate-csv provided."
+    },
+    {
+      "name": "kg_cache_load_seconds",
+      "value": null,
+      "minimum": 13.0,
+      "target": 10.0,
+      "direction": "lower",
+      "status": "SKIP",
+      "note": "No --kg-cache-path provided."
+    },
+    {
+      "name": "kg_first_build_seconds",
+      "value": null,
+      "minimum": 150.0,
+      "target": 120.0,
+      "direction": "lower",
+      "status": "SKIP",
+      "note": "No --kg-csv provided."
+    },
+    {
+      "name": "trace_context_seconds",
+      "value": null,
+      "minimum": 38.0,
+      "target": 30.0,
+      "direction": "lower",
+      "status": "SKIP",
+      "note": "No --timing-json provided."
+    },
+    {
+      "name": "llm_end_to_end_seconds",
+      "value": null,
+      "minimum": 150.0,
+      "target": 120.0,
+      "direction": "lower",
+      "status": "SKIP",
+      "note": "No --timing-json provided."
+    },
+    {
+      "name": "existence_accuracy",
+      "value": 0.9636871508379888,
+      "minimum": 0.64,
+      "target": 0.8,
+      "direction": "higher",
+      "status": "PASS_TARGET",
+      "note": "result\\全组件实验\\Qwen3.5-27B\\first_experiment\\metrics.json"
+    },
+    {
+      "name": "relation_type_accuracy",
+      "value": 1.0,
+      "minimum": 0.56,
+      "target": 0.7,
+      "direction": "higher",
+      "status": "PASS_TARGET",
+      "note": "result\\全组件实验\\Qwen3.5-27B\\first_experiment\\metrics.json"
+    },
+    {
+      "name": "review_relation_count",
+      "value": null,
+      "minimum": 800,
+      "target": 1000,
+      "direction": "higher",
+      "status": "SKIP",
+      "note": "No --review-results-json provided."
+    }
+  ],
+  "summary": {
+    "fail": 0,
+    "pass_minimum": 0,
+    "pass_target": 2,
+    "skip": 9
+  }
+}

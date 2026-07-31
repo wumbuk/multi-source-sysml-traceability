@@ -1,0 +1,4660 @@
+{
+  "unit": "ms",
+  "offline_timing": {},
+  "samples": [
+    {
+      "序号": 2,
+      "NameA": "in p3",
+      "NameB": "Sound Level",
+      "timing_ms": {
+        "graph_context_extraction": 0.029100000119797187,
+        "case_based_retrieval": 296.75489999999627,
+        "ontology_reasoning": 2840.9610999999586,
+        "llm_inference": 46749.41450000006,
+        "information_construction_overhead": 0.09120000004259055,
+        "online_total": 49887.26099999985
+      }
+    },
+    {
+      "序号": 3,
+      "NameA": "energyConsHeat  ",
+      "NameB": "Sound Level",
+      "timing_ms": {
+        "graph_context_extraction": 0.03370000013092067,
+        "case_based_retrieval": 94.73559999992176,
+        "ontology_reasoning": 3093.404400000054,
+        "llm_inference": 34871.52020000008,
+        "information_construction_overhead": 0.0962000001436536,
+        "online_total": 38059.80010000007
+      }
+    },
+    {
+      "序号": 4,
+      "NameA": "massHeat  ",
+      "NameB": "Sound Level",
+      "timing_ms": {
+        "graph_context_extraction": 0.02700000004551839,
+        "case_based_retrieval": 106.3130000000001,
+        "ontology_reasoning": 2855.0502000000506,
+        "llm_inference": 39366.190199999895,
+        "information_construction_overhead": 0.10689999999158317,
+        "online_total": 42327.698800000006
+      }
+    },
+    {
+      "序号": 5,
+      "NameA": "massHmi",
+      "NameB": "Sound Level",
+      "timing_ms": {
+        "graph_context_extraction": 0.027999999929306796,
+        "case_based_retrieval": 91.06999999994514,
+        "ontology_reasoning": 2803.1508999999915,
+        "llm_inference": 34935.35659999998,
+        "information_construction_overhead": 0.0950999999531632,
+        "online_total": 37829.71019999991
+      }
+    },
+    {
+      "序号": 6,
+      "NameA": "out p4",
+      "NameB": "Sound Level",
+      "timing_ms": {
+        "graph_context_extraction": 0.027499999987412593,
+        "case_based_retrieval": 60.19109999988359,
+        "ontology_reasoning": 2790.970699999889,
+        "llm_inference": 46905.61380000008,
+        "information_construction_overhead": 0.0980999998319021,
+        "online_total": 49756.9125
+      }
+    },
+    {
+      "序号": 7,
+      "NameA": "soundLevelProcess ",
+      "NameB": "Sound Level",
+      "timing_ms": {
+        "graph_context_extraction": 0.039100000094549614,
+        "case_based_retrieval": 102.93520000004719,
+        "ontology_reasoning": 2902.9332999998587,
+        "llm_inference": 49008.44899999993,
+        "information_construction_overhead": 0.09660000000621949,
+        "online_total": 52014.46379999993
+      }
+    },
+    {
+      "序号": 8,
+      "NameA": "in p2  ",
+      "NameB": "Sound Level",
+      "timing_ms": {
+        "graph_context_extraction": 0.03179999998792482,
+        "case_based_retrieval": 49.829799999997704,
+        "ontology_reasoning": 2786.261100000047,
+        "llm_inference": 42833.764400000066,
+        "information_construction_overhead": 0.09069999987332267,
+        "online_total": 45669.9873
+      }
+    },
+    {
+      "序号": 9,
+      "NameA": "inout p5",
+      "NameB": "Sound Level",
+      "timing_ms": {
+        "graph_context_extraction": 0.03489999994599202,
+        "case_based_retrieval": 51.29140000008192,
+        "ontology_reasoning": 2788.3074999999735,
+        "llm_inference": 39343.40220000013,
+        "information_construction_overhead": 0.08659999980409339,
+        "online_total": 42183.13480000006
+      }
+    },
+    {
+      "序号": 10,
+      "NameA": "out p6",
+      "NameB": "Sound Level",
+      "timing_ms": {
+        "graph_context_extraction": 0.03599999990910874,
+        "case_based_retrieval": 31.672900000103255,
+        "ontology_reasoning": 2812.676300000021,
+        "llm_inference": 41392.99079999978,
+        "information_construction_overhead": 0.08960000013757963,
+        "online_total": 44237.47620000017
+      }
+    },
+    {
+      "序号": 11,
+      "NameA": "Heating",
+      "NameB": "Sound Level",
+      "timing_ms": {
+        "graph_context_extraction": 0.03779999997277628,
+        "case_based_retrieval": 44.904399999722955,
+        "ontology_reasoning": 2784.1449000002285,
+        "llm_inference": 44276.29969999998,
+        "information_construction_overhead": 0.1262999999198655,
+        "online_total": 47105.52550000011
+      }
+    },
+    {
+      "序号": 12,
+      "NameA": "totalMassVCCU ",
+      "NameB": "Sound Level",
+      "timing_ms": {
+        "graph_context_extraction": 0.037200000406301115,
+        "case_based_retrieval": 98.85499999973035,
+        "ontology_reasoning": 2802.7437999999165,
+        "llm_inference": 35869.76490000007,
+        "information_construction_overhead": 0.1326000001427019,
+        "online_total": 38771.547099999676
+      }
+    },
+    {
+      "序号": 13,
+      "NameA": "in p2",
+      "NameB": "Sound Level",
+      "timing_ms": {
+        "graph_context_extraction": 0.025800000003073364,
+        "case_based_retrieval": 50.84630000010293,
+        "ontology_reasoning": 2865.2069999998275,
+        "llm_inference": 36740.81930000011,
+        "information_construction_overhead": 0.11260000019319705,
+        "online_total": 39657.021999999866
+      }
+    },
+    {
+      "序号": 14,
+      "NameA": "out p4  ",
+      "NameB": "Sound Level",
+      "timing_ms": {
+        "graph_context_extraction": 0.027999999929306796,
+        "case_based_retrieval": 48.335599999973056,
+        "ontology_reasoning": 2768.8678999998046,
+        "llm_inference": 43770.16619999995,
+        "information_construction_overhead": 0.11399999993955134,
+        "online_total": 46587.52539999978
+      }
+    },
+    {
+      "序号": 15,
+      "NameA": "out p5",
+      "NameB": "Sound Level",
+      "timing_ms": {
+        "graph_context_extraction": 0.0320999997711624,
+        "case_based_retrieval": 54.33469999979934,
+        "ontology_reasoning": 2793.798700000025,
+        "llm_inference": 39850.29450000002,
+        "information_construction_overhead": 0.11080000012952951,
+        "online_total": 42698.58150000028
+      }
+    },
+    {
+      "序号": 16,
+      "NameA": "Blow Heated Air Back to Cabin ",
+      "NameB": "Sound Level",
+      "timing_ms": {
+        "graph_context_extraction": 0.030000000151630957,
+        "case_based_retrieval": 66.10379999983707,
+        "ontology_reasoning": 2781.519600000138,
+        "llm_inference": 45416.331999999784,
+        "information_construction_overhead": 0.12150000020483276,
+        "online_total": 48264.11559999997
+      }
+    },
+    {
+      "序号": 17,
+      "NameA": "Draw Heated Air Out from Cabin ",
+      "NameB": "Sound Level",
+      "timing_ms": {
+        "graph_context_extraction": 0.02809999978126143,
+        "case_based_retrieval": 67.0295999998416,
+        "ontology_reasoning": 2794.829800000116,
+        "llm_inference": 40093.61540000009,
+        "information_construction_overhead": 0.11799999992945231,
+        "online_total": 42955.631199999974
+      }
+    },
+    {
+      "序号": 18,
+      "NameA": "Get Ambient Temperature ",
+      "NameB": "Sound Level",
+      "timing_ms": {
+        "graph_context_extraction": 0.028300000394665403,
+        "case_based_retrieval": 67.22560000025624,
+        "ontology_reasoning": 2823.710099999971,
+        "llm_inference": 31630.73029999987,
+        "information_construction_overhead": 0.1171000003523659,
+        "online_total": 34521.82189999985
+      }
+    },
+    {
+      "序号": 19,
+      "NameA": "Initialize Heating ",
+      "NameB": "Sound Level",
+      "timing_ms": {
+        "graph_context_extraction": 0.03349999997226405,
+        "case_based_retrieval": 66.0624000001917,
+        "ontology_reasoning": 2794.013199999881,
+        "llm_inference": 35912.39949999999,
+        "information_construction_overhead": 0.1330000000052678,
+        "online_total": 38772.65260000013
+      }
+    },
+    {
+      "序号": 20,
+      "NameA": "Process Data ",
+      "NameB": "Sound Level",
+      "timing_ms": {
+        "graph_context_extraction": 0.035399999887886224,
+        "case_based_retrieval": 83.977600000253,
+        "ontology_reasoning": 2807.0627000001878,
+        "llm_inference": 40041.788699999874,
+        "information_construction_overhead": 0.141299999995681,
+        "online_total": 42933.01659999997
+      }
+    },
+    {
+      "序号": 21,
+      "NameA": "Send Data to Computing Unit ",
+      "NameB": "Sound Level",
+      "timing_ms": {
+        "graph_context_extraction": 0.027600000066740904,
+        "case_based_retrieval": 66.10309999996389,
+        "ontology_reasoning": 2761.837000000014,
+        "llm_inference": 38964.308399999936,
+        "information_construction_overhead": 0.120499999866297,
+        "online_total": 41792.41210000009
+      }
+    },
+    {
+      "序号": 22,
+      "NameA": "massHeat  ",
+      "NameB": "Manual Control ",
+      "timing_ms": {
+        "graph_context_extraction": 0.03319999996165279,
+        "case_based_retrieval": 87.77999999983876,
+        "ontology_reasoning": 2802.447800000209,
+        "llm_inference": 36426.06179999984,
+        "information_construction_overhead": 0.08580000030633528,
+        "online_total": 39316.4185999999
+      }
+    },
+    {
+      "序号": 23,
+      "NameA": "soundLevelHeat",
+      "NameB": "Manual Control ",
+      "timing_ms": {
+        "graph_context_extraction": 0.030700000024808105,
+        "case_based_retrieval": 81.81580000018585,
+        "ontology_reasoning": 2814.812300000085,
+        "llm_inference": 35946.03410000036,
+        "information_construction_overhead": 0.08089999982985319,
+        "online_total": 38842.784099999786
+      }
+    },
+    {
+      "序号": 24,
+      "NameA": "out p5",
+      "NameB": "Manual Control ",
+      "timing_ms": {
+        "graph_context_extraction": 0.0297000001410197,
+        "case_based_retrieval": 54.875299999821436,
+        "ontology_reasoning": 2752.4976999998216,
+        "llm_inference": 42538.80329999993,
+        "information_construction_overhead": 0.07310000000870787,
+        "online_total": 45346.28890000022
+      }
+    },
+    {
+      "序号": 25,
+      "NameA": "soundLevelHmi   ",
+      "NameB": "Manual Control ",
+      "timing_ms": {
+        "graph_context_extraction": 0.0328000000990869,
+        "case_based_retrieval": 79.28650000030757,
+        "ontology_reasoning": 2775.5596000001788,
+        "llm_inference": 37642.815000000155,
+        "information_construction_overhead": 0.07409999989249627,
+        "online_total": 40497.77810000023
+      }
+    },
+    {
+      "序号": 26,
+      "NameA": "soundLevelProcess ",
+      "NameB": "Manual Control ",
+      "timing_ms": {
+        "graph_context_extraction": 0.02629999971759389,
+        "case_based_retrieval": 79.48260000011942,
+        "ontology_reasoning": 2786.6854999997486,
+        "llm_inference": 46707.95750000025,
+        "information_construction_overhead": 0.0762999998187297,
+        "online_total": 49574.237100000115
+      }
+    },
+    {
+      "序号": 27,
+      "NameA": "out p6",
+      "NameB": "Manual Control ",
+      "timing_ms": {
+        "graph_context_extraction": 0.02610000001368462,
+        "case_based_retrieval": 33.488000000033935,
+        "ontology_reasoning": 2784.667999999783,
+        "llm_inference": 42959.7276999998,
+        "information_construction_overhead": 0.08160000015777769,
+        "online_total": 45778.00209999987
+      }
+    },
+    {
+      "序号": 28,
+      "NameA": "Heating",
+      "NameB": "Manual Control ",
+      "timing_ms": {
+        "graph_context_extraction": 0.03079999987676274,
+        "case_based_retrieval": 45.159899999816844,
+        "ontology_reasoning": 2784.439399999883,
+        "llm_inference": 41377.80670000029,
+        "information_construction_overhead": 0.12130000004617614,
+        "online_total": 44207.56860000029
+      }
+    },
+    {
+      "序号": 29,
+      "NameA": "Human-Machine Interacting ",
+      "NameB": "Manual Control ",
+      "timing_ms": {
+        "graph_context_extraction": 0.03240000023652101,
+        "case_based_retrieval": 53.11589999973876,
+        "ontology_reasoning": 2808.7674999997034,
+        "llm_inference": 48567.92150000001,
+        "information_construction_overhead": 0.12070000002495362,
+        "online_total": 51429.968100000224
+      }
+    },
+    {
+      "序号": 30,
+      "NameA": "Blow Heated Air Back to Cabin ",
+      "NameB": "Manual Control ",
+      "timing_ms": {
+        "graph_context_extraction": 0.03240000023652101,
+        "case_based_retrieval": 70.2157000000625,
+        "ontology_reasoning": 2784.4552999999905,
+        "llm_inference": 39433.364399999846,
+        "information_construction_overhead": 0.12270000024727779,
+        "online_total": 42288.200899999996
+      }
+    },
+    {
+      "序号": 31,
+      "NameA": "Draw Heated Air Out from Cabin ",
+      "NameB": "Manual Control ",
+      "timing_ms": {
+        "graph_context_extraction": 0.028899999961140566,
+        "case_based_retrieval": 71.85279999976046,
+        "ontology_reasoning": 2787.653099999716,
+        "llm_inference": 41169.32080000015,
+        "information_construction_overhead": 0.13239999998404528,
+        "online_total": 44028.999099999965
+      }
+    },
+    {
+      "序号": 32,
+      "NameA": "Get Ambient Temperature ",
+      "NameB": "Manual Control ",
+      "timing_ms": {
+        "graph_context_extraction": 0.03420000030018855,
+        "case_based_retrieval": 70.39089999989301,
+        "ontology_reasoning": 2814.995799999906,
+        "llm_inference": 35398.2304000001,
+        "information_construction_overhead": 0.12460000016289996,
+        "online_total": 38283.78649999968
+      }
+    },
+    {
+      "序号": 33,
+      "NameA": "Process Data ",
+      "NameB": "Manual Control ",
+      "timing_ms": {
+        "graph_context_extraction": 0.03130000004603062,
+        "case_based_retrieval": 72.92469999993045,
+        "ontology_reasoning": 2759.8407000000407,
+        "llm_inference": 37919.87319999999,
+        "information_construction_overhead": 0.13480000006893533,
+        "online_total": 40752.81720000021
+      }
+    },
+    {
+      "序号": 34,
+      "NameA": "Read Desired Temperature ",
+      "NameB": "Manual Control ",
+      "timing_ms": {
+        "graph_context_extraction": 0.025999999706982635,
+        "case_based_retrieval": 71.04610000033063,
+        "ontology_reasoning": 2813.1517000001622,
+        "llm_inference": 45753.347999999736,
+        "information_construction_overhead": 0.12800000013157842,
+        "online_total": 48637.71170000018
+      }
+    },
+    {
+      "序号": 35,
+      "NameA": "massCool  ",
+      "NameB": "Heating & Cooling ",
+      "timing_ms": {
+        "graph_context_extraction": 0.029400000130408444,
+        "case_based_retrieval": 80.07110000016837,
+        "ontology_reasoning": 2779.440899999827,
+        "llm_inference": 48135.34900000013,
+        "information_construction_overhead": 0.07599999980811845,
+        "online_total": 50994.97859999974
+      }
+    },
+    {
+      "序号": 36,
+      "NameA": "in p3",
+      "NameB": "Heating & Cooling ",
+      "timing_ms": {
+        "graph_context_extraction": 0.02949999998236308,
+        "case_based_retrieval": 57.48810000022786,
+        "ontology_reasoning": 2807.851400000345,
+        "llm_inference": 49637.04800000005,
+        "information_construction_overhead": 0.09230000023308094,
+        "online_total": 52502.51939999998
+      }
+    },
+    {
+      "序号": 37,
+      "NameA": "massHeat  ",
+      "NameB": "Heating & Cooling ",
+      "timing_ms": {
+        "graph_context_extraction": 0.029100000119797187,
+        "case_based_retrieval": 94.16169999985868,
+        "ontology_reasoning": 2882.379199999832,
+        "llm_inference": 34719.198900000265,
+        "information_construction_overhead": 0.06869999970149365,
+        "online_total": 37695.84620000023
+      }
+    },
+    {
+      "序号": 38,
+      "NameA": "out p5",
+      "NameB": "Heating & Cooling ",
+      "timing_ms": {
+        "graph_context_extraction": 0.03509999987727497,
+        "case_based_retrieval": 60.56930000022476,
+        "ontology_reasoning": 2841.7325999998866,
+        "llm_inference": 49422.2206999998,
+        "information_construction_overhead": 0.08760000037000282,
+        "online_total": 52324.65660000025
+      }
+    },
+    {
+      "序号": 39,
+      "NameA": "Cooling",
+      "NameB": "Heating & Cooling ",
+      "timing_ms": {
+        "graph_context_extraction": 0.0442000000475673,
+        "case_based_retrieval": 55.47849999993559,
+        "ontology_reasoning": 2886.09359999964,
+        "llm_inference": 80419.81310000029,
+        "information_construction_overhead": 0.13170000011086813,
+        "online_total": 83361.57129999992
+      }
+    },
+    {
+      "序号": 40,
+      "NameA": "Heating",
+      "NameB": "Heating & Cooling ",
+      "timing_ms": {
+        "graph_context_extraction": 0.027099999897473026,
+        "case_based_retrieval": 59.703199999603385,
+        "ontology_reasoning": 2777.528000000075,
+        "llm_inference": 62535.916999999696,
+        "information_construction_overhead": 0.11410000024625333,
+        "online_total": 65373.3000000002
+      }
+    },
+    {
+      "序号": 41,
+      "NameA": "totalEnergyConsVCCU  ",
+      "NameB": "Heating & Cooling ",
+      "timing_ms": {
+        "graph_context_extraction": 0.030899999728717376,
+        "case_based_retrieval": 81.37739999983751,
+        "ontology_reasoning": 2845.8827999997993,
+        "llm_inference": 44934.96319999985,
+        "information_construction_overhead": 0.1046000002133951,
+        "online_total": 47862.36840000038
+      }
+    },
+    {
+      "序号": 42,
+      "NameA": "out p5",
+      "NameB": "Heating & Cooling ",
+      "timing_ms": {
+        "graph_context_extraction": 0.03100000003541936,
+        "case_based_retrieval": 58.71270000034201,
+        "ontology_reasoning": 2744.8770999999397,
+        "llm_inference": 83480.18690000026,
+        "information_construction_overhead": 0.11970000014116522,
+        "online_total": 86283.93800000004
+      }
+    },
+    {
+      "序号": 43,
+      "NameA": "Initialize Heating ",
+      "NameB": "Heating & Cooling ",
+      "timing_ms": {
+        "graph_context_extraction": 0.029999999696883606,
+        "case_based_retrieval": 89.26879999989978,
+        "ontology_reasoning": 2816.6676000000734,
+        "llm_inference": 46383.578100000246,
+        "information_construction_overhead": 0.14860000010230578,
+        "online_total": 49289.70479999998
+      }
+    },
+    {
+      "序号": 44,
+      "NameA": "Read Desired Temperature ",
+      "NameB": "Heating & Cooling ",
+      "timing_ms": {
+        "graph_context_extraction": 0.0297000001410197,
+        "case_based_retrieval": 95.50089999993361,
+        "ontology_reasoning": 2817.156200000227,
+        "llm_inference": 39887.98390000011,
+        "information_construction_overhead": 0.12549999973998638,
+        "online_total": 42800.80640000006
+      }
+    },
+    {
+      "序号": 45,
+      "NameA": "energyConsCool",
+      "NameB": "Heating & Cooling ",
+      "timing_ms": {
+        "graph_context_extraction": 0.02930000027845381,
+        "case_based_retrieval": 80.32219999995505,
+        "ontology_reasoning": 2772.249499999816,
+        "llm_inference": 38226.69510000014,
+        "information_construction_overhead": 0.07610000011482043,
+        "online_total": 41079.38240000021
+      }
+    },
+    {
+      "序号": 46,
+      "NameA": "out p5",
+      "NameB": "Energy Consumption ",
+      "timing_ms": {
+        "graph_context_extraction": 0.026199999865639256,
+        "case_based_retrieval": 52.81539999987217,
+        "ontology_reasoning": 2773.0976000002556,
+        "llm_inference": 39962.78290000009,
+        "information_construction_overhead": 0.08360000038010185,
+        "online_total": 42788.81599999977
+      }
+    },
+    {
+      "序号": 47,
+      "NameA": "energyConsHeat  ",
+      "NameB": "Energy Consumption ",
+      "timing_ms": {
+        "graph_context_extraction": 0.03399999968678458,
+        "case_based_retrieval": 93.30210000007355,
+        "ontology_reasoning": 2805.4307000002154,
+        "llm_inference": 42772.653200000146,
+        "information_construction_overhead": 0.09169999975711107,
+        "online_total": 45671.52080000006
+      }
+    },
+    {
+      "序号": 48,
+      "NameA": "in p3",
+      "NameB": "Energy Consumption ",
+      "timing_ms": {
+        "graph_context_extraction": 0.029400000130408444,
+        "case_based_retrieval": 54.545299999972485,
+        "ontology_reasoning": 2784.0706000001774,
+        "llm_inference": 54650.352000000115,
+        "information_construction_overhead": 0.0886999996509985,
+        "online_total": 57489.09619999995
+      }
+    },
+    {
+      "序号": 49,
+      "NameA": "energyConsHmi",
+      "NameB": "Energy Consumption ",
+      "timing_ms": {
+        "graph_context_extraction": 0.03199999991920777,
+        "case_based_retrieval": 84.98099999997066,
+        "ontology_reasoning": 2793.458300000111,
+        "llm_inference": 61961.41890000035,
+        "information_construction_overhead": 0.099800000043615,
+        "online_total": 64840.00079999987
+      }
+    },
+    {
+      "序号": 50,
+      "NameA": "massHmi",
+      "NameB": "Energy Consumption ",
+      "timing_ms": {
+        "graph_context_extraction": 0.030900000183464726,
+        "case_based_retrieval": 111.09200000009878,
+        "ontology_reasoning": 2792.9527999999664,
+        "llm_inference": 40913.44819999995,
+        "information_construction_overhead": 0.09120000004259055,
+        "online_total": 43817.62430000026
+      }
+    },
+    {
+      "序号": 51,
+      "NameA": "out p4",
+      "NameB": "Energy Consumption ",
+      "timing_ms": {
+        "graph_context_extraction": 0.026400000024295878,
+        "case_based_retrieval": 54.92450000019744,
+        "ontology_reasoning": 2784.689999999955,
+        "llm_inference": 39689.43979999995,
+        "information_construction_overhead": 0.09100000033868128,
+        "online_total": 42529.18200000022
+      }
+    },
+    {
+      "序号": 52,
+      "NameA": "soundLevelProcess ",
+      "NameB": "Energy Consumption ",
+      "timing_ms": {
+        "graph_context_extraction": 0.03150000020468724,
+        "case_based_retrieval": 97.30420000005324,
+        "ontology_reasoning": 2781.059500000083,
+        "llm_inference": 35198.684800000134,
+        "information_construction_overhead": 0.09350000027552596,
+        "online_total": 38077.18569999997
+      }
+    },
+    {
+      "序号": 53,
+      "NameA": "in p2  ",
+      "NameB": "Energy Consumption ",
+      "timing_ms": {
+        "graph_context_extraction": 0.027599999611993553,
+        "case_based_retrieval": 49.14389999976265,
+        "ontology_reasoning": 2827.3027999998703,
+        "llm_inference": 39512.72620000009,
+        "information_construction_overhead": 0.09430000000065775,
+        "online_total": 42389.30479999999
+      }
+    },
+    {
+      "序号": 54,
+      "NameA": "inout p5",
+      "NameB": "Energy Consumption ",
+      "timing_ms": {
+        "graph_context_extraction": 0.027099999897473026,
+        "case_based_retrieval": 49.79169999978694,
+        "ontology_reasoning": 2804.7919999999067,
+        "llm_inference": 42976.95199999998,
+        "information_construction_overhead": 0.08330000036949059,
+        "online_total": 45831.65609999969
+      }
+    },
+    {
+      "序号": 55,
+      "NameA": "Human-Machine Interacting ",
+      "NameB": "Energy Consumption ",
+      "timing_ms": {
+        "graph_context_extraction": 0.030399999559449498,
+        "case_based_retrieval": 45.6610000001092,
+        "ontology_reasoning": 2884.8477000001367,
+        "llm_inference": 45541.81079999944,
+        "information_construction_overhead": 0.11670000003505265,
+        "online_total": 48472.474900000634
+      }
+    },
+    {
+      "序号": 56,
+      "NameA": "totalMassVCCU ",
+      "NameB": "Energy Consumption ",
+      "timing_ms": {
+        "graph_context_extraction": 0.04749999970954377,
+        "case_based_retrieval": 97.55949999998847,
+        "ontology_reasoning": 2788.9717000007295,
+        "llm_inference": 36637.22570000027,
+        "information_construction_overhead": 0.1329000006080605,
+        "online_total": 39523.94809999987
+      }
+    },
+    {
+      "序号": 57,
+      "NameA": "in p1",
+      "NameB": "Energy Consumption ",
+      "timing_ms": {
+        "graph_context_extraction": 0.03399999968678458,
+        "case_based_retrieval": 31.33629999956611,
+        "ontology_reasoning": 2814.735599999949,
+        "llm_inference": 38948.20729999992,
+        "information_construction_overhead": 0.12389999938022811,
+        "online_total": 41794.44960000001
+      }
+    },
+    {
+      "序号": 58,
+      "NameA": "in p2",
+      "NameB": "Energy Consumption ",
+      "timing_ms": {
+        "graph_context_extraction": 0.029100000574544538,
+        "case_based_retrieval": 62.69739999970625,
+        "ontology_reasoning": 2805.601399999432,
+        "llm_inference": 48009.242500000255,
+        "information_construction_overhead": 0.11230000018258579,
+        "online_total": 50877.69239999943
+      }
+    },
+    {
+      "序号": 59,
+      "NameA": "in p3",
+      "NameB": "Energy Consumption ",
+      "timing_ms": {
+        "graph_context_extraction": 0.029299999368959107,
+        "case_based_retrieval": 55.1593000000139,
+        "ontology_reasoning": 2861.818599999424,
+        "llm_inference": 42274.72499999931,
+        "information_construction_overhead": 0.11750000066967914,
+        "online_total": 45191.85920000018
+      }
+    },
+    {
+      "序号": 60,
+      "NameA": "Get Ambient Temperature ",
+      "NameB": "Energy Consumption ",
+      "timing_ms": {
+        "graph_context_extraction": 0.030000000151630957,
+        "case_based_retrieval": 65.96900000022288,
+        "ontology_reasoning": 2775.840899999821,
+        "llm_inference": 37437.09430000035,
+        "information_construction_overhead": 0.11199999971722718,
+        "online_total": 40279.05670000018
+      }
+    },
+    {
+      "序号": 61,
+      "NameA": "energyConsCool",
+      "NameB": "Energy Consumption ",
+      "timing_ms": {
+        "graph_context_extraction": 0.030299999707494862,
+        "case_based_retrieval": 88.44660000067961,
+        "ontology_reasoning": 2789.9585000004663,
+        "llm_inference": 56926.199200000156,
+        "information_construction_overhead": 0.09279999994760146,
+        "online_total": 59804.73620000066
+      }
+    },
+    {
+      "序号": 62,
+      "NameA": "soundLevelHeat",
+      "NameB": "Ambient Temperature ",
+      "timing_ms": {
+        "graph_context_extraction": 0.031800000215298496,
+        "case_based_retrieval": 79.56169999943086,
+        "ontology_reasoning": 2782.1931999997105,
+        "llm_inference": 31856.507399999828,
+        "information_construction_overhead": 0.0819000006231363,
+        "online_total": 34718.38509999998
+      }
+    },
+    {
+      "序号": 63,
+      "NameA": "in p3",
+      "NameB": "Ambient Temperature ",
+      "timing_ms": {
+        "graph_context_extraction": 0.03060000017285347,
+        "case_based_retrieval": 52.893500000209315,
+        "ontology_reasoning": 2839.2321000001175,
+        "llm_inference": 47895.27379999981,
+        "information_construction_overhead": 0.07550000009359792,
+        "online_total": 50787.51569999986
+      }
+    },
+    {
+      "序号": 64,
+      "NameA": "in p6",
+      "NameB": "Ambient Temperature ",
+      "timing_ms": {
+        "graph_context_extraction": 0.031100000342121348,
+        "case_based_retrieval": 31.656399999519635,
+        "ontology_reasoning": 2788.8637000005474,
+        "llm_inference": 40456.408199999714,
+        "information_construction_overhead": 0.0835999999253545,
+        "online_total": 43277.05330000026
+      }
+    },
+    {
+      "序号": 65,
+      "NameA": "massHmi",
+      "NameB": "Ambient Temperature ",
+      "timing_ms": {
+        "graph_context_extraction": 0.029200000426499173,
+        "case_based_retrieval": 88.49149999969086,
+        "ontology_reasoning": 2779.641800000718,
+        "llm_inference": 33116.711900000155,
+        "information_construction_overhead": 0.07700000060140155,
+        "online_total": 35984.96179999984
+      }
+    },
+    {
+      "序号": 66,
+      "NameA": "soundLevelHmi   ",
+      "NameB": "Ambient Temperature ",
+      "timing_ms": {
+        "graph_context_extraction": 0.031200000194075983,
+        "case_based_retrieval": 79.24940000066272,
+        "ontology_reasoning": 2777.735399999983,
+        "llm_inference": 33041.163799999595,
+        "information_construction_overhead": 0.07730000015726546,
+        "online_total": 35898.26809999977
+      }
+    },
+    {
+      "序号": 67,
+      "NameA": "inout p5",
+      "NameB": "Ambient Temperature ",
+      "timing_ms": {
+        "graph_context_extraction": 0.027400000362831634,
+        "case_based_retrieval": 64.44959999953426,
+        "ontology_reasoning": 2798.6856999996235,
+        "llm_inference": 45511.37219999964,
+        "information_construction_overhead": 0.0839000003907131,
+        "online_total": 48374.62789999972
+      }
+    },
+    {
+      "序号": 68,
+      "NameA": "out p6",
+      "NameB": "Ambient Temperature ",
+      "timing_ms": {
+        "graph_context_extraction": 0.027799999770650174,
+        "case_based_retrieval": 33.18390000004001,
+        "ontology_reasoning": 2790.5227999999624,
+        "llm_inference": 46627.88360000013,
+        "information_construction_overhead": 0.08089999937510584,
+        "online_total": 49451.71029999983
+      }
+    },
+    {
+      "序号": 69,
+      "NameA": "Cooling",
+      "NameB": "Ambient Temperature ",
+      "timing_ms": {
+        "graph_context_extraction": 0.030900000638212077,
+        "case_based_retrieval": 46.40879999988101,
+        "ontology_reasoning": 2804.804000000331,
+        "llm_inference": 39946.88810000025,
+        "information_construction_overhead": 0.12059999971825164,
+        "online_total": 42798.265000000356
+      }
+    },
+    {
+      "序号": 70,
+      "NameA": "soundLevelVCCU ",
+      "NameB": "Ambient Temperature ",
+      "timing_ms": {
+        "graph_context_extraction": 0.02970000059576705,
+        "case_based_retrieval": 81.33510000061506,
+        "ontology_reasoning": 2783.6488000002646,
+        "llm_inference": 35804.20570000024,
+        "information_construction_overhead": 0.11700000050041126,
+        "online_total": 38669.34880000008
+      }
+    },
+    {
+      "序号": 71,
+      "NameA": "totalEnergyConsVCCU  ",
+      "NameB": "Ambient Temperature ",
+      "timing_ms": {
+        "graph_context_extraction": 0.03169999945384916,
+        "case_based_retrieval": 84.65049999995244,
+        "ontology_reasoning": 2784.180199999355,
+        "llm_inference": 39754.93770000048,
+        "information_construction_overhead": 0.11950000043725595,
+        "online_total": 42623.92959999943
+      }
+    },
+    {
+      "序号": 72,
+      "NameA": "in p1",
+      "NameB": "Ambient Temperature ",
+      "timing_ms": {
+        "graph_context_extraction": 0.02880000010918593,
+        "case_based_retrieval": 37.2362999996767,
+        "ontology_reasoning": 2851.559200000338,
+        "llm_inference": 48820.67020000068,
+        "information_construction_overhead": 0.12729999980365392,
+        "online_total": 51709.63449999999
+      }
+    },
+    {
+      "序号": 73,
+      "NameA": "in p3",
+      "NameB": "Ambient Temperature ",
+      "timing_ms": {
+        "graph_context_extraction": 0.032699999792384915,
+        "case_based_retrieval": 53.77299999963725,
+        "ontology_reasoning": 2810.706299999765,
+        "llm_inference": 43772.90780000021,
+        "information_construction_overhead": 0.11059999997087289,
+        "online_total": 46637.54030000018
+      }
+    },
+    {
+      "序号": 74,
+      "NameA": "out p5",
+      "NameB": "Ambient Temperature ",
+      "timing_ms": {
+        "graph_context_extraction": 0.031400000807479955,
+        "case_based_retrieval": 62.46590000046126,
+        "ontology_reasoning": 2787.680499999624,
+        "llm_inference": 42247.3813000006,
+        "information_construction_overhead": 0.10910000037256395,
+        "online_total": 45097.67869999996
+      }
+    },
+    {
+      "序号": 75,
+      "NameA": "Get Ambient Temperature ",
+      "NameB": "Ambient Temperature ",
+      "timing_ms": {
+        "graph_context_extraction": 0.03529999958118424,
+        "case_based_retrieval": 69.84019999981683,
+        "ontology_reasoning": 2848.0693999999858,
+        "llm_inference": 49717.83400000004,
+        "information_construction_overhead": 0.12619999961316353,
+        "online_total": 52635.91710000037
+      }
+    },
+    {
+      "序号": 76,
+      "NameA": "Get Desired Temperature ",
+      "NameB": "Ambient Temperature ",
+      "timing_ms": {
+        "graph_context_extraction": 0.03149999974993989,
+        "case_based_retrieval": 71.93020000067918,
+        "ontology_reasoning": 2791.566199999579,
+        "llm_inference": 36114.619299999504,
+        "information_construction_overhead": 0.11979999999311985,
+        "online_total": 38978.277099999104
+      }
+    },
+    {
+      "序号": 77,
+      "NameA": "Heat Up Temperature to Desired ",
+      "NameB": "Ambient Temperature ",
+      "timing_ms": {
+        "graph_context_extraction": 0.026300000172341242,
+        "case_based_retrieval": 72.15929999983928,
+        "ontology_reasoning": 2779.479700000593,
+        "llm_inference": 50053.42399999972,
+        "information_construction_overhead": 0.13439999929687474,
+        "online_total": 52905.23349999967
+      }
+    },
+    {
+      "序号": 78,
+      "NameA": "Initialize Cooling ",
+      "NameB": "Ambient Temperature ",
+      "timing_ms": {
+        "graph_context_extraction": 0.031600000511389226,
+        "case_based_retrieval": 69.53079999948386,
+        "ontology_reasoning": 2853.0968000004577,
+        "llm_inference": 44655.82289999929,
+        "information_construction_overhead": 0.12240000069141388,
+        "online_total": 47578.614000000016
+      }
+    },
+    {
+      "序号": 79,
+      "NameA": "Initialize Heating ",
+      "NameB": "Ambient Temperature ",
+      "timing_ms": {
+        "graph_context_extraction": 0.026200000320386607,
+        "case_based_retrieval": 72.19390000045678,
+        "ontology_reasoning": 2817.0489000003727,
+        "llm_inference": 53631.08569999986,
+        "information_construction_overhead": 0.12310000056459103,
+        "online_total": 56520.48729999933
+      }
+    },
+    {
+      "序号": 80,
+      "NameA": "in p6",
+      "NameB": "Desired Temperature ",
+      "timing_ms": {
+        "graph_context_extraction": 0.030899999728717376,
+        "case_based_retrieval": 33.32760000012058,
+        "ontology_reasoning": 2885.310099999515,
+        "llm_inference": 44638.496500000656,
+        "information_construction_overhead": 0.08410000009462237,
+        "online_total": 47557.26109999978
+      }
+    },
+    {
+      "序号": 81,
+      "NameA": "out p5",
+      "NameB": "Desired Temperature ",
+      "timing_ms": {
+        "graph_context_extraction": 0.030100000003585592,
+        "case_based_retrieval": 59.20860000060202,
+        "ontology_reasoning": 2811.8320000003223,
+        "llm_inference": 44879.55299999976,
+        "information_construction_overhead": 0.07730000015726546,
+        "online_total": 47750.71149999985
+      }
+    },
+    {
+      "序号": 82,
+      "NameA": "massHeat  ",
+      "NameB": "Desired Temperature ",
+      "timing_ms": {
+        "graph_context_extraction": 0.027399999453336932,
+        "case_based_retrieval": 80.61179999913293,
+        "ontology_reasoning": 2772.7027000000817,
+        "llm_inference": 29006.94199999998,
+        "information_construction_overhead": 0.07980000009411015,
+        "online_total": 31860.373500000605
+      }
+    },
+    {
+      "序号": 83,
+      "NameA": "in p1   ",
+      "NameB": "Desired Temperature ",
+      "timing_ms": {
+        "graph_context_extraction": 0.026499999876250513,
+        "case_based_retrieval": 36.87960000024759,
+        "ontology_reasoning": 2784.281600000213,
+        "llm_inference": 48889.66269999946,
+        "information_construction_overhead": 0.09319999935542,
+        "online_total": 51710.95309999964
+      }
+    },
+    {
+      "序号": 84,
+      "NameA": "in p2  ",
+      "NameB": "Desired Temperature ",
+      "timing_ms": {
+        "graph_context_extraction": 0.027799999770650174,
+        "case_based_retrieval": 63.057800000024145,
+        "ontology_reasoning": 2860.171499999524,
+        "llm_inference": 45613.22249999921,
+        "information_construction_overhead": 0.08909999996831175,
+        "online_total": 48536.57969999949
+      }
+    },
+    {
+      "序号": 85,
+      "NameA": "Cooling",
+      "NameB": "Desired Temperature ",
+      "timing_ms": {
+        "graph_context_extraction": 0.031599999601894524,
+        "case_based_retrieval": 46.56539999996312,
+        "ontology_reasoning": 2799.970199999734,
+        "llm_inference": 35544.6565000002,
+        "information_construction_overhead": 0.11859999995067483,
+        "online_total": 38391.35410000017
+      }
+    },
+    {
+      "序号": 86,
+      "NameA": "Processing ",
+      "NameB": "Desired Temperature ",
+      "timing_ms": {
+        "graph_context_extraction": 0.02789999962260481,
+        "case_based_retrieval": 57.99089999982243,
+        "ontology_reasoning": 2780.854200000249,
+        "llm_inference": 60683.0031999998,
+        "information_construction_overhead": 0.11330000052112155,
+        "online_total": 63521.998400000484
+      }
+    },
+    {
+      "序号": 87,
+      "NameA": "soundLevelVCCU ",
+      "NameB": "Desired Temperature ",
+      "timing_ms": {
+        "graph_context_extraction": 0.028399999791872688,
+        "case_based_retrieval": 79.34659999955329,
+        "ontology_reasoning": 2863.6507999999594,
+        "llm_inference": 33325.56899999963,
+        "information_construction_overhead": 0.1218999996126513,
+        "online_total": 36268.729300000814
+      }
+    },
+    {
+      "序号": 88,
+      "NameA": "in p2",
+      "NameB": "Desired Temperature ",
+      "timing_ms": {
+        "graph_context_extraction": 0.02700000004551839,
+        "case_based_retrieval": 51.66859999917506,
+        "ontology_reasoning": 2841.975399999683,
+        "llm_inference": 45472.9868000004,
+        "information_construction_overhead": 0.12209999931656057,
+        "online_total": 48366.790899999614
+      }
+    },
+    {
+      "序号": 89,
+      "NameA": "out p5",
+      "NameB": "Desired Temperature ",
+      "timing_ms": {
+        "graph_context_extraction": 0.031399999897985253,
+        "case_based_retrieval": 51.28379999950994,
+        "ontology_reasoning": 2774.543900000026,
+        "llm_inference": 42639.43180000024,
+        "information_construction_overhead": 0.1111999999920954,
+        "online_total": 45465.41249999973
+      }
+    },
+    {
+      "序号": 90,
+      "NameA": "Blow Heated Air Back to Cabin ",
+      "NameB": "Desired Temperature ",
+      "timing_ms": {
+        "graph_context_extraction": 0.02949999998236308,
+        "case_based_retrieval": 88.17260000068927,
+        "ontology_reasoning": 2790.2556999997614,
+        "llm_inference": 50792.84629999984,
+        "information_construction_overhead": 0.1187999996545841,
+        "online_total": 53671.43349999969
+      }
+    },
+    {
+      "序号": 91,
+      "NameA": "Cool Down Temperature to Desired",
+      "NameB": "Desired Temperature ",
+      "timing_ms": {
+        "graph_context_extraction": 0.03199999991920777,
+        "case_based_retrieval": 72.91840000016236,
+        "ontology_reasoning": 2789.0978000004907,
+        "llm_inference": 42780.74149999975,
+        "information_construction_overhead": 0.14100000043981709,
+        "online_total": 45642.941099999916
+      }
+    },
+    {
+      "序号": 92,
+      "NameA": "Process Data ",
+      "NameB": "Desired Temperature ",
+      "timing_ms": {
+        "graph_context_extraction": 0.031000000490166713,
+        "case_based_retrieval": 69.36619999942195,
+        "ontology_reasoning": 2785.928199999944,
+        "llm_inference": 62972.057800000584,
+        "information_construction_overhead": 0.11850000009872019,
+        "online_total": 65827.51129999997
+      }
+    },
+    {
+      "序号": 93,
+      "NameA": "energyConsCool",
+      "NameB": "Desired Temperature ",
+      "timing_ms": {
+        "graph_context_extraction": 0.028700000257231295,
+        "case_based_retrieval": 80.43710000038118,
+        "ontology_reasoning": 2789.101400000618,
+        "llm_inference": 35339.05179999965,
+        "information_construction_overhead": 0.08239999988290947,
+        "online_total": 38208.715500000835
+      }
+    },
+    {
+      "序号": 94,
+      "NameA": "soundLevelCool",
+      "NameB": "Comfortable Temperature ",
+      "timing_ms": {
+        "graph_context_extraction": 0.03480000032141106,
+        "case_based_retrieval": 83.9520999998058,
+        "ontology_reasoning": 2785.636299999169,
+        "llm_inference": 41156.862900000306,
+        "information_construction_overhead": 0.07990000085555948,
+        "online_total": 44026.577599999655
+      }
+    },
+    {
+      "序号": 95,
+      "NameA": "soundLevelHeat",
+      "NameB": "Comfortable Temperature ",
+      "timing_ms": {
+        "graph_context_extraction": 0.031800000215298496,
+        "case_based_retrieval": 79.48990000022604,
+        "ontology_reasoning": 2760.4169999995065,
+        "llm_inference": 43110.15940000016,
+        "information_construction_overhead": 0.07570000070700189,
+        "online_total": 45950.184600000284
+      }
+    },
+    {
+      "序号": 96,
+      "NameA": "soundLevelHmi   ",
+      "NameB": "Comfortable Temperature ",
+      "timing_ms": {
+        "graph_context_extraction": 0.03990000004705507,
+        "case_based_retrieval": 77.0277999999962,
+        "ontology_reasoning": 2793.991399999868,
+        "llm_inference": 36771.22170000075,
+        "information_construction_overhead": 0.0804999999672873,
+        "online_total": 39642.371699999785
+      }
+    },
+    {
+      "序号": 97,
+      "NameA": "inout p5",
+      "NameB": "Comfortable Temperature ",
+      "timing_ms": {
+        "graph_context_extraction": 0.029800000447721686,
+        "case_based_retrieval": 55.860999999822525,
+        "ontology_reasoning": 2815.5047000000195,
+        "llm_inference": 45660.13639999983,
+        "information_construction_overhead": 0.07809999988239724,
+        "online_total": 48531.62109999994
+      }
+    },
+    {
+      "序号": 98,
+      "NameA": "out p6",
+      "NameB": "Comfortable Temperature ",
+      "timing_ms": {
+        "graph_context_extraction": 0.032899999496294186,
+        "case_based_retrieval": 41.06939999928727,
+        "ontology_reasoning": 2874.4323000000804,
+        "llm_inference": 71475.02679999979,
+        "information_construction_overhead": 0.09210000007442432,
+        "online_total": 74390.6648000002
+      }
+    },
+    {
+      "序号": 99,
+      "NameA": "Heating",
+      "NameB": "Comfortable Temperature ",
+      "timing_ms": {
+        "graph_context_extraction": 0.027799999770650174,
+        "case_based_retrieval": 55.549900000187336,
+        "ontology_reasoning": 2828.2509000000573,
+        "llm_inference": 69459.92260000002,
+        "information_construction_overhead": 0.1364999998259009,
+        "online_total": 72343.89769999962
+      }
+    },
+    {
+      "序号": 100,
+      "NameA": "in p1",
+      "NameB": "Comfortable Temperature ",
+      "timing_ms": {
+        "graph_context_extraction": 0.033799999982875306,
+        "case_based_retrieval": 32.79409999959171,
+        "ontology_reasoning": 2826.398600000175,
+        "llm_inference": 69742.27919999976,
+        "information_construction_overhead": 0.13079999916953966,
+        "online_total": 72601.6466000001
+      }
+    },
+    {
+      "序号": 101,
+      "NameA": "in p3",
+      "NameB": "Comfortable Temperature ",
+      "timing_ms": {
+        "graph_context_extraction": 0.030700000024808105,
+        "case_based_retrieval": 59.08579999959329,
+        "ontology_reasoning": 2795.6058999998277,
+        "llm_inference": 107194.88290000026,
+        "information_construction_overhead": 0.1266999997824314,
+        "online_total": 110049.7422999997
+      }
+    },
+    {
+      "序号": 102,
+      "NameA": "Blow Cooled Air Back to Cabin ",
+      "NameB": "Comfortable Temperature ",
+      "timing_ms": {
+        "graph_context_extraction": 0.037599999814119656,
+        "case_based_retrieval": 84.47260000048118,
+        "ontology_reasoning": 2923.6158000003343,
+        "llm_inference": 44754.6212999996,
+        "information_construction_overhead": 0.137400000312482,
+        "online_total": 47762.90129999961
+      }
+    },
+    {
+      "序号": 103,
+      "NameA": "Cool Down Temperature to Desired",
+      "NameB": "Comfortable Temperature ",
+      "timing_ms": {
+        "graph_context_extraction": 0.028100000236008782,
+        "case_based_retrieval": 89.11580000039976,
+        "ontology_reasoning": 2802.3307000003115,
+        "llm_inference": 47570.78690000071,
+        "information_construction_overhead": 0.14409999948838959,
+        "online_total": 50462.41839999948
+      }
+    },
+    {
+      "序号": 104,
+      "NameA": "Draw Heated Air Out from Cabin ",
+      "NameB": "Comfortable Temperature ",
+      "timing_ms": {
+        "graph_context_extraction": 0.03199999991920777,
+        "case_based_retrieval": 83.14719999998488,
+        "ontology_reasoning": 2848.2592999998815,
+        "llm_inference": 62086.40699999978,
+        "information_construction_overhead": 0.13440000020636944,
+        "online_total": 65017.99080000001
+      }
+    },
+    {
+      "序号": 105,
+      "NameA": "Get Desired Temperature ",
+      "NameB": "Comfortable Temperature ",
+      "timing_ms": {
+        "graph_context_extraction": 0.03290000040578889,
+        "case_based_retrieval": 91.74319999965519,
+        "ontology_reasoning": 2800.908000000163,
+        "llm_inference": 54164.0651000007,
+        "information_construction_overhead": 0.12710000009974465,
+        "online_total": 57056.887099999585
+      }
+    },
+    {
+      "序号": 106,
+      "NameA": "Process Data ",
+      "NameB": "Comfortable Temperature ",
+      "timing_ms": {
+        "graph_context_extraction": 0.03370000013092067,
+        "case_based_retrieval": 86.01650000036898,
+        "ontology_reasoning": 2778.226800000084,
+        "llm_inference": 62433.67280000075,
+        "information_construction_overhead": 0.13499999931809725,
+        "online_total": 65298.094599999786
+      }
+    },
+    {
+      "序号": 107,
+      "NameA": "energyConsCool",
+      "NameB": "Comfortable Temperature ",
+      "timing_ms": {
+        "graph_context_extraction": 0.034100000448233914,
+        "case_based_retrieval": 81.15110000017012,
+        "ontology_reasoning": 2800.706699999864,
+        "llm_inference": 38377.4669000004,
+        "information_construction_overhead": 0.08269999943877338,
+        "online_total": 41259.45320000028
+      }
+    },
+    {
+      "序号": 108,
+      "NameA": "massCool  ",
+      "NameB": "Total Mass ",
+      "timing_ms": {
+        "graph_context_extraction": 0.030399999559449498,
+        "case_based_retrieval": 98.88740000042162,
+        "ontology_reasoning": 2787.0835000003353,
+        "llm_inference": 94394.77329999954,
+        "information_construction_overhead": 0.12289999995118706,
+        "online_total": 97280.91049999966
+      }
+    },
+    {
+      "序号": 109,
+      "NameA": "in p3",
+      "NameB": "Total Mass ",
+      "timing_ms": {
+        "graph_context_extraction": 0.030899999728717376,
+        "case_based_retrieval": 53.17709999962972,
+        "ontology_reasoning": 2815.718200000447,
+        "llm_inference": 37464.13060000032,
+        "information_construction_overhead": 0.08460000026389025,
+        "online_total": 40333.22169999974
+      }
+    },
+    {
+      "序号": 110,
+      "NameA": "in p6",
+      "NameB": "Total Mass ",
+      "timing_ms": {
+        "graph_context_extraction": 0.030499999411404133,
+        "case_based_retrieval": 32.13380000033794,
+        "ontology_reasoning": 2770.322400000623,
+        "llm_inference": 38441.89599999936,
+        "information_construction_overhead": 0.0866999998834217,
+        "online_total": 41244.47910000072
+      }
+    },
+    {
+      "序号": 111,
+      "NameA": "massHeat  ",
+      "NameB": "Total Mass ",
+      "timing_ms": {
+        "graph_context_extraction": 0.04710000030172523,
+        "case_based_retrieval": 87.56280000034167,
+        "ontology_reasoning": 2788.576899999498,
+        "llm_inference": 66137.17850000013,
+        "information_construction_overhead": 0.09989999944082228,
+        "online_total": 69013.47830000031
+      }
+    },
+    {
+      "序号": 112,
+      "NameA": "soundLevelHeat",
+      "NameB": "Total Mass ",
+      "timing_ms": {
+        "graph_context_extraction": 0.027099999897473026,
+        "case_based_retrieval": 84.22699999937322,
+        "ontology_reasoning": 2810.890699999618,
+        "llm_inference": 31627.81410000025,
+        "information_construction_overhead": 0.09890000001178123,
+        "online_total": 34523.06749999934
+      }
+    },
+    {
+      "序号": 113,
+      "NameA": "soundLevelHmi   ",
+      "NameB": "Total Mass ",
+      "timing_ms": {
+        "graph_context_extraction": 0.027400000362831634,
+        "case_based_retrieval": 89.08449999944423,
+        "ontology_reasoning": 2797.4197000003187,
+        "llm_inference": 32439.765299999635,
+        "information_construction_overhead": 0.09750000026542693,
+        "online_total": 35326.403899999605
+      }
+    },
+    {
+      "序号": 114,
+      "NameA": "in p1   ",
+      "NameB": "Total Mass ",
+      "timing_ms": {
+        "graph_context_extraction": 0.034100000448233914,
+        "case_based_retrieval": 30.953900000895374,
+        "ontology_reasoning": 2766.691400000127,
+        "llm_inference": 40309.3142000007,
+        "information_construction_overhead": 0.09030000001075678,
+        "online_total": 43107.093699999496
+      }
+    },
+    {
+      "序号": 115,
+      "NameA": "out p4",
+      "NameB": "Total Mass ",
+      "timing_ms": {
+        "graph_context_extraction": 0.026400000024295878,
+        "case_based_retrieval": 61.66490000032354,
+        "ontology_reasoning": 2863.7788000005457,
+        "llm_inference": 39980.97169999983,
+        "information_construction_overhead": 0.09450000015931437,
+        "online_total": 42906.54660000018
+      }
+    },
+    {
+      "序号": 116,
+      "NameA": "energyConsProcess",
+      "NameB": "Total Mass ",
+      "timing_ms": {
+        "graph_context_extraction": 0.02750000021478627,
+        "case_based_retrieval": 92.93320000051608,
+        "ontology_reasoning": 2831.9459000003917,
+        "llm_inference": 38436.38600000031,
+        "information_construction_overhead": 0.0990999997156905,
+        "online_total": 41361.4007999995
+      }
+    },
+    {
+      "序号": 117,
+      "NameA": "Heating",
+      "NameB": "Total Mass ",
+      "timing_ms": {
+        "graph_context_extraction": 0.03459999970800709,
+        "case_based_retrieval": 48.0383999993137,
+        "ontology_reasoning": 2825.20199999999,
+        "llm_inference": 42586.80490000006,
+        "information_construction_overhead": 0.11869999980262946,
+        "online_total": 45460.210399999596
+      }
+    },
+    {
+      "序号": 118,
+      "NameA": "soundLevelVCCU ",
+      "NameB": "Total Mass ",
+      "timing_ms": {
+        "graph_context_extraction": 0.02860000040527666,
+        "case_based_retrieval": 97.73550000045361,
+        "ontology_reasoning": 2804.5883000004324,
+        "llm_inference": 34162.265100000695,
+        "information_construction_overhead": 0.13669999952981016,
+        "online_total": 37064.76440000006
+      }
+    },
+    {
+      "序号": 119,
+      "NameA": "out p4  ",
+      "NameB": "Total Mass ",
+      "timing_ms": {
+        "graph_context_extraction": 0.042100000428035855,
+        "case_based_retrieval": 51.4378999996552,
+        "ontology_reasoning": 2860.4354999997668,
+        "llm_inference": 37487.67120000048,
+        "information_construction_overhead": 0.12029999925289303,
+        "online_total": 40399.71909999986
+      }
+    },
+    {
+      "序号": 120,
+      "NameA": "Blow Cooled Air Back to Cabin ",
+      "NameB": "Total Mass ",
+      "timing_ms": {
+        "graph_context_extraction": 0.029100000574544538,
+        "case_based_retrieval": 69.41290000031586,
+        "ontology_reasoning": 2822.0430999999735,
+        "llm_inference": 35750.08929999967,
+        "information_construction_overhead": 0.1295000001846347,
+        "online_total": 38641.71379999971
+      }
+    },
+    {
+      "序号": 121,
+      "NameA": "Cool Down Temperature to Desired",
+      "NameB": "Total Mass ",
+      "timing_ms": {
+        "graph_context_extraction": 0.035600000046542846,
+        "case_based_retrieval": 68.27780000003258,
+        "ontology_reasoning": 2809.1770000000906,
+        "llm_inference": 37569.75440000042,
+        "information_construction_overhead": 0.12770000012096716,
+        "online_total": 40447.38359999974
+      }
+    },
+    {
+      "序号": 122,
+      "NameA": "Initialize Cooling ",
+      "NameB": "Total Mass ",
+      "timing_ms": {
+        "graph_context_extraction": 0.027200000658922363,
+        "case_based_retrieval": 67.93800000014016,
+        "ontology_reasoning": 2778.431599999749,
+        "llm_inference": 37082.676699999865,
+        "information_construction_overhead": 0.12569999944389565,
+        "online_total": 39929.20890000005
+      }
+    },
+    {
+      "序号": 123,
+      "NameA": "Initialize Heating ",
+      "NameB": "Total Mass ",
+      "timing_ms": {
+        "graph_context_extraction": 0.036100000215810724,
+        "case_based_retrieval": 82.32099999986531,
+        "ontology_reasoning": 2809.7308000005796,
+        "llm_inference": 39082.462999999734,
+        "information_construction_overhead": 0.1261000006707036,
+        "online_total": 41974.69049999927
+      }
+    },
+    {
+      "序号": 124,
+      "NameA": "Process Data ",
+      "NameB": "Total Mass ",
+      "timing_ms": {
+        "graph_context_extraction": 0.03729999934876105,
+        "case_based_retrieval": 70.23430000026565,
+        "ontology_reasoning": 2809.548199999881,
+        "llm_inference": 33583.788700000696,
+        "information_construction_overhead": 0.11040000026696362,
+        "online_total": 36463.73119999953
+      }
+    },
+    {
+      "序号": 125,
+      "NameA": "Send Data to Computing Unit ",
+      "NameB": "Total Mass ",
+      "timing_ms": {
+        "graph_context_extraction": 0.029399999220913742,
+        "case_based_retrieval": 69.36470000073314,
+        "ontology_reasoning": 2853.66729999987,
+        "llm_inference": 36104.42549999971,
+        "information_construction_overhead": 0.12210000022605527,
+        "online_total": 39027.61819999978
+      }
+    },
+    {
+      "序号": 126,
+      "NameA": "energyConsCool",
+      "NameB": "Total Mass ",
+      "timing_ms": {
+        "graph_context_extraction": 0.05779999992228113,
+        "case_based_retrieval": 91.85749999960535,
+        "ontology_reasoning": 2801.1375999994925,
+        "llm_inference": 36387.808499999664,
+        "information_construction_overhead": 0.09870000030787196,
+        "online_total": 39280.97049999997
+      }
+    },
+    {
+      "序号": 127,
+      "NameA": "Draw Cooled Air Out from Cabin ",
+      "NameB": "Comfortable Temperature ",
+      "timing_ms": {
+        "graph_context_extraction": 0.030700000024808105,
+        "case_based_retrieval": 80.83830000032322,
+        "ontology_reasoning": 2845.7299000001512,
+        "llm_inference": 77039.47379999954,
+        "information_construction_overhead": 0.13070000022707973,
+        "online_total": 79966.2129999997
+      }
+    },
+    {
+      "序号": 128,
+      "NameA": "Draw Cooled Air Out from Cabin ",
+      "NameB": "Desired Temperature ",
+      "timing_ms": {
+        "graph_context_extraction": 0.03760000072361436,
+        "case_based_retrieval": 67.9163000004337,
+        "ontology_reasoning": 2820.756600000095,
+        "llm_inference": 41136.21789999979,
+        "information_construction_overhead": 0.11620000077527948,
+        "online_total": 44025.05470000051
+      }
+    },
+    {
+      "序号": 129,
+      "NameA": "Draw Cooled Air Out from Cabin ",
+      "NameB": "Energy Consumption ",
+      "timing_ms": {
+        "graph_context_extraction": 0.02789999962260481,
+        "case_based_retrieval": 79.88079999995534,
+        "ontology_reasoning": 2797.816700000112,
+        "llm_inference": 45821.06990000011,
+        "information_construction_overhead": 0.12480000077630393,
+        "online_total": 48698.93150000007
+      }
+    },
+    {
+      "序号": 130,
+      "NameA": "Draw Cooled Air Out from Cabin ",
+      "NameB": "Manual Control ",
+      "timing_ms": {
+        "graph_context_extraction": 0.034899999263870995,
+        "case_based_retrieval": 67.57590000052005,
+        "ontology_reasoning": 2781.2873000002583,
+        "llm_inference": 39239.82620000061,
+        "information_construction_overhead": 0.12549999973998638,
+        "online_total": 42088.86230000007
+      }
+    },
+    {
+      "序号": 131,
+      "NameA": "in p6",
+      "NameB": "Setting Desired Temperature",
+      "timing_ms": {
+        "graph_context_extraction": 0.03440000000409782,
+        "case_based_retrieval": 40.320400000382506,
+        "ontology_reasoning": 2758.84219999989,
+        "llm_inference": 49890.51120000022,
+        "information_construction_overhead": 0.0839000003907131,
+        "online_total": 52689.80449999981
+      }
+    },
+    {
+      "序号": 132,
+      "NameA": "out p5",
+      "NameB": "Setting Desired Temperature",
+      "timing_ms": {
+        "graph_context_extraction": 0.030000000151630957,
+        "case_based_retrieval": 66.14100000024337,
+        "ontology_reasoning": 2803.1466000002183,
+        "llm_inference": 39796.603400000095,
+        "information_construction_overhead": 0.1021999996737577,
+        "online_total": 42666.0339
+      }
+    },
+    {
+      "序号": 133,
+      "NameA": "energyConsHmi",
+      "NameB": "Setting Desired Temperature",
+      "timing_ms": {
+        "graph_context_extraction": 0.033400000575056765,
+        "case_based_retrieval": 81.45619999959308,
+        "ontology_reasoning": 2753.6951000001864,
+        "llm_inference": 43456.56270000018,
+        "information_construction_overhead": 0.08290000005217735,
+        "online_total": 46291.84299999997
+      }
+    },
+    {
+      "序号": 134,
+      "NameA": "inout p5",
+      "NameB": "Setting Desired Temperature",
+      "timing_ms": {
+        "graph_context_extraction": 0.034899999263870995,
+        "case_based_retrieval": 54.80790000001434,
+        "ontology_reasoning": 2800.1689000002443,
+        "llm_inference": 47415.17810000005,
+        "information_construction_overhead": 0.09659999977884581,
+        "online_total": 50270.2962000003
+      }
+    },
+    {
+      "序号": 135,
+      "NameA": "out p4",
+      "NameB": "Setting Desired Temperature",
+      "timing_ms": {
+        "graph_context_extraction": 0.03260000084992498,
+        "case_based_retrieval": 56.32510000032198,
+        "ontology_reasoning": 2801.7735000003086,
+        "llm_inference": 51159.97830000015,
+        "information_construction_overhead": 0.09729999965202296,
+        "online_total": 54018.21700000073
+      }
+    },
+    {
+      "序号": 136,
+      "NameA": "energyConsProcess",
+      "NameB": "Setting Desired Temperature",
+      "timing_ms": {
+        "graph_context_extraction": 0.034100000448233914,
+        "case_based_retrieval": 81.04149999962829,
+        "ontology_reasoning": 2816.4200999999593,
+        "llm_inference": 41071.36529999934,
+        "information_construction_overhead": 0.07880000066506909,
+        "online_total": 43968.95249999943
+      }
+    },
+    {
+      "序号": 137,
+      "NameA": "in p2  ",
+      "NameB": "Setting Desired Temperature",
+      "timing_ms": {
+        "graph_context_extraction": 0.026100000468431972,
+        "case_based_retrieval": 54.94609999914246,
+        "ontology_reasoning": 2804.651399999784,
+        "llm_inference": 47552.98930000026,
+        "information_construction_overhead": 0.09249999948224286,
+        "online_total": 50412.71440000037
+      }
+    },
+    {
+      "序号": 138,
+      "NameA": "inout p5",
+      "NameB": "Setting Desired Temperature",
+      "timing_ms": {
+        "graph_context_extraction": 0.0335000004270114,
+        "case_based_retrieval": 53.899799999271636,
+        "ontology_reasoning": 2825.8160000004864,
+        "llm_inference": 48280.51719999985,
+        "information_construction_overhead": 0.09559999944031006,
+        "online_total": 51160.37369999958
+      }
+    },
+    {
+      "序号": 139,
+      "NameA": "Cooling",
+      "NameB": "Setting Desired Temperature",
+      "timing_ms": {
+        "graph_context_extraction": 0.028100001145503484,
+        "case_based_retrieval": 57.06909999935306,
+        "ontology_reasoning": 2769.865000000209,
+        "llm_inference": 57179.0486000009,
+        "information_construction_overhead": 0.11169999925186858,
+        "online_total": 60006.133599999885
+      }
+    },
+    {
+      "序号": 140,
+      "NameA": "Heating",
+      "NameB": "Setting Desired Temperature",
+      "timing_ms": {
+        "graph_context_extraction": 0.03159999869239982,
+        "case_based_retrieval": 44.601999999940745,
+        "ontology_reasoning": 2802.733900000021,
+        "llm_inference": 35547.277399999075,
+        "information_construction_overhead": 0.11249999988649506,
+        "online_total": 38394.76730000024
+      }
+    },
+    {
+      "序号": 141,
+      "NameA": "totalEnergyConsVCCU  ",
+      "NameB": "Setting Desired Temperature",
+      "timing_ms": {
+        "graph_context_extraction": 0.028300000849412754,
+        "case_based_retrieval": 78.5797000007733,
+        "ontology_reasoning": 2795.1326000002155,
+        "llm_inference": 37561.60750000163,
+        "information_construction_overhead": 0.10880000081670005,
+        "online_total": 40435.465999998996
+      }
+    },
+    {
+      "序号": 142,
+      "NameA": "out p4  ",
+      "NameB": "Setting Desired Temperature",
+      "timing_ms": {
+        "graph_context_extraction": 0.03530000140017364,
+        "case_based_retrieval": 54.36849999932747,
+        "ontology_reasoning": 2823.4059999995225,
+        "llm_inference": 49651.95449999919,
+        "information_construction_overhead": 0.12599999899975955,
+        "online_total": 52529.90139999929
+      }
+    },
+    {
+      "序号": 143,
+      "NameA": "Blow Heated Air Back to Cabin ",
+      "NameB": "Setting Desired Temperature",
+      "timing_ms": {
+        "graph_context_extraction": 0.028700000257231295,
+        "case_based_retrieval": 75.40549999976065,
+        "ontology_reasoning": 2824.560200000633,
+        "llm_inference": 46146.74139999988,
+        "information_construction_overhead": 0.12939999942318536,
+        "online_total": 49046.876399999746
+      }
+    },
+    {
+      "序号": 144,
+      "NameA": "Draw Heated Air Out from Cabin ",
+      "NameB": "Setting Desired Temperature",
+      "timing_ms": {
+        "graph_context_extraction": 0.03319999996165279,
+        "case_based_retrieval": 81.51379999981145,
+        "ontology_reasoning": 2754.7482999998465,
+        "llm_inference": 34325.03680000082,
+        "information_construction_overhead": 0.1350999991700519,
+        "online_total": 37161.48029999931
+      }
+    },
+    {
+      "序号": 145,
+      "NameA": "Draw Cooled Air Out from Cabin ",
+      "NameB": "Setting Desired Temperature",
+      "timing_ms": {
+        "graph_context_extraction": 0.028500000553322025,
+        "case_based_retrieval": 73.53390000025684,
+        "ontology_reasoning": 2789.8210999992443,
+        "llm_inference": 38239.19039999964,
+        "information_construction_overhead": 0.1382000009471085,
+        "online_total": 41102.72160000022
+      }
+    },
+    {
+      "序号": 146,
+      "NameA": "Process Data ",
+      "NameB": "Setting Desired Temperature",
+      "timing_ms": {
+        "graph_context_extraction": 0.028399999791872688,
+        "case_based_retrieval": 86.29490000021178,
+        "ontology_reasoning": 2818.8074999998207,
+        "llm_inference": 39420.93990000103,
+        "information_construction_overhead": 0.12439999954949599,
+        "online_total": 42326.20940000015
+      }
+    },
+    {
+      "序号": 147,
+      "NameA": "Read Desired Temperature ",
+      "NameB": "Setting Desired Temperature",
+      "timing_ms": {
+        "graph_context_extraction": 0.028599999495781958,
+        "case_based_retrieval": 88.9156000012008,
+        "ontology_reasoning": 2798.373300000094,
+        "llm_inference": 48745.397099999536,
+        "information_construction_overhead": 0.1353999996354105,
+        "online_total": 51632.86049999988
+      }
+    },
+    {
+      "序号": 148,
+      "NameA": "massCool  ",
+      "NameB": "Human-Machine Interactions",
+      "timing_ms": {
+        "graph_context_extraction": 0.027800000680144876,
+        "case_based_retrieval": 81.72409999860974,
+        "ontology_reasoning": 2868.1192999993073,
+        "llm_inference": 37593.68819999872,
+        "information_construction_overhead": 0.08159999924828298,
+        "online_total": 40543.652099999235
+      }
+    },
+    {
+      "序号": 149,
+      "NameA": "soundLevelCool",
+      "NameB": "Human-Machine Interactions",
+      "timing_ms": {
+        "graph_context_extraction": 0.031400000807479955,
+        "case_based_retrieval": 80.73700000022654,
+        "ontology_reasoning": 2797.2487000006367,
+        "llm_inference": 37966.441500000656,
+        "information_construction_overhead": 0.07660000119358301,
+        "online_total": 40844.546600001195
+      }
+    },
+    {
+      "序号": 150,
+      "NameA": "in p3",
+      "NameB": "Human-Machine Interactions",
+      "timing_ms": {
+        "graph_context_extraction": 0.026899999284069054,
+        "case_based_retrieval": 65.74349999937112,
+        "ontology_reasoning": 2777.8654000012466,
+        "llm_inference": 38930.60070000138,
+        "information_construction_overhead": 0.09499999941908754,
+        "online_total": 41774.34209999956
+      }
+    },
+    {
+      "序号": 151,
+      "NameA": "soundLevelHmi   ",
+      "NameB": "Human-Machine Interactions",
+      "timing_ms": {
+        "graph_context_extraction": 0.03459999970800709,
+        "case_based_retrieval": 84.08129999952507,
+        "ontology_reasoning": 2794.237100000828,
+        "llm_inference": 45341.57910000067,
+        "information_construction_overhead": 0.0776999986555893,
+        "online_total": 48220.02130000146
+      }
+    },
+    {
+      "序号": 152,
+      "NameA": "in p1   ",
+      "NameB": "Human-Machine Interactions",
+      "timing_ms": {
+        "graph_context_extraction": 0.03370000013092067,
+        "case_based_retrieval": 31.415999999808264,
+        "ontology_reasoning": 2809.3337999998766,
+        "llm_inference": 39447.754000000714,
+        "information_construction_overhead": 0.0825000006443588,
+        "online_total": 42288.63190000084
+      }
+    },
+    {
+      "序号": 153,
+      "NameA": "out p4",
+      "NameB": "Human-Machine Interactions",
+      "timing_ms": {
+        "graph_context_extraction": 0.03259999903093558,
+        "case_based_retrieval": 51.27159999938158,
+        "ontology_reasoning": 2777.5696000007883,
+        "llm_inference": 51231.13480000029,
+        "information_construction_overhead": 0.08880000132194255,
+        "online_total": 54060.10940000124
+      }
+    },
+    {
+      "序号": 154,
+      "NameA": "energyConsProcess",
+      "NameB": "Human-Machine Interactions",
+      "timing_ms": {
+        "graph_context_extraction": 0.029000000722589903,
+        "case_based_retrieval": 82.87670000026992,
+        "ontology_reasoning": 2787.6660999991145,
+        "llm_inference": 43518.83839999937,
+        "information_construction_overhead": 0.07840000034775585,
+        "online_total": 46389.49930000126
+      }
+    },
+    {
+      "序号": 155,
+      "NameA": "out p6",
+      "NameB": "Human-Machine Interactions",
+      "timing_ms": {
+        "graph_context_extraction": 0.02769999991869554,
+        "case_based_retrieval": 41.579700000511366,
+        "ontology_reasoning": 2781.7152999996324,
+        "llm_inference": 53487.37019999862,
+        "information_construction_overhead": 0.08860000161803328,
+        "online_total": 56310.79300000056
+      }
+    },
+    {
+      "序号": 156,
+      "NameA": "Processing ",
+      "NameB": "Human-Machine Interactions",
+      "timing_ms": {
+        "graph_context_extraction": 0.027599999157246202,
+        "case_based_retrieval": 57.991400000901194,
+        "ontology_reasoning": 2779.5750000004773,
+        "llm_inference": 41485.501600000134,
+        "information_construction_overhead": 0.12340000102994964,
+        "online_total": 44323.22980000026
+      }
+    },
+    {
+      "序号": 157,
+      "NameA": "totalEnergyConsVCCU  ",
+      "NameB": "Human-Machine Interactions",
+      "timing_ms": {
+        "graph_context_extraction": 0.033799999073380604,
+        "case_based_retrieval": 82.41950000046927,
+        "ontology_reasoning": 2787.455300000147,
+        "llm_inference": 34702.88270000128,
+        "information_construction_overhead": 0.10959999963233713,
+        "online_total": 37572.913099998914
+      }
+    },
+    {
+      "序号": 158,
+      "NameA": "in p2",
+      "NameB": "Human-Machine Interactions",
+      "timing_ms": {
+        "graph_context_extraction": 0.03119999928458128,
+        "case_based_retrieval": 48.588900001050206,
+        "ontology_reasoning": 2786.031900001035,
+        "llm_inference": 39560.942400001295,
+        "information_construction_overhead": 0.10689999908208847,
+        "online_total": 42395.71459999934
+      }
+    },
+    {
+      "序号": 159,
+      "NameA": "in p3",
+      "NameB": "Human-Machine Interactions",
+      "timing_ms": {
+        "graph_context_extraction": 0.02919999860750977,
+        "case_based_retrieval": 56.12920000021404,
+        "ontology_reasoning": 2775.213899998562,
+        "llm_inference": 40267.51820000027,
+        "information_construction_overhead": 0.1283999990846496,
+        "online_total": 43099.02870000042
+      }
+    },
+    {
+      "序号": 160,
+      "NameA": "out p5",
+      "NameB": "Human-Machine Interactions",
+      "timing_ms": {
+        "graph_context_extraction": 0.028899999961140566,
+        "case_based_retrieval": 60.54670000048645,
+        "ontology_reasoning": 2805.9504000011657,
+        "llm_inference": 53354.03490000135,
+        "information_construction_overhead": 0.12040000001434237,
+        "online_total": 56220.69229999943
+      }
+    },
+    {
+      "序号": 161,
+      "NameA": "Get Ambient Temperature ",
+      "NameB": "Human-Machine Interactions",
+      "timing_ms": {
+        "graph_context_extraction": 0.02719999974942766,
+        "case_based_retrieval": 85.93399999881512,
+        "ontology_reasoning": 2825.100800000655,
+        "llm_inference": 33325.62080000025,
+        "information_construction_overhead": 0.12889999925391749,
+        "online_total": 36236.8222999994
+      }
+    },
+    {
+      "序号": 162,
+      "NameA": "Initialize Cooling ",
+      "NameB": "Human-Machine Interactions",
+      "timing_ms": {
+        "graph_context_extraction": 0.02809999932651408,
+        "case_based_retrieval": 86.6918000010628,
+        "ontology_reasoning": 2879.995899998903,
+        "llm_inference": 43774.22299999853,
+        "information_construction_overhead": 0.1315000008617062,
+        "online_total": 46741.08139999953
+      }
+    },
+    {
+      "序号": 163,
+      "NameA": "Initialize Heating ",
+      "NameB": "Human-Machine Interactions",
+      "timing_ms": {
+        "graph_context_extraction": 0.026199999410891905,
+        "case_based_retrieval": 86.87269999973068,
+        "ontology_reasoning": 2845.4994999992778,
+        "llm_inference": 38644.79459999893,
+        "information_construction_overhead": 0.1315000008617062,
+        "online_total": 41577.33419999931
+      }
+    },
+    {
+      "序号": 164,
+      "NameA": "Process Data ",
+      "NameB": "Human-Machine Interactions",
+      "timing_ms": {
+        "graph_context_extraction": 0.02879999919969123,
+        "case_based_retrieval": 85.84940000037022,
+        "ontology_reasoning": 2830.040500000905,
+        "llm_inference": 37481.84649999894,
+        "information_construction_overhead": 0.1320000010309741,
+        "online_total": 40397.90749999884
+      }
+    },
+    {
+      "序号": 165,
+      "NameA": "Read Desired Temperature ",
+      "NameB": "Human-Machine Interactions",
+      "timing_ms": {
+        "graph_context_extraction": 0.026699999580159783,
+        "case_based_retrieval": 91.98619999915536,
+        "ontology_reasoning": 2766.4222000003065,
+        "llm_inference": 36860.9278999993,
+        "information_construction_overhead": 0.1274999995075632,
+        "online_total": 39719.501699999455
+      }
+    },
+    {
+      "序号": 166,
+      "NameA": "massCool  ",
+      "NameB": "Getting Ambient Temperature",
+      "timing_ms": {
+        "graph_context_extraction": 0.031099998523131944,
+        "case_based_retrieval": 83.25340000010328,
+        "ontology_reasoning": 2808.2713000003423,
+        "llm_inference": 36630.55220000024,
+        "information_construction_overhead": 0.07399999958579428,
+        "online_total": 39522.19470000091
+      }
+    },
+    {
+      "序号": 167,
+      "NameA": "out p5",
+      "NameB": "Getting Ambient Temperature",
+      "timing_ms": {
+        "graph_context_extraction": 0.028100001145503484,
+        "case_based_retrieval": 62.36920000083046,
+        "ontology_reasoning": 2787.696800000049,
+        "llm_inference": 38605.72880000109,
+        "information_construction_overhead": 0.094600000011269,
+        "online_total": 41455.92729999953
+      }
+    },
+    {
+      "序号": 168,
+      "NameA": "massHeat  ",
+      "NameB": "Getting Ambient Temperature",
+      "timing_ms": {
+        "graph_context_extraction": 0.029099999665049836,
+        "case_based_retrieval": 80.2588000005926,
+        "ontology_reasoning": 2790.505099999791,
+        "llm_inference": 31803.435499999978,
+        "information_construction_overhead": 0.07609999920532573,
+        "online_total": 34674.314399999275
+      }
+    },
+    {
+      "序号": 169,
+      "NameA": "soundLevelHmi   ",
+      "NameB": "Getting Ambient Temperature",
+      "timing_ms": {
+        "graph_context_extraction": 0.03270000161137432,
+        "case_based_retrieval": 80.08189999964088,
+        "ontology_reasoning": 2746.3443000015104,
+        "llm_inference": 30789.194599999973,
+        "information_construction_overhead": 0.0779999991209479,
+        "online_total": 33615.74440000004
+      }
+    },
+    {
+      "序号": 170,
+      "NameA": "in p1   ",
+      "NameB": "Getting Ambient Temperature",
+      "timing_ms": {
+        "graph_context_extraction": 0.026699999580159783,
+        "case_based_retrieval": 36.02670000145736,
+        "ontology_reasoning": 2747.16509999962,
+        "llm_inference": 35867.56629999945,
+        "information_construction_overhead": 0.08600000001024455,
+        "online_total": 38650.88199999991
+      }
+    },
+    {
+      "序号": 171,
+      "NameA": "energyConsProcess",
+      "NameB": "Getting Ambient Temperature",
+      "timing_ms": {
+        "graph_context_extraction": 0.03459999970800709,
+        "case_based_retrieval": 100.68120000141789,
+        "ontology_reasoning": 2784.390599999824,
+        "llm_inference": 41175.065299999915,
+        "information_construction_overhead": 0.07230000119307078,
+        "online_total": 44060.252899998886
+      }
+    },
+    {
+      "序号": 172,
+      "NameA": "in p2  ",
+      "NameB": "Getting Ambient Temperature",
+      "timing_ms": {
+        "graph_context_extraction": 0.032100000680657104,
+        "case_based_retrieval": 56.4539999995759,
+        "ontology_reasoning": 2801.0046999988845,
+        "llm_inference": 370198.0898000002,
+        "information_construction_overhead": 0.09070000123756472,
+        "online_total": 373055.6800999984
+      }
+    },
+    {
+      "序号": 173,
+      "NameA": "inout p5",
+      "NameB": "Getting Ambient Temperature",
+      "timing_ms": {
+        "graph_context_extraction": 0.027799998861155473,
+        "case_based_retrieval": 53.7265999992087,
+        "ontology_reasoning": 2834.4388000004983,
+        "llm_inference": 45847.45289999955,
+        "information_construction_overhead": 0.1007999999274034,
+        "online_total": 48735.75820000042
+      }
+    },
+    {
+      "序号": 174,
+      "NameA": "out p6",
+      "NameB": "Getting Ambient Temperature",
+      "timing_ms": {
+        "graph_context_extraction": 0.03400000059627928,
+        "case_based_retrieval": 34.14899999916088,
+        "ontology_reasoning": 2760.877499998969,
+        "llm_inference": 42346.618300000046,
+        "information_construction_overhead": 0.07999999979801942,
+        "online_total": 45141.76940000107
+      }
+    },
+    {
+      "序号": 175,
+      "NameA": "Human-Machine Interacting ",
+      "NameB": "Getting Ambient Temperature",
+      "timing_ms": {
+        "graph_context_extraction": 0.03099999958067201,
+        "case_based_retrieval": 45.21539999950619,
+        "ontology_reasoning": 2779.254699999001,
+        "llm_inference": 41022.43340000132,
+        "information_construction_overhead": 0.11509999967529438,
+        "online_total": 43847.05919999942
+      }
+    },
+    {
+      "序号": 176,
+      "NameA": "in p2",
+      "NameB": "Getting Ambient Temperature",
+      "timing_ms": {
+        "graph_context_extraction": 0.028500000553322025,
+        "case_based_retrieval": 54.77009999958682,
+        "ontology_reasoning": 2811.5232000000105,
+        "llm_inference": 75734.45309999988,
+        "information_construction_overhead": 0.12989999959245324,
+        "online_total": 78600.91360000115
+      }
+    },
+    {
+      "序号": 177,
+      "NameA": "in p3",
+      "NameB": "Getting Ambient Temperature",
+      "timing_ms": {
+        "graph_context_extraction": 0.030700000934302807,
+        "case_based_retrieval": 59.174600000915234,
+        "ontology_reasoning": 2853.484200000821,
+        "llm_inference": 42058.98049999996,
+        "information_construction_overhead": 0.12789999891538173,
+        "online_total": 44971.807899999476
+      }
+    },
+    {
+      "序号": 178,
+      "NameA": "out p4  ",
+      "NameB": "Getting Ambient Temperature",
+      "timing_ms": {
+        "graph_context_extraction": 0.08270000034826808,
+        "case_based_retrieval": 55.2360999990924,
+        "ontology_reasoning": 2793.8188999996783,
+        "llm_inference": 40448.85040000008,
+        "information_construction_overhead": 0.12900000001536682,
+        "online_total": 43298.13159999867
+      }
+    },
+    {
+      "序号": 179,
+      "NameA": "Blow Cooled Air Back to Cabin ",
+      "NameB": "Getting Ambient Temperature",
+      "timing_ms": {
+        "graph_context_extraction": 0.02939999831141904,
+        "case_based_retrieval": 75.384199999462,
+        "ontology_reasoning": 2782.1051999999327,
+        "llm_inference": 36150.10400000028,
+        "information_construction_overhead": 0.1269999993382953,
+        "online_total": 39007.75919999978
+      }
+    },
+    {
+      "序号": 180,
+      "NameA": "Draw Heated Air Out from Cabin ",
+      "NameB": "Getting Ambient Temperature",
+      "timing_ms": {
+        "graph_context_extraction": 0.027800000680144876,
+        "case_based_retrieval": 77.75450000008277,
+        "ontology_reasoning": 2766.9764000002033,
+        "llm_inference": 39093.58979999888,
+        "information_construction_overhead": 0.12819999938074034,
+        "online_total": 41938.486200000625
+      }
+    },
+    {
+      "序号": 181,
+      "NameA": "Draw Cooled Air Out from Cabin ",
+      "NameB": "Getting Ambient Temperature",
+      "timing_ms": {
+        "graph_context_extraction": 0.02719999974942766,
+        "case_based_retrieval": 87.14490000056685,
+        "ontology_reasoning": 2792.633699998987,
+        "llm_inference": 38827.4179,
+        "information_construction_overhead": 0.11799999992945231,
+        "online_total": 41707.35169999898
+      }
+    },
+    {
+      "序号": 182,
+      "NameA": "Process Data ",
+      "NameB": "Getting Ambient Temperature",
+      "timing_ms": {
+        "graph_context_extraction": 0.030299999707494862,
+        "case_based_retrieval": 68.97359999857144,
+        "ontology_reasoning": 2884.045500000866,
+        "llm_inference": 44558.65529999937,
+        "information_construction_overhead": 0.13409999883151613,
+        "online_total": 47511.849900000016
+      }
+    },
+    {
+      "序号": 183,
+      "NameA": "Send Data to Computing Unit ",
+      "NameB": "Getting Ambient Temperature",
+      "timing_ms": {
+        "graph_context_extraction": 0.03079999987676274,
+        "case_based_retrieval": 76.24530000066443,
+        "ontology_reasoning": 2794.200499998624,
+        "llm_inference": 61322.80040000114,
+        "information_construction_overhead": 0.12700000115728471,
+        "online_total": 64193.41390000045
+      }
+    },
+    {
+      "序号": 184,
+      "NameA": "energyConsCool",
+      "NameB": "Cabin Air",
+      "timing_ms": {
+        "graph_context_extraction": 0.028899999961140566,
+        "case_based_retrieval": 82.1605000001,
+        "ontology_reasoning": 2795.6006999993406,
+        "llm_inference": 35922.856900000625,
+        "information_construction_overhead": 0.08059999890974723,
+        "online_total": 38800.73789999915
+      }
+    },
+    {
+      "序号": 185,
+      "NameA": "massCool  ",
+      "NameB": "Cabin Air",
+      "timing_ms": {
+        "graph_context_extraction": 0.030399998649954796,
+        "case_based_retrieval": 80.1976000002469,
+        "ontology_reasoning": 2821.136499998829,
+        "llm_inference": 44403.84249999988,
+        "information_construction_overhead": 0.07379999988188501,
+        "online_total": 47305.29209999986
+      }
+    },
+    {
+      "序号": 186,
+      "NameA": "in p3",
+      "NameB": "Cabin Air",
+      "timing_ms": {
+        "graph_context_extraction": 0.03219999962311704,
+        "case_based_retrieval": 57.689199999003904,
+        "ontology_reasoning": 2798.3827000007295,
+        "llm_inference": 52536.70020000027,
+        "information_construction_overhead": 0.094600000011269,
+        "online_total": 55392.90830000027
+      }
+    },
+    {
+      "序号": 187,
+      "NameA": "massHeat  ",
+      "NameB": "Cabin Air",
+      "timing_ms": {
+        "graph_context_extraction": 0.02919999860750977,
+        "case_based_retrieval": 108.29379999995581,
+        "ontology_reasoning": 2815.9739000002446,
+        "llm_inference": 47143.07519999966,
+        "information_construction_overhead": 0.07749999895168003,
+        "online_total": 50067.46050000038
+      }
+    },
+    {
+      "序号": 188,
+      "NameA": "soundLevelHeat",
+      "NameB": "Cabin Air",
+      "timing_ms": {
+        "graph_context_extraction": 0.08369999886781443,
+        "case_based_retrieval": 83.60819999870728,
+        "ontology_reasoning": 2780.475999999908,
+        "llm_inference": 39488.54120000033,
+        "information_construction_overhead": 0.07930000174383167,
+        "online_total": 42352.811999999176
+      }
+    },
+    {
+      "序号": 189,
+      "NameA": "in p6",
+      "NameB": "Cabin Air",
+      "timing_ms": {
+        "graph_context_extraction": 0.03020000076503493,
+        "case_based_retrieval": 31.505599999945844,
+        "ontology_reasoning": 2780.496100000164,
+        "llm_inference": 52042.222400001265,
+        "information_construction_overhead": 0.08549999984097667,
+        "online_total": 54854.34979999991
+      }
+    },
+    {
+      "序号": 190,
+      "NameA": "soundLevelProcess",
+      "NameB": "Cabin Air",
+      "timing_ms": {
+        "graph_context_extraction": 0.031800000215298496,
+        "case_based_retrieval": 78.6815999999817,
+        "ontology_reasoning": 2781.5989999999147,
+        "llm_inference": 45937.792400000035,
+        "information_construction_overhead": 0.07550000009359792,
+        "online_total": 48798.189700000876
+      }
+    },
+    {
+      "序号": 191,
+      "NameA": "out p6",
+      "NameB": "Cabin Air",
+      "timing_ms": {
+        "graph_context_extraction": 0.031100000342121348,
+        "case_based_retrieval": 37.798399998791865,
+        "ontology_reasoning": 2870.754700001271,
+        "llm_inference": 42716.97129999848,
+        "information_construction_overhead": 0.08139999954437371,
+        "online_total": 45625.64670000029
+      }
+    },
+    {
+      "序号": 192,
+      "NameA": "Cooling",
+      "NameB": "Cabin Air",
+      "timing_ms": {
+        "graph_context_extraction": 0.028399999791872688,
+        "case_based_retrieval": 44.31210000075225,
+        "ontology_reasoning": 2813.9427000005526,
+        "llm_inference": 57011.24600000003,
+        "information_construction_overhead": 0.13489999946614262,
+        "online_total": 59869.674999999916
+      }
+    },
+    {
+      "序号": 193,
+      "NameA": "Heating",
+      "NameB": "Cabin Air",
+      "timing_ms": {
+        "graph_context_extraction": 0.03479999941191636,
+        "case_based_retrieval": 44.37770000004093,
+        "ontology_reasoning": 2782.030299998951,
+        "llm_inference": 46489.551499998925,
+        "information_construction_overhead": 0.11110000014014076,
+        "online_total": 49316.114900000684
+      }
+    },
+    {
+      "序号": 194,
+      "NameA": "soundLevelVCCU ",
+      "NameB": "Cabin Air",
+      "timing_ms": {
+        "graph_context_extraction": 0.0380000001314329,
+        "case_based_retrieval": 102.1375000000262,
+        "ontology_reasoning": 2821.45379999929,
+        "llm_inference": 42344.938600001115,
+        "information_construction_overhead": 0.1140000003942987,
+        "online_total": 45268.69330000045
+      }
+    },
+    {
+      "序号": 195,
+      "NameA": "totalMassVCCU ",
+      "NameB": "Cabin Air",
+      "timing_ms": {
+        "graph_context_extraction": 0.03389999983482994,
+        "case_based_retrieval": 81.48079999955371,
+        "ontology_reasoning": 2782.6188999988517,
+        "llm_inference": 38376.77900000017,
+        "information_construction_overhead": 0.11029999950551428,
+        "online_total": 41241.03230000037
+      }
+    },
+    {
+      "序号": 196,
+      "NameA": "in p1",
+      "NameB": "Cabin Air",
+      "timing_ms": {
+        "graph_context_extraction": 0.034300001061637886,
+        "case_based_retrieval": 36.80979999990086,
+        "ontology_reasoning": 2846.960200000467,
+        "llm_inference": 51691.89069999993,
+        "information_construction_overhead": 0.13530000069295056,
+        "online_total": 54575.841000001674
+      }
+    },
+    {
+      "序号": 197,
+      "NameA": "in p2",
+      "NameB": "Cabin Air",
+      "timing_ms": {
+        "graph_context_extraction": 0.032699999792384915,
+        "case_based_retrieval": 57.15989999953308,
+        "ontology_reasoning": 2815.2606999992713,
+        "llm_inference": 53030.53759999966,
+        "information_construction_overhead": 0.13330000001587905,
+        "online_total": 55903.13459999925
+      }
+    },
+    {
+      "序号": 198,
+      "NameA": "out p4  ",
+      "NameB": "Cabin Air",
+      "timing_ms": {
+        "graph_context_extraction": 0.044800000978284515,
+        "case_based_retrieval": 64.88050000007206,
+        "ontology_reasoning": 2809.5422999995208,
+        "llm_inference": 43303.480200000195,
+        "information_construction_overhead": 0.1281000004382804,
+        "online_total": 46178.08780000087
+      }
+    },
+    {
+      "序号": 199,
+      "NameA": "Draw Cooled Air Out from Cabin ",
+      "NameB": "Cabin Air",
+      "timing_ms": {
+        "graph_context_extraction": 0.032699999792384915,
+        "case_based_retrieval": 72.88060000064434,
+        "ontology_reasoning": 2790.254500001538,
+        "llm_inference": 41877.82579999839,
+        "information_construction_overhead": 0.12229999992996454,
+        "online_total": 44741.1276999992
+      }
+    },
+    {
+      "序号": 200,
+      "NameA": "Get Desired Temperature ",
+      "NameB": "Cabin Air",
+      "timing_ms": {
+        "graph_context_extraction": 0.058400000852998346,
+        "case_based_retrieval": 76.07810000081372,
+        "ontology_reasoning": 2806.3691000006656,
+        "llm_inference": 40838.868200000434,
+        "information_construction_overhead": 0.14349999946716707,
+        "online_total": 43721.52839999944
+      }
+    },
+    {
+      "序号": 201,
+      "NameA": "Initialize Cooling ",
+      "NameB": "Cabin Air",
+      "timing_ms": {
+        "graph_context_extraction": 0.030399998649954796,
+        "case_based_retrieval": 72.09669999974722,
+        "ontology_reasoning": 2780.3617999998096,
+        "llm_inference": 53969.76529999847,
+        "information_construction_overhead": 0.1204999989568023,
+        "online_total": 56822.38570000118
+      }
+    },
+    {
+      "序号": 202,
+      "NameA": "Initialize Heating ",
+      "NameB": "Cabin Air",
+      "timing_ms": {
+        "graph_context_extraction": 0.03099999958067201,
+        "case_based_retrieval": 77.58410000133154,
+        "ontology_reasoning": 2795.083999999406,
+        "llm_inference": 62962.36390000013,
+        "information_construction_overhead": 0.1367999993817648,
+        "online_total": 65835.2135999994
+      }
+    },
+    {
+      "序号": 203,
+      "NameA": "Send Data to Computing Unit ",
+      "NameB": "Cabin Air",
+      "timing_ms": {
+        "graph_context_extraction": 0.02789999962260481,
+        "case_based_retrieval": 72.65279999955965,
+        "ontology_reasoning": 2794.88769999989,
+        "llm_inference": 48451.23070000045,
+        "information_construction_overhead": 0.12220000098750461,
+        "online_total": 51318.931100000555
+      }
+    },
+    {
+      "序号": 204,
+      "NameA": "soundLevelCool",
+      "NameB": "Heating ",
+      "timing_ms": {
+        "graph_context_extraction": 0.02769999991869554,
+        "case_based_retrieval": 80.88739999948302,
+        "ontology_reasoning": 2850.36670000045,
+        "llm_inference": 33088.97419999994,
+        "information_construction_overhead": 0.07360000017797574,
+        "online_total": 36020.34339999955
+      }
+    },
+    {
+      "序号": 205,
+      "NameA": "in p3",
+      "NameB": "Heating ",
+      "timing_ms": {
+        "graph_context_extraction": 0.03099999958067201,
+        "case_based_retrieval": 59.206199999607634,
+        "ontology_reasoning": 2802.2731999990356,
+        "llm_inference": 74452.50130000022,
+        "information_construction_overhead": 0.0928999997995561,
+        "online_total": 77314.11599999956
+      }
+    },
+    {
+      "序号": 206,
+      "NameA": "out p5",
+      "NameB": "Heating ",
+      "timing_ms": {
+        "graph_context_extraction": 0.028100001145503484,
+        "case_based_retrieval": 59.51869999989867,
+        "ontology_reasoning": 2798.949399999401,
+        "llm_inference": 48832.3505999997,
+        "information_construction_overhead": 0.08650000017951243,
+        "online_total": 51690.943999999945
+      }
+    },
+    {
+      "序号": 207,
+      "NameA": "soundLevelHmi   ",
+      "NameB": "Heating ",
+      "timing_ms": {
+        "graph_context_extraction": 0.03239999932702631,
+        "case_based_retrieval": 79.16260000092734,
+        "ontology_reasoning": 2775.265299998864,
+        "llm_inference": 32676.247199999125,
+        "information_construction_overhead": 0.07519999962823931,
+        "online_total": 35530.79220000109
+      }
+    },
+    {
+      "序号": 208,
+      "NameA": "energyConsProcess",
+      "NameB": "Heating ",
+      "timing_ms": {
+        "graph_context_extraction": 0.0335000004270114,
+        "case_based_retrieval": 81.48260000052687,
+        "ontology_reasoning": 2814.0745000000607,
+        "llm_inference": 49113.332699998864,
+        "information_construction_overhead": 0.07920000098238233,
+        "online_total": 52009.01300000078
+      }
+    },
+    {
+      "序号": 209,
+      "NameA": "soundLevelProcess",
+      "NameB": "Heating ",
+      "timing_ms": {
+        "graph_context_extraction": 0.03199999991920777,
+        "case_based_retrieval": 77.42970000072091,
+        "ontology_reasoning": 2791.6058999999223,
+        "llm_inference": 44328.94820000001,
+        "information_construction_overhead": 0.08239999988290947,
+        "online_total": 47198.1078000008
+      }
+    },
+    {
+      "序号": 210,
+      "NameA": "inout p5",
+      "NameB": "Heating ",
+      "timing_ms": {
+        "graph_context_extraction": 0.02990000029967632,
+        "case_based_retrieval": 48.51620000044932,
+        "ontology_reasoning": 2846.26709999975,
+        "llm_inference": 45983.7907000001,
+        "information_construction_overhead": 0.07760000153211877,
+        "online_total": 48878.69420000061
+      }
+    },
+    {
+      "序号": 211,
+      "NameA": "out p6",
+      "NameB": "Heating ",
+      "timing_ms": {
+        "graph_context_extraction": 0.031800000215298496,
+        "case_based_retrieval": 48.42309999912686,
+        "ontology_reasoning": 2817.2371000000567,
+        "llm_inference": 55150.83779999986,
+        "information_construction_overhead": 0.09559999853081536,
+        "online_total": 58016.63709999957
+      }
+    },
+    {
+      "序号": 212,
+      "NameA": "Cooling",
+      "NameB": "Heating ",
+      "timing_ms": {
+        "graph_context_extraction": 0.025299999833805487,
+        "case_based_retrieval": 55.564300000696676,
+        "ontology_reasoning": 2765.0119999998424,
+        "llm_inference": 36293.680400000085,
+        "information_construction_overhead": 0.12419999984558672,
+        "online_total": 39114.41620000005
+      }
+    },
+    {
+      "序号": 213,
+      "NameA": "Human-Machine Interacting ",
+      "NameB": "Heating ",
+      "timing_ms": {
+        "graph_context_extraction": 0.027599999157246202,
+        "case_based_retrieval": 58.903499999360065,
+        "ontology_reasoning": 2756.756900000255,
+        "llm_inference": 41824.25820000026,
+        "information_construction_overhead": 0.12600000081874896,
+        "online_total": 44640.081499999724
+      }
+    },
+    {
+      "序号": 214,
+      "NameA": "totalEnergyConsVCCU  ",
+      "NameB": "Heating ",
+      "timing_ms": {
+        "graph_context_extraction": 0.029299999368959107,
+        "case_based_retrieval": 79.22490000055404,
+        "ontology_reasoning": 2789.199799999551,
+        "llm_inference": 42484.04320000009,
+        "information_construction_overhead": 0.10879999899771065,
+        "online_total": 45352.61830000127
+      }
+    },
+    {
+      "序号": 215,
+      "NameA": "in p1",
+      "NameB": "Heating ",
+      "timing_ms": {
+        "graph_context_extraction": 0.03190000097674783,
+        "case_based_retrieval": 31.530199999906472,
+        "ontology_reasoning": 2801.579099999799,
+        "llm_inference": 70368.05039999854,
+        "information_construction_overhead": 0.11250000170548446,
+        "online_total": 73201.31410000067
+      }
+    },
+    {
+      "序号": 216,
+      "NameA": "out p5",
+      "NameB": "Heating ",
+      "timing_ms": {
+        "graph_context_extraction": 0.030100000003585592,
+        "case_based_retrieval": 75.50980000087293,
+        "ontology_reasoning": 2785.317699999723,
+        "llm_inference": 44755.42789999963,
+        "information_construction_overhead": 0.12139999853388872,
+        "online_total": 47616.41840000084
+      }
+    },
+    {
+      "序号": 217,
+      "NameA": "Get Ambient Temperature ",
+      "NameB": "Heating ",
+      "timing_ms": {
+        "graph_context_extraction": 0.0259000007645227,
+        "case_based_retrieval": 91.1642999999458,
+        "ontology_reasoning": 2814.201700000922,
+        "llm_inference": 40747.93209999916,
+        "information_construction_overhead": 0.15329999951063655,
+        "online_total": 43653.48769999946
+      }
+    },
+    {
+      "序号": 218,
+      "NameA": "Initialize Heating ",
+      "NameB": "Heating ",
+      "timing_ms": {
+        "graph_context_extraction": 0.03219999962311704,
+        "case_based_retrieval": 88.70299999944109,
+        "ontology_reasoning": 2784.33700000096,
+        "llm_inference": 46630.386000000726,
+        "information_construction_overhead": 0.12410000090312678,
+        "online_total": 49503.59280000157
+      }
+    },
+    {
+      "序号": 219,
+      "NameA": "energyConsCool",
+      "NameB": "Cooling",
+      "timing_ms": {
+        "graph_context_extraction": 0.02789999962260481,
+        "case_based_retrieval": 82.01630000075966,
+        "ontology_reasoning": 2883.952700000009,
+        "llm_inference": 38227.42040000048,
+        "information_construction_overhead": 0.08039999920583796,
+        "online_total": 41193.5082
+      }
+    },
+    {
+      "序号": 220,
+      "NameA": "massHeat  ",
+      "NameB": "Cooling",
+      "timing_ms": {
+        "graph_context_extraction": 0.0289999989036005,
+        "case_based_retrieval": 79.94950000102108,
+        "ontology_reasoning": 2793.768599998657,
+        "llm_inference": 37341.58409999873,
+        "information_construction_overhead": 0.07689999983995222,
+        "online_total": 40215.42020000015
+      }
+    },
+    {
+      "序号": 221,
+      "NameA": "in p6",
+      "NameB": "Cooling",
+      "timing_ms": {
+        "graph_context_extraction": 0.039399999877787195,
+        "case_based_retrieval": 39.838200000303914,
+        "ontology_reasoning": 2761.4190000003873,
+        "llm_inference": 44504.14180000007,
+        "information_construction_overhead": 0.08779999916441739,
+        "online_total": 47305.53830000099
+      }
+    },
+    {
+      "序号": 222,
+      "NameA": "out p5",
+      "NameB": "Cooling",
+      "timing_ms": {
+        "graph_context_extraction": 0.028899999961140566,
+        "case_based_retrieval": 59.247099999993225,
+        "ontology_reasoning": 2812.9718999989564,
+        "llm_inference": 50582.05909999924,
+        "information_construction_overhead": 0.08989999878394883,
+        "online_total": 53454.40620000045
+      }
+    },
+    {
+      "序号": 223,
+      "NameA": "energyConsHmi",
+      "NameB": "Cooling",
+      "timing_ms": {
+        "graph_context_extraction": 0.02970000059576705,
+        "case_based_retrieval": 79.19640000000072,
+        "ontology_reasoning": 2779.7196000010445,
+        "llm_inference": 37753.530500000124,
+        "information_construction_overhead": 0.0777000004745787,
+        "online_total": 40612.563200000295
+      }
+    },
+    {
+      "序号": 224,
+      "NameA": "soundLevelHmi   ",
+      "NameB": "Cooling",
+      "timing_ms": {
+        "graph_context_extraction": 0.0335000004270114,
+        "case_based_retrieval": 85.74749999934284,
+        "ontology_reasoning": 2792.0131999999285,
+        "llm_inference": 40388.67350000146,
+        "information_construction_overhead": 0.07610000102431513,
+        "online_total": 43266.5552999988
+      }
+    },
+    {
+      "序号": 225,
+      "NameA": "energyConsProcess",
+      "NameB": "Cooling",
+      "timing_ms": {
+        "graph_context_extraction": 0.027799998861155473,
+        "case_based_retrieval": 80.32029999958468,
+        "ontology_reasoning": 2777.4625000001834,
+        "llm_inference": 44633.447800000795,
+        "information_construction_overhead": 0.07539999933214858,
+        "online_total": 47491.34270000104
+      }
+    },
+    {
+      "序号": 226,
+      "NameA": "soundLevelProcess",
+      "NameB": "Cooling",
+      "timing_ms": {
+        "graph_context_extraction": 0.03300000025774352,
+        "case_based_retrieval": 81.37770000030287,
+        "ontology_reasoning": 2781.328699998994,
+        "llm_inference": 35092.14310000061,
+        "information_construction_overhead": 0.07240000013553072,
+        "online_total": 37954.96389999971
+      }
+    },
+    {
+      "序号": 227,
+      "NameA": "totalEnergyConsVCCU  ",
+      "NameB": "Cooling",
+      "timing_ms": {
+        "graph_context_extraction": 0.02950000089185778,
+        "case_based_retrieval": 79.11300000159827,
+        "ontology_reasoning": 2748.0587999998534,
+        "llm_inference": 49721.699899999294,
+        "information_construction_overhead": 0.10639999891282059,
+        "online_total": 52549.017500001355
+      }
+    },
+    {
+      "序号": 228,
+      "NameA": "out p4  ",
+      "NameB": "Cooling",
+      "timing_ms": {
+        "graph_context_extraction": 0.025800000003073364,
+        "case_based_retrieval": 50.39489999944635,
+        "ontology_reasoning": 2778.2394000005297,
+        "llm_inference": 56523.796599998605,
+        "information_construction_overhead": 0.10929999916697852,
+        "online_total": 59352.57530000126
+      }
+    },
+    {
+      "序号": 229,
+      "NameA": "out p5",
+      "NameB": "Cooling",
+      "timing_ms": {
+        "graph_context_extraction": 0.028200000087963417,
+        "case_based_retrieval": 61.36209999931452,
+        "ontology_reasoning": 2846.6760000010254,
+        "llm_inference": 53533.271800000875,
+        "information_construction_overhead": 0.11979999908362515,
+        "online_total": 56441.46860000001
+      }
+    },
+    {
+      "序号": 230,
+      "NameA": "Blow Cooled Air Back to Cabin ",
+      "NameB": "Cooling",
+      "timing_ms": {
+        "graph_context_extraction": 0.033799999073380604,
+        "case_based_retrieval": 80.18429999901855,
+        "ontology_reasoning": 2814.843199999814,
+        "llm_inference": 48478.28219999974,
+        "information_construction_overhead": 0.1536999989184551,
+        "online_total": 51373.50789999982
+      }
+    },
+    {
+      "序号": 231,
+      "NameA": "Draw Cooled Air Out from Cabin ",
+      "NameB": "Cooling",
+      "timing_ms": {
+        "graph_context_extraction": 0.03199999991920777,
+        "case_based_retrieval": 79.5999000001757,
+        "ontology_reasoning": 2864.3836000010197,
+        "llm_inference": 53899.7492999988,
+        "information_construction_overhead": 0.12819999938074034,
+        "online_total": 56843.904700001076
+      }
+    },
+    {
+      "序号": 232,
+      "NameA": "Get Ambient Temperature ",
+      "NameB": "Cooling",
+      "timing_ms": {
+        "graph_context_extraction": 0.02789999962260481,
+        "case_based_retrieval": 89.81339999991178,
+        "ontology_reasoning": 2829.7944999994797,
+        "llm_inference": 46220.63479999997,
+        "information_construction_overhead": 0.14069999997445848,
+        "online_total": 49140.42120000158
+      }
+    },
+    {
+      "序号": 233,
+      "NameA": "Read Desired Temperature ",
+      "NameB": "Cooling",
+      "timing_ms": {
+        "graph_context_extraction": 0.03149999974993989,
+        "case_based_retrieval": 92.27559999999357,
+        "ontology_reasoning": 2786.7913999998564,
+        "llm_inference": 39921.12579999957,
+        "information_construction_overhead": 0.12760000026901253,
+        "online_total": 42800.362900001346
+      }
+    },
+    {
+      "序号": 234,
+      "NameA": "in p3",
+      "NameB": "Central Processing",
+      "timing_ms": {
+        "graph_context_extraction": 0.027299998691887595,
+        "case_based_retrieval": 58.56839999978547,
+        "ontology_reasoning": 2831.299499999659,
+        "llm_inference": 53121.87520000043,
+        "information_construction_overhead": 0.08990000060293823,
+        "online_total": 56011.870199999976
+      }
+    },
+    {
+      "序号": 235,
+      "NameA": "out p5",
+      "NameB": "Central Processing",
+      "timing_ms": {
+        "graph_context_extraction": 0.02769999991869554,
+        "case_based_retrieval": 63.776499999221414,
+        "ontology_reasoning": 2764.82279999982,
+        "llm_inference": 38529.24510000048,
+        "information_construction_overhead": 0.07920000098238233,
+        "online_total": 41357.96219999975
+      }
+    },
+    {
+      "序号": 236,
+      "NameA": "massHeat  ",
+      "NameB": "Central Processing",
+      "timing_ms": {
+        "graph_context_extraction": 0.026199999410891905,
+        "case_based_retrieval": 81.12260000052629,
+        "ontology_reasoning": 2762.9732999994303,
+        "llm_inference": 39638.73269999931,
+        "information_construction_overhead": 0.0779999991209479,
+        "online_total": 42482.942900000126
+      }
+    },
+    {
+      "序号": 237,
+      "NameA": "soundLevelHeat",
+      "NameB": "Central Processing",
+      "timing_ms": {
+        "graph_context_extraction": 0.02719999974942766,
+        "case_based_retrieval": 84.80250000138767,
+        "ontology_reasoning": 2784.4566000003397,
+        "llm_inference": 38491.804299999785,
+        "information_construction_overhead": 0.08299999899463728,
+        "online_total": 41361.183200000596
+      }
+    },
+    {
+      "序号": 238,
+      "NameA": "in p6",
+      "NameB": "Central Processing",
+      "timing_ms": {
+        "graph_context_extraction": 0.03139999898849055,
+        "case_based_retrieval": 40.67910000048869,
+        "ontology_reasoning": 2835.583799998858,
+        "llm_inference": 53546.41310000079,
+        "information_construction_overhead": 0.08680000064487103,
+        "online_total": 56422.8034000007
+      }
+    },
+    {
+      "序号": 239,
+      "NameA": "massHmi",
+      "NameB": "Central Processing",
+      "timing_ms": {
+        "graph_context_extraction": 0.028599999495781958,
+        "case_based_retrieval": 79.1060000010475,
+        "ontology_reasoning": 2788.6238999999478,
+        "llm_inference": 32724.357999999484,
+        "information_construction_overhead": 0.07650000043213367,
+        "online_total": 35592.20119999918
+      }
+    },
+    {
+      "序号": 240,
+      "NameA": "in p1   ",
+      "NameB": "Central Processing",
+      "timing_ms": {
+        "graph_context_extraction": 0.031400000807479955,
+        "case_based_retrieval": 31.729700000141747,
+        "ontology_reasoning": 2779.462299999068,
+        "llm_inference": 79593.53780000129,
+        "information_construction_overhead": 0.08370000068680383,
+        "online_total": 82404.85580000131
+      }
+    },
+    {
+      "序号": 241,
+      "NameA": "energyConsProcess",
+      "NameB": "Central Processing",
+      "timing_ms": {
+        "graph_context_extraction": 0.028500000553322025,
+        "case_based_retrieval": 75.60680000096909,
+        "ontology_reasoning": 2767.1833999993396,
+        "llm_inference": 46457.154799998534,
+        "information_construction_overhead": 0.07829999958630651,
+        "online_total": 49300.063099999534
+      }
+    },
+    {
+      "序号": 242,
+      "NameA": "massProcess",
+      "NameB": "Central Processing",
+      "timing_ms": {
+        "graph_context_extraction": 0.02519999907235615,
+        "case_based_retrieval": 78.18539999971108,
+        "ontology_reasoning": 2787.2434000000794,
+        "llm_inference": 37448.6164000009,
+        "information_construction_overhead": 0.07560000085504726,
+        "online_total": 40314.155899999605
+      }
+    },
+    {
+      "序号": 243,
+      "NameA": "inout p5",
+      "NameB": "Central Processing",
+      "timing_ms": {
+        "graph_context_extraction": 0.02879999919969123,
+        "case_based_retrieval": 49.673099998472026,
+        "ontology_reasoning": 2787.7196999997977,
+        "llm_inference": 47664.28149999956,
+        "information_construction_overhead": 0.08770000022195745,
+        "online_total": 50501.800200001526
+      }
+    },
+    {
+      "序号": 244,
+      "NameA": "Processing ",
+      "NameB": "Central Processing",
+      "timing_ms": {
+        "graph_context_extraction": 0.029000000722589903,
+        "case_based_retrieval": 59.67480000072101,
+        "ontology_reasoning": 2787.3694999998406,
+        "llm_inference": 54902.520800000275,
+        "information_construction_overhead": 0.13560000115830917,
+        "online_total": 57749.740699999165
+      }
+    },
+    {
+      "序号": 245,
+      "NameA": "totalEnergyConsVCCU  ",
+      "NameB": "Central Processing",
+      "timing_ms": {
+        "graph_context_extraction": 0.03240000114601571,
+        "case_based_retrieval": 79.44730000053823,
+        "ontology_reasoning": 2767.4774000006437,
+        "llm_inference": 42438.16599999991,
+        "information_construction_overhead": 0.11050000102841295,
+        "online_total": 45285.24440000001
+      }
+    },
+    {
+      "序号": 246,
+      "NameA": "in p2",
+      "NameB": "Central Processing",
+      "timing_ms": {
+        "graph_context_extraction": 0.031600000511389226,
+        "case_based_retrieval": 58.213600001181476,
+        "ontology_reasoning": 2806.545299999925,
+        "llm_inference": 52006.97659999969,
+        "information_construction_overhead": 0.10640000073181,
+        "online_total": 54871.88359999891
+      }
+    },
+    {
+      "序号": 247,
+      "NameA": "Blow Cooled Air Back to Cabin ",
+      "NameB": "Central Processing",
+      "timing_ms": {
+        "graph_context_extraction": 0.02769999991869554,
+        "case_based_retrieval": 79.78509999884409,
+        "ontology_reasoning": 2811.672899999394,
+        "llm_inference": 41202.26580000053,
+        "information_construction_overhead": 0.1382000009471085,
+        "online_total": 44093.90019999955
+      }
+    },
+    {
+      "序号": 248,
+      "NameA": "Draw Heated Air Out from Cabin ",
+      "NameB": "Central Processing",
+      "timing_ms": {
+        "graph_context_extraction": 0.02660000063769985,
+        "case_based_retrieval": 87.62789999855158,
+        "ontology_reasoning": 2805.1804000006086,
+        "llm_inference": 43310.99300000096,
+        "information_construction_overhead": 0.1357000001007691,
+        "online_total": 46203.97449999837
+      }
+    },
+    {
+      "序号": 249,
+      "NameA": "Heat Up Temperature to Desired ",
+      "NameB": "Central Processing",
+      "timing_ms": {
+        "graph_context_extraction": 0.032899999496294186,
+        "case_based_retrieval": 87.0322999999189,
+        "ontology_reasoning": 2824.9087000003783,
+        "llm_inference": 50718.44500000043,
+        "information_construction_overhead": 0.13129999933880754,
+        "online_total": 53630.560900001
+      }
+    },
+    {
+      "序号": 250,
+      "NameA": "Initialize Cooling ",
+      "NameB": "Central Processing",
+      "timing_ms": {
+        "graph_context_extraction": 0.03079999987676274,
+        "case_based_retrieval": 83.58340000086173,
+        "ontology_reasoning": 2796.4881000007153,
+        "llm_inference": 40578.8823999992,
+        "information_construction_overhead": 0.13309999849298038,
+        "online_total": 43459.14079999966
+      }
+    },
+    {
+      "序号": 251,
+      "NameA": "Read Desired Temperature ",
+      "NameB": "Central Processing",
+      "timing_ms": {
+        "graph_context_extraction": 0.03339999966556206,
+        "case_based_retrieval": 94.85260000110429,
+        "ontology_reasoning": 2829.599499998949,
+        "llm_inference": 52198.50129999941,
+        "information_construction_overhead": 0.1336999994236976,
+        "online_total": 55123.1315999994
+      }
+    },
+    {
+      "序号": 252,
+      "NameA": "massCool  ",
+      "NameB": "Output Information Display",
+      "timing_ms": {
+        "graph_context_extraction": 0.02750000021478627,
+        "case_based_retrieval": 79.72169999993639,
+        "ontology_reasoning": 2785.7920000005834,
+        "llm_inference": 34808.84049999986,
+        "information_construction_overhead": 0.07569999979750719,
+        "online_total": 37674.46719999862
+      }
+    },
+    {
+      "序号": 253,
+      "NameA": "in p3",
+      "NameB": "Output Information Display",
+      "timing_ms": {
+        "graph_context_extraction": 0.026899999284069054,
+        "case_based_retrieval": 56.94510000103037,
+        "ontology_reasoning": 2772.857699999804,
+        "llm_inference": 46725.57390000111,
+        "information_construction_overhead": 0.09359999967273325,
+        "online_total": 49555.50679999942
+      }
+    },
+    {
+      "序号": 254,
+      "NameA": "in p3",
+      "NameB": "Output Information Display",
+      "timing_ms": {
+        "graph_context_extraction": 0.02950000089185778,
+        "case_based_retrieval": 60.398999999961234,
+        "ontology_reasoning": 2782.2746000001644,
+        "llm_inference": 50072.92959999904,
+        "information_construction_overhead": 0.1511999998911051,
+        "online_total": 52915.79669999919
+      }
+    },
+    {
+      "序号": 255,
+      "NameA": "in p6",
+      "NameB": "Output Information Display",
+      "timing_ms": {
+        "graph_context_extraction": 0.029099999665049836,
+        "case_based_retrieval": 39.82929999983753,
+        "ontology_reasoning": 3816.417800000636,
+        "llm_inference": 46015.24629999949,
+        "information_construction_overhead": 0.08750000051804818,
+        "online_total": 49871.62340000032
+      }
+    },
+    {
+      "序号": 256,
+      "NameA": "soundLevelHmi   ",
+      "NameB": "Output Information Display",
+      "timing_ms": {
+        "graph_context_extraction": 0.02919999860750977,
+        "case_based_retrieval": 151.89040000041132,
+        "ontology_reasoning": 3709.34379999926,
+        "llm_inference": 44085.67749999929,
+        "information_construction_overhead": 0.09219999992637895,
+        "online_total": 47947.044300000925
+      }
+    },
+    {
+      "序号": 257,
+      "NameA": "in p2  ",
+      "NameB": "Output Information Display",
+      "timing_ms": {
+        "graph_context_extraction": 0.04640000042854808,
+        "case_based_retrieval": 78.26500000010128,
+        "ontology_reasoning": 3394.6069999983592,
+        "llm_inference": 46672.30070000005,
+        "information_construction_overhead": 0.10149999980058055,
+        "online_total": 50145.33489999849
+      }
+    },
+    {
+      "序号": 258,
+      "NameA": "out p6",
+      "NameB": "Output Information Display",
+      "timing_ms": {
+        "graph_context_extraction": 0.031200001103570685,
+        "case_based_retrieval": 46.11210000075516,
+        "ontology_reasoning": 2905.011499999091,
+        "llm_inference": 50409.538600000815,
+        "information_construction_overhead": 0.08590000106778461,
+        "online_total": 53360.79189999873
+      }
+    },
+    {
+      "序号": 259,
+      "NameA": "Cooling",
+      "NameB": "Output Information Display",
+      "timing_ms": {
+        "graph_context_extraction": 0.037299998439266346,
+        "case_based_retrieval": 53.89929999910237,
+        "ontology_reasoning": 2944.248499999958,
+        "llm_inference": 45190.51690000015,
+        "information_construction_overhead": 0.11470000026747584,
+        "online_total": 48188.829099999566
+      }
+    },
+    {
+      "序号": 260,
+      "NameA": "out p4  ",
+      "NameB": "Output Information Display",
+      "timing_ms": {
+        "graph_context_extraction": 0.03719999949680641,
+        "case_based_retrieval": 65.01170000046841,
+        "ontology_reasoning": 2896.4971999994304,
+        "llm_inference": 51402.36669999831,
+        "information_construction_overhead": 0.13169999874662608,
+        "online_total": 54364.05500000001
+      }
+    },
+    {
+      "序号": 261,
+      "NameA": "out p5",
+      "NameB": "Output Information Display",
+      "timing_ms": {
+        "graph_context_extraction": 0.07050000021990854,
+        "case_based_retrieval": 73.62730000022566,
+        "ontology_reasoning": 2877.5948000002245,
+        "llm_inference": 44317.45720000072,
+        "information_construction_overhead": 0.1554000009491574,
+        "online_total": 47268.917299999885
+      }
+    },
+    {
+      "序号": 262,
+      "NameA": "Read Desired Temperature ",
+      "NameB": "Output Information Display",
+      "timing_ms": {
+        "graph_context_extraction": 0.02970000059576705,
+        "case_based_retrieval": 95.89600000072096,
+        "ontology_reasoning": 2984.3896000002132,
+        "llm_inference": 45405.724700000064,
+        "information_construction_overhead": 0.13170000056561548,
+        "online_total": 48486.18179999903
+      }
+    },
+    {
+      "序号": 263,
+      "NameA": "out p5",
+      "NameB": "Max Energy Consumption",
+      "timing_ms": {
+        "graph_context_extraction": 0.032500000088475645,
+        "case_based_retrieval": 61.17189999895345,
+        "ontology_reasoning": 2889.30690000052,
+        "llm_inference": 41564.08900000133,
+        "information_construction_overhead": 0.0911999995878432,
+        "online_total": 44514.70390000031
+      }
+    },
+    {
+      "序号": 264,
+      "NameA": "in p6",
+      "NameB": "Max Energy Consumption",
+      "timing_ms": {
+        "graph_context_extraction": 0.028399999791872688,
+        "case_based_retrieval": 33.67950000028941,
+        "ontology_reasoning": 2876.1185000003024,
+        "llm_inference": 45528.587400000106,
+        "information_construction_overhead": 0.09849999878497329,
+        "online_total": 48438.52169999991
+      }
+    },
+    {
+      "序号": 265,
+      "NameA": "out p5",
+      "NameB": "Max Energy Consumption",
+      "timing_ms": {
+        "graph_context_extraction": 0.05779999992228113,
+        "case_based_retrieval": 58.71149999984482,
+        "ontology_reasoning": 2921.457200000077,
+        "llm_inference": 43357.92009999932,
+        "information_construction_overhead": 0.09759999920788687,
+        "online_total": 46338.254000000234
+      }
+    },
+    {
+      "序号": 266,
+      "NameA": "energyConsHmi",
+      "NameB": "Max Energy Consumption",
+      "timing_ms": {
+        "graph_context_extraction": 0.027599999157246202,
+        "case_based_retrieval": 91.51360000032582,
+        "ontology_reasoning": 2834.778300000835,
+        "llm_inference": 59163.01139999996,
+        "information_construction_overhead": 0.12059999971825164,
+        "online_total": 62089.46069999911
+      }
+    },
+    {
+      "序号": 267,
+      "NameA": "massHmi",
+      "NameB": "Max Energy Consumption",
+      "timing_ms": {
+        "graph_context_extraction": 0.02879999919969123,
+        "case_based_retrieval": 113.09299999993527,
+        "ontology_reasoning": 2863.505700001042,
+        "llm_inference": 34378.99739999921,
+        "information_construction_overhead": 0.11510000149428379,
+        "online_total": 37355.750999999145
+      }
+    },
+    {
+      "序号": 268,
+      "NameA": "in p1   ",
+      "NameB": "Max Energy Consumption",
+      "timing_ms": {
+        "graph_context_extraction": 0.029499999072868377,
+        "case_based_retrieval": 48.056999999971595,
+        "ontology_reasoning": 2845.7682999996905,
+        "llm_inference": 36623.369700000694,
+        "information_construction_overhead": 0.08229999912146013,
+        "online_total": 39517.317800000455
+      }
+    },
+    {
+      "序号": 269,
+      "NameA": "massProcess",
+      "NameB": "Max Energy Consumption",
+      "timing_ms": {
+        "graph_context_extraction": 0.030699999115313403,
+        "case_based_retrieval": 91.96699999847624,
+        "ontology_reasoning": 2875.0353999985236,
+        "llm_inference": 37869.53460000041,
+        "information_construction_overhead": 0.09420000060345046,
+        "online_total": 40836.67070000047
+      }
+    },
+    {
+      "序号": 270,
+      "NameA": "soundLevelProcess",
+      "NameB": "Max Energy Consumption",
+      "timing_ms": {
+        "graph_context_extraction": 0.02930000118794851,
+        "case_based_retrieval": 180.2612000010413,
+        "ontology_reasoning": 2883.4412999985943,
+        "llm_inference": 35447.773800000505,
+        "information_construction_overhead": 0.09360000149172265,
+        "online_total": 38511.60929999969
+      }
+    },
+    {
+      "序号": 271,
+      "NameA": "Heating",
+      "NameB": "Max Energy Consumption",
+      "timing_ms": {
+        "graph_context_extraction": 0.03509999987727497,
+        "case_based_retrieval": 49.073199999838835,
+        "ontology_reasoning": 2880.490600000485,
+        "llm_inference": 47850.59329999967,
+        "information_construction_overhead": 0.1263999984075781,
+        "online_total": 50780.34649999972
+      }
+    },
+    {
+      "序号": 272,
+      "NameA": "in p1",
+      "NameB": "Max Energy Consumption",
+      "timing_ms": {
+        "graph_context_extraction": 0.026300000172341242,
+        "case_based_retrieval": 33.56340000027558,
+        "ontology_reasoning": 2858.052300000054,
+        "llm_inference": 40108.45090000112,
+        "information_construction_overhead": 0.14829999963694718,
+        "online_total": 43000.25160000041
+      }
+    },
+    {
+      "序号": 273,
+      "NameA": "in p2",
+      "NameB": "Max Energy Consumption",
+      "timing_ms": {
+        "graph_context_extraction": 0.026499999876250513,
+        "case_based_retrieval": 48.9850000012666,
+        "ontology_reasoning": 2846.3996999998926,
+        "llm_inference": 45959.373499999856,
+        "information_construction_overhead": 0.11460000132501591,
+        "online_total": 48854.90779999964
+      }
+    },
+    {
+      "序号": 274,
+      "NameA": "in p3",
+      "NameB": "Max Energy Consumption",
+      "timing_ms": {
+        "graph_context_extraction": 0.028000000384054147,
+        "case_based_retrieval": 57.66600000060862,
+        "ontology_reasoning": 2902.7129000005516,
+        "llm_inference": 38485.0778,
+        "information_construction_overhead": 0.11719999929482583,
+        "online_total": 41445.62179999957
+      }
+    },
+    {
+      "序号": 275,
+      "NameA": "out p5",
+      "NameB": "Max Energy Consumption",
+      "timing_ms": {
+        "graph_context_extraction": 0.02660000063769985,
+        "case_based_retrieval": 65.112100000988,
+        "ontology_reasoning": 2935.349100000167,
+        "llm_inference": 40820.73449999916,
+        "information_construction_overhead": 0.11549999908311293,
+        "online_total": 43821.34749999932
+      }
+    },
+    {
+      "序号": 276,
+      "NameA": "Cool Down Temperature to Desired",
+      "NameB": "Max Energy Consumption",
+      "timing_ms": {
+        "graph_context_extraction": 0.030900000638212077,
+        "case_based_retrieval": 76.31310000033409,
+        "ontology_reasoning": 2873.848100000032,
+        "llm_inference": 41586.426399999254,
+        "information_construction_overhead": 0.1264000002265675,
+        "online_total": 44536.754000000656
+      }
+    },
+    {
+      "序号": 277,
+      "NameA": "Get Ambient Temperature ",
+      "NameB": "Max Energy Consumption",
+      "timing_ms": {
+        "graph_context_extraction": 0.030299999707494862,
+        "case_based_retrieval": 77.254300000277,
+        "ontology_reasoning": 2893.786300001011,
+        "llm_inference": 41565.017899998566,
+        "information_construction_overhead": 0.14200000077835284,
+        "online_total": 44536.240100000214
+      }
+    },
+    {
+      "序号": 278,
+      "NameA": "Initialize Cooling ",
+      "NameB": "Max Energy Consumption",
+      "timing_ms": {
+        "graph_context_extraction": 0.03130000004603062,
+        "case_based_retrieval": 65.79840000085824,
+        "ontology_reasoning": 2864.727199999834,
+        "llm_inference": 39147.6558000013,
+        "information_construction_overhead": 0.1233000002685003,
+        "online_total": 42078.34600000024
+      }
+    },
+    {
+      "序号": 279,
+      "NameA": "Process Data ",
+      "NameB": "Max Energy Consumption",
+      "timing_ms": {
+        "graph_context_extraction": 0.03409999953873921,
+        "case_based_retrieval": 70.26340000084019,
+        "ontology_reasoning": 2847.980100001223,
+        "llm_inference": 44177.04270000104,
+        "information_construction_overhead": 0.11980000090261456,
+        "online_total": 47095.44889999961
+      }
+    },
+    {
+      "序号": 280,
+      "NameA": "out p5",
+      "NameB": "Hot Air Removal form VCCS",
+      "timing_ms": {
+        "graph_context_extraction": 0.02809999932651408,
+        "case_based_retrieval": 67.14579999970738,
+        "ontology_reasoning": 2917.4546000012924,
+        "llm_inference": 371245.0833000003,
+        "information_construction_overhead": 0.09750000026542693,
+        "online_total": 374229.81949999847
+      }
+    },
+    {
+      "序号": 281,
+      "NameA": "energyConsHeat  ",
+      "NameB": "Hot Air Removal form VCCS",
+      "timing_ms": {
+        "graph_context_extraction": 0.026499999876250513,
+        "case_based_retrieval": 93.73629999936384,
+        "ontology_reasoning": 2836.354700000811,
+        "llm_inference": 39997.39750000117,
+        "information_construction_overhead": 0.07480000022042077,
+        "online_total": 42927.59939999996
+      }
+    },
+    {
+      "序号": 282,
+      "NameA": "in p6",
+      "NameB": "Hot Air Removal form VCCS",
+      "timing_ms": {
+        "graph_context_extraction": 0.03149999974993989,
+        "case_based_retrieval": 32.10390000094776,
+        "ontology_reasoning": 2861.5300999990723,
+        "llm_inference": 52026.593100001264,
+        "information_construction_overhead": 0.09929999941959977,
+        "online_total": 54920.36949999965
+      }
+    },
+    {
+      "序号": 283,
+      "NameA": "out p5",
+      "NameB": "Hot Air Removal form VCCS",
+      "timing_ms": {
+        "graph_context_extraction": 0.03290000131528359,
+        "case_based_retrieval": 62.791699998342665,
+        "ontology_reasoning": 2929.602399999567,
+        "llm_inference": 64437.92289999874,
+        "information_construction_overhead": 0.09440000030735973,
+        "online_total": 67430.45730000085
+      }
+    },
+    {
+      "序号": 284,
+      "NameA": "energyConsHmi",
+      "NameB": "Hot Air Removal form VCCS",
+      "timing_ms": {
+        "graph_context_extraction": 0.07240000013553072,
+        "case_based_retrieval": 146.9135000006645,
+        "ontology_reasoning": 2968.912000000273,
+        "llm_inference": 41862.4994999991,
+        "information_construction_overhead": 0.0729000003047986,
+        "online_total": 44978.48520000116
+      }
+    },
+    {
+      "序号": 285,
+      "NameA": "in p1   ",
+      "NameB": "Hot Air Removal form VCCS",
+      "timing_ms": {
+        "graph_context_extraction": 0.06910000047355425,
+        "case_based_retrieval": 54.05810000047495,
+        "ontology_reasoning": 2922.5270000006276,
+        "llm_inference": 52324.294300000474,
+        "information_construction_overhead": 0.1114999995479593,
+        "online_total": 55301.07280000084
+      }
+    },
+    {
+      "序号": 286,
+      "NameA": "inout p5",
+      "NameB": "Hot Air Removal form VCCS",
+      "timing_ms": {
+        "graph_context_extraction": 0.03139999898849055,
+        "case_based_retrieval": 60.671900000670576,
+        "ontology_reasoning": 2907.121399999596,
+        "llm_inference": 42328.76260000012,
+        "information_construction_overhead": 0.11220000124012586,
+        "online_total": 45296.71039999994
+      }
+    },
+    {
+      "序号": 287,
+      "NameA": "in p2  ",
+      "NameB": "Hot Air Removal form VCCS",
+      "timing_ms": {
+        "graph_context_extraction": 0.035200000638724305,
+        "case_based_retrieval": 83.78870000160532,
+        "ontology_reasoning": 2916.3016000002244,
+        "llm_inference": 42554.970299999695,
+        "information_construction_overhead": 0.09210000098391902,
+        "online_total": 45555.20119999892
+      }
+    },
+    {
+      "序号": 288,
+      "NameA": "totalEnergyConsVCCU  ",
+      "NameB": "Hot Air Removal form VCCS",
+      "timing_ms": {
+        "graph_context_extraction": 0.06579999899258837,
+        "case_based_retrieval": 93.715400000292,
+        "ontology_reasoning": 2933.808900001168,
+        "llm_inference": 42904.925700000604,
+        "information_construction_overhead": 0.12080000124115031,
+        "online_total": 45932.65470000006
+      }
+    },
+    {
+      "序号": 289,
+      "NameA": "totalMassVCCU ",
+      "NameB": "Hot Air Removal form VCCS",
+      "timing_ms": {
+        "graph_context_extraction": 0.030299999707494862,
+        "case_based_retrieval": 100.65129999929923,
+        "ontology_reasoning": 2901.027599998997,
+        "llm_inference": 42492.35570000019,
+        "information_construction_overhead": 0.10570000085863285,
+        "online_total": 45494.18130000049
+      }
+    },
+    {
+      "序号": 290,
+      "NameA": "in p1",
+      "NameB": "Hot Air Removal form VCCS",
+      "timing_ms": {
+        "graph_context_extraction": 0.03699999979289714,
+        "case_based_retrieval": 42.82710000006773,
+        "ontology_reasoning": 2930.2807999993092,
+        "llm_inference": 51696.952399999645,
+        "information_construction_overhead": 0.12889999925391749,
+        "online_total": 54670.28390000087
+      }
+    },
+    {
+      "序号": 291,
+      "NameA": "out p4  ",
+      "NameB": "Hot Air Removal form VCCS",
+      "timing_ms": {
+        "graph_context_extraction": 0.038800000766059384,
+        "case_based_retrieval": 85.75070000006235,
+        "ontology_reasoning": 2908.836299999166,
+        "llm_inference": 52667.32669999874,
+        "information_construction_overhead": 0.1329000006080605,
+        "online_total": 55662.096299998666
+      }
+    },
+    {
+      "序号": 292,
+      "NameA": "Blow Heated Air Back to Cabin ",
+      "NameB": "Hot Air Removal form VCCS",
+      "timing_ms": {
+        "graph_context_extraction": 0.0715000005584443,
+        "case_based_retrieval": 109.97109999880195,
+        "ontology_reasoning": 2915.830599999026,
+        "llm_inference": 43579.31640000061,
+        "information_construction_overhead": 0.12650000098801684,
+        "online_total": 46605.3436000002
+      }
+    },
+    {
+      "序号": 293,
+      "NameA": "Cool Down Temperature to Desired",
+      "NameB": "Hot Air Removal form VCCS",
+      "timing_ms": {
+        "graph_context_extraction": 0.028200000087963417,
+        "case_based_retrieval": 92.32130000054894,
+        "ontology_reasoning": 2830.5873999997857,
+        "llm_inference": 56651.880000001256,
+        "information_construction_overhead": 0.15349999921454582,
+        "online_total": 59574.98309999937
+      }
+    },
+    {
+      "序号": 294,
+      "NameA": "Draw Heated Air Out from Cabin ",
+      "NameB": "Hot Air Removal form VCCS",
+      "timing_ms": {
+        "graph_context_extraction": 0.03060000017285347,
+        "case_based_retrieval": 114.85410000022966,
+        "ontology_reasoning": 2845.4715000007127,
+        "llm_inference": 49289.721799999825,
+        "information_construction_overhead": 0.29569999969680794,
+        "online_total": 52250.38769999992
+      }
+    },
+    {
+      "序号": 295,
+      "NameA": "Draw Cooled Air Out from Cabin ",
+      "NameB": "Hot Air Removal form VCCS",
+      "timing_ms": {
+        "graph_context_extraction": 0.032300000384566374,
+        "case_based_retrieval": 98.39830000055372,
+        "ontology_reasoning": 2854.552299999341,
+        "llm_inference": 63980.19520000162,
+        "information_construction_overhead": 0.1382000009471085,
+        "online_total": 66933.32770000052
+      }
+    },
+    {
+      "序号": 296,
+      "NameA": "Initialize Cooling ",
+      "NameB": "Hot Air Removal form VCCS",
+      "timing_ms": {
+        "graph_context_extraction": 0.035499997466104105,
+        "case_based_retrieval": 100.03119999964838,
+        "ontology_reasoning": 2841.8996000000334,
+        "llm_inference": 47724.090499999875,
+        "information_construction_overhead": 0.1216000018757768,
+        "online_total": 50666.189399998984
+      }
+    },
+    {
+      "序号": 297,
+      "NameA": "Read Desired Temperature ",
+      "NameB": "Hot Air Removal form VCCS",
+      "timing_ms": {
+        "graph_context_extraction": 0.03760000254260376,
+        "case_based_retrieval": 107.46079999807989,
+        "ontology_reasoning": 2858.565599999565,
+        "llm_inference": 42590.57550000216,
+        "information_construction_overhead": 0.14849999934085645,
+        "online_total": 45556.79779999991
+      }
+    },
+    {
+      "序号": 298,
+      "NameA": "massCool  ",
+      "NameB": "Waste Removal VCCS",
+      "timing_ms": {
+        "graph_context_extraction": 0.04619999890564941,
+        "case_based_retrieval": 89.49679999932414,
+        "ontology_reasoning": 2848.9904000016395,
+        "llm_inference": 36277.12260000044,
+        "information_construction_overhead": 0.08339999840245582,
+        "online_total": 39215.75000000303
+      }
+    },
+    {
+      "序号": 299,
+      "NameA": "energyConsHeat  ",
+      "NameB": "Waste Removal VCCS",
+      "timing_ms": {
+        "graph_context_extraction": 0.028500002372311428,
+        "case_based_retrieval": 124.46930000078282,
+        "ontology_reasoning": 2911.798799999815,
+        "llm_inference": 36980.58990000209,
+        "information_construction_overhead": 0.08649999654153362,
+        "online_total": 40017.01239999966
+      }
+    },
+    {
+      "序号": 300,
+      "NameA": "massHeat  ",
+      "NameB": "Waste Removal VCCS",
+      "timing_ms": {
+        "graph_context_extraction": 0.027400001272326335,
+        "case_based_retrieval": 84.38069999829168,
+        "ontology_reasoning": 2829.5574999974633,
+        "llm_inference": 35157.5053000015,
+        "information_construction_overhead": 0.0779999973019585,
+        "online_total": 38071.558300001925
+      }
+    },
+    {
+      "序号": 301,
+      "NameA": "in p3",
+      "NameB": "Waste Removal VCCS",
+      "timing_ms": {
+        "graph_context_extraction": 0.033299998904112726,
+        "case_based_retrieval": 84.83479999995325,
+        "ontology_reasoning": 2963.411400000041,
+        "llm_inference": 52342.353099997126,
+        "information_construction_overhead": 0.10310000288882293,
+        "online_total": 55390.74719999917
+      }
+    },
+    {
+      "序号": 302,
+      "NameA": "in p6",
+      "NameB": "Waste Removal VCCS",
+      "timing_ms": {
+        "graph_context_extraction": 0.027999998565064743,
+        "case_based_retrieval": 34.01630000007572,
+        "ontology_reasoning": 2889.175800002704,
+        "llm_inference": 47658.3372999994,
+        "information_construction_overhead": 0.09700000009615906,
+        "online_total": 50581.66759999949
+      }
+    },
+    {
+      "序号": 303,
+      "NameA": "soundLevelHmi   ",
+      "NameB": "Waste Removal VCCS",
+      "timing_ms": {
+        "graph_context_extraction": 0.06489999941550195,
+        "case_based_retrieval": 99.4252000018605,
+        "ontology_reasoning": 2866.7463999991014,
+        "llm_inference": 38284.992600001715,
+        "information_construction_overhead": 0.15889999849605374,
+        "online_total": 41251.404299997375
+      }
+    },
+    {
+      "序号": 304,
+      "NameA": "in p1   ",
+      "NameB": "Waste Removal VCCS",
+      "timing_ms": {
+        "graph_context_extraction": 0.11549999908311293,
+        "case_based_retrieval": 53.72960000022431,
+        "ontology_reasoning": 2842.2530999996525,
+        "llm_inference": 37025.014199996804,
+        "information_construction_overhead": 0.10610000026645139,
+        "online_total": 39921.231099997385
+      }
+    },
+    {
+      "序号": 305,
+      "NameA": "inout p5",
+      "NameB": "Waste Removal VCCS",
+      "timing_ms": {
+        "graph_context_extraction": 0.031699997634859756,
+        "case_based_retrieval": 57.468300001346506,
+        "ontology_reasoning": 2868.4648999987985,
+        "llm_inference": 38191.06939999983,
+        "information_construction_overhead": 0.09509999654255807,
+        "online_total": 41117.13939999754
+      }
+    },
+    {
+      "序号": 306,
+      "NameA": "inout p5",
+      "NameB": "Waste Removal VCCS",
+      "timing_ms": {
+        "graph_context_extraction": 0.05070000042906031,
+        "case_based_retrieval": 98.58549999989918,
+        "ontology_reasoning": 2863.2571999987704,
+        "llm_inference": 47136.74270000047,
+        "information_construction_overhead": 0.14679999731015414,
+        "online_total": 50098.801000000094
+      }
+    },
+    {
+      "序号": 307,
+      "NameA": "Processing ",
+      "NameB": "Waste Removal VCCS",
+      "timing_ms": {
+        "graph_context_extraction": 0.027400001272326335,
+        "case_based_retrieval": 50.197700002172496,
+        "ontology_reasoning": 2852.1276999999827,
+        "llm_inference": 41282.277400001476,
+        "information_construction_overhead": 0.11110000195913017,
+        "online_total": 44184.75430000035
+      }
+    },
+    {
+      "序号": 308,
+      "NameA": "totalEnergyConsVCCU  ",
+      "NameB": "Waste Removal VCCS",
+      "timing_ms": {
+        "graph_context_extraction": 0.028800001018680632,
+        "case_based_retrieval": 130.18930000180262,
+        "ontology_reasoning": 2888.103699999192,
+        "llm_inference": 48103.196600000956,
+        "information_construction_overhead": 0.11029999950551428,
+        "online_total": 51121.64099999791
+      }
+    },
+    {
+      "序号": 309,
+      "NameA": "in p3",
+      "NameB": "Waste Removal VCCS",
+      "timing_ms": {
+        "graph_context_extraction": 0.04389999958220869,
+        "case_based_retrieval": 93.42079999987618,
+        "ontology_reasoning": 2848.4680999972625,
+        "llm_inference": 58893.88400000098,
+        "information_construction_overhead": 0.3432000012253411,
+        "online_total": 61836.19149999868
+      }
+    },
+    {
+      "序号": 310,
+      "NameA": "Blow Heated Air Back to Cabin ",
+      "NameB": "Waste Removal VCCS",
+      "timing_ms": {
+        "graph_context_extraction": 0.04809999882127158,
+        "case_based_retrieval": 89.22919999895385,
+        "ontology_reasoning": 2867.9316000016115,
+        "llm_inference": 39120.18160000298,
+        "information_construction_overhead": 0.15160000111791305,
+        "online_total": 42077.553800001624
+      }
+    },
+    {
+      "序号": 311,
+      "NameA": "Energy Consumption",
+      "NameB": "Setting Desired Temperature",
+      "timing_ms": {
+        "graph_context_extraction": 0.027000001864507794,
+        "case_based_retrieval": 35.11689999868395,
+        "ontology_reasoning": 2835.6155999972543,
+        "llm_inference": 42267.27810000011,
+        "information_construction_overhead": 0.11760000052163377,
+        "online_total": 45138.16649999717
+      }
+    },
+    {
+      "序号": 312,
+      "NameA": "totalEnergyConsVCCS",
+      "NameB": "Setting Desired Temperature",
+      "timing_ms": {
+        "graph_context_extraction": 0.02809999932651408,
+        "case_based_retrieval": 100.44320000088192,
+        "ontology_reasoning": 2882.490500000131,
+        "llm_inference": 32637.810000000172,
+        "information_construction_overhead": 0.11870000162161887,
+        "online_total": 35620.90090000129
+      }
+    },
+    {
+      "序号": 313,
+      "NameA": "cooling",
+      "NameB": "Setting Desired Temperature",
+      "timing_ms": {
+        "graph_context_extraction": 0.026699999580159783,
+        "case_based_retrieval": 51.67710000023362,
+        "ontology_reasoning": 2876.2239000025147,
+        "llm_inference": 38941.380799999024,
+        "information_construction_overhead": 0.11589999849093147,
+        "online_total": 41869.43539999993
+      }
+    },
+    {
+      "序号": 314,
+      "NameA": "out p4",
+      "NameB": "Setting Desired Temperature",
+      "timing_ms": {
+        "graph_context_extraction": 0.06870000288472511,
+        "case_based_retrieval": 81.46690000285162,
+        "ontology_reasoning": 3020.5857000000833,
+        "llm_inference": 35998.07129999681,
+        "information_construction_overhead": 0.15129999883356504,
+        "online_total": 39100.35980000248
+      }
+    },
+    {
+      "序号": 315,
+      "NameA": "cp",
+      "NameB": "Human-Machine Interactions",
+      "timing_ms": {
+        "graph_context_extraction": 0.029099999665049836,
+        "case_based_retrieval": 80.92899999974179,
+        "ontology_reasoning": 2873.660099998233,
+        "llm_inference": 35947.10439999835,
+        "information_construction_overhead": 0.13839999883202836,
+        "online_total": 38901.872800001
+      }
+    },
+    {
+      "序号": 316,
+      "NameA": "heating",
+      "NameB": "Human-Machine Interactions",
+      "timing_ms": {
+        "graph_context_extraction": 0.027300000510877,
+        "case_based_retrieval": 84.64529999764636,
+        "ontology_reasoning": 2861.601000000519,
+        "llm_inference": 34422.08129999926,
+        "information_construction_overhead": 0.13220000255387276,
+        "online_total": 37368.4992999988
+      }
+    },
+    {
+      "序号": 317,
+      "NameA": "in p2",
+      "NameB": "Human-Machine Interactions",
+      "timing_ms": {
+        "graph_context_extraction": 0.026300000172341242,
+        "case_based_retrieval": 55.77909999919939,
+        "ontology_reasoning": 2880.33589999759,
+        "llm_inference": 38611.71159999867,
+        "information_construction_overhead": 0.12290000086068176,
+        "online_total": 41547.985200002586
+      }
+    },
+    {
+      "序号": 318,
+      "NameA": "in p3",
+      "NameB": "Human-Machine Interactions",
+      "timing_ms": {
+        "graph_context_extraction": 0.029099999665049836,
+        "case_based_retrieval": 74.4652000030328,
+        "ontology_reasoning": 2865.2073000012024,
+        "llm_inference": 38123.058900000615,
+        "information_construction_overhead": 0.13559999933931977,
+        "online_total": 41062.90850000005
+      }
+    },
+    {
+      "序号": 319,
+      "NameA": "out p5",
+      "NameB": "Human-Machine Interactions",
+      "timing_ms": {
+        "graph_context_extraction": 0.11210000229766592,
+        "case_based_retrieval": 57.6351000017894,
+        "ontology_reasoning": 2859.9241000010807,
+        "llm_inference": 40773.80919999996,
+        "information_construction_overhead": 0.11949999679927714,
+        "online_total": 43691.61460000032
+      }
+    },
+    {
+      "序号": 320,
+      "NameA": "Energy Consumption",
+      "NameB": "Getting Ambient Temperature",
+      "timing_ms": {
+        "graph_context_extraction": 0.03260000084992498,
+        "case_based_retrieval": 34.981799999513896,
+        "ontology_reasoning": 2921.710800001165,
+        "llm_inference": 40735.5392999998,
+        "information_construction_overhead": 0.11329999688314274,
+        "online_total": 43692.391399999906
+      }
+    },
+    {
+      "序号": 321,
+      "NameA": "heating",
+      "NameB": "Getting Ambient Temperature",
+      "timing_ms": {
+        "graph_context_extraction": 0.02840000161086209,
+        "case_based_retrieval": 52.61469999823021,
+        "ontology_reasoning": 2855.5903999986185,
+        "llm_inference": 35867.99070000052,
+        "information_construction_overhead": 0.12820000119972974,
+        "online_total": 38776.3621999984
+      }
+    },
+    {
+      "序号": 322,
+      "NameA": "in p1",
+      "NameB": "Getting Ambient Temperature",
+      "timing_ms": {
+        "graph_context_extraction": 0.030300001526484266,
+        "case_based_retrieval": 78.9660999980697,
+        "ontology_reasoning": 2866.418199999316,
+        "llm_inference": 35028.39200000017,
+        "information_construction_overhead": 0.130899999930989,
+        "online_total": 37973.94940000231
+      }
+    },
+    {
+      "序号": 323,
+      "NameA": "in p2",
+      "NameB": "Getting Ambient Temperature",
+      "timing_ms": {
+        "graph_context_extraction": 0.04819999958272092,
+        "case_based_retrieval": 65.06970000191359,
+        "ontology_reasoning": 2905.597499997384,
+        "llm_inference": 42073.550299999624,
+        "information_construction_overhead": 0.19239999892306514,
+        "online_total": 45044.47309999887
+      }
+    },
+    {
+      "序号": 324,
+      "NameA": "in p3",
+      "NameB": "Getting Ambient Temperature",
+      "timing_ms": {
+        "graph_context_extraction": 0.03360000118846074,
+        "case_based_retrieval": 60.979699999734294,
+        "ontology_reasoning": 2861.0531000012998,
+        "llm_inference": 35096.45730000193,
+        "information_construction_overhead": 0.1320000010309741,
+        "online_total": 38018.66869999867
+      }
+    },
+    {
+      "序号": 325,
+      "NameA": "out p5",
+      "NameB": "Getting Ambient Temperature",
+      "timing_ms": {
+        "graph_context_extraction": 0.02680000034160912,
+        "case_based_retrieval": 78.33060000120895,
+        "ontology_reasoning": 2920.034399998258,
+        "llm_inference": 40694.78040000104,
+        "information_construction_overhead": 0.12689999857684597,
+        "online_total": 43693.3097000001
+      }
+    },
+    {
+      "序号": 326,
+      "NameA": "out p6",
+      "NameB": "Getting Ambient Temperature",
+      "timing_ms": {
+        "graph_context_extraction": 0.04949999856762588,
+        "case_based_retrieval": 77.41080000050715,
+        "ontology_reasoning": 2962.0515999995405,
+        "llm_inference": 31917.654000000766,
+        "information_construction_overhead": 0.1314999972237274,
+        "online_total": 34957.30739999999
+      }
+    },
+    {
+      "序号": 327,
+      "NameA": "out p7",
+      "NameB": "Getting Ambient Temperature",
+      "timing_ms": {
+        "graph_context_extraction": 0.02849999873433262,
+        "case_based_retrieval": 124.71139999979641,
+        "ontology_reasoning": 3033.170800001244,
+        "llm_inference": 42272.14820000154,
+        "information_construction_overhead": 0.12860000060754828,
+        "online_total": 45430.19970000023
+      }
+    },
+    {
+      "序号": 328,
+      "NameA": "cooling",
+      "NameB": "Cabin Air",
+      "timing_ms": {
+        "graph_context_extraction": 0.02710000262595713,
+        "case_based_retrieval": 97.89110000201617,
+        "ontology_reasoning": 2959.795700000541,
+        "llm_inference": 53151.7860999993,
+        "information_construction_overhead": 0.19940000129281543,
+        "online_total": 56209.71269999791
+      }
+    },
+    {
+      "序号": 329,
+      "NameA": "cp",
+      "NameB": "Cabin Air",
+      "timing_ms": {
+        "graph_context_extraction": 0.05759999839938246,
+        "case_based_retrieval": 116.09619999944698,
+        "ontology_reasoning": 2864.8123999992094,
+        "llm_inference": 58070.58499999766,
+        "information_construction_overhead": 0.11619999713730067,
+        "online_total": 61051.67910000091
+      }
+    },
+    {
+      "序号": 330,
+      "NameA": "out p7",
+      "NameB": "Cabin Air",
+      "timing_ms": {
+        "graph_context_extraction": 0.031100000342121348,
+        "case_based_retrieval": 92.58609999960754,
+        "ontology_reasoning": 2858.824499999173,
+        "llm_inference": 40087.86780000082,
+        "information_construction_overhead": 0.15979999807314016,
+        "online_total": 43039.48180000225
+      }
+    },
+    {
+      "序号": 331,
+      "NameA": "Energy Consumption",
+      "NameB": "Heating ",
+      "timing_ms": {
+        "graph_context_extraction": 0.02600000152597204,
+        "case_based_retrieval": 19.75960000345367,
+        "ontology_reasoning": 2890.5520000007527,
+        "llm_inference": 36526.7872000004,
+        "information_construction_overhead": 0.11829999857582152,
+        "online_total": 39437.253500000224
+      }
+    },
+    {
+      "序号": 332,
+      "NameA": "Max Energy Consumption",
+      "NameB": "Heating ",
+      "timing_ms": {
+        "graph_context_extraction": 0.07120000009308569,
+        "case_based_retrieval": 31.316399999923306,
+        "ontology_reasoning": 2883.1592999995337,
+        "llm_inference": 40973.11400000035,
+        "information_construction_overhead": 0.11319999975967221,
+        "online_total": 43887.788300002285
+      }
+    },
+    {
+      "序号": 333,
+      "NameA": "in p2",
+      "NameB": "Heating ",
+      "timing_ms": {
+        "graph_context_extraction": 0.0718000010238029,
+        "case_based_retrieval": 69.38090000039665,
+        "ontology_reasoning": 2865.3120000017225,
+        "llm_inference": 52684.84119999994,
+        "information_construction_overhead": 0.12720000086119398,
+        "online_total": 55619.748099998105
+      }
+    },
+    {
+      "序号": 334,
+      "NameA": "out p4",
+      "NameB": "Heating ",
+      "timing_ms": {
+        "graph_context_extraction": 0.06740000026184134,
+        "case_based_retrieval": 73.70079999964219,
+        "ontology_reasoning": 2920.5078999984835,
+        "llm_inference": 86792.45869999795,
+        "information_construction_overhead": 0.13530000069295056,
+        "online_total": 89786.88469999906
+      }
+    },
+    {
+      "序号": 335,
+      "NameA": "out p5",
+      "NameB": "Heating ",
+      "timing_ms": {
+        "graph_context_extraction": 0.044699998397845775,
+        "case_based_retrieval": 62.946300000476185,
+        "ontology_reasoning": 2887.4619000016537,
+        "llm_inference": 44859.66509999707,
+        "information_construction_overhead": 0.1508999994257465,
+        "online_total": 47810.28419999711
+      }
+    },
+    {
+      "序号": 336,
+      "NameA": "out p6",
+      "NameB": "Heating ",
+      "timing_ms": {
+        "graph_context_extraction": 0.04510000144364312,
+        "case_based_retrieval": 73.93319999755477,
+        "ontology_reasoning": 2834.7864000024856,
+        "llm_inference": 63934.31490000148,
+        "information_construction_overhead": 0.1281000004382804,
+        "online_total": 66843.21940000154
+      }
+    },
+    {
+      "序号": 337,
+      "NameA": "cp",
+      "NameB": "Cooling",
+      "timing_ms": {
+        "graph_context_extraction": 0.02640000093379058,
+        "case_based_retrieval": 81.99010000316775,
+        "ontology_reasoning": 2875.6105000029493,
+        "llm_inference": 44950.91479999974,
+        "information_construction_overhead": 0.4576999999699183,
+        "online_total": 47909.01090000261
+      }
+    },
+    {
+      "序号": 338,
+      "NameA": "hmi",
+      "NameB": "Cooling",
+      "timing_ms": {
+        "graph_context_extraction": 0.029099999665049836,
+        "case_based_retrieval": 63.03069999921718,
+        "ontology_reasoning": 2883.2370999989507,
+        "llm_inference": 49163.47289999976,
+        "information_construction_overhead": 0.14150000060908496,
+        "online_total": 52109.921600000234
+      }
+    },
+    {
+      "序号": 339,
+      "NameA": "out p4",
+      "NameB": "Cooling",
+      "timing_ms": {
+        "graph_context_extraction": 0.04659999831346795,
+        "case_based_retrieval": 90.35750000111875,
+        "ontology_reasoning": 2916.6191999975126,
+        "llm_inference": 64480.000200001086,
+        "information_construction_overhead": 0.1267000006919261,
+        "online_total": 67487.16140000033
+      }
+    },
+    {
+      "序号": 340,
+      "NameA": "out p6",
+      "NameB": "Cooling",
+      "timing_ms": {
+        "graph_context_extraction": 0.03139999898849055,
+        "case_based_retrieval": 65.41060000017751,
+        "ontology_reasoning": 2873.0687999996007,
+        "llm_inference": 86104.49309999967,
+        "information_construction_overhead": 0.14139999984763563,
+        "online_total": 89043.15620000125
+      }
+    },
+    {
+      "序号": 341,
+      "NameA": "totalEnergyConsVCCS",
+      "NameB": "Central Processing",
+      "timing_ms": {
+        "graph_context_extraction": 0.03300000025774352,
+        "case_based_retrieval": 114.52149999968242,
+        "ontology_reasoning": 2931.549900000391,
+        "llm_inference": 39866.48419999983,
+        "information_construction_overhead": 0.11490000179037452,
+        "online_total": 42912.714699999924
+      }
+    },
+    {
+      "序号": 342,
+      "NameA": "cooling",
+      "NameB": "Central Processing",
+      "timing_ms": {
+        "graph_context_extraction": 0.08619999789516442,
+        "case_based_retrieval": 65.35770000118646,
+        "ontology_reasoning": 2826.942300001974,
+        "llm_inference": 46896.44920000137,
+        "information_construction_overhead": 0.13360000230022706,
+        "online_total": 49788.98499999923
+      }
+    },
+    {
+      "序号": 343,
+      "NameA": "cp",
+      "NameB": "Central Processing",
+      "timing_ms": {
+        "graph_context_extraction": 0.026999998226528987,
+        "case_based_retrieval": 79.0448000007018,
+        "ontology_reasoning": 2924.9429999981658,
+        "llm_inference": 42512.573600000906,
+        "information_construction_overhead": 0.13169999874662608,
+        "online_total": 45516.73070000106
+      }
+    },
+    {
+      "序号": 344,
+      "NameA": "heating",
+      "NameB": "Central Processing",
+      "timing_ms": {
+        "graph_context_extraction": 0.04809999882127158,
+        "case_based_retrieval": 61.23019999722601,
+        "ontology_reasoning": 2881.4588000022923,
+        "llm_inference": 48807.32910000006,
+        "information_construction_overhead": 0.15580000035697594,
+        "online_total": 51750.235400002566
+      }
+    },
+    {
+      "序号": 345,
+      "NameA": "in p3",
+      "NameB": "Central Processing",
+      "timing_ms": {
+        "graph_context_extraction": 0.0562999994144775,
+        "case_based_retrieval": 63.97409999772208,
+        "ontology_reasoning": 2914.7032000000763,
+        "llm_inference": 46306.80209999991,
+        "information_construction_overhead": 0.13519999993150122,
+        "online_total": 49285.684700000274
+      }
+    },
+    {
+      "序号": 346,
+      "NameA": "Energy Consumption",
+      "NameB": "Output Information Display",
+      "timing_ms": {
+        "graph_context_extraction": 0.028500002372311428,
+        "case_based_retrieval": 18.63740000044345,
+        "ontology_reasoning": 2884.7758999982034,
+        "llm_inference": 32657.04259999984,
+        "information_construction_overhead": 0.12169999899924733,
+        "online_total": 35560.617099999945
+      }
+    },
+    {
+      "序号": 347,
+      "NameA": "in p2",
+      "NameB": "Output Information Display",
+      "timing_ms": {
+        "graph_context_extraction": 0.028600003133760765,
+        "case_based_retrieval": 63.02010000217706,
+        "ontology_reasoning": 2844.895900001575,
+        "llm_inference": 44960.79830000235,
+        "information_construction_overhead": 0.1453000004403293,
+        "online_total": 47868.897799999104
+      }
+    },
+    {
+      "序号": 348,
+      "NameA": "out p5",
+      "NameB": "Output Information Display",
+      "timing_ms": {
+        "graph_context_extraction": 0.07490000280085951,
+        "case_based_retrieval": 77.68320000104723,
+        "ontology_reasoning": 2936.2557000022207,
+        "llm_inference": 45758.256700002676,
+        "information_construction_overhead": 0.13279999984661117,
+        "online_total": 48772.41649999996
+      }
+    },
+    {
+      "序号": 349,
+      "NameA": "out p7",
+      "NameB": "Output Information Display",
+      "timing_ms": {
+        "graph_context_extraction": 0.06439999924623407,
+        "case_based_retrieval": 81.76370000001043,
+        "ontology_reasoning": 2882.4997000010626,
+        "llm_inference": 42239.05179999929,
+        "information_construction_overhead": 0.13760000001639128,
+        "online_total": 45203.5298999981
+      }
+    },
+    {
+      "序号": 350,
+      "NameA": "Energy Consumption",
+      "NameB": "Max Energy Consumption",
+      "timing_ms": {
+        "graph_context_extraction": 0.030400002287933603,
+        "case_based_retrieval": 18.065299998852424,
+        "ontology_reasoning": 2843.560000001162,
+        "llm_inference": 49552.27819999709,
+        "information_construction_overhead": 0.12559999959194101,
+        "online_total": 52414.0722000011
+      }
+    },
+    {
+      "序号": 351,
+      "NameA": "cooling",
+      "NameB": "Max Energy Consumption",
+      "timing_ms": {
+        "graph_context_extraction": 0.027500002033775672,
+        "case_based_retrieval": 47.04359999959706,
+        "ontology_reasoning": 2916.5518000008888,
+        "llm_inference": 48630.319200001395,
+        "information_construction_overhead": 0.1278000017919112,
+        "online_total": 51594.080300001224
+      }
+    },
+    {
+      "序号": 352,
+      "NameA": "in p3",
+      "NameB": "Max Energy Consumption",
+      "timing_ms": {
+        "graph_context_extraction": 0.07650000043213367,
+        "case_based_retrieval": 63.54990000181715,
+        "ontology_reasoning": 2912.408399999549,
+        "llm_inference": 56879.45169999875,
+        "information_construction_overhead": 0.12929999866173603,
+        "online_total": 59855.6301000026
+      }
+    },
+    {
+      "序号": 353,
+      "NameA": "Max Energy Consumption",
+      "NameB": "Hot Air Removal form VCCS",
+      "timing_ms": {
+        "graph_context_extraction": 0.02970000059576705,
+        "case_based_retrieval": 29.524199999286793,
+        "ontology_reasoning": 2898.7167999985104,
+        "llm_inference": 48388.32159999947,
+        "information_construction_overhead": 0.19149999934597872,
+        "online_total": 51316.79740000254
+      }
+    },
+    {
+      "序号": 354,
+      "NameA": "in p1",
+      "NameB": "Hot Air Removal form VCCS",
+      "timing_ms": {
+        "graph_context_extraction": 0.027400001272326335,
+        "case_based_retrieval": 82.49059999798192,
+        "ontology_reasoning": 2842.942499999481,
+        "llm_inference": 38630.34569999945,
+        "information_construction_overhead": 0.14870000086375512,
+        "online_total": 41555.96340000193
+      }
+    },
+    {
+      "序号": 355,
+      "NameA": "Energy Consumption",
+      "NameB": "Waste Removal VCCS",
+      "timing_ms": {
+        "graph_context_extraction": 0.029900002118665725,
+        "case_based_retrieval": 36.29670000009355,
+        "ontology_reasoning": 2897.3155000021507,
+        "llm_inference": 37477.556599998934,
+        "information_construction_overhead": 0.22899999748915434,
+        "online_total": 40411.440899999434
+      }
+    },
+    {
+      "序号": 356,
+      "NameA": "Max Energy Consumption",
+      "NameB": "Waste Removal VCCS",
+      "timing_ms": {
+        "graph_context_extraction": 0.05089999831398018,
+        "case_based_retrieval": 26.010099998529768,
+        "ontology_reasoning": 2948.7301999979536,
+        "llm_inference": 35243.33260000276,
+        "information_construction_overhead": 0.11589999849093147,
+        "online_total": 38218.25329999774
+      }
+    },
+    {
+      "序号": 357,
+      "NameA": "totalEnergyConsVCCS",
+      "NameB": "Waste Removal VCCS",
+      "timing_ms": {
+        "graph_context_extraction": 0.04930000068270601,
+        "case_based_retrieval": 106.75420000188751,
+        "ontology_reasoning": 2907.8867999996874,
+        "llm_inference": 34633.339400003024,
+        "information_construction_overhead": 0.11960000119870529,
+        "online_total": 37648.17479999692
+      }
+    },
+    {
+      "序号": 358,
+      "NameA": "cp",
+      "NameB": "Waste Removal VCCS",
+      "timing_ms": {
+        "graph_context_extraction": 0.0718000010238029,
+        "case_based_retrieval": 65.2382000007492,
+        "ontology_reasoning": 2832.0202000031713,
+        "llm_inference": 41734.363600000506,
+        "information_construction_overhead": 0.10900000052060932,
+        "online_total": 44631.817699999374
+      }
+    },
+    {
+      "序号": 359,
+      "NameA": "in p2",
+      "NameB": "Waste Removal VCCS",
+      "timing_ms": {
+        "graph_context_extraction": 0.02710000262595713,
+        "case_based_retrieval": 63.807400001678616,
+        "ontology_reasoning": 2863.5267999998177,
+        "llm_inference": 38632.395700002235,
+        "information_construction_overhead": 0.12880000213044696,
+        "online_total": 41559.895999998844
+      }
+    }
+  ]
+}

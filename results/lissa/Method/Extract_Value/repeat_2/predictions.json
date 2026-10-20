@@ -1,0 +1,2522 @@
+[
+  {
+    "source_id": "B|Functional_Requirement|[01 Conceptual Model::User Needs::Charging]|Regenerative braking",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Brake]|ACC Brake",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Functional_Requirement|[01 Conceptual Model::User Needs::Charging]|Regenerative braking",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Brake]|Brake",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "Refine",
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Functional_Requirement|[01 Conceptual Model::User Needs::Charging]|Regenerative braking",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Brake]|Detect presence and speed of vehicles",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Functional_Requirement|[01 Conceptual Model::User Needs::Charging]|Regenerative braking",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Brake]|Pre-charge brake for more aggressive braking",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Functional_Requirement|[01 Conceptual Model::User Needs::Charging]|Regenerative braking",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Magic Hybrid Vehicle::Charge vehicle]|Charge the vehicle",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Functional_Requirement|[01 Conceptual Model::User Needs::Charging]|Regenerative braking",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Magic Hybrid Vehicle::Charge vehicle]|Indicate charging end",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Functional_Requirement|[01 Conceptual Model::User Needs::Charging]|Regenerative braking",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Magic Hybrid Vehicle::Charge vehicle]|Provide dedicated power",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Functional_Requirement|[01 Conceptual Model::User Needs::Charging]|Regenerative braking",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Magic Hybrid Vehicle::Charge vehicle]|Provide rapid power",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Functional_Requirement|[01 Conceptual Model::User Needs::Charging]|Regenerative braking",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Magic Hybrid Vehicle::Charge vehicle]|Provide standard power",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Functional_Requirement|[01 Conceptual Model::User Needs::Charging]|Regenerative braking",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Magic Hybrid Vehicle::Drive vehicle]|Provide Power",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Functional_Requirement|[01 Conceptual Model::User Needs]|Acceleration",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Accelerate]|Provide electric engine power",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Functional_Requirement|[01 Conceptual Model::User Needs]|Acceleration",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Accelerate]|Provide power from electric and gasoline engines",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Functional_Requirement|[01 Conceptual Model::User Needs]|Acceleration",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Brake]|ACC Brake",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Functional_Requirement|[01 Conceptual Model::User Needs]|Acceleration",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Brake]|Brake",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Functional_Requirement|[01 Conceptual Model::User Needs]|Acceleration",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Brake]|Detect presence and speed of vehicles",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Functional_Requirement|[01 Conceptual Model::User Needs]|Acceleration",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Magic Hybrid Vehicle::Charge vehicle]|Provide dedicated power",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Functional_Requirement|[01 Conceptual Model::User Needs]|Acceleration",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Magic Hybrid Vehicle::Drive vehicle]|Provide Power",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": true,
+    "gold_label": "Refine",
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Functional_Requirement|[01 Conceptual Model::User Needs]|Acceleration",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Magic Hybrid Vehicle::Drive vehicle]|Push Accelerator",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Functional_Requirement|[01 Conceptual Model::User Needs]|Acceleration",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Magic Hybrid Vehicle::Drive vehicle]|Push Brake Pedal",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Functional_Requirement|[01 Conceptual Model::User Needs]|Acceleration",
+    "target_id": "A|Value_property|[03 Physical Model::System Structure::Power Subsystem]|acceleration",
+    "exists": true,
+    "relation_type": "Refine",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Functional_Requirement|[01 Conceptual Model::User Needs]|Braking",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Brake]|ACC Brake",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Functional_Requirement|[01 Conceptual Model::User Needs]|Braking",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Brake]|Brake",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": true,
+    "gold_label": "Refine",
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Functional_Requirement|[01 Conceptual Model::User Needs]|Braking",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Brake]|Detect presence and speed of vehicles",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": true,
+    "gold_label": "Refine",
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Functional_Requirement|[01 Conceptual Model::User Needs]|Braking",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Magic Hybrid Vehicle::Charge vehicle]|Charge the vehicle",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Functional_Requirement|[01 Conceptual Model::User Needs]|Braking",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Magic Hybrid Vehicle::Drive vehicle]|Provide Power",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Functional_Requirement|[01 Conceptual Model::User Needs]|Braking",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Magic Hybrid Vehicle::Drive vehicle]|Push Accelerator",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Functional_Requirement|[01 Conceptual Model::User Needs]|Braking",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Magic Hybrid Vehicle::Drive vehicle]|Push Brake Pedal",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Functional_Requirement|[01 Conceptual Model::User Needs]|Braking",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Magic Hybrid Vehicle::Start vehicle]|Push brake pedal.",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Functional_Requirement|[01 Conceptual Model::User Needs]|Braking",
+    "target_id": "A|Block|[03 Physical Model::System Structure]|Brake Subsystem",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Functional_Requirement|[01 Conceptual Model::User Needs]|Braking",
+    "target_id": "A|Value_property|[03 Physical Model::System Structure::Brake Subsystem]|stoppingDistance",
+    "exists": true,
+    "relation_type": "Refine",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Functional_Requirement|[03 Physical Model::System Requirements]|Adaptive Cruise Control",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Accelerate]|Provide electric engine power",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Functional_Requirement|[03 Physical Model::System Requirements]|Adaptive Cruise Control",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Accelerate]|Provide power from electric and gasoline engines",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Functional_Requirement|[03 Physical Model::System Requirements]|Adaptive Cruise Control",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Brake]|ACC Brake",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Functional_Requirement|[03 Physical Model::System Requirements]|Adaptive Cruise Control",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Brake]|Brake",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Functional_Requirement|[03 Physical Model::System Requirements]|Adaptive Cruise Control",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Brake]|Detect presence and speed of vehicles",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Functional_Requirement|[03 Physical Model::System Requirements]|Adaptive Cruise Control",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Magic Hybrid Vehicle::Drive vehicle]|Push Accelerator",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Functional_Requirement|[03 Physical Model::System Requirements]|Adaptive Cruise Control",
+    "target_id": "A|Block|[03 Physical Model::System Structure]|Dashboard",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Functional_Requirement|[03 Physical Model::System Requirements]|Adaptive Cruise Control",
+    "target_id": "A|Part_property|[03 Physical Model::System Structure::Cruise Control Computer]|PID control system",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": true,
+    "gold_label": "Satisfy",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Functional_Requirement|[03 Physical Model::System Requirements]|Adaptive Cruise Control",
+    "target_id": "A|Value_property|[03 Physical Model::System Structure::Power Subsystem]|acceleration",
+    "exists": true,
+    "relation_type": "Refine",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Functional_Requirement|[03 Physical Model::System Requirements]|Adaptive Cruise Control",
+    "target_id": "A|Value_property|[03 Physical Model::System Structure::Power Subsystem]|maxSpeed",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Interaction_Requirement|[01 Conceptual Model::User Needs]|Car dashboard ergonomics",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Accelerate]|Provide electric engine power",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Interaction_Requirement|[01 Conceptual Model::User Needs]|Car dashboard ergonomics",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Brake]|ACC Brake",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Interaction_Requirement|[01 Conceptual Model::User Needs]|Car dashboard ergonomics",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Brake]|Brake",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Interaction_Requirement|[01 Conceptual Model::User Needs]|Car dashboard ergonomics",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Brake]|Detect presence and speed of vehicles",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Interaction_Requirement|[01 Conceptual Model::User Needs]|Car dashboard ergonomics",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Magic Hybrid Vehicle::Drive vehicle]|Provide Power",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Interaction_Requirement|[01 Conceptual Model::User Needs]|Car dashboard ergonomics",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Magic Hybrid Vehicle::Drive vehicle]|Push Accelerator",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Interaction_Requirement|[01 Conceptual Model::User Needs]|Car dashboard ergonomics",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Magic Hybrid Vehicle::Start vehicle]|Push brake pedal.",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Interaction_Requirement|[01 Conceptual Model::User Needs]|Car dashboard ergonomics",
+    "target_id": "A|Block|[03 Physical Model::System Structure]|Dashboard",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Interaction_Requirement|[01 Conceptual Model::User Needs]|Car dashboard ergonomics",
+    "target_id": "A|Block|[03 Physical Model::System Structure]|Interior",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Interaction_Requirement|[01 Conceptual Model::User Needs]|Car dashboard ergonomics",
+    "target_id": "A|Part_property|[03 Physical Model::System Structure::Interior]|Dashboard",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Interaction_Requirement|[01 Conceptual Model::User Needs]|Cruise control",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Accelerate]|Provide electric engine power",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Interaction_Requirement|[01 Conceptual Model::User Needs]|Cruise control",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Brake]|ACC Brake",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Interaction_Requirement|[01 Conceptual Model::User Needs]|Cruise control",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Brake]|Brake",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Interaction_Requirement|[01 Conceptual Model::User Needs]|Cruise control",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Brake]|Detect presence and speed of vehicles",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Interaction_Requirement|[01 Conceptual Model::User Needs]|Cruise control",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Magic Hybrid Vehicle::Drive vehicle]|Provide Power",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Interaction_Requirement|[01 Conceptual Model::User Needs]|Cruise control",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Magic Hybrid Vehicle::Drive vehicle]|Push Accelerator",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Interaction_Requirement|[01 Conceptual Model::User Needs]|Cruise control",
+    "target_id": "A|Block|[03 Physical Model::System Structure]|Dashboard",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": true,
+    "gold_label": "Satisfy",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Interaction_Requirement|[01 Conceptual Model::User Needs]|Cruise control",
+    "target_id": "A|Part_property|[03 Physical Model::System Structure::Cruise Control Computer]|PID control system",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Interaction_Requirement|[01 Conceptual Model::User Needs]|Cruise control",
+    "target_id": "A|Value_property|[03 Physical Model::System Structure::Power Subsystem]|acceleration",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Interaction_Requirement|[01 Conceptual Model::User Needs]|Cruise control",
+    "target_id": "A|Value_property|[03 Physical Model::System Structure::Power Subsystem]|maxSpeed",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Interaction_Requirement|[01 Conceptual Model::User Needs]|Power source management",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Accelerate]|Provide electric engine power",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "Refine",
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Interaction_Requirement|[01 Conceptual Model::User Needs]|Power source management",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Accelerate]|Provide power from electric and gasoline engines",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Interaction_Requirement|[01 Conceptual Model::User Needs]|Power source management",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Brake]|ACC Brake",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Interaction_Requirement|[01 Conceptual Model::User Needs]|Power source management",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Magic Hybrid Vehicle::Charge vehicle]|Disconnect from electricity",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Interaction_Requirement|[01 Conceptual Model::User Needs]|Power source management",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Magic Hybrid Vehicle::Charge vehicle]|Plug-in vehicle to electricity",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Interaction_Requirement|[01 Conceptual Model::User Needs]|Power source management",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Magic Hybrid Vehicle::Charge vehicle]|Provide dedicated power",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Interaction_Requirement|[01 Conceptual Model::User Needs]|Power source management",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Magic Hybrid Vehicle::Charge vehicle]|Provide rapid power",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Interaction_Requirement|[01 Conceptual Model::User Needs]|Power source management",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Magic Hybrid Vehicle::Charge vehicle]|Provide standard power",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Interaction_Requirement|[01 Conceptual Model::User Needs]|Power source management",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Magic Hybrid Vehicle::Charge vehicle]|Select charging mode",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Interaction_Requirement|[01 Conceptual Model::User Needs]|Power source management",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Magic Hybrid Vehicle::Drive vehicle]|Provide Power",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Interface_Requirement|[01 Conceptual Model::User Needs::Charging]|Plug-In charge",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Accelerate]|Provide electric engine power",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Interface_Requirement|[01 Conceptual Model::User Needs::Charging]|Plug-In charge",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Magic Hybrid Vehicle::Charge vehicle]|Charge the vehicle",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": true,
+    "gold_label": "Refine",
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Interface_Requirement|[01 Conceptual Model::User Needs::Charging]|Plug-In charge",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Magic Hybrid Vehicle::Charge vehicle]|Disconnect from electricity",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Interface_Requirement|[01 Conceptual Model::User Needs::Charging]|Plug-In charge",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Magic Hybrid Vehicle::Charge vehicle]|Indicate charging end",
+    "exists": true,
+    "relation_type": "Refine",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Interface_Requirement|[01 Conceptual Model::User Needs::Charging]|Plug-In charge",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Magic Hybrid Vehicle::Charge vehicle]|Plug-in vehicle to electricity",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Interface_Requirement|[01 Conceptual Model::User Needs::Charging]|Plug-In charge",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Magic Hybrid Vehicle::Charge vehicle]|Provide dedicated power",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": true,
+    "gold_label": "Refine",
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Interface_Requirement|[01 Conceptual Model::User Needs::Charging]|Plug-In charge",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Magic Hybrid Vehicle::Charge vehicle]|Provide rapid power",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Interface_Requirement|[01 Conceptual Model::User Needs::Charging]|Plug-In charge",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Magic Hybrid Vehicle::Charge vehicle]|Provide standard power",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Interface_Requirement|[01 Conceptual Model::User Needs::Charging]|Plug-In charge",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Magic Hybrid Vehicle::Charge vehicle]|Select charging mode",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": true,
+    "gold_label": "Refine",
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Interface_Requirement|[01 Conceptual Model::User Needs::Charging]|Plug-In charge",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Magic Hybrid Vehicle::Drive vehicle]|Provide Power",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Physical_Requirement|[01 Conceptual Model::User Needs::Capacity]|Cargo capacity",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Brake]|Detect presence and speed of vehicles",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Physical_Requirement|[01 Conceptual Model::User Needs::Capacity]|Cargo capacity",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Magic Hybrid Vehicle::Charge vehicle]|Provide dedicated power",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[01 Conceptual Model::User Needs::Capacity]|Cargo capacity",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Magic Hybrid Vehicle::Drive vehicle]|Provide Power",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[01 Conceptual Model::User Needs::Capacity]|Cargo capacity",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Magic Hybrid Vehicle::Drive vehicle]|Push Accelerator",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[01 Conceptual Model::User Needs::Capacity]|Cargo capacity",
+    "target_id": "A|Block|[03 Physical Model::System Structure]|Dashboard",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[01 Conceptual Model::User Needs::Capacity]|Cargo capacity",
+    "target_id": "A|Block|[03 Physical Model::System Structure]|Interior",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": true,
+    "gold_label": "Satisfy",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Physical_Requirement|[01 Conceptual Model::User Needs::Capacity]|Cargo capacity",
+    "target_id": "A|Part_property|[03 Physical Model::System Structure::Interior]|Dashboard",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Physical_Requirement|[01 Conceptual Model::User Needs::Capacity]|Cargo capacity",
+    "target_id": "A|Value_property|[03 Physical Model::System Structure::Body]|cargoCapacity",
+    "exists": true,
+    "relation_type": "Refine",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[01 Conceptual Model::User Needs::Capacity]|Cargo capacity",
+    "target_id": "A|Value_property|[03 Physical Model::System Structure::Fuel Tank Assembly]|consumption",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[01 Conceptual Model::User Needs::Capacity]|Cargo capacity",
+    "target_id": "A|Value_property|[03 Physical Model::System Structure::Fuel Tank Assembly]|distanceOnGasolineMode",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Physical_Requirement|[01 Conceptual Model::User Needs::Capacity]|Passenger capacity",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Brake]|Brake",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Physical_Requirement|[01 Conceptual Model::User Needs::Capacity]|Passenger capacity",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Brake]|Detect presence and speed of vehicles",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Physical_Requirement|[01 Conceptual Model::User Needs::Capacity]|Passenger capacity",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Magic Hybrid Vehicle::Charge vehicle]|Charge to full in 5 hours",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Physical_Requirement|[01 Conceptual Model::User Needs::Capacity]|Passenger capacity",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Magic Hybrid Vehicle::Charge vehicle]|Provide dedicated power",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[01 Conceptual Model::User Needs::Capacity]|Passenger capacity",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Magic Hybrid Vehicle::Drive vehicle]|Provide Power",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[01 Conceptual Model::User Needs::Capacity]|Passenger capacity",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Magic Hybrid Vehicle::Drive vehicle]|Push Accelerator",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[01 Conceptual Model::User Needs::Capacity]|Passenger capacity",
+    "target_id": "A|Block|[03 Physical Model::System Structure]|Dashboard",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[01 Conceptual Model::User Needs::Capacity]|Passenger capacity",
+    "target_id": "A|Block|[03 Physical Model::System Structure]|Interior",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[01 Conceptual Model::User Needs::Capacity]|Passenger capacity",
+    "target_id": "A|Value_property|[03 Physical Model::System Structure::Body]|cargoCapacity",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Physical_Requirement|[01 Conceptual Model::User Needs::Capacity]|Passenger capacity",
+    "target_id": "A|Value_property|[03 Physical Model::System Structure::Fuel Tank Assembly]|consumption",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[01 Conceptual Model::User Needs]|Environmentally friendly",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Accelerate]|Provide electric engine power",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": true,
+    "gold_label": "Refine",
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[01 Conceptual Model::User Needs]|Environmentally friendly",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Accelerate]|Provide power from electric and gasoline engines",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": true,
+    "gold_label": "Refine",
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[01 Conceptual Model::User Needs]|Environmentally friendly",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Magic Hybrid Vehicle::Charge vehicle]|Charge the vehicle",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[01 Conceptual Model::User Needs]|Environmentally friendly",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Magic Hybrid Vehicle::Charge vehicle]|Plug-in vehicle to electricity",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[01 Conceptual Model::User Needs]|Environmentally friendly",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Magic Hybrid Vehicle::Charge vehicle]|Provide dedicated power",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[01 Conceptual Model::User Needs]|Environmentally friendly",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Magic Hybrid Vehicle::Charge vehicle]|Provide standard power",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[01 Conceptual Model::User Needs]|Environmentally friendly",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Magic Hybrid Vehicle::Drive vehicle]|Provide Power",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[01 Conceptual Model::User Needs]|Environmentally friendly",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Magic Hybrid Vehicle::Drive vehicle]|Push Accelerator",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[01 Conceptual Model::User Needs]|Environmentally friendly",
+    "target_id": "A|Value_property|[03 Physical Model::System Structure::Fuel Tank Assembly]|consumption",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[01 Conceptual Model::User Needs]|Environmentally friendly",
+    "target_id": "A|Value_property|[03 Physical Model::System Structure::Fuel Tank Assembly]|distanceOnGasolineMode",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Physical_Requirement|[01 Conceptual Model::User Needs]|Range",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Accelerate]|Provide electric engine power",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[01 Conceptual Model::User Needs]|Range",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Brake]|Brake",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[01 Conceptual Model::User Needs]|Range",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Magic Hybrid Vehicle::Drive vehicle]|Provide Power",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[01 Conceptual Model::User Needs]|Range",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Magic Hybrid Vehicle::Drive vehicle]|Push Accelerator",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[01 Conceptual Model::User Needs]|Range",
+    "target_id": "A|Value_property|[03 Physical Model::System Structure::Body]|cargoCapacity",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[01 Conceptual Model::User Needs]|Range",
+    "target_id": "A|Value_property|[03 Physical Model::System Structure::Brake Subsystem]|stoppingDistance",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[01 Conceptual Model::User Needs]|Range",
+    "target_id": "A|Value_property|[03 Physical Model::System Structure::Fuel Tank Assembly]|distanceOnGasolineMode",
+    "exists": true,
+    "relation_type": "Refine",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[01 Conceptual Model::User Needs]|Range",
+    "target_id": "A|Value_property|[03 Physical Model::System Structure::High-voltage Battery]|distanceOnFullCharge",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[01 Conceptual Model::User Needs]|Range",
+    "target_id": "A|Value_property|[03 Physical Model::System Structure::High-voltage Battery]|distanceOnQuickCharge",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[01 Conceptual Model::User Needs]|Range",
+    "target_id": "A|Value_property|[03 Physical Model::System Structure::Power Subsystem]|maxSpeed",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[01 Conceptual Model::User Needs]|Safety",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Brake]|ACC Brake",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[01 Conceptual Model::User Needs]|Safety",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Brake]|Brake",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[01 Conceptual Model::User Needs]|Safety",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Brake]|Detect presence and speed of vehicles",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[01 Conceptual Model::User Needs]|Safety",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Magic Hybrid Vehicle::Drive vehicle]|Provide Power",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[01 Conceptual Model::User Needs]|Safety",
+    "target_id": "A|Block|[03 Physical Model::System Structure]|Interior",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[01 Conceptual Model::User Needs]|Safety",
+    "target_id": "A|Value_property|[03 Physical Model::System Structure::Body]|cargoCapacity",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[01 Conceptual Model::User Needs]|Safety",
+    "target_id": "A|Value_property|[03 Physical Model::System Structure::Brake Subsystem]|stoppingDistance",
+    "exists": true,
+    "relation_type": "Refine",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[01 Conceptual Model::User Needs]|Safety",
+    "target_id": "A|Value_property|[03 Physical Model::System Structure::Fuel Tank Assembly]|consumption",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[01 Conceptual Model::User Needs]|Safety",
+    "target_id": "A|Value_property|[03 Physical Model::System Structure::Fuel Tank Assembly]|distanceOnGasolineMode",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Physical_Requirement|[01 Conceptual Model::User Needs]|Safety",
+    "target_id": "A|Value_property|[03 Physical Model::System Structure::Power Subsystem]|maxSpeed",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements::Braking safety requirements]|Friction Brake Heating",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Brake]|ACC Brake",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements::Braking safety requirements]|Friction Brake Heating",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Brake]|Brake",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements::Braking safety requirements]|Friction Brake Heating",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Magic Hybrid Vehicle::Drive vehicle]|Push Brake Pedal",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements::Braking safety requirements]|Friction Brake Heating",
+    "target_id": "A|Block|[03 Physical Model::System Structure]|Brake Subsystem",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements::Braking safety requirements]|Friction Brake Heating",
+    "target_id": "A|Block|[03 Physical Model::System Structure]|Electric Motor",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements::Braking safety requirements]|Friction Brake Heating",
+    "target_id": "A|Value_property|[03 Physical Model::System Structure::Brake Subsystem]|frictionBrakeHeating",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements::Braking safety requirements]|Friction Brake Heating",
+    "target_id": "A|Value_property|[03 Physical Model::System Structure::Brake Subsystem]|stoppingDistance",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements::Braking safety requirements]|Friction Brake Heating",
+    "target_id": "A|Value_property|[03 Physical Model::System Structure::Electric Motor]|power",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements::Braking safety requirements]|Friction Brake Heating",
+    "target_id": "A|Value_property|[03 Physical Model::System Structure::Power Subsystem]|acceleration",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements::Braking safety requirements]|Friction Brake Heating",
+    "target_id": "A|Value_property|[03 Physical Model::System Structure::Power Subsystem]|maxSpeed",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements::Braking safety requirements]|Stopping Distance",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Brake]|Brake",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements::Braking safety requirements]|Stopping Distance",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Brake]|Detect presence and speed of vehicles",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements::Braking safety requirements]|Stopping Distance",
+    "target_id": "A|Block|[03 Physical Model::System Structure]|Brake Subsystem",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements::Braking safety requirements]|Stopping Distance",
+    "target_id": "A|Value_property|[03 Physical Model::System Structure::Brake Subsystem]|frictionBrakeHeating",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements::Braking safety requirements]|Stopping Distance",
+    "target_id": "A|Value_property|[03 Physical Model::System Structure::Brake Subsystem]|stoppingDistance",
+    "exists": true,
+    "relation_type": "Refine",
+    "in_labeled_csv": true,
+    "gold_label": "Satisfy",
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements::Braking safety requirements]|Stopping Distance",
+    "target_id": "A|Value_property|[03 Physical Model::System Structure::Fuel Tank Assembly]|distanceOnGasolineMode",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements::Braking safety requirements]|Stopping Distance",
+    "target_id": "A|Value_property|[03 Physical Model::System Structure::High-voltage Battery]|distanceOnFullCharge",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements::Braking safety requirements]|Stopping Distance",
+    "target_id": "A|Value_property|[03 Physical Model::System Structure::High-voltage Battery]|distanceOnQuickCharge",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements::Braking safety requirements]|Stopping Distance",
+    "target_id": "A|Value_property|[03 Physical Model::System Structure::Power Subsystem]|acceleration",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements::Braking safety requirements]|Stopping Distance",
+    "target_id": "A|Value_property|[03 Physical Model::System Structure::Power Subsystem]|maxSpeed",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements::Distance]|Full charge mode distance",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Magic Hybrid Vehicle::Charge vehicle]|Charge the vehicle",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements::Distance]|Full charge mode distance",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Magic Hybrid Vehicle::Charge vehicle]|Charge to 80%25 in 30 mins",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements::Distance]|Full charge mode distance",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Magic Hybrid Vehicle::Charge vehicle]|Charge to full in 3.5 hours",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements::Distance]|Full charge mode distance",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Magic Hybrid Vehicle::Charge vehicle]|Indicate charging end",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements::Distance]|Full charge mode distance",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Magic Hybrid Vehicle::Charge vehicle]|Provide dedicated power",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements::Distance]|Full charge mode distance",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Magic Hybrid Vehicle::Charge vehicle]|Provide rapid power",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements::Distance]|Full charge mode distance",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Magic Hybrid Vehicle::Charge vehicle]|Provide standard power",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements::Distance]|Full charge mode distance",
+    "target_id": "A|Value_property|[03 Physical Model::System Structure::High-voltage Battery]|distanceOnFullCharge",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements::Distance]|Full charge mode distance",
+    "target_id": "A|Value_property|[03 Physical Model::System Structure::High-voltage Battery]|distanceOnQuickCharge",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements::Distance]|Full charge mode distance",
+    "target_id": "A|Value_property|[03 Physical Model::System Structure::High-voltage Battery]|fullChargeTime",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements::Distance]|Hybrid mode distance",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Magic Hybrid Vehicle::Charge vehicle]|Provide dedicated power",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements::Distance]|Hybrid mode distance",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Magic Hybrid Vehicle::Drive vehicle]|Provide Power",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements::Distance]|Hybrid mode distance",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Magic Hybrid Vehicle::Drive vehicle]|Push Accelerator",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements::Distance]|Hybrid mode distance",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Magic Hybrid Vehicle::Drive vehicle]|Push Brake Pedal",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements::Distance]|Hybrid mode distance",
+    "target_id": "A|Block|[03 Physical Model::System Structure]|Dashboard",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements::Distance]|Hybrid mode distance",
+    "target_id": "A|Value_property|[03 Physical Model::System Structure::Brake Subsystem]|stoppingDistance",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements::Distance]|Hybrid mode distance",
+    "target_id": "A|Value_property|[03 Physical Model::System Structure::Fuel Tank Assembly]|distanceOnGasolineMode",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements::Distance]|Hybrid mode distance",
+    "target_id": "A|Value_property|[03 Physical Model::System Structure::High-voltage Battery]|distanceOnFullCharge",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements::Distance]|Hybrid mode distance",
+    "target_id": "A|Value_property|[03 Physical Model::System Structure::High-voltage Battery]|distanceOnQuickCharge",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements::Distance]|Hybrid mode distance",
+    "target_id": "A|Value_property|[03 Physical Model::System Structure::Power Subsystem]|maxSpeed",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements::Distance]|Quick charge mode distance",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Magic Hybrid Vehicle::Charge vehicle]|Charge the vehicle",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements::Distance]|Quick charge mode distance",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Magic Hybrid Vehicle::Charge vehicle]|Charge to 80%25 in 30 mins",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements::Distance]|Quick charge mode distance",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Magic Hybrid Vehicle::Charge vehicle]|Charge to full in 3.5 hours",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements::Distance]|Quick charge mode distance",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Magic Hybrid Vehicle::Charge vehicle]|Provide dedicated power",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements::Distance]|Quick charge mode distance",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Magic Hybrid Vehicle::Charge vehicle]|Provide rapid power",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements::Distance]|Quick charge mode distance",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Magic Hybrid Vehicle::Charge vehicle]|Provide standard power",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements::Distance]|Quick charge mode distance",
+    "target_id": "A|Value_property|[03 Physical Model::System Structure::High-voltage Battery]|distanceOnFullCharge",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements::Distance]|Quick charge mode distance",
+    "target_id": "A|Value_property|[03 Physical Model::System Structure::High-voltage Battery]|distanceOnQuickCharge",
+    "exists": true,
+    "relation_type": "Refine",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements::Distance]|Quick charge mode distance",
+    "target_id": "A|Value_property|[03 Physical Model::System Structure::High-voltage Battery]|fullChargeTime",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements::Distance]|Quick charge mode distance",
+    "target_id": "A|Value_property|[03 Physical Model::System Structure::High-voltage Battery]|quickChargeTime",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements::Time]|Full charge mode time",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Magic Hybrid Vehicle::Charge vehicle]|Charge the vehicle",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements::Time]|Full charge mode time",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Magic Hybrid Vehicle::Charge vehicle]|Charge to 80%25 in 30 mins",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements::Time]|Full charge mode time",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Magic Hybrid Vehicle::Charge vehicle]|Charge to full in 3.5 hours",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements::Time]|Full charge mode time",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Magic Hybrid Vehicle::Charge vehicle]|Charge to full in 5 hours",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements::Time]|Full charge mode time",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Magic Hybrid Vehicle::Charge vehicle]|Indicate charging end",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements::Time]|Full charge mode time",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Magic Hybrid Vehicle::Charge vehicle]|Provide rapid power",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements::Time]|Full charge mode time",
+    "target_id": "A|Value_property|[03 Physical Model::System Structure::High-voltage Battery]|distanceOnFullCharge",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements::Time]|Full charge mode time",
+    "target_id": "A|Value_property|[03 Physical Model::System Structure::High-voltage Battery]|distanceOnQuickCharge",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements::Time]|Full charge mode time",
+    "target_id": "A|Value_property|[03 Physical Model::System Structure::High-voltage Battery]|fullChargeTime",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements::Time]|Full charge mode time",
+    "target_id": "A|Value_property|[03 Physical Model::System Structure::High-voltage Battery]|quickChargeTime",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements::Time]|Quick charge mode time",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Magic Hybrid Vehicle::Charge vehicle]|Charge to 80%25 in 30 mins",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements::Time]|Quick charge mode time",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Magic Hybrid Vehicle::Charge vehicle]|Charge to full in 3.5 hours",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements::Time]|Quick charge mode time",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Magic Hybrid Vehicle::Charge vehicle]|Charge to full in 5 hours",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements::Time]|Quick charge mode time",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Magic Hybrid Vehicle::Charge vehicle]|Indicate charging end",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements::Time]|Quick charge mode time",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Magic Hybrid Vehicle::Charge vehicle]|Provide rapid power",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements::Time]|Quick charge mode time",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Magic Hybrid Vehicle::Charge vehicle]|Select charging mode",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements::Time]|Quick charge mode time",
+    "target_id": "A|Block|[03 Physical Model::System Structure]|High-voltage Battery",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "Satisfy",
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements::Time]|Quick charge mode time",
+    "target_id": "A|Value_property|[03 Physical Model::System Structure::High-voltage Battery]|distanceOnQuickCharge",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements::Time]|Quick charge mode time",
+    "target_id": "A|Value_property|[03 Physical Model::System Structure::High-voltage Battery]|fullChargeTime",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements::Time]|Quick charge mode time",
+    "target_id": "A|Value_property|[03 Physical Model::System Structure::High-voltage Battery]|quickChargeTime",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": true,
+    "gold_label": "Satisfy",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements]|Acceleration",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Accelerate]|Provide electric engine power",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements]|Acceleration",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Brake]|Detect presence and speed of vehicles",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements]|Acceleration",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Magic Hybrid Vehicle::Drive vehicle]|Push Accelerator",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements]|Acceleration",
+    "target_id": "A|Block|[03 Physical Model::System Structure]|Brake Subsystem",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements]|Acceleration",
+    "target_id": "A|Part_property|[03 Physical Model::System Structure::Cruise Control Computer]|PID control system",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements]|Acceleration",
+    "target_id": "A|Value_property|[03 Physical Model::System Structure::Brake Subsystem]|frictionBrakeHeating",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements]|Acceleration",
+    "target_id": "A|Value_property|[03 Physical Model::System Structure::Brake Subsystem]|stoppingDistance",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements]|Acceleration",
+    "target_id": "A|Value_property|[03 Physical Model::System Structure::High-voltage Battery]|distanceOnQuickCharge",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements]|Acceleration",
+    "target_id": "A|Value_property|[03 Physical Model::System Structure::Power Subsystem]|acceleration",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "Satisfy",
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements]|Acceleration",
+    "target_id": "A|Value_property|[03 Physical Model::System Structure::Power Subsystem]|maxSpeed",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements]|Brake Fluid Temperature",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Brake]|ACC Brake",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements]|Brake Fluid Temperature",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Brake]|Brake",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements]|Brake Fluid Temperature",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Brake]|Pre-charge brake for more aggressive braking",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements]|Brake Fluid Temperature",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Magic Hybrid Vehicle::Start vehicle]|Push brake pedal.",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements]|Brake Fluid Temperature",
+    "target_id": "A|Block|[03 Physical Model::System Structure]|Brake Subsystem",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements]|Brake Fluid Temperature",
+    "target_id": "A|Value_property|[03 Physical Model::System Structure::Brake Subsystem]|frictionBrakeHeating",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements]|Brake Fluid Temperature",
+    "target_id": "A|Value_property|[03 Physical Model::System Structure::Brake Subsystem]|stoppingDistance",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements]|Brake Fluid Temperature",
+    "target_id": "A|Value_property|[03 Physical Model::System Structure::Electric Motor]|power",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements]|Brake Fluid Temperature",
+    "target_id": "A|Value_property|[03 Physical Model::System Structure::Fluid reservoir]|fluidBoilingTemperature",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": true,
+    "gold_label": "Satisfy",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements]|Brake Fluid Temperature",
+    "target_id": "A|Value_property|[03 Physical Model::System Structure::Power Subsystem]|maxSpeed",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements]|Cargo space",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Magic Hybrid Vehicle::Drive vehicle]|Provide Power",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements]|Cargo space",
+    "target_id": "A|Block|[03 Physical Model::System Structure]|Dashboard",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements]|Cargo space",
+    "target_id": "A|Block|[03 Physical Model::System Structure]|High-voltage Battery",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements]|Cargo space",
+    "target_id": "A|Block|[03 Physical Model::System Structure]|Interior",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements]|Cargo space",
+    "target_id": "A|Part_property|[03 Physical Model::System Structure::Cruise Control Computer]|PID control system",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements]|Cargo space",
+    "target_id": "A|Value_property|[03 Physical Model::System Structure::Body]|cargoCapacity",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": true,
+    "gold_label": "Satisfy",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements]|Cargo space",
+    "target_id": "A|Value_property|[03 Physical Model::System Structure::Brake Subsystem]|stoppingDistance",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements]|Cargo space",
+    "target_id": "A|Value_property|[03 Physical Model::System Structure::Fuel Tank Assembly]|consumption",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements]|Cargo space",
+    "target_id": "A|Value_property|[03 Physical Model::System Structure::Fuel Tank Assembly]|distanceOnGasolineMode",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements]|Cargo space",
+    "target_id": "A|Value_property|[03 Physical Model::System Structure::Power Subsystem]|maxSpeed",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements]|Electric Motor Power",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Accelerate]|Provide electric engine power",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements]|Electric Motor Power",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Magic Hybrid Vehicle::Drive vehicle]|Provide Power",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements]|Electric Motor Power",
+    "target_id": "A|Block|[03 Physical Model::System Structure]|Electric Motor",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements]|Electric Motor Power",
+    "target_id": "A|Block|[03 Physical Model::System Structure]|High-voltage Battery",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements]|Electric Motor Power",
+    "target_id": "A|Value_property|[03 Physical Model::System Structure::Electric Motor]|power",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": true,
+    "gold_label": "Satisfy",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements]|Electric Motor Power",
+    "target_id": "A|Value_property|[03 Physical Model::System Structure::High-voltage Battery]|distanceOnFullCharge",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements]|Electric Motor Power",
+    "target_id": "A|Value_property|[03 Physical Model::System Structure::High-voltage Battery]|distanceOnQuickCharge",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements]|Electric Motor Power",
+    "target_id": "A|Value_property|[03 Physical Model::System Structure::High-voltage Battery]|energyConsumption",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements]|Electric Motor Power",
+    "target_id": "A|Value_property|[03 Physical Model::System Structure::Power Subsystem]|acceleration",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements]|Electric Motor Power",
+    "target_id": "A|Value_property|[03 Physical Model::System Structure::Power Subsystem]|maxSpeed",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements]|Fuel consumption",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Magic Hybrid Vehicle::Drive vehicle]|Provide Power",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements]|Fuel consumption",
+    "target_id": "A|Block|[03 Physical Model::System Structure]|High-voltage Battery",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements]|Fuel consumption",
+    "target_id": "A|Value_property|[03 Physical Model::System Structure::Electric Motor]|power",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements]|Fuel consumption",
+    "target_id": "A|Value_property|[03 Physical Model::System Structure::Fuel Tank Assembly]|consumption",
+    "exists": true,
+    "relation_type": "Refine",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements]|Fuel consumption",
+    "target_id": "A|Value_property|[03 Physical Model::System Structure::Fuel Tank Assembly]|distanceOnGasolineMode",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements]|Fuel consumption",
+    "target_id": "A|Value_property|[03 Physical Model::System Structure::High-voltage Battery]|distanceOnFullCharge",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements]|Fuel consumption",
+    "target_id": "A|Value_property|[03 Physical Model::System Structure::High-voltage Battery]|distanceOnQuickCharge",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements]|Fuel consumption",
+    "target_id": "A|Value_property|[03 Physical Model::System Structure::High-voltage Battery]|energyConsumption",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements]|Fuel consumption",
+    "target_id": "A|Value_property|[03 Physical Model::System Structure::Power Subsystem]|acceleration",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements]|Fuel consumption",
+    "target_id": "A|Value_property|[03 Physical Model::System Structure::Power Subsystem]|maxSpeed",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements]|Maximum speed",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Magic Hybrid Vehicle::Drive vehicle]|Provide Power",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "Refine",
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements]|Maximum speed",
+    "target_id": "A|Block|[03 Physical Model::System Structure]|High-voltage Battery",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements]|Maximum speed",
+    "target_id": "A|Part_property|[03 Physical Model::System Structure::Cruise Control Computer]|PID control system",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements]|Maximum speed",
+    "target_id": "A|Value_property|[03 Physical Model::System Structure::Brake Subsystem]|stoppingDistance",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements]|Maximum speed",
+    "target_id": "A|Value_property|[03 Physical Model::System Structure::Fluid reservoir]|fluidBoilingTemperature",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements]|Maximum speed",
+    "target_id": "A|Value_property|[03 Physical Model::System Structure::High-voltage Battery]|distanceOnFullCharge",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements]|Maximum speed",
+    "target_id": "A|Value_property|[03 Physical Model::System Structure::High-voltage Battery]|distanceOnQuickCharge",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements]|Maximum speed",
+    "target_id": "A|Value_property|[03 Physical Model::System Structure::High-voltage Battery]|fullChargeTime",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements]|Maximum speed",
+    "target_id": "A|Value_property|[03 Physical Model::System Structure::Power Subsystem]|acceleration",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements]|Maximum speed",
+    "target_id": "A|Value_property|[03 Physical Model::System Structure::Power Subsystem]|maxSpeed",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements]|Vehicle's battery energy consumption",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Magic Hybrid Vehicle::Charge vehicle]|Provide standard power",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements]|Vehicle's battery energy consumption",
+    "target_id": "A|Block|[03 Physical Model::System Structure]|High-voltage Battery",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements]|Vehicle's battery energy consumption",
+    "target_id": "A|Value_property|[03 Physical Model::System Structure::Electric Motor]|power",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements]|Vehicle's battery energy consumption",
+    "target_id": "A|Value_property|[03 Physical Model::System Structure::Fuel Tank Assembly]|consumption",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements]|Vehicle's battery energy consumption",
+    "target_id": "A|Value_property|[03 Physical Model::System Structure::High-voltage Battery]|distanceOnFullCharge",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements]|Vehicle's battery energy consumption",
+    "target_id": "A|Value_property|[03 Physical Model::System Structure::High-voltage Battery]|distanceOnQuickCharge",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements]|Vehicle's battery energy consumption",
+    "target_id": "A|Value_property|[03 Physical Model::System Structure::High-voltage Battery]|energyConsumption",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements]|Vehicle's battery energy consumption",
+    "target_id": "A|Value_property|[03 Physical Model::System Structure::High-voltage Battery]|fullChargeTime",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements]|Vehicle's battery energy consumption",
+    "target_id": "A|Value_property|[03 Physical Model::System Structure::High-voltage Battery]|mass",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements]|Vehicle's battery energy consumption",
+    "target_id": "A|Value_property|[03 Physical Model::System Structure::High-voltage Battery]|quickChargeTime",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements]|Vehicle's battery mass",
+    "target_id": "A|Action|[01 Conceptual Model::Use Cases::Magic Hybrid Vehicle::Charge vehicle]|Provide standard power",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements]|Vehicle's battery mass",
+    "target_id": "A|Block|[03 Physical Model::System Structure]|High-voltage Battery",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements]|Vehicle's battery mass",
+    "target_id": "A|Value_property|[03 Physical Model::System Structure::Electric Motor]|power",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements]|Vehicle's battery mass",
+    "target_id": "A|Value_property|[03 Physical Model::System Structure::High-voltage Battery]|distanceOnFullCharge",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements]|Vehicle's battery mass",
+    "target_id": "A|Value_property|[03 Physical Model::System Structure::High-voltage Battery]|distanceOnQuickCharge",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements]|Vehicle's battery mass",
+    "target_id": "A|Value_property|[03 Physical Model::System Structure::High-voltage Battery]|energyConsumption",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements]|Vehicle's battery mass",
+    "target_id": "A|Value_property|[03 Physical Model::System Structure::High-voltage Battery]|fullChargeTime",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements]|Vehicle's battery mass",
+    "target_id": "A|Value_property|[03 Physical Model::System Structure::High-voltage Battery]|mass",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements]|Vehicle's battery mass",
+    "target_id": "A|Value_property|[03 Physical Model::System Structure::High-voltage Battery]|quickChargeTime",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[03 Physical Model::System Requirements]|Vehicle's battery mass",
+    "target_id": "A|Value_property|[03 Physical Model::System Structure::Power Subsystem]|maxSpeed",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  }
+]

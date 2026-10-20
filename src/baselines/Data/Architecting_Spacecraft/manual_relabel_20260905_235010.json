@@ -1,0 +1,77 @@
+{
+  "timestamp": "20260905_235010",
+  "annotation_source": "Sample_Out\\Architecting_Spacecraft_Qwen3.5-27B_mismatch_analysis.json",
+  "backup_directory": "Data\\GenerateContext\\Architecting_Spacecraft\\backups\\manual_relabel_20260905_235010",
+  "changes": [
+    {
+      "file": "Architecting_Spacecraft_enriched.csv",
+      "csv_sequence": 8,
+      "judge_sequence": 4,
+      "old_relation": "0",
+      "new_relation": "1/Refine",
+      "manual_advice": "错误警报的概率，是评测监管森林火灾探测任务的性能指标，所以相应来说它细化了森林火灾探测任务，作为衡量系统可用性的指标。因此更改 gold label 为 1/Refine 是合理的。"
+    },
+    {
+      "file": "Judge.csv",
+      "csv_sequence": 4,
+      "judge_sequence": 4,
+      "old_relation": "0",
+      "new_relation": "1/Refine",
+      "manual_advice": "错误警报的概率，是评测监管森林火灾探测任务的性能指标，所以相应来说它细化了森林火灾探测任务，作为衡量系统可用性的指标。因此更改 gold label 为 1/Refine 是合理的。"
+    },
+    {
+      "file": "Architecting_Spacecraft_enriched.csv",
+      "csv_sequence": 93,
+      "judge_sequence": 34,
+      "old_relation": "0",
+      "new_relation": "1/Refine",
+      "manual_advice": "视场角是传感器的一个重要指标，直接影响覆盖范围，因此它细化了覆盖要求。因此更改 gold label 为 1/Refine 是合理的。"
+    },
+    {
+      "file": "Judge.csv",
+      "csv_sequence": 34,
+      "judge_sequence": 34,
+      "old_relation": "0",
+      "new_relation": "1/Refine",
+      "manual_advice": "视场角是传感器的一个重要指标，直接影响覆盖范围，因此它细化了覆盖要求。因此更改 gold label 为 1/Refine 是合理的。"
+    },
+    {
+      "file": "Architecting_Spacecraft_enriched.csv",
+      "csv_sequence": 178,
+      "judge_sequence": 64,
+      "old_relation": "0",
+      "new_relation": "1/Refine",
+      "manual_advice": "分辨率是图像质量的一个重要指标，因此它细化了图像质量要求。因此更改 gold label 为 1/Refine 是合理的。"
+    },
+    {
+      "file": "Judge.csv",
+      "csv_sequence": 64,
+      "judge_sequence": 64,
+      "old_relation": "0",
+      "new_relation": "1/Refine",
+      "manual_advice": "分辨率是图像质量的一个重要指标，因此它细化了图像质量要求。因此更改 gold label 为 1/Refine 是合理的。"
+    },
+    {
+      "file": "Architecting_Spacecraft_enriched.csv",
+      "csv_sequence": 323,
+      "judge_sequence": 117,
+      "old_relation": "1/Satisfy",
+      "new_relation": "1/Refine",
+      "manual_advice": "确实应该是refine关系，而不是satisfy关系"
+    },
+    {
+      "file": "Judge.csv",
+      "csv_sequence": 117,
+      "judge_sequence": 117,
+      "old_relation": "1/Satisfy",
+      "new_relation": "1/Refine",
+      "manual_advice": "确实应该是refine关系，而不是satisfy关系"
+    }
+  ],
+  "sha256_after": {
+    "Architecting_Spacecraft_enriched.csv": "e3f0d153e5088e2905ccf78319b7094480a17789d2de9d9614f30fad9fb4c2de",
+    "Judge.csv": "a5f612d10a130246a9c707beb854bbd40dfb37c987d084da1102e2e48d9b3d1c",
+    "KG.csv": "e3c4724bf4770845866ac743b0f771ee8d3bd27f0a2d4de57176f78cd6ace85a"
+  },
+  "verification": "Only four Relation cells changed in each of Judge and enriched; KG unchanged; full multiset equals KG + Judge."
+}

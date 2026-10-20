@@ -1,0 +1,1532 @@
+[
+  {
+    "source_id": "B|Functional_Requirement|[Spacecraft Mission Context::1-Requirements::Mission Requirements-Refined::Detect and Monitor Forest Fires in US and Canada]|Coverage",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::2-Structure::Mission Enterprise]|coverage",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Functional_Requirement|[Spacecraft Mission Context::1-Requirements::Mission Requirements-Refined::Detect and Monitor Forest Fires in US and Canada]|Coverage",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::2-Structure::Mission Enterprise]|expected fire detection time",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Functional_Requirement|[Spacecraft Mission Context::1-Requirements::Mission Requirements-Refined::Detect and Monitor Forest Fires in US and Canada]|Coverage",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::2-Structure::Mission Enterprise]|location accuracy",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Functional_Requirement|[Spacecraft Mission Context::1-Requirements::Mission Requirements-Refined::Detect and Monitor Forest Fires in US and Canada]|Coverage",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::2-Structure::Mission Enterprise]|mission life",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Functional_Requirement|[Spacecraft Mission Context::1-Requirements::Mission Requirements-Refined::Detect and Monitor Forest Fires in US and Canada]|Coverage",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::2-Structure::Mission Enterprise]|probability of false alarm",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Functional_Requirement|[Spacecraft Mission Context::1-Requirements::Mission Requirements-Refined::Detect and Monitor Forest Fires in US and Canada]|Coverage",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::2-Structure::Payload Sensor]|field of view",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": true,
+    "gold_label": "Refine",
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Functional_Requirement|[Spacecraft Mission Context::1-Requirements::Mission Requirements-Refined::Detect and Monitor Forest Fires in US and Canada]|Coverage",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::2-Structure::Payload Sensor]|lifetime",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Functional_Requirement|[Spacecraft Mission Context::1-Requirements::Mission Requirements-Refined::Detect and Monitor Forest Fires in US and Canada]|Coverage",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Physical::Mid-Range IR Scanner]|field of view",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Functional_Requirement|[Spacecraft Mission Context::1-Requirements::Mission Requirements-Refined::Detect and Monitor Forest Fires in US and Canada]|Coverage",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Physical::Mid-Range IR Scanner]|resolution",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Functional_Requirement|[Spacecraft Mission Context::1-Requirements::Mission Requirements-Refined::Detect and Monitor Forest Fires in US and Canada]|Coverage",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Physical::Mid-Range IR Scanner]|sensitivity",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Functional_Requirement|[Spacecraft Mission Context::1-Requirements::Mission Requirements-Refined::Detect and Monitor Forest Fires in US and Canada]|Detection Time",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::2-Structure::Mission Enterprise]|coverage",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Functional_Requirement|[Spacecraft Mission Context::1-Requirements::Mission Requirements-Refined::Detect and Monitor Forest Fires in US and Canada]|Detection Time",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::2-Structure::Mission Enterprise]|expected fire detection time",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Functional_Requirement|[Spacecraft Mission Context::1-Requirements::Mission Requirements-Refined::Detect and Monitor Forest Fires in US and Canada]|Detection Time",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::2-Structure::Mission Enterprise]|location accuracy",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Functional_Requirement|[Spacecraft Mission Context::1-Requirements::Mission Requirements-Refined::Detect and Monitor Forest Fires in US and Canada]|Detection Time",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::2-Structure::Mission Enterprise]|mission life",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Functional_Requirement|[Spacecraft Mission Context::1-Requirements::Mission Requirements-Refined::Detect and Monitor Forest Fires in US and Canada]|Detection Time",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::2-Structure::Mission Enterprise]|probability of false alarm",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Functional_Requirement|[Spacecraft Mission Context::1-Requirements::Mission Requirements-Refined::Detect and Monitor Forest Fires in US and Canada]|Detection Time",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::2-Structure::Payload Sensor]|field of view",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Functional_Requirement|[Spacecraft Mission Context::1-Requirements::Mission Requirements-Refined::Detect and Monitor Forest Fires in US and Canada]|Detection Time",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::2-Structure::Payload Sensor]|lifetime",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Functional_Requirement|[Spacecraft Mission Context::1-Requirements::Mission Requirements-Refined::Detect and Monitor Forest Fires in US and Canada]|Detection Time",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Physical::Mid-Range IR Scanner]|field of view",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Functional_Requirement|[Spacecraft Mission Context::1-Requirements::Mission Requirements-Refined::Detect and Monitor Forest Fires in US and Canada]|Detection Time",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Physical::Mid-Range IR Scanner]|lifetime",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Functional_Requirement|[Spacecraft Mission Context::1-Requirements::Mission Requirements-Refined::Detect and Monitor Forest Fires in US and Canada]|Detection Time",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Physical::Mid-Range IR Scanner]|sensitivity",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Functional_Requirement|[Spacecraft Mission Context::1-Requirements::Mission Requirements-Refined::Detect and Monitor Forest Fires in US and Canada]|False Alarm Rate",
+    "target_id": "A|Action|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::2-Structure::Payload Sensor]|sense thermal emissions",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Functional_Requirement|[Spacecraft Mission Context::1-Requirements::Mission Requirements-Refined::Detect and Monitor Forest Fires in US and Canada]|False Alarm Rate",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::2-Structure::Mission Enterprise]|coverage",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Functional_Requirement|[Spacecraft Mission Context::1-Requirements::Mission Requirements-Refined::Detect and Monitor Forest Fires in US and Canada]|False Alarm Rate",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::2-Structure::Mission Enterprise]|expected fire detection time",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Functional_Requirement|[Spacecraft Mission Context::1-Requirements::Mission Requirements-Refined::Detect and Monitor Forest Fires in US and Canada]|False Alarm Rate",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::2-Structure::Mission Enterprise]|location accuracy",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Functional_Requirement|[Spacecraft Mission Context::1-Requirements::Mission Requirements-Refined::Detect and Monitor Forest Fires in US and Canada]|False Alarm Rate",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::2-Structure::Mission Enterprise]|probability of false alarm",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Functional_Requirement|[Spacecraft Mission Context::1-Requirements::Mission Requirements-Refined::Detect and Monitor Forest Fires in US and Canada]|False Alarm Rate",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::2-Structure::Payload Sensor]|field of view",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Functional_Requirement|[Spacecraft Mission Context::1-Requirements::Mission Requirements-Refined::Detect and Monitor Forest Fires in US and Canada]|False Alarm Rate",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::2-Structure::Payload Sensor]|lifetime",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Functional_Requirement|[Spacecraft Mission Context::1-Requirements::Mission Requirements-Refined::Detect and Monitor Forest Fires in US and Canada]|False Alarm Rate",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::2-Structure::Payload Sensor]|sensitivity",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Functional_Requirement|[Spacecraft Mission Context::1-Requirements::Mission Requirements-Refined::Detect and Monitor Forest Fires in US and Canada]|False Alarm Rate",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Physical::Mid-Range IR Scanner]|field of view",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Functional_Requirement|[Spacecraft Mission Context::1-Requirements::Mission Requirements-Refined::Detect and Monitor Forest Fires in US and Canada]|False Alarm Rate",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Physical::Mid-Range IR Scanner]|sensitivity",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Functional_Requirement|[Spacecraft Mission Context::1-Requirements::Mission Requirements-Refined::Detect and Monitor Forest Fires in US and Canada]|Location Accuracy",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::2-Structure::Mission Enterprise]|coverage",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Functional_Requirement|[Spacecraft Mission Context::1-Requirements::Mission Requirements-Refined::Detect and Monitor Forest Fires in US and Canada]|Location Accuracy",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::2-Structure::Mission Enterprise]|expected fire detection time",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Functional_Requirement|[Spacecraft Mission Context::1-Requirements::Mission Requirements-Refined::Detect and Monitor Forest Fires in US and Canada]|Location Accuracy",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::2-Structure::Mission Enterprise]|location accuracy",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": true,
+    "gold_label": "Refine",
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Functional_Requirement|[Spacecraft Mission Context::1-Requirements::Mission Requirements-Refined::Detect and Monitor Forest Fires in US and Canada]|Location Accuracy",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::2-Structure::Mission Enterprise]|probability of false alarm",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Functional_Requirement|[Spacecraft Mission Context::1-Requirements::Mission Requirements-Refined::Detect and Monitor Forest Fires in US and Canada]|Location Accuracy",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::2-Structure::Payload Sensor]|field of view",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Functional_Requirement|[Spacecraft Mission Context::1-Requirements::Mission Requirements-Refined::Detect and Monitor Forest Fires in US and Canada]|Location Accuracy",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::2-Structure::Payload Sensor]|lifetime",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Functional_Requirement|[Spacecraft Mission Context::1-Requirements::Mission Requirements-Refined::Detect and Monitor Forest Fires in US and Canada]|Location Accuracy",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::2-Structure::Payload Sensor]|sensitivity",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Functional_Requirement|[Spacecraft Mission Context::1-Requirements::Mission Requirements-Refined::Detect and Monitor Forest Fires in US and Canada]|Location Accuracy",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Physical::Mid-Range IR Scanner]|field of view",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Functional_Requirement|[Spacecraft Mission Context::1-Requirements::Mission Requirements-Refined::Detect and Monitor Forest Fires in US and Canada]|Location Accuracy",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Physical::Mid-Range IR Scanner]|resolution",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Functional_Requirement|[Spacecraft Mission Context::1-Requirements::Mission Requirements-Refined::Detect and Monitor Forest Fires in US and Canada]|Location Accuracy",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Physical::Mid-Range IR Scanner]|sensitivity",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Functional_Requirement|[Spacecraft Mission Context::1-Requirements::Mission Requirements-Refined]|Detect and Monitor Forest Fires in US and Canada",
+    "target_id": "A|Action|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::2-Structure::Payload Sensor]|sense thermal emissions",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Functional_Requirement|[Spacecraft Mission Context::1-Requirements::Mission Requirements-Refined]|Detect and Monitor Forest Fires in US and Canada",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::2-Structure::Mission Enterprise]|coverage",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Functional_Requirement|[Spacecraft Mission Context::1-Requirements::Mission Requirements-Refined]|Detect and Monitor Forest Fires in US and Canada",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::2-Structure::Mission Enterprise]|expected fire detection time",
+    "exists": true,
+    "relation_type": "Refine",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Functional_Requirement|[Spacecraft Mission Context::1-Requirements::Mission Requirements-Refined]|Detect and Monitor Forest Fires in US and Canada",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::2-Structure::Mission Enterprise]|location accuracy",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Functional_Requirement|[Spacecraft Mission Context::1-Requirements::Mission Requirements-Refined]|Detect and Monitor Forest Fires in US and Canada",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::2-Structure::Mission Enterprise]|mission life",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Functional_Requirement|[Spacecraft Mission Context::1-Requirements::Mission Requirements-Refined]|Detect and Monitor Forest Fires in US and Canada",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::2-Structure::Mission Enterprise]|probability of false alarm",
+    "exists": true,
+    "relation_type": "Refine",
+    "in_labeled_csv": true,
+    "gold_label": "Refine",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Functional_Requirement|[Spacecraft Mission Context::1-Requirements::Mission Requirements-Refined]|Detect and Monitor Forest Fires in US and Canada",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::2-Structure::Payload Sensor]|field of view",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Functional_Requirement|[Spacecraft Mission Context::1-Requirements::Mission Requirements-Refined]|Detect and Monitor Forest Fires in US and Canada",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::2-Structure::Payload Sensor]|lifetime",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Functional_Requirement|[Spacecraft Mission Context::1-Requirements::Mission Requirements-Refined]|Detect and Monitor Forest Fires in US and Canada",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Physical::Mid-Range IR Scanner]|field of view",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Functional_Requirement|[Spacecraft Mission Context::1-Requirements::Mission Requirements-Refined]|Detect and Monitor Forest Fires in US and Canada",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Physical::Mid-Range IR Scanner]|sensitivity",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Interface_Requirement|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::1-Requirements::Payload Sensor Specification::Interface]|Electrical Interface",
+    "target_id": "A|Action|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::2-Structure::Payload Sensor]|sense thermal emissions",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Interface_Requirement|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::1-Requirements::Payload Sensor Specification::Interface]|Electrical Interface",
+    "target_id": "A|Information_port|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::2-Structure::Payload Sensor]|sensor data i/f",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Interface_Requirement|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::1-Requirements::Payload Sensor Specification::Interface]|Electrical Interface",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::2-Structure::Payload Sensor]|data rate",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Interface_Requirement|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::1-Requirements::Payload Sensor Specification::Interface]|Electrical Interface",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::2-Structure::Payload Sensor]|field of view",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Interface_Requirement|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::1-Requirements::Payload Sensor Specification::Interface]|Electrical Interface",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::2-Structure::Payload Sensor]|lifetime",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Interface_Requirement|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::1-Requirements::Payload Sensor Specification::Interface]|Electrical Interface",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::2-Structure::Payload Sensor]|mass",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Interface_Requirement|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::1-Requirements::Payload Sensor Specification::Interface]|Electrical Interface",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::2-Structure::Payload Sensor]|power",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Interface_Requirement|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::1-Requirements::Payload Sensor Specification::Interface]|Electrical Interface",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::2-Structure::Payload Sensor]|sensitivity",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Interface_Requirement|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::1-Requirements::Payload Sensor Specification::Interface]|Electrical Interface",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::2-Structure::Payload Sensor]|size",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Interface_Requirement|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::1-Requirements::Payload Sensor Specification::Interface]|Electrical Interface",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Physical::Mid-Range IR Scanner]|power",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[Spacecraft Mission Context::1-Requirements::Mission Requirements-Refined::Detect and Monitor Forest Fires in US and Canada]|Image Quality",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::2-Structure::Mission Enterprise]|coverage",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[Spacecraft Mission Context::1-Requirements::Mission Requirements-Refined::Detect and Monitor Forest Fires in US and Canada]|Image Quality",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::2-Structure::Mission Enterprise]|expected fire detection time",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Physical_Requirement|[Spacecraft Mission Context::1-Requirements::Mission Requirements-Refined::Detect and Monitor Forest Fires in US and Canada]|Image Quality",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::2-Structure::Mission Enterprise]|image quality",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[Spacecraft Mission Context::1-Requirements::Mission Requirements-Refined::Detect and Monitor Forest Fires in US and Canada]|Image Quality",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::2-Structure::Mission Enterprise]|location accuracy",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Physical_Requirement|[Spacecraft Mission Context::1-Requirements::Mission Requirements-Refined::Detect and Monitor Forest Fires in US and Canada]|Image Quality",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::2-Structure::Mission Enterprise]|mission life",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[Spacecraft Mission Context::1-Requirements::Mission Requirements-Refined::Detect and Monitor Forest Fires in US and Canada]|Image Quality",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::2-Structure::Payload Sensor]|field of view",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[Spacecraft Mission Context::1-Requirements::Mission Requirements-Refined::Detect and Monitor Forest Fires in US and Canada]|Image Quality",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::2-Structure::Payload Sensor]|resolution",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": true,
+    "gold_label": "Refine",
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[Spacecraft Mission Context::1-Requirements::Mission Requirements-Refined::Detect and Monitor Forest Fires in US and Canada]|Image Quality",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Physical::Mid-Range IR Scanner]|field of view",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[Spacecraft Mission Context::1-Requirements::Mission Requirements-Refined::Detect and Monitor Forest Fires in US and Canada]|Image Quality",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Physical::Mid-Range IR Scanner]|resolution",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[Spacecraft Mission Context::1-Requirements::Mission Requirements-Refined::Detect and Monitor Forest Fires in US and Canada]|Image Quality",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Physical::Mid-Range IR Scanner]|sensitivity",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[Spacecraft Mission Context::1-Requirements::Mission Requirements-Refined]|Lifecycle Cost",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::2-Structure::Mission Enterprise]|coverage",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[Spacecraft Mission Context::1-Requirements::Mission Requirements-Refined]|Lifecycle Cost",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::2-Structure::Mission Enterprise]|image quality",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[Spacecraft Mission Context::1-Requirements::Mission Requirements-Refined]|Lifecycle Cost",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::2-Structure::Mission Enterprise]|life cycle cost",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[Spacecraft Mission Context::1-Requirements::Mission Requirements-Refined]|Lifecycle Cost",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::2-Structure::Mission Enterprise]|location accuracy",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[Spacecraft Mission Context::1-Requirements::Mission Requirements-Refined]|Lifecycle Cost",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::2-Structure::Mission Enterprise]|mission life",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Physical_Requirement|[Spacecraft Mission Context::1-Requirements::Mission Requirements-Refined]|Lifecycle Cost",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Black Box Specification::2-Structure::Spacecraft]|mass",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[Spacecraft Mission Context::1-Requirements::Mission Requirements-Refined]|Lifecycle Cost",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::2-Structure::Spacecraft-Physical]|mass",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Physical_Requirement|[Spacecraft Mission Context::1-Requirements::Mission Requirements-Refined]|Lifecycle Cost",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::2-Structure::Payload Sensor]|lifetime",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Physical_Requirement|[Spacecraft Mission Context::1-Requirements::Mission Requirements-Refined]|Lifecycle Cost",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::2-Structure::Payload Sensor]|mass",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Physical_Requirement|[Spacecraft Mission Context::1-Requirements::Mission Requirements-Refined]|Lifecycle Cost",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Physical::Mid-Range IR Scanner]|lifetime",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[Spacecraft Mission Context::1-Requirements::Mission Requirements-Refined]|Mission Life",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::2-Structure::Mission Enterprise]|coverage",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Physical_Requirement|[Spacecraft Mission Context::1-Requirements::Mission Requirements-Refined]|Mission Life",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::2-Structure::Mission Enterprise]|expected fire detection time",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[Spacecraft Mission Context::1-Requirements::Mission Requirements-Refined]|Mission Life",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::2-Structure::Mission Enterprise]|image quality",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Physical_Requirement|[Spacecraft Mission Context::1-Requirements::Mission Requirements-Refined]|Mission Life",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::2-Structure::Mission Enterprise]|life cycle cost",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[Spacecraft Mission Context::1-Requirements::Mission Requirements-Refined]|Mission Life",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::2-Structure::Mission Enterprise]|location accuracy",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[Spacecraft Mission Context::1-Requirements::Mission Requirements-Refined]|Mission Life",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::2-Structure::Mission Enterprise]|mission life",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[Spacecraft Mission Context::1-Requirements::Mission Requirements-Refined]|Mission Life",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Black Box Specification::2-Structure::Spacecraft]|mass",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Physical_Requirement|[Spacecraft Mission Context::1-Requirements::Mission Requirements-Refined]|Mission Life",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::2-Structure::Spacecraft-Physical]|mass",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[Spacecraft Mission Context::1-Requirements::Mission Requirements-Refined]|Mission Life",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::2-Structure::Payload Sensor]|lifetime",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[Spacecraft Mission Context::1-Requirements::Mission Requirements-Refined]|Mission Life",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Physical::Mid-Range IR Scanner]|lifetime",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[Spacecraft Mission Context::6-Spacecraft::Black Box Specification::1-Requirements::Spacecraft Specification::Physical]|Mass",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::2-Structure::Mission Enterprise]|location accuracy",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Physical_Requirement|[Spacecraft Mission Context::6-Spacecraft::Black Box Specification::1-Requirements::Spacecraft Specification::Physical]|Mass",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::2-Structure::Mission Enterprise]|mission life",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[Spacecraft Mission Context::6-Spacecraft::Black Box Specification::1-Requirements::Spacecraft Specification::Physical]|Mass",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Black Box Specification::2-Structure::Spacecraft]|mass",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": true,
+    "gold_label": "Refine",
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[Spacecraft Mission Context::6-Spacecraft::Black Box Specification::1-Requirements::Spacecraft Specification::Physical]|Mass",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::2-Structure::Spacecraft-Physical]|mass",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[Spacecraft Mission Context::6-Spacecraft::Black Box Specification::1-Requirements::Spacecraft Specification::Physical]|Mass",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::2-Structure::Payload Sensor]|data rate",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[Spacecraft Mission Context::6-Spacecraft::Black Box Specification::1-Requirements::Spacecraft Specification::Physical]|Mass",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::2-Structure::Payload Sensor]|field of view",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Physical_Requirement|[Spacecraft Mission Context::6-Spacecraft::Black Box Specification::1-Requirements::Spacecraft Specification::Physical]|Mass",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::2-Structure::Payload Sensor]|lifetime",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Physical_Requirement|[Spacecraft Mission Context::6-Spacecraft::Black Box Specification::1-Requirements::Spacecraft Specification::Physical]|Mass",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::2-Structure::Payload Sensor]|mass",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[Spacecraft Mission Context::6-Spacecraft::Black Box Specification::1-Requirements::Spacecraft Specification::Physical]|Mass",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::2-Structure::Payload Sensor]|size",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Physical_Requirement|[Spacecraft Mission Context::6-Spacecraft::Black Box Specification::1-Requirements::Spacecraft Specification::Physical]|Mass",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Physical::Mid-Range IR Scanner]|mass",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::1-Requirements::Payload Sensor Specification::Functional and Performance]|Data Rate",
+    "target_id": "A|Information_port|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::2-Structure::Payload Sensor]|sensor data i/f",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::1-Requirements::Payload Sensor Specification::Functional and Performance]|Data Rate",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Black Box Specification::2-Structure::Spacecraft]|mass",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Physical_Requirement|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::1-Requirements::Payload Sensor Specification::Functional and Performance]|Data Rate",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::2-Structure::Payload Sensor]|data rate",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": true,
+    "gold_label": "Refine",
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::1-Requirements::Payload Sensor Specification::Functional and Performance]|Data Rate",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::2-Structure::Payload Sensor]|field of view",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Physical_Requirement|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::1-Requirements::Payload Sensor Specification::Functional and Performance]|Data Rate",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::2-Structure::Payload Sensor]|lifetime",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Physical_Requirement|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::1-Requirements::Payload Sensor Specification::Functional and Performance]|Data Rate",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::2-Structure::Payload Sensor]|mass",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::1-Requirements::Payload Sensor Specification::Functional and Performance]|Data Rate",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::2-Structure::Payload Sensor]|resolution",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::1-Requirements::Payload Sensor Specification::Functional and Performance]|Data Rate",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::2-Structure::Payload Sensor]|sensitivity",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Physical_Requirement|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::1-Requirements::Payload Sensor Specification::Functional and Performance]|Data Rate",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::2-Structure::Payload Sensor]|size",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Physical_Requirement|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::1-Requirements::Payload Sensor Specification::Functional and Performance]|Data Rate",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Physical::Mid-Range IR Scanner]|data rate",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::1-Requirements::Payload Sensor Specification::Functional and Performance]|Field of View",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::2-Structure::Payload Sensor]|field of view",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::1-Requirements::Payload Sensor Specification::Functional and Performance]|Field of View",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::2-Structure::Payload Sensor]|lifetime",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::1-Requirements::Payload Sensor Specification::Functional and Performance]|Field of View",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::2-Structure::Payload Sensor]|mass",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::1-Requirements::Payload Sensor Specification::Functional and Performance]|Field of View",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::2-Structure::Payload Sensor]|resolution",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::1-Requirements::Payload Sensor Specification::Functional and Performance]|Field of View",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::2-Structure::Payload Sensor]|sensitivity",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::1-Requirements::Payload Sensor Specification::Functional and Performance]|Field of View",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::2-Structure::Payload Sensor]|size",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::1-Requirements::Payload Sensor Specification::Functional and Performance]|Field of View",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Physical::Mid-Range IR Scanner]|field of view",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::1-Requirements::Payload Sensor Specification::Functional and Performance]|Field of View",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Physical::Mid-Range IR Scanner]|mass",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::1-Requirements::Payload Sensor Specification::Functional and Performance]|Field of View",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Physical::Mid-Range IR Scanner]|resolution",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::1-Requirements::Payload Sensor Specification::Functional and Performance]|Field of View",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Physical::Mid-Range IR Scanner]|size",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::1-Requirements::Payload Sensor Specification::Functional and Performance]|Sensing",
+    "target_id": "A|Action|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::2-Structure::Payload Sensor]|sense thermal emissions",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::1-Requirements::Payload Sensor Specification::Functional and Performance]|Sensing",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::2-Structure::Payload Sensor]|field of view",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::1-Requirements::Payload Sensor Specification::Functional and Performance]|Sensing",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::2-Structure::Payload Sensor]|lifetime",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::1-Requirements::Payload Sensor Specification::Functional and Performance]|Sensing",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::2-Structure::Payload Sensor]|mass",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::1-Requirements::Payload Sensor Specification::Functional and Performance]|Sensing",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::2-Structure::Payload Sensor]|power",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::1-Requirements::Payload Sensor Specification::Functional and Performance]|Sensing",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::2-Structure::Payload Sensor]|resolution",
+    "exists": true,
+    "relation_type": "Refine",
+    "in_labeled_csv": true,
+    "gold_label": "Refine",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Physical_Requirement|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::1-Requirements::Payload Sensor Specification::Functional and Performance]|Sensing",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::2-Structure::Payload Sensor]|sensitivity",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": true,
+    "gold_label": "Refine",
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::1-Requirements::Payload Sensor Specification::Functional and Performance]|Sensing",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Physical::Mid-Range IR Scanner]|power",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::1-Requirements::Payload Sensor Specification::Functional and Performance]|Sensing",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Physical::Mid-Range IR Scanner]|resolution",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": true,
+    "gold_label": "Refine",
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::1-Requirements::Payload Sensor Specification::Functional and Performance]|Sensing",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Physical::Mid-Range IR Scanner]|sensitivity",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::1-Requirements::Payload Sensor Specification::Physical]|Mass",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Black Box Specification::2-Structure::Spacecraft]|mass",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Physical_Requirement|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::1-Requirements::Payload Sensor Specification::Physical]|Mass",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::2-Structure::Spacecraft-Physical]|mass",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Physical_Requirement|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::1-Requirements::Payload Sensor Specification::Physical]|Mass",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::2-Structure::Payload Sensor]|data rate",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Physical_Requirement|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::1-Requirements::Payload Sensor Specification::Physical]|Mass",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::2-Structure::Payload Sensor]|field of view",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::1-Requirements::Payload Sensor Specification::Physical]|Mass",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::2-Structure::Payload Sensor]|lifetime",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::1-Requirements::Payload Sensor Specification::Physical]|Mass",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::2-Structure::Payload Sensor]|mass",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::1-Requirements::Payload Sensor Specification::Physical]|Mass",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::2-Structure::Payload Sensor]|sensitivity",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Physical_Requirement|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::1-Requirements::Payload Sensor Specification::Physical]|Mass",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::2-Structure::Payload Sensor]|size",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::1-Requirements::Payload Sensor Specification::Physical]|Mass",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Physical::Mid-Range IR Scanner]|mass",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::1-Requirements::Payload Sensor Specification::Physical]|Mass",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Physical::Mid-Range IR Scanner]|size",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::1-Requirements::Payload Sensor Specification::Physical]|Power",
+    "target_id": "A|Action|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::2-Structure::Payload Sensor]|sense thermal emissions",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::1-Requirements::Payload Sensor Specification::Physical]|Power",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::2-Structure::Payload Sensor]|data rate",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::1-Requirements::Payload Sensor Specification::Physical]|Power",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::2-Structure::Payload Sensor]|field of view",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::1-Requirements::Payload Sensor Specification::Physical]|Power",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::2-Structure::Payload Sensor]|lifetime",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Physical_Requirement|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::1-Requirements::Payload Sensor Specification::Physical]|Power",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::2-Structure::Payload Sensor]|mass",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::1-Requirements::Payload Sensor Specification::Physical]|Power",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::2-Structure::Payload Sensor]|power",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::1-Requirements::Payload Sensor Specification::Physical]|Power",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::2-Structure::Payload Sensor]|sensitivity",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::1-Requirements::Payload Sensor Specification::Physical]|Power",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Physical::Mid-Range IR Scanner]|mass",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Physical_Requirement|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::1-Requirements::Payload Sensor Specification::Physical]|Power",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Physical::Mid-Range IR Scanner]|power",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": true,
+    "gold_label": "Satisfy",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Physical_Requirement|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::1-Requirements::Payload Sensor Specification::Physical]|Power",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Physical::Mid-Range IR Scanner]|sensitivity",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::1-Requirements::Payload Sensor Specification::Physical]|Size",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Black Box Specification::2-Structure::Spacecraft]|mass",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::1-Requirements::Payload Sensor Specification::Physical]|Size",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::2-Structure::Payload Sensor]|data rate",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::1-Requirements::Payload Sensor Specification::Physical]|Size",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::2-Structure::Payload Sensor]|field of view",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::1-Requirements::Payload Sensor Specification::Physical]|Size",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::2-Structure::Payload Sensor]|lifetime",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::1-Requirements::Payload Sensor Specification::Physical]|Size",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::2-Structure::Payload Sensor]|mass",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::1-Requirements::Payload Sensor Specification::Physical]|Size",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::2-Structure::Payload Sensor]|resolution",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::1-Requirements::Payload Sensor Specification::Physical]|Size",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::2-Structure::Payload Sensor]|sensitivity",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::1-Requirements::Payload Sensor Specification::Physical]|Size",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::2-Structure::Payload Sensor]|size",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::1-Requirements::Payload Sensor Specification::Physical]|Size",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Physical::Mid-Range IR Scanner]|mass",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Physical_Requirement|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::1-Requirements::Payload Sensor Specification::Physical]|Size",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Physical::Mid-Range IR Scanner]|size",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": true,
+    "gold_label": "Satisfy",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Physical_Requirement|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::1-Requirements::Payload Sensor Specification::Quality Characteristics]|Reliability",
+    "target_id": "A|Action|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::2-Structure::Payload Sensor]|sense thermal emissions",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Physical_Requirement|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::1-Requirements::Payload Sensor Specification::Quality Characteristics]|Reliability",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Black Box Specification::2-Structure::Spacecraft]|mass",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::1-Requirements::Payload Sensor Specification::Quality Characteristics]|Reliability",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::2-Structure::Payload Sensor]|data rate",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::1-Requirements::Payload Sensor Specification::Quality Characteristics]|Reliability",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::2-Structure::Payload Sensor]|field of view",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Physical_Requirement|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::1-Requirements::Payload Sensor Specification::Quality Characteristics]|Reliability",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::2-Structure::Payload Sensor]|lifetime",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": true,
+    "gold_label": "Refine",
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::1-Requirements::Payload Sensor Specification::Quality Characteristics]|Reliability",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::2-Structure::Payload Sensor]|mass",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Physical_Requirement|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::1-Requirements::Payload Sensor Specification::Quality Characteristics]|Reliability",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::2-Structure::Payload Sensor]|sensitivity",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::1-Requirements::Payload Sensor Specification::Quality Characteristics]|Reliability",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::2-Structure::Payload Sensor]|size",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::1-Requirements::Payload Sensor Specification::Quality Characteristics]|Reliability",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Physical::Mid-Range IR Scanner]|lifetime",
+    "exists": true,
+    "relation_type": "Refine",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::1-Requirements::Payload Sensor Specification::Quality Characteristics]|Reliability",
+    "target_id": "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Physical::Mid-Range IR Scanner]|sensitivity",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  }
+]

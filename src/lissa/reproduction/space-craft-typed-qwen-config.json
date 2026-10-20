@@ -1,0 +1,76 @@
+{
+  "cache_dir": "./cache-space-craft-typed-qwen",
+  "gold_standard_configuration": {
+    "path": "../../../Data/Architecting_Spacecraft/Judge.csv",
+    "format": "pair_csv",
+    "source_side": "B",
+    "target_side": "A",
+    "relation_column": "Relation",
+    "positive_relation_prefix": "1"
+  },
+  "source_artifact_provider": {
+    "name": "pair_csv",
+    "args": {
+      "path": "../../../Data/Architecting_Spacecraft/Judge.csv",
+      "side": "B",
+      "artifact_type": "requirement",
+      "content_conflict": "merge"
+    }
+  },
+  "target_artifact_provider": {
+    "name": "pair_csv",
+    "args": {
+      "path": "../../../Data/Architecting_Spacecraft/Judge.csv",
+      "side": "A",
+      "artifact_type": "software architecture model",
+      "content_conflict": "merge"
+    }
+  },
+  "source_preprocessor": {
+    "name": "artifact",
+    "args": {}
+  },
+  "target_preprocessor": {
+    "name": "artifact",
+    "args": {}
+  },
+  "embedding_creator": {
+    "name": "openwebui",
+    "args": {
+      "model": "all-MiniLM-L6-v2"
+    }
+  },
+  "source_store": {
+    "name": "custom",
+    "args": {}
+  },
+  "target_store": {
+    "name": "cosine_similarity",
+    "args": {
+      "max_results": "10"
+    }
+  },
+  "classifier": {
+    "name": "reasoning_openai",
+    "args": {
+      "model": "Qwen3.5-27B",
+      "seed": "133742243",
+      "temperature": "0.0",
+      "use_original_artifacts": "false",
+      "use_system_message": "true",
+      "classify_relation_type": "true",
+      "prompt": "Analyze the following two artifacts in two ordered steps. Step 1: decide whether a traceability link exists between them. Step 2: only if the answer is yes, classify the link as exactly one of Refine or Satisfy. Use these definitions with artifact (2) as the model element and artifact (1) as the requirement: Refine means that artifact (2) clarifies, elaborates, decomposes, or adds detail to artifact (1). Satisfy means that artifact (2) describes a design or behavior that fulfills or realizes artifact (1). Base the decision only on the supplied artifact content. Give concise reasoning, then finish with exactly these two tags. For no link: <trace>no</trace> <relation_type>None</relation_type>. For a link: <trace>yes</trace> <relation_type>Refine</relation_type> or <trace>yes</trace> <relation_type>Satisfy</relation_type>. Do not use any other relation label.\n(1) {source_type}: '''{source_content}'''\n(2) {target_type}: '''{target_content}'''"
+    }
+  },
+  "result_aggregator": {
+    "name": "any_connection",
+    "args": {
+      "source_granularity": "0",
+      "target_granularity": "0"
+    }
+  },
+  "tracelinkid_postprocessor": {
+    "name": "identity",
+    "args": {}
+  }
+}

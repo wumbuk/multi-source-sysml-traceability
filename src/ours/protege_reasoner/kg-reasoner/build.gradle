@@ -1,0 +1,66 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+group 'com.example'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = '8'
+targetCompatibility = '8'
+
+repositories {
+    mavenCentral()
+    maven { url "https://repository.jboss.org/nexus/content/groups/public/" }
+}
+
+dependencies {
+    // 不要显式指定 OWLAPI 版本，交给 SWRLAPI 统一管理
+    implementation 'edu.stanford.swrl:swrlapi:2.0.5'
+    implementation 'edu.stanford.swrl:swrlapi-drools-engine:2.0.5'
+
+    implementation 'com.google.code.gson:gson:2.10.1'
+    implementation 'org.slf4j:slf4j-simple:2.0.9'
+
+}
+
+application {
+    mainClass = 'com.example.SwrlReasoner'
+    // applicationDefaultJvmArgs = [
+    //     "--add-opens", "java.base/java.lang=ALL-UNNAMED"
+    // ]
+}
+/**
+ * 关键：fat-jar，将程序打包成jar包，供Python主程序调用
+ */
+tasks.jar {
+    manifest {
+        attributes(
+            'Main-Class': application.mainClass
+        )
+    }
+
+    from {
+        configurations.runtimeClasspath.collect { it.isDirectory() ? it : zipTree(it) }
+    }
+
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+}
+
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
+}
+
+
+tasks.jar {
+    manifest {
+        attributes('Main-Class': application.mainClass)
+    }
+
+    // 打包依赖库到 jar（fat-jar）
+    from {
+        configurations.runtimeClasspath.collect { it.isDirectory() ? it : zipTree(it) }
+    }
+
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+}

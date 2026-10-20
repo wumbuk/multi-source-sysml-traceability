@@ -1,0 +1,74 @@
+{
+  "cache_dir": "./cache-extract-value-all-minilm",
+  "gold_standard_configuration": {
+    "path": "../../../Data/Extract_Requirement_Values/Judge.csv",
+    "format": "pair_csv",
+    "source_side": "B",
+    "target_side": "A",
+    "relation_column": "Relation",
+    "positive_relation_prefix": "1"
+  },
+  "source_artifact_provider": {
+    "name": "pair_csv",
+    "args": {
+      "path": "../../../Data/Extract_Requirement_Values/Judge.csv",
+      "side": "B",
+      "artifact_type": "requirement",
+      "content_conflict": "merge"
+    }
+  },
+  "target_artifact_provider": {
+    "name": "pair_csv",
+    "args": {
+      "path": "../../../Data/Extract_Requirement_Values/Judge.csv",
+      "side": "A",
+      "artifact_type": "software architecture model",
+      "content_conflict": "merge"
+    }
+  },
+  "source_preprocessor": {
+    "name": "artifact",
+    "args": {}
+  },
+  "target_preprocessor": {
+    "name": "artifact",
+    "args": {}
+  },
+  "embedding_creator": {
+    "name": "openwebui",
+    "args": {
+      "model": "all-MiniLM-L6-v2"
+    }
+  },
+  "source_store": {
+    "name": "custom",
+    "args": {}
+  },
+  "target_store": {
+    "name": "cosine_similarity",
+    "args": {
+      "max_results": "10"
+    }
+  },
+  "classifier": {
+    "name": "reasoning_openai",
+    "args": {
+      "model": "Qwen3.5-27B",
+      "seed": "133742243",
+      "temperature": "0.0",
+      "use_original_artifacts": "false",
+      "use_system_message": "true"
+    }
+  },
+  "result_aggregator": {
+    "name": "any_connection",
+    "args": {
+      "source_granularity": "0",
+      "target_granularity": "0"
+    }
+  },
+  "tracelinkid_postprocessor": {
+    "name": "identity",
+    "args": {}
+  }
+}

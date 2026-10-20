@@ -1,0 +1,316 @@
+[ {
+  "dataset" : "Air_Condition",
+  "round" : 3,
+  "source_id" : "B|Physical_Requirement|[1 Problem Domain::1 Black Box::1 Stakeholder Needs::Stakeholder Needs::User Needs]|Sound Level",
+  "target_id" : "A|Value_property|[1 Problem Domain::2 White Box::2 Conceptual Subsystems Communication::2 Conceptual Subsystems::3 Processing::Processing]|soundLevelProcess",
+  "predicted_type" : "Satisfy",
+  "accepted_attempt" : 1
+}, {
+  "dataset" : "Air_Condition",
+  "round" : 3,
+  "source_id" : "B|Interaction_Requirement|[1 Problem Domain::1 Black Box::1 Stakeholder Needs::Stakeholder Needs::User Needs]|Manual Control",
+  "target_id" : "A|Part_property|[1 Problem Domain::2 White Box::2 Conceptual Subsystems Communication::VCCU]|Human-Machine Interacting",
+  "predicted_type" : "Satisfy",
+  "accepted_attempt" : 1
+}, {
+  "dataset" : "Air_Condition",
+  "round" : 3,
+  "source_id" : "B|Functional_Requirement|[1 Problem Domain::1 Black Box::1 Stakeholder Needs::Stakeholder Needs::User Needs]|Heating & Cooling",
+  "target_id" : "A|Physical_port|[1 Problem Domain::2 White Box::2 Conceptual Subsystems Communication::2 Conceptual Subsystems::1 Cooling::Cooling]|in p3",
+  "predicted_type" : "Satisfy",
+  "accepted_attempt" : 1
+}, {
+  "dataset" : "Air_Condition",
+  "round" : 3,
+  "source_id" : "B|Functional_Requirement|[1 Problem Domain::1 Black Box::1 Stakeholder Needs::Stakeholder Needs::User Needs]|Heating & Cooling",
+  "target_id" : "A|Physical_port|[1 Problem Domain::2 White Box::2 Conceptual Subsystems Communication::2 Conceptual Subsystems::2 Heating::Heating]|out p5",
+  "predicted_type" : "Satisfy",
+  "accepted_attempt" : 1
+}, {
+  "dataset" : "Air_Condition",
+  "round" : 3,
+  "source_id" : "B|Functional_Requirement|[1 Problem Domain::1 Black Box::1 Stakeholder Needs::Stakeholder Needs::User Needs]|Heating & Cooling",
+  "target_id" : "A|Part_property|[1 Problem Domain::2 White Box::2 Conceptual Subsystems Communication::VCCU]|Cooling",
+  "predicted_type" : "Satisfy",
+  "accepted_attempt" : 1
+}, {
+  "dataset" : "Air_Condition",
+  "round" : 3,
+  "source_id" : "B|Functional_Requirement|[1 Problem Domain::1 Black Box::1 Stakeholder Needs::Stakeholder Needs::User Needs]|Heating & Cooling",
+  "target_id" : "A|Part_property|[1 Problem Domain::2 White Box::2 Conceptual Subsystems Communication::VCCU]|Heating",
+  "predicted_type" : "Satisfy",
+  "accepted_attempt" : 1
+}, {
+  "dataset" : "Air_Condition",
+  "round" : 3,
+  "source_id" : "B|Functional_Requirement|[1 Problem Domain::1 Black Box::1 Stakeholder Needs::Stakeholder Needs::User Needs]|Heating & Cooling",
+  "target_id" : "A|Physical_port|[1 Problem Domain::2 White Box::2 Conceptual Subsystems Communication::VCCU]|out p5",
+  "predicted_type" : "Satisfy",
+  "accepted_attempt" : 1
+}, {
+  "dataset" : "Air_Condition",
+  "round" : 3,
+  "source_id" : "B|Functional_Requirement|[1 Problem Domain::1 Black Box::1 Stakeholder Needs::Stakeholder Needs::User Needs]|Heating & Cooling",
+  "target_id" : "A|Action|[1 Problem Domain::2 White Box::3 Functional Analysis::Reach Desired Temperature]|Initialize Heating",
+  "predicted_type" : "Satisfy",
+  "accepted_attempt" : 1
+}, {
+  "dataset" : "Air_Condition",
+  "round" : 3,
+  "source_id" : "B|Physical_Requirement|[1 Problem Domain::1 Black Box::1 Stakeholder Needs::Stakeholder Needs::User Needs]|Energy Consumption",
+  "target_id" : "A|Value_property|[1 Problem Domain::2 White Box::2 Conceptual Subsystems Communication::2 Conceptual Subsystems::2 Heating::Heating]|energyConsHeat",
+  "predicted_type" : "Refine",
+  "accepted_attempt" : 1
+}, {
+  "dataset" : "Air_Condition",
+  "round" : 3,
+  "source_id" : "B|Physical_Requirement|[1 Problem Domain::1 Black Box::1 Stakeholder Needs::Stakeholder Needs::User Needs]|Energy Consumption",
+  "target_id" : "A|Value_property|[1 Problem Domain::2 White Box::2 Conceptual Subsystems Communication::2 Conceptual Subsystems::4 Human-Machine Interacting::Human-Machine Interacting]|energyConsHmi",
+  "predicted_type" : "Refine",
+  "accepted_attempt" : 1
+}, {
+  "dataset" : "Air_Condition",
+  "round" : 3,
+  "source_id" : "B|Physical_Requirement|[1 Problem Domain::1 Black Box::1 Stakeholder Needs::Stakeholder Needs::User Needs]|Energy Consumption",
+  "target_id" : "A|Value_property|[1 Problem Domain::2 White Box::2 Conceptual Subsystems Communication::2 Conceptual Subsystems::1 Cooling::Cooling]|energyConsCool",
+  "predicted_type" : "Refine",
+  "accepted_attempt" : 1
+}, {
+  "dataset" : "Air_Condition",
+  "round" : 3,
+  "source_id" : "B|Interaction_Requirement|[1 Problem Domain::1 Black Box::1 Stakeholder Needs::Stakeholder Needs::User Needs]|Ambient Temperature",
+  "target_id" : "A|Information_port|[1 Problem Domain::2 White Box::2 Conceptual Subsystems Communication::2 Conceptual Subsystems::4 Human-Machine Interacting::Human-Machine Interacting]|inout p5",
+  "predicted_type" : "Satisfy",
+  "accepted_attempt" : 1
+}, {
+  "dataset" : "Air_Condition",
+  "round" : 3,
+  "source_id" : "B|Interaction_Requirement|[1 Problem Domain::1 Black Box::1 Stakeholder Needs::Stakeholder Needs::User Needs]|Desired Temperature",
+  "target_id" : "A|Control_port|[1 Problem Domain::2 White Box::2 Conceptual Subsystems Communication::2 Conceptual Subsystems::4 Human-Machine Interacting::Human-Machine Interacting]|in p1",
+  "predicted_type" : "Satisfy",
+  "accepted_attempt" : 1
+}, {
+  "dataset" : "Air_Condition",
+  "round" : 3,
+  "source_id" : "B|Functional_Requirement|[1 Problem Domain::1 Black Box::1 Stakeholder Needs::Stakeholder Needs::User Needs]|Comfortable Temperature",
+  "target_id" : "A|Action|[1 Problem Domain::2 White Box::3 Functional Analysis::Reach Desired Temperature]|Blow Cooled Air Back to Cabin",
+  "predicted_type" : "Satisfy",
+  "accepted_attempt" : 1
+}, {
+  "dataset" : "Air_Condition",
+  "round" : 3,
+  "source_id" : "B|Functional_Requirement|[1 Problem Domain::1 Black Box::1 Stakeholder Needs::Stakeholder Needs::User Needs]|Comfortable Temperature",
+  "target_id" : "A|Action|[1 Problem Domain::2 White Box::3 Functional Analysis::Reach Desired Temperature]|Draw Heated Air Out from Cabin",
+  "predicted_type" : "Satisfy",
+  "accepted_attempt" : 1
+}, {
+  "dataset" : "Air_Condition",
+  "round" : 3,
+  "source_id" : "B|Functional_Requirement|[1 Problem Domain::1 Black Box::1 Stakeholder Needs::Stakeholder Needs::User Needs]|Comfortable Temperature",
+  "target_id" : "A|Action|[1 Problem Domain::2 White Box::3 Functional Analysis::Reach Desired Temperature]|Get Desired Temperature",
+  "predicted_type" : "Satisfy",
+  "accepted_attempt" : 1
+}, {
+  "dataset" : "Air_Condition",
+  "round" : 3,
+  "source_id" : "B|Functional_Requirement|[1 Problem Domain::1 Black Box::1 Stakeholder Needs::Stakeholder Needs::User Needs]|Comfortable Temperature",
+  "target_id" : "A|Action|[1 Problem Domain::2 White Box::3 Functional Analysis::Reach Desired Temperature]|Process Data",
+  "predicted_type" : "Satisfy",
+  "accepted_attempt" : 1
+}, {
+  "dataset" : "Air_Condition",
+  "round" : 3,
+  "source_id" : "B|Physical_Requirement|[1 Problem Domain::1 Black Box::1 Stakeholder Needs::Stakeholder Needs::Design Constraints]|Total Mass",
+  "target_id" : "A|Value_property|[1 Problem Domain::2 White Box::2 Conceptual Subsystems Communication::2 Conceptual Subsystems::1 Cooling::Cooling]|massCool",
+  "predicted_type" : "Refine",
+  "accepted_attempt" : 1
+}, {
+  "dataset" : "Air_Condition",
+  "round" : 3,
+  "source_id" : "B|Physical_Requirement|[1 Problem Domain::1 Black Box::1 Stakeholder Needs::Stakeholder Needs::Design Constraints]|Total Mass",
+  "target_id" : "A|Value_property|[1 Problem Domain::2 White Box::2 Conceptual Subsystems Communication::2 Conceptual Subsystems::2 Heating::Heating]|massHeat",
+  "predicted_type" : "Refine",
+  "accepted_attempt" : 1
+}, {
+  "dataset" : "Air_Condition",
+  "round" : 3,
+  "source_id" : "B|Functional_Requirement|[1 Problem Domain::1 Black Box::1 Stakeholder Needs::Stakeholder Needs::User Needs]|Comfortable Temperature",
+  "target_id" : "A|Action|[1 Problem Domain::2 White Box::3 Functional Analysis::Reach Desired Temperature]|Draw Cooled Air Out from Cabin",
+  "predicted_type" : "Satisfy",
+  "accepted_attempt" : 1
+}, {
+  "dataset" : "Air_Condition",
+  "round" : 3,
+  "source_id" : "B|Interface_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Setting Desired Temperature",
+  "target_id" : "A|Information_port|[1 Problem Domain::2 White Box::2 Conceptual Subsystems Communication::2 Conceptual Subsystems::3 Processing::Processing]|inout p5",
+  "predicted_type" : "Satisfy",
+  "accepted_attempt" : 1
+}, {
+  "dataset" : "Air_Condition",
+  "round" : 3,
+  "source_id" : "B|Functional_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Human-Machine Interactions",
+  "target_id" : "A|Control_port|[1 Problem Domain::2 White Box::2 Conceptual Subsystems Communication::2 Conceptual Subsystems::4 Human-Machine Interacting::Human-Machine Interacting]|in p1",
+  "predicted_type" : "Satisfy",
+  "accepted_attempt" : 1
+}, {
+  "dataset" : "Air_Condition",
+  "round" : 3,
+  "source_id" : "B|Interface_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Getting Ambient Temperature",
+  "target_id" : "A|Information_port|[1 Problem Domain::2 White Box::2 Conceptual Subsystems Communication::2 Conceptual Subsystems::3 Processing::Processing]|in p2",
+  "predicted_type" : "Satisfy",
+  "accepted_attempt" : 1
+}, {
+  "dataset" : "Air_Condition",
+  "round" : 3,
+  "source_id" : "B|Interface_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Getting Ambient Temperature",
+  "target_id" : "A|Information_port|[1 Problem Domain::2 White Box::2 Conceptual Subsystems Communication::VCCU]|in p2",
+  "predicted_type" : "Satisfy",
+  "accepted_attempt" : 1
+}, {
+  "dataset" : "Air_Condition",
+  "round" : 3,
+  "source_id" : "B|Interface_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Cabin Air",
+  "target_id" : "A|Physical_port|[1 Problem Domain::2 White Box::2 Conceptual Subsystems Communication::2 Conceptual Subsystems::1 Cooling::Cooling]|in p3",
+  "predicted_type" : "Satisfy",
+  "accepted_attempt" : 1
+}, {
+  "dataset" : "Air_Condition",
+  "round" : 3,
+  "source_id" : "B|Interface_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Cabin Air",
+  "target_id" : "A|Action|[1 Problem Domain::2 White Box::3 Functional Analysis::Reach Desired Temperature]|Draw Cooled Air Out from Cabin",
+  "predicted_type" : "Satisfy",
+  "accepted_attempt" : 1
+}, {
+  "dataset" : "Air_Condition",
+  "round" : 3,
+  "source_id" : "B|Functional_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Heating",
+  "target_id" : "A|Physical_port|[1 Problem Domain::2 White Box::2 Conceptual Subsystems Communication::2 Conceptual Subsystems::2 Heating::Heating]|in p3",
+  "predicted_type" : "Satisfy",
+  "accepted_attempt" : 1
+}, {
+  "dataset" : "Air_Condition",
+  "round" : 3,
+  "source_id" : "B|Functional_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Heating",
+  "target_id" : "A|Physical_port|[1 Problem Domain::2 White Box::2 Conceptual Subsystems Communication::2 Conceptual Subsystems::2 Heating::Heating]|out p5",
+  "predicted_type" : "Satisfy",
+  "accepted_attempt" : 1
+}, {
+  "dataset" : "Air_Condition",
+  "round" : 3,
+  "source_id" : "B|Functional_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Heating",
+  "target_id" : "A|Control_port|[1 Problem Domain::2 White Box::2 Conceptual Subsystems Communication::2 Conceptual Subsystems::3 Processing::Processing]|out p6",
+  "predicted_type" : "Satisfy",
+  "accepted_attempt" : 1
+}, {
+  "dataset" : "Air_Condition",
+  "round" : 3,
+  "source_id" : "B|Functional_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Heating",
+  "target_id" : "A|Physical_port|[1 Problem Domain::2 White Box::2 Conceptual Subsystems Communication::VCCU]|out p5",
+  "predicted_type" : "Satisfy",
+  "accepted_attempt" : 1
+}, {
+  "dataset" : "Air_Condition",
+  "round" : 3,
+  "source_id" : "B|Functional_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Heating",
+  "target_id" : "A|Action|[1 Problem Domain::2 White Box::3 Functional Analysis::Reach Desired Temperature]|Initialize Heating",
+  "predicted_type" : "Satisfy",
+  "accepted_attempt" : 1
+}, {
+  "dataset" : "Air_Condition",
+  "round" : 3,
+  "source_id" : "B|Functional_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Cooling",
+  "target_id" : "A|Physical_port|[1 Problem Domain::2 White Box::2 Conceptual Subsystems Communication::VCCU]|out p5",
+  "predicted_type" : "Satisfy",
+  "accepted_attempt" : 1
+}, {
+  "dataset" : "Air_Condition",
+  "round" : 3,
+  "source_id" : "B|Functional_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Cooling",
+  "target_id" : "A|Action|[1 Problem Domain::2 White Box::3 Functional Analysis::Reach Desired Temperature]|Blow Cooled Air Back to Cabin",
+  "predicted_type" : "Satisfy",
+  "accepted_attempt" : 1
+}, {
+  "dataset" : "Air_Condition",
+  "round" : 3,
+  "source_id" : "B|Functional_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Central Processing",
+  "target_id" : "A|Control_port|[1 Problem Domain::2 White Box::2 Conceptual Subsystems Communication::2 Conceptual Subsystems::2 Heating::Heating]|in p6",
+  "predicted_type" : "Satisfy",
+  "accepted_attempt" : 1
+}, {
+  "dataset" : "Air_Condition",
+  "round" : 3,
+  "source_id" : "B|Functional_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Central Processing",
+  "target_id" : "A|Part_property|[1 Problem Domain::2 White Box::2 Conceptual Subsystems Communication::VCCU]|Processing",
+  "predicted_type" : "Satisfy",
+  "accepted_attempt" : 1
+}, {
+  "dataset" : "Air_Condition",
+  "round" : 3,
+  "source_id" : "B|Functional_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Central Processing",
+  "target_id" : "A|Action|[1 Problem Domain::2 White Box::3 Functional Analysis::Reach Desired Temperature]|Initialize Cooling",
+  "predicted_type" : "Satisfy",
+  "accepted_attempt" : 1
+}, {
+  "dataset" : "Air_Condition",
+  "round" : 3,
+  "source_id" : "B|Functional_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Central Processing",
+  "target_id" : "A|Action|[1 Problem Domain::2 White Box::3 Functional Analysis::Reach Desired Temperature]|Read Desired Temperature",
+  "predicted_type" : "Satisfy",
+  "accepted_attempt" : 1
+}, {
+  "dataset" : "Air_Condition",
+  "round" : 3,
+  "source_id" : "B|Interface_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Output Information Display",
+  "target_id" : "A|Information_port|[1 Problem Domain::2 White Box::2 Conceptual Subsystems Communication::VCCU]|out p4",
+  "predicted_type" : "Satisfy",
+  "accepted_attempt" : 1
+}, {
+  "dataset" : "Air_Condition",
+  "round" : 3,
+  "source_id" : "B|Physical_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Max Energy Consumption",
+  "target_id" : "A|Value_property|[1 Problem Domain::2 White Box::2 Conceptual Subsystems Communication::2 Conceptual Subsystems::4 Human-Machine Interacting::Human-Machine Interacting]|energyConsHmi",
+  "predicted_type" : "Refine",
+  "accepted_attempt" : 1
+}, {
+  "dataset" : "Air_Condition",
+  "round" : 3,
+  "source_id" : "B|Interface_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Hot Air Removal form VCCS",
+  "target_id" : "A|Action|[1 Problem Domain::2 White Box::3 Functional Analysis::Reach Desired Temperature]|Draw Heated Air Out from Cabin",
+  "predicted_type" : "Satisfy",
+  "accepted_attempt" : 1
+}, {
+  "dataset" : "Air_Condition",
+  "round" : 3,
+  "source_id" : "B|Functional_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Human-Machine Interactions",
+  "target_id" : "A|Part_property|[2 Solution Domain::2 System Structure::VCCS]|cp",
+  "predicted_type" : "Satisfy",
+  "accepted_attempt" : 1
+}, {
+  "dataset" : "Air_Condition",
+  "round" : 3,
+  "source_id" : "B|Interface_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Getting Ambient Temperature",
+  "target_id" : "A|Information_port|[2 Solution Domain::2 System Structure::VCCS]|in p2",
+  "predicted_type" : "Satisfy",
+  "accepted_attempt" : 1
+}, {
+  "dataset" : "Air_Condition",
+  "round" : 3,
+  "source_id" : "B|Functional_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Central Processing",
+  "target_id" : "A|Part_property|[2 Solution Domain::2 System Structure::VCCS]|cp",
+  "predicted_type" : "Satisfy",
+  "accepted_attempt" : 1
+}, {
+  "dataset" : "Air_Condition",
+  "round" : 3,
+  "source_id" : "B|Interface_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Output Information Display",
+  "target_id" : "A|Information_port|[2 Solution Domain::2 System Structure::VCCS]|out p5",
+  "predicted_type" : "Satisfy",
+  "accepted_attempt" : 1
+}, {
+  "dataset" : "Air_Condition",
+  "round" : 3,
+  "source_id" : "B|Physical_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Max Energy Consumption",
+  "target_id" : "A|Constraint_property|[2 Solution Domain::2 System Structure::VCCS]|Energy Consumption",
+  "predicted_type" : "Satisfy",
+  "accepted_attempt" : 1
+} ]

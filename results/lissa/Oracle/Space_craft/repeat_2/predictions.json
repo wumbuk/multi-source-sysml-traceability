@@ -1,0 +1,85 @@
+[ {
+  "dataset" : "Space_craft",
+  "round" : 2,
+  "source_id" : "B|Functional_Requirement|[Spacecraft Mission Context::1-Requirements::Mission Requirements-Refined]|Detect and Monitor Forest Fires in US and Canada",
+  "target_id" : "A|Value_property|[Spacecraft Mission Context::2-Structure::Mission Enterprise]|probability of false alarm",
+  "predicted_type" : "Refine",
+  "accepted_attempt" : 1
+}, {
+  "dataset" : "Space_craft",
+  "round" : 2,
+  "source_id" : "B|Functional_Requirement|[Spacecraft Mission Context::1-Requirements::Mission Requirements-Refined::Detect and Monitor Forest Fires in US and Canada]|Coverage",
+  "target_id" : "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::2-Structure::Payload Sensor]|field of view",
+  "predicted_type" : "Satisfy",
+  "accepted_attempt" : 1
+}, {
+  "dataset" : "Space_craft",
+  "round" : 2,
+  "source_id" : "B|Physical_Requirement|[Spacecraft Mission Context::1-Requirements::Mission Requirements-Refined::Detect and Monitor Forest Fires in US and Canada]|Image Quality",
+  "target_id" : "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::2-Structure::Payload Sensor]|resolution",
+  "predicted_type" : "Satisfy",
+  "accepted_attempt" : 1
+}, {
+  "dataset" : "Space_craft",
+  "round" : 2,
+  "source_id" : "B|Functional_Requirement|[Spacecraft Mission Context::1-Requirements::Mission Requirements-Refined::Detect and Monitor Forest Fires in US and Canada]|Location Accuracy",
+  "target_id" : "A|Value_property|[Spacecraft Mission Context::2-Structure::Mission Enterprise]|location accuracy",
+  "predicted_type" : "Refine",
+  "accepted_attempt" : 1
+}, {
+  "dataset" : "Space_craft",
+  "round" : 2,
+  "source_id" : "B|Physical_Requirement|[Spacecraft Mission Context::6-Spacecraft::Black Box Specification::1-Requirements::Spacecraft Specification::Physical]|Mass",
+  "target_id" : "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Black Box Specification::2-Structure::Spacecraft]|mass",
+  "predicted_type" : "Satisfy",
+  "accepted_attempt" : 1
+}, {
+  "dataset" : "Space_craft",
+  "round" : 2,
+  "source_id" : "B|Physical_Requirement|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::1-Requirements::Payload Sensor Specification::Functional and Performance]|Data Rate",
+  "target_id" : "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::2-Structure::Payload Sensor]|data rate",
+  "predicted_type" : "Satisfy",
+  "accepted_attempt" : 1
+}, {
+  "dataset" : "Space_craft",
+  "round" : 2,
+  "source_id" : "B|Physical_Requirement|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::1-Requirements::Payload Sensor Specification::Functional and Performance]|Sensing",
+  "target_id" : "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::2-Structure::Payload Sensor]|resolution",
+  "predicted_type" : "Satisfy",
+  "accepted_attempt" : 1
+}, {
+  "dataset" : "Space_craft",
+  "round" : 2,
+  "source_id" : "B|Physical_Requirement|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::1-Requirements::Payload Sensor Specification::Functional and Performance]|Sensing",
+  "target_id" : "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::2-Structure::Payload Sensor]|sensitivity",
+  "predicted_type" : "Satisfy",
+  "accepted_attempt" : 1
+}, {
+  "dataset" : "Space_craft",
+  "round" : 2,
+  "source_id" : "B|Physical_Requirement|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::1-Requirements::Payload Sensor Specification::Functional and Performance]|Sensing",
+  "target_id" : "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Physical::Mid-Range IR Scanner]|resolution",
+  "predicted_type" : "Satisfy",
+  "accepted_attempt" : 1
+}, {
+  "dataset" : "Space_craft",
+  "round" : 2,
+  "source_id" : "B|Physical_Requirement|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::1-Requirements::Payload Sensor Specification::Physical]|Power",
+  "target_id" : "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Physical::Mid-Range IR Scanner]|power",
+  "predicted_type" : "Satisfy",
+  "accepted_attempt" : 1
+}, {
+  "dataset" : "Space_craft",
+  "round" : 2,
+  "source_id" : "B|Physical_Requirement|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::1-Requirements::Payload Sensor Specification::Physical]|Size",
+  "target_id" : "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Physical::Mid-Range IR Scanner]|size",
+  "predicted_type" : "Satisfy",
+  "accepted_attempt" : 1
+}, {
+  "dataset" : "Space_craft",
+  "round" : 2,
+  "source_id" : "B|Physical_Requirement|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::1-Requirements::Payload Sensor Specification::Quality Characteristics]|Reliability",
+  "target_id" : "A|Value_property|[Spacecraft Mission Context::6-Spacecraft::Physical Architecture::4-Subsystems::Payload Subsystem::4-Payload Sensor::Black Box::2-Structure::Payload Sensor]|lifetime",
+  "predicted_type" : "Refine",
+  "accepted_attempt" : 1
+} ]

@@ -1,0 +1,197 @@
+[ {
+  "dataset" : "Extract_Value",
+  "round" : 1,
+  "source_id" : "B|Physical_Requirement|[01 Conceptual Model::User Needs::Capacity]|Cargo capacity",
+  "target_id" : "A|Block|[03 Physical Model::System Structure]|Interior",
+  "predicted_type" : "Satisfy",
+  "accepted_attempt" : 1
+}, {
+  "dataset" : "Extract_Value",
+  "round" : 1,
+  "source_id" : "B|Interface_Requirement|[01 Conceptual Model::User Needs::Charging]|Plug-In charge",
+  "target_id" : "A|Action|[01 Conceptual Model::Use Cases::Magic Hybrid Vehicle::Charge vehicle]|Charge the vehicle",
+  "predicted_type" : "Satisfy",
+  "accepted_attempt" : 1
+}, {
+  "dataset" : "Extract_Value",
+  "round" : 1,
+  "source_id" : "B|Interface_Requirement|[01 Conceptual Model::User Needs::Charging]|Plug-In charge",
+  "target_id" : "A|Action|[01 Conceptual Model::Use Cases::Magic Hybrid Vehicle::Charge vehicle]|Provide dedicated power",
+  "predicted_type" : "Satisfy",
+  "accepted_attempt" : 1
+}, {
+  "dataset" : "Extract_Value",
+  "round" : 1,
+  "source_id" : "B|Interface_Requirement|[01 Conceptual Model::User Needs::Charging]|Plug-In charge",
+  "target_id" : "A|Action|[01 Conceptual Model::Use Cases::Magic Hybrid Vehicle::Charge vehicle]|Select charging mode",
+  "predicted_type" : "Satisfy",
+  "accepted_attempt" : 1
+}, {
+  "dataset" : "Extract_Value",
+  "round" : 1,
+  "source_id" : "B|Functional_Requirement|[01 Conceptual Model::User Needs::Charging]|Regenerative braking",
+  "target_id" : "A|Action|[01 Conceptual Model::Use Cases::Brake]|Brake",
+  "predicted_type" : "Satisfy",
+  "accepted_attempt" : 1
+}, {
+  "dataset" : "Extract_Value",
+  "round" : 1,
+  "source_id" : "B|Functional_Requirement|[01 Conceptual Model::User Needs::Charging]|Regenerative braking",
+  "target_id" : "A|Action|[01 Conceptual Model::Use Cases::Magic Hybrid Vehicle::Drive vehicle]|Push Brake Pedal",
+  "predicted_type" : "Satisfy",
+  "accepted_attempt" : 1
+}, {
+  "dataset" : "Extract_Value",
+  "round" : 1,
+  "source_id" : "B|Functional_Requirement|[01 Conceptual Model::User Needs]|Acceleration",
+  "target_id" : "A|Action|[01 Conceptual Model::Use Cases::Magic Hybrid Vehicle::Drive vehicle]|Provide Power",
+  "predicted_type" : "Satisfy",
+  "accepted_attempt" : 1
+}, {
+  "dataset" : "Extract_Value",
+  "round" : 1,
+  "source_id" : "B|Functional_Requirement|[01 Conceptual Model::User Needs]|Braking",
+  "target_id" : "A|Action|[01 Conceptual Model::Use Cases::Brake]|Brake",
+  "predicted_type" : "Satisfy",
+  "accepted_attempt" : 1
+}, {
+  "dataset" : "Extract_Value",
+  "round" : 1,
+  "source_id" : "B|Functional_Requirement|[01 Conceptual Model::User Needs]|Braking",
+  "target_id" : "A|Action|[01 Conceptual Model::Use Cases::Brake]|Detect presence and speed of vehicles",
+  "predicted_type" : "Satisfy",
+  "accepted_attempt" : 1
+}, {
+  "dataset" : "Extract_Value",
+  "round" : 1,
+  "source_id" : "B|Interaction_Requirement|[01 Conceptual Model::User Needs]|Cruise control",
+  "target_id" : "A|Block|[03 Physical Model::System Structure]|Dashboard",
+  "predicted_type" : "Satisfy",
+  "accepted_attempt" : 1
+}, {
+  "dataset" : "Extract_Value",
+  "round" : 1,
+  "source_id" : "B|Physical_Requirement|[01 Conceptual Model::User Needs]|Environmentally friendly",
+  "target_id" : "A|Action|[01 Conceptual Model::Use Cases::Accelerate]|Provide electric engine power",
+  "predicted_type" : "Satisfy",
+  "accepted_attempt" : 1
+}, {
+  "dataset" : "Extract_Value",
+  "round" : 1,
+  "source_id" : "B|Physical_Requirement|[01 Conceptual Model::User Needs]|Environmentally friendly",
+  "target_id" : "A|Action|[01 Conceptual Model::Use Cases::Accelerate]|Provide power from electric and gasoline engines",
+  "predicted_type" : "Satisfy",
+  "accepted_attempt" : 1
+}, {
+  "dataset" : "Extract_Value",
+  "round" : 1,
+  "source_id" : "B|Interaction_Requirement|[01 Conceptual Model::User Needs]|Power source management",
+  "target_id" : "A|Action|[01 Conceptual Model::Use Cases::Accelerate]|Provide electric engine power",
+  "predicted_type" : "Satisfy",
+  "accepted_attempt" : 1
+}, {
+  "dataset" : "Extract_Value",
+  "round" : 1,
+  "source_id" : "B|Physical_Requirement|[01 Conceptual Model::User Needs]|Range",
+  "target_id" : "A|Block|[03 Physical Model::System Structure]|High-voltage Battery",
+  "predicted_type" : "Satisfy",
+  "accepted_attempt" : 1
+}, {
+  "dataset" : "Extract_Value",
+  "round" : 1,
+  "source_id" : "B|Physical_Requirement|[01 Conceptual Model::User Needs]|Safety",
+  "target_id" : "A|Action|[01 Conceptual Model::Use Cases::Magic Hybrid Vehicle::Drive vehicle]|Push Brake Pedal",
+  "predicted_type" : "Satisfy",
+  "accepted_attempt" : 1
+}, {
+  "dataset" : "Extract_Value",
+  "round" : 1,
+  "source_id" : "B|Physical_Requirement|[03 Physical Model::System Requirements::Braking safety requirements]|Stopping Distance",
+  "target_id" : "A|Value_property|[03 Physical Model::System Structure::Brake Subsystem]|stoppingDistance",
+  "predicted_type" : "Refine",
+  "accepted_attempt" : 1
+}, {
+  "dataset" : "Extract_Value",
+  "round" : 1,
+  "source_id" : "B|Physical_Requirement|[03 Physical Model::System Requirements::Distance]|Full charge mode distance",
+  "target_id" : "A|Block|[03 Physical Model::System Structure]|Electric Motor",
+  "predicted_type" : "Satisfy",
+  "accepted_attempt" : 1
+}, {
+  "dataset" : "Extract_Value",
+  "round" : 1,
+  "source_id" : "B|Physical_Requirement|[03 Physical Model::System Requirements::Distance]|Full charge mode distance",
+  "target_id" : "A|Block|[03 Physical Model::System Structure]|High-voltage Battery",
+  "predicted_type" : "Satisfy",
+  "accepted_attempt" : 1
+}, {
+  "dataset" : "Extract_Value",
+  "round" : 1,
+  "source_id" : "B|Physical_Requirement|[03 Physical Model::System Requirements::Time]|Quick charge mode time",
+  "target_id" : "A|Value_property|[03 Physical Model::System Structure::High-voltage Battery]|quickChargeTime",
+  "predicted_type" : "Satisfy",
+  "accepted_attempt" : 1
+}, {
+  "dataset" : "Extract_Value",
+  "round" : 1,
+  "source_id" : "B|Physical_Requirement|[03 Physical Model::System Requirements::Time]|Quick charge mode time",
+  "target_id" : "A|Block|[03 Physical Model::System Structure]|High-voltage Battery",
+  "predicted_type" : "Satisfy",
+  "accepted_attempt" : 1
+}, {
+  "dataset" : "Extract_Value",
+  "round" : 1,
+  "source_id" : "B|Physical_Requirement|[03 Physical Model::System Requirements]|Acceleration",
+  "target_id" : "A|Action|[01 Conceptual Model::Use Cases::Accelerate]|Provide power from electric and gasoline engines",
+  "predicted_type" : "Satisfy",
+  "accepted_attempt" : 1
+}, {
+  "dataset" : "Extract_Value",
+  "round" : 1,
+  "source_id" : "B|Physical_Requirement|[03 Physical Model::System Requirements]|Acceleration",
+  "target_id" : "A|Value_property|[03 Physical Model::System Structure::Power Subsystem]|acceleration",
+  "predicted_type" : "Refine",
+  "accepted_attempt" : 1
+}, {
+  "dataset" : "Extract_Value",
+  "round" : 1,
+  "source_id" : "B|Functional_Requirement|[03 Physical Model::System Requirements]|Adaptive Cruise Control",
+  "target_id" : "A|Part_property|[03 Physical Model::System Structure::Cruise Control Computer]|PID control system",
+  "predicted_type" : "Satisfy",
+  "accepted_attempt" : 1
+}, {
+  "dataset" : "Extract_Value",
+  "round" : 1,
+  "source_id" : "B|Physical_Requirement|[03 Physical Model::System Requirements]|Brake Fluid Temperature",
+  "target_id" : "A|Value_property|[03 Physical Model::System Structure::Fluid reservoir]|fluidBoilingTemperature",
+  "predicted_type" : "Satisfy",
+  "accepted_attempt" : 1
+}, {
+  "dataset" : "Extract_Value",
+  "round" : 1,
+  "source_id" : "B|Physical_Requirement|[03 Physical Model::System Requirements]|Cargo space",
+  "target_id" : "A|Value_property|[03 Physical Model::System Structure::Body]|cargoCapacity",
+  "predicted_type" : "Satisfy",
+  "accepted_attempt" : 1
+}, {
+  "dataset" : "Extract_Value",
+  "round" : 1,
+  "source_id" : "B|Physical_Requirement|[03 Physical Model::System Requirements]|Electric Motor Power",
+  "target_id" : "A|Value_property|[03 Physical Model::System Structure::Electric Motor]|power",
+  "predicted_type" : "Satisfy",
+  "accepted_attempt" : 1
+}, {
+  "dataset" : "Extract_Value",
+  "round" : 1,
+  "source_id" : "B|Physical_Requirement|[03 Physical Model::System Requirements]|Maximum speed",
+  "target_id" : "A|Action|[01 Conceptual Model::Use Cases::Magic Hybrid Vehicle::Drive vehicle]|Provide Power",
+  "predicted_type" : "Satisfy",
+  "accepted_attempt" : 1
+}, {
+  "dataset" : "Extract_Value",
+  "round" : 1,
+  "source_id" : "B|Physical_Requirement|[03 Physical Model::System Requirements]|Maximum speed",
+  "target_id" : "A|Block|[03 Physical Model::System Structure]|Electric Motor",
+  "predicted_type" : "Satisfy",
+  "accepted_attempt" : 1
+} ]

@@ -1,0 +1,6 @@
+{
+  "dataset": "Air_Condition",
+  "llm": {"model": "Qwen3.5-9B", "base_url": "http://127.0.0.1:8021/v1", "thinking": true, "repetition_penalty": null},
+  "embedding": {"model_path": "models/all-MiniLM-L6-v2", "threshold": 0.95, "max_length": 256},
+  "supervised": {"model_path": "models/roberta-base", "epochs": 12}
+}

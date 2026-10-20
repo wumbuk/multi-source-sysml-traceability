@@ -1,0 +1,1712 @@
+[
+  {
+    "source_id": "B|Functional_Requirement|[1 Problem Domain::1 Black Box::1 Stakeholder Needs::Stakeholder Needs::User Needs]|Comfortable Temperature",
+    "target_id": "A|Action|[1 Problem Domain::2 White Box::3 Functional Analysis::Reach Desired Temperature]|Blow Cooled Air Back to Cabin",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": true,
+    "gold_label": "Refine",
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Functional_Requirement|[1 Problem Domain::1 Black Box::1 Stakeholder Needs::Stakeholder Needs::User Needs]|Comfortable Temperature",
+    "target_id": "A|Action|[1 Problem Domain::2 White Box::3 Functional Analysis::Reach Desired Temperature]|Cool Down Temperature to Desired",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Functional_Requirement|[1 Problem Domain::1 Black Box::1 Stakeholder Needs::Stakeholder Needs::User Needs]|Comfortable Temperature",
+    "target_id": "A|Action|[1 Problem Domain::2 White Box::3 Functional Analysis::Reach Desired Temperature]|Draw Cooled Air Out from Cabin",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": true,
+    "gold_label": "Refine",
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Functional_Requirement|[1 Problem Domain::1 Black Box::1 Stakeholder Needs::Stakeholder Needs::User Needs]|Comfortable Temperature",
+    "target_id": "A|Action|[1 Problem Domain::2 White Box::3 Functional Analysis::Reach Desired Temperature]|Draw Heated Air Out from Cabin",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": true,
+    "gold_label": "Refine",
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Functional_Requirement|[1 Problem Domain::1 Black Box::1 Stakeholder Needs::Stakeholder Needs::User Needs]|Comfortable Temperature",
+    "target_id": "A|Action|[1 Problem Domain::2 White Box::3 Functional Analysis::Reach Desired Temperature]|Get Ambient Temperature",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Functional_Requirement|[1 Problem Domain::1 Black Box::1 Stakeholder Needs::Stakeholder Needs::User Needs]|Comfortable Temperature",
+    "target_id": "A|Action|[1 Problem Domain::2 White Box::3 Functional Analysis::Reach Desired Temperature]|Get Desired Temperature",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": true,
+    "gold_label": "Refine",
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Functional_Requirement|[1 Problem Domain::1 Black Box::1 Stakeholder Needs::Stakeholder Needs::User Needs]|Comfortable Temperature",
+    "target_id": "A|Action|[1 Problem Domain::2 White Box::3 Functional Analysis::Reach Desired Temperature]|Heat Up Temperature to Desired",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Functional_Requirement|[1 Problem Domain::1 Black Box::1 Stakeholder Needs::Stakeholder Needs::User Needs]|Comfortable Temperature",
+    "target_id": "A|Action|[1 Problem Domain::2 White Box::3 Functional Analysis::Reach Desired Temperature]|Read Desired Temperature",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Functional_Requirement|[1 Problem Domain::1 Black Box::1 Stakeholder Needs::Stakeholder Needs::User Needs]|Comfortable Temperature",
+    "target_id": "A|Part_property|[1 Problem Domain::2 White Box::2 Conceptual Subsystems Communication::VCCU]|Cooling",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Functional_Requirement|[1 Problem Domain::1 Black Box::1 Stakeholder Needs::Stakeholder Needs::User Needs]|Comfortable Temperature",
+    "target_id": "A|Part_property|[1 Problem Domain::2 White Box::2 Conceptual Subsystems Communication::VCCU]|Heating",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Functional_Requirement|[1 Problem Domain::1 Black Box::1 Stakeholder Needs::Stakeholder Needs::User Needs]|Heating & Cooling",
+    "target_id": "A|Action|[1 Problem Domain::2 White Box::3 Functional Analysis::Reach Desired Temperature]|Cool Down Temperature to Desired",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Functional_Requirement|[1 Problem Domain::1 Black Box::1 Stakeholder Needs::Stakeholder Needs::User Needs]|Heating & Cooling",
+    "target_id": "A|Action|[1 Problem Domain::2 White Box::3 Functional Analysis::Reach Desired Temperature]|Get Desired Temperature",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Functional_Requirement|[1 Problem Domain::1 Black Box::1 Stakeholder Needs::Stakeholder Needs::User Needs]|Heating & Cooling",
+    "target_id": "A|Action|[1 Problem Domain::2 White Box::3 Functional Analysis::Reach Desired Temperature]|Heat Up Temperature to Desired",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Functional_Requirement|[1 Problem Domain::1 Black Box::1 Stakeholder Needs::Stakeholder Needs::User Needs]|Heating & Cooling",
+    "target_id": "A|Action|[1 Problem Domain::2 White Box::3 Functional Analysis::Reach Desired Temperature]|Initialize Cooling",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Functional_Requirement|[1 Problem Domain::1 Black Box::1 Stakeholder Needs::Stakeholder Needs::User Needs]|Heating & Cooling",
+    "target_id": "A|Action|[1 Problem Domain::2 White Box::3 Functional Analysis::Reach Desired Temperature]|Initialize Heating",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": true,
+    "gold_label": "Refine",
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Functional_Requirement|[1 Problem Domain::1 Black Box::1 Stakeholder Needs::Stakeholder Needs::User Needs]|Heating & Cooling",
+    "target_id": "A|Action|[1 Problem Domain::2 White Box::3 Functional Analysis::Reach Desired Temperature]|Process Data",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Functional_Requirement|[1 Problem Domain::1 Black Box::1 Stakeholder Needs::Stakeholder Needs::User Needs]|Heating & Cooling",
+    "target_id": "A|Part_property|[1 Problem Domain::2 White Box::2 Conceptual Subsystems Communication::VCCU]|Cooling",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": true,
+    "gold_label": "Refine",
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Functional_Requirement|[1 Problem Domain::1 Black Box::1 Stakeholder Needs::Stakeholder Needs::User Needs]|Heating & Cooling",
+    "target_id": "A|Part_property|[1 Problem Domain::2 White Box::2 Conceptual Subsystems Communication::VCCU]|Heating",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": true,
+    "gold_label": "Refine",
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Functional_Requirement|[1 Problem Domain::1 Black Box::1 Stakeholder Needs::Stakeholder Needs::User Needs]|Heating & Cooling",
+    "target_id": "A|Part_property|[2 Solution Domain::2 System Structure::VCCS]|heating",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Functional_Requirement|[1 Problem Domain::1 Black Box::1 Stakeholder Needs::Stakeholder Needs::User Needs]|Heating & Cooling",
+    "target_id": "A|Physical_port|[1 Problem Domain::2 White Box::2 Conceptual Subsystems Communication::2 Conceptual Subsystems::2 Heating::Heating]|in p3",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Functional_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Central Processing",
+    "target_id": "A|Action|[1 Problem Domain::2 White Box::3 Functional Analysis::Reach Desired Temperature]|Process Data",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Functional_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Central Processing",
+    "target_id": "A|Constraint_property|[2 Solution Domain::2 System Structure::VCCS]|Energy Consumption",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Functional_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Central Processing",
+    "target_id": "A|Constraint_property|[2 Solution Domain::2 System Structure::VCCS]|Max Energy Consumption",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Functional_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Central Processing",
+    "target_id": "A|Part_property|[1 Problem Domain::2 White Box::2 Conceptual Subsystems Communication::VCCU]|Cooling",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Functional_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Central Processing",
+    "target_id": "A|Part_property|[1 Problem Domain::2 White Box::2 Conceptual Subsystems Communication::VCCU]|Heating",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Functional_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Central Processing",
+    "target_id": "A|Part_property|[1 Problem Domain::2 White Box::2 Conceptual Subsystems Communication::VCCU]|Processing",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": true,
+    "gold_label": "Refine",
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Functional_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Central Processing",
+    "target_id": "A|Part_property|[2 Solution Domain::2 System Structure::VCCS]|cooling",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Functional_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Central Processing",
+    "target_id": "A|Part_property|[2 Solution Domain::2 System Structure::VCCS]|cp",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "Satisfy",
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Functional_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Central Processing",
+    "target_id": "A|Part_property|[2 Solution Domain::2 System Structure::VCCS]|heating",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Functional_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Central Processing",
+    "target_id": "A|Physical_port|[1 Problem Domain::2 White Box::2 Conceptual Subsystems Communication::VCCU]|in p3",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Functional_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Cooling",
+    "target_id": "A|Action|[1 Problem Domain::2 White Box::3 Functional Analysis::Reach Desired Temperature]|Blow Cooled Air Back to Cabin",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": true,
+    "gold_label": "Refine",
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Functional_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Cooling",
+    "target_id": "A|Action|[1 Problem Domain::2 White Box::3 Functional Analysis::Reach Desired Temperature]|Draw Cooled Air Out from Cabin",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Functional_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Cooling",
+    "target_id": "A|Constraint_property|[2 Solution Domain::2 System Structure::VCCS]|Energy Consumption",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Functional_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Cooling",
+    "target_id": "A|Part_property|[1 Problem Domain::2 White Box::2 Conceptual Subsystems Communication::VCCU]|Cooling",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Functional_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Cooling",
+    "target_id": "A|Part_property|[1 Problem Domain::2 White Box::2 Conceptual Subsystems Communication::VCCU]|Heating",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Functional_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Cooling",
+    "target_id": "A|Part_property|[2 Solution Domain::2 System Structure::VCCS]|cooling",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Functional_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Cooling",
+    "target_id": "A|Part_property|[2 Solution Domain::2 System Structure::VCCS]|cp",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Functional_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Cooling",
+    "target_id": "A|Part_property|[2 Solution Domain::2 System Structure::VCCS]|heating",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Functional_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Cooling",
+    "target_id": "A|Physical_port|[1 Problem Domain::2 White Box::2 Conceptual Subsystems Communication::2 Conceptual Subsystems::1 Cooling::Cooling]|in p3",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Functional_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Cooling",
+    "target_id": "A|Physical_port|[1 Problem Domain::2 White Box::2 Conceptual Subsystems Communication::VCCU]|in p3",
+    "exists": true,
+    "relation_type": "Refine",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Functional_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Heating",
+    "target_id": "A|Constraint_property|[2 Solution Domain::2 System Structure::VCCS]|Energy Consumption",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Functional_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Heating",
+    "target_id": "A|Constraint_property|[2 Solution Domain::2 System Structure::VCCS]|Max Energy Consumption",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Functional_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Heating",
+    "target_id": "A|Part_property|[1 Problem Domain::2 White Box::2 Conceptual Subsystems Communication::VCCU]|Cooling",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Functional_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Heating",
+    "target_id": "A|Part_property|[1 Problem Domain::2 White Box::2 Conceptual Subsystems Communication::VCCU]|Heating",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Functional_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Heating",
+    "target_id": "A|Part_property|[2 Solution Domain::2 System Structure::VCCS]|cooling",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Functional_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Heating",
+    "target_id": "A|Part_property|[2 Solution Domain::2 System Structure::VCCS]|cp",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Functional_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Heating",
+    "target_id": "A|Part_property|[2 Solution Domain::2 System Structure::VCCS]|heating",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Functional_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Heating",
+    "target_id": "A|Physical_port|[1 Problem Domain::2 White Box::2 Conceptual Subsystems Communication::2 Conceptual Subsystems::1 Cooling::Cooling]|in p3",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Functional_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Heating",
+    "target_id": "A|Physical_port|[1 Problem Domain::2 White Box::2 Conceptual Subsystems Communication::2 Conceptual Subsystems::2 Heating::Heating]|in p3",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": true,
+    "gold_label": "Refine",
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Functional_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Heating",
+    "target_id": "A|Physical_port|[1 Problem Domain::2 White Box::2 Conceptual Subsystems Communication::VCCU]|in p3",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Functional_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Human-Machine Interactions",
+    "target_id": "A|Control_port|[1 Problem Domain::2 White Box::2 Conceptual Subsystems Communication::2 Conceptual Subsystems::4 Human-Machine Interacting::Human-Machine Interacting]|in p1",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": true,
+    "gold_label": "Refine",
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Functional_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Human-Machine Interactions",
+    "target_id": "A|Control_port|[1 Problem Domain::2 White Box::2 Conceptual Subsystems Communication::VCCU]|in p1",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Functional_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Human-Machine Interactions",
+    "target_id": "A|Information_port|[1 Problem Domain::2 White Box::2 Conceptual Subsystems Communication::2 Conceptual Subsystems::4 Human-Machine Interacting::Human-Machine Interacting]|out p4",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Functional_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Human-Machine Interactions",
+    "target_id": "A|Information_port|[1 Problem Domain::2 White Box::2 Conceptual Subsystems Communication::VCCU]|in p2",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Functional_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Human-Machine Interactions",
+    "target_id": "A|Information_port|[1 Problem Domain::2 White Box::2 Conceptual Subsystems Communication::VCCU]|out p4",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Functional_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Human-Machine Interactions",
+    "target_id": "A|Information_port|[2 Solution Domain::2 System Structure::VCCS]|in p1",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Functional_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Human-Machine Interactions",
+    "target_id": "A|Information_port|[2 Solution Domain::2 System Structure::VCCS]|in p2",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Functional_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Human-Machine Interactions",
+    "target_id": "A|Part_property|[1 Problem Domain::2 White Box::2 Conceptual Subsystems Communication::VCCU]|Human-Machine Interacting",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Functional_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Human-Machine Interactions",
+    "target_id": "A|Part_property|[1 Problem Domain::2 White Box::2 Conceptual Subsystems Communication::VCCU]|Processing",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Functional_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Human-Machine Interactions",
+    "target_id": "A|Part_property|[2 Solution Domain::2 System Structure::VCCS]|hmi",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Interaction_Requirement|[1 Problem Domain::1 Black Box::1 Stakeholder Needs::Stakeholder Needs::User Needs]|Ambient Temperature",
+    "target_id": "A|Action|[1 Problem Domain::2 White Box::3 Functional Analysis::Reach Desired Temperature]|Cool Down Temperature to Desired",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Interaction_Requirement|[1 Problem Domain::1 Black Box::1 Stakeholder Needs::Stakeholder Needs::User Needs]|Ambient Temperature",
+    "target_id": "A|Action|[1 Problem Domain::2 White Box::3 Functional Analysis::Reach Desired Temperature]|Draw Cooled Air Out from Cabin",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Interaction_Requirement|[1 Problem Domain::1 Black Box::1 Stakeholder Needs::Stakeholder Needs::User Needs]|Ambient Temperature",
+    "target_id": "A|Action|[1 Problem Domain::2 White Box::3 Functional Analysis::Reach Desired Temperature]|Draw Heated Air Out from Cabin",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Interaction_Requirement|[1 Problem Domain::1 Black Box::1 Stakeholder Needs::Stakeholder Needs::User Needs]|Ambient Temperature",
+    "target_id": "A|Action|[1 Problem Domain::2 White Box::3 Functional Analysis::Reach Desired Temperature]|Get Ambient Temperature",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Interaction_Requirement|[1 Problem Domain::1 Black Box::1 Stakeholder Needs::Stakeholder Needs::User Needs]|Ambient Temperature",
+    "target_id": "A|Action|[1 Problem Domain::2 White Box::3 Functional Analysis::Reach Desired Temperature]|Get Desired Temperature",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Interaction_Requirement|[1 Problem Domain::1 Black Box::1 Stakeholder Needs::Stakeholder Needs::User Needs]|Ambient Temperature",
+    "target_id": "A|Action|[1 Problem Domain::2 White Box::3 Functional Analysis::Reach Desired Temperature]|Heat Up Temperature to Desired",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Interaction_Requirement|[1 Problem Domain::1 Black Box::1 Stakeholder Needs::Stakeholder Needs::User Needs]|Ambient Temperature",
+    "target_id": "A|Action|[1 Problem Domain::2 White Box::3 Functional Analysis::Reach Desired Temperature]|Process Data",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Interaction_Requirement|[1 Problem Domain::1 Black Box::1 Stakeholder Needs::Stakeholder Needs::User Needs]|Ambient Temperature",
+    "target_id": "A|Action|[1 Problem Domain::2 White Box::3 Functional Analysis::Reach Desired Temperature]|Read Desired Temperature",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Interaction_Requirement|[1 Problem Domain::1 Black Box::1 Stakeholder Needs::Stakeholder Needs::User Needs]|Ambient Temperature",
+    "target_id": "A|Action|[1 Problem Domain::2 White Box::3 Functional Analysis::Reach Desired Temperature]|Send Data to Computing Unit",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Interaction_Requirement|[1 Problem Domain::1 Black Box::1 Stakeholder Needs::Stakeholder Needs::User Needs]|Ambient Temperature",
+    "target_id": "A|Information_port|[2 Solution Domain::2 System Structure::VCCS]|in p1",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Interaction_Requirement|[1 Problem Domain::1 Black Box::1 Stakeholder Needs::Stakeholder Needs::User Needs]|Desired Temperature",
+    "target_id": "A|Action|[1 Problem Domain::2 White Box::3 Functional Analysis::Reach Desired Temperature]|Cool Down Temperature to Desired",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Interaction_Requirement|[1 Problem Domain::1 Black Box::1 Stakeholder Needs::Stakeholder Needs::User Needs]|Desired Temperature",
+    "target_id": "A|Action|[1 Problem Domain::2 White Box::3 Functional Analysis::Reach Desired Temperature]|Get Ambient Temperature",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Interaction_Requirement|[1 Problem Domain::1 Black Box::1 Stakeholder Needs::Stakeholder Needs::User Needs]|Desired Temperature",
+    "target_id": "A|Action|[1 Problem Domain::2 White Box::3 Functional Analysis::Reach Desired Temperature]|Get Desired Temperature",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Interaction_Requirement|[1 Problem Domain::1 Black Box::1 Stakeholder Needs::Stakeholder Needs::User Needs]|Desired Temperature",
+    "target_id": "A|Action|[1 Problem Domain::2 White Box::3 Functional Analysis::Reach Desired Temperature]|Heat Up Temperature to Desired",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Interaction_Requirement|[1 Problem Domain::1 Black Box::1 Stakeholder Needs::Stakeholder Needs::User Needs]|Desired Temperature",
+    "target_id": "A|Action|[1 Problem Domain::2 White Box::3 Functional Analysis::Reach Desired Temperature]|Initialize Cooling",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Interaction_Requirement|[1 Problem Domain::1 Black Box::1 Stakeholder Needs::Stakeholder Needs::User Needs]|Desired Temperature",
+    "target_id": "A|Action|[1 Problem Domain::2 White Box::3 Functional Analysis::Reach Desired Temperature]|Initialize Heating",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Interaction_Requirement|[1 Problem Domain::1 Black Box::1 Stakeholder Needs::Stakeholder Needs::User Needs]|Desired Temperature",
+    "target_id": "A|Action|[1 Problem Domain::2 White Box::3 Functional Analysis::Reach Desired Temperature]|Process Data",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Interaction_Requirement|[1 Problem Domain::1 Black Box::1 Stakeholder Needs::Stakeholder Needs::User Needs]|Desired Temperature",
+    "target_id": "A|Action|[1 Problem Domain::2 White Box::3 Functional Analysis::Reach Desired Temperature]|Read Desired Temperature",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Interaction_Requirement|[1 Problem Domain::1 Black Box::1 Stakeholder Needs::Stakeholder Needs::User Needs]|Desired Temperature",
+    "target_id": "A|Action|[1 Problem Domain::2 White Box::3 Functional Analysis::Reach Desired Temperature]|Send Data to Computing Unit",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Interaction_Requirement|[1 Problem Domain::1 Black Box::1 Stakeholder Needs::Stakeholder Needs::User Needs]|Desired Temperature",
+    "target_id": "A|Part_property|[1 Problem Domain::2 White Box::2 Conceptual Subsystems Communication::VCCU]|Cooling",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Interaction_Requirement|[1 Problem Domain::1 Black Box::1 Stakeholder Needs::Stakeholder Needs::User Needs]|Manual Control",
+    "target_id": "A|Action|[1 Problem Domain::2 White Box::3 Functional Analysis::Reach Desired Temperature]|Cool Down Temperature to Desired",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Interaction_Requirement|[1 Problem Domain::1 Black Box::1 Stakeholder Needs::Stakeholder Needs::User Needs]|Manual Control",
+    "target_id": "A|Action|[1 Problem Domain::2 White Box::3 Functional Analysis::Reach Desired Temperature]|Get Ambient Temperature",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Interaction_Requirement|[1 Problem Domain::1 Black Box::1 Stakeholder Needs::Stakeholder Needs::User Needs]|Manual Control",
+    "target_id": "A|Action|[1 Problem Domain::2 White Box::3 Functional Analysis::Reach Desired Temperature]|Get Desired Temperature",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Interaction_Requirement|[1 Problem Domain::1 Black Box::1 Stakeholder Needs::Stakeholder Needs::User Needs]|Manual Control",
+    "target_id": "A|Action|[1 Problem Domain::2 White Box::3 Functional Analysis::Reach Desired Temperature]|Initialize Cooling",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Interaction_Requirement|[1 Problem Domain::1 Black Box::1 Stakeholder Needs::Stakeholder Needs::User Needs]|Manual Control",
+    "target_id": "A|Action|[1 Problem Domain::2 White Box::3 Functional Analysis::Reach Desired Temperature]|Initialize Heating",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Interaction_Requirement|[1 Problem Domain::1 Black Box::1 Stakeholder Needs::Stakeholder Needs::User Needs]|Manual Control",
+    "target_id": "A|Action|[1 Problem Domain::2 White Box::3 Functional Analysis::Reach Desired Temperature]|Process Data",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Interaction_Requirement|[1 Problem Domain::1 Black Box::1 Stakeholder Needs::Stakeholder Needs::User Needs]|Manual Control",
+    "target_id": "A|Action|[1 Problem Domain::2 White Box::3 Functional Analysis::Reach Desired Temperature]|Read Desired Temperature",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Interaction_Requirement|[1 Problem Domain::1 Black Box::1 Stakeholder Needs::Stakeholder Needs::User Needs]|Manual Control",
+    "target_id": "A|Control_port|[1 Problem Domain::2 White Box::2 Conceptual Subsystems Communication::2 Conceptual Subsystems::4 Human-Machine Interacting::Human-Machine Interacting]|in p1",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Interaction_Requirement|[1 Problem Domain::1 Black Box::1 Stakeholder Needs::Stakeholder Needs::User Needs]|Manual Control",
+    "target_id": "A|Control_port|[1 Problem Domain::2 White Box::2 Conceptual Subsystems Communication::VCCU]|in p1",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Interaction_Requirement|[1 Problem Domain::1 Black Box::1 Stakeholder Needs::Stakeholder Needs::User Needs]|Manual Control",
+    "target_id": "A|Information_port|[2 Solution Domain::2 System Structure::VCCS]|in p1",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Interface_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Cabin Air",
+    "target_id": "A|Action|[1 Problem Domain::2 White Box::3 Functional Analysis::Reach Desired Temperature]|Blow Cooled Air Back to Cabin",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Interface_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Cabin Air",
+    "target_id": "A|Action|[1 Problem Domain::2 White Box::3 Functional Analysis::Reach Desired Temperature]|Draw Cooled Air Out from Cabin",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": true,
+    "gold_label": "Refine",
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Interface_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Cabin Air",
+    "target_id": "A|Action|[1 Problem Domain::2 White Box::3 Functional Analysis::Reach Desired Temperature]|Draw Heated Air Out from Cabin",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Interface_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Cabin Air",
+    "target_id": "A|Physical_port|[1 Problem Domain::2 White Box::2 Conceptual Subsystems Communication::2 Conceptual Subsystems::1 Cooling::Cooling]|in p3",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": true,
+    "gold_label": "Refine",
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Interface_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Cabin Air",
+    "target_id": "A|Physical_port|[1 Problem Domain::2 White Box::2 Conceptual Subsystems Communication::2 Conceptual Subsystems::2 Heating::Heating]|in p3",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Interface_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Cabin Air",
+    "target_id": "A|Physical_port|[1 Problem Domain::2 White Box::2 Conceptual Subsystems Communication::VCCU]|in p3",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Interface_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Cabin Air",
+    "target_id": "A|Physical_port|[1 Problem Domain::2 White Box::2 Conceptual Subsystems Communication::VCCU]|out p5",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Interface_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Cabin Air",
+    "target_id": "A|Physical_port|[2 Solution Domain::2 System Structure::VCCS]|in p3",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Interface_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Cabin Air",
+    "target_id": "A|Physical_port|[2 Solution Domain::2 System Structure::VCCS]|out p4",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Interface_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Cabin Air",
+    "target_id": "A|Physical_port|[2 Solution Domain::2 System Structure::VCCS]|out p6",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Interface_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Getting Ambient Temperature",
+    "target_id": "A|Action|[1 Problem Domain::2 White Box::3 Functional Analysis::Reach Desired Temperature]|Get Ambient Temperature",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Interface_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Getting Ambient Temperature",
+    "target_id": "A|Action|[1 Problem Domain::2 White Box::3 Functional Analysis::Reach Desired Temperature]|Get Desired Temperature",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Interface_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Getting Ambient Temperature",
+    "target_id": "A|Action|[1 Problem Domain::2 White Box::3 Functional Analysis::Reach Desired Temperature]|Read Desired Temperature",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Interface_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Getting Ambient Temperature",
+    "target_id": "A|Constraint_property|[2 Solution Domain::2 System Structure::VCCS]|Energy Consumption",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Interface_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Getting Ambient Temperature",
+    "target_id": "A|Information_port|[2 Solution Domain::2 System Structure::VCCS]|in p1",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Interface_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Getting Ambient Temperature",
+    "target_id": "A|Part_property|[1 Problem Domain::2 White Box::2 Conceptual Subsystems Communication::VCCU]|Cooling",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Interface_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Getting Ambient Temperature",
+    "target_id": "A|Part_property|[1 Problem Domain::2 White Box::2 Conceptual Subsystems Communication::VCCU]|Processing",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Interface_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Getting Ambient Temperature",
+    "target_id": "A|Part_property|[2 Solution Domain::2 System Structure::VCCS]|cooling",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Interface_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Getting Ambient Temperature",
+    "target_id": "A|Part_property|[2 Solution Domain::2 System Structure::VCCS]|cp",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Interface_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Getting Ambient Temperature",
+    "target_id": "A|Part_property|[2 Solution Domain::2 System Structure::VCCS]|heating",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Interface_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Hot Air Removal form VCCS",
+    "target_id": "A|Constraint_property|[2 Solution Domain::2 System Structure::VCCS]|Energy Consumption",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Interface_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Hot Air Removal form VCCS",
+    "target_id": "A|Part_property|[1 Problem Domain::2 White Box::2 Conceptual Subsystems Communication::VCCU]|Cooling",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Interface_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Hot Air Removal form VCCS",
+    "target_id": "A|Part_property|[1 Problem Domain::2 White Box::2 Conceptual Subsystems Communication::VCCU]|Heating",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Interface_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Hot Air Removal form VCCS",
+    "target_id": "A|Part_property|[2 Solution Domain::2 System Structure::VCCS]|cooling",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Interface_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Hot Air Removal form VCCS",
+    "target_id": "A|Part_property|[2 Solution Domain::2 System Structure::VCCS]|cp",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Interface_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Hot Air Removal form VCCS",
+    "target_id": "A|Part_property|[2 Solution Domain::2 System Structure::VCCS]|heating",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Interface_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Hot Air Removal form VCCS",
+    "target_id": "A|Physical_port|[1 Problem Domain::2 White Box::2 Conceptual Subsystems Communication::VCCU]|in p3",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Interface_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Hot Air Removal form VCCS",
+    "target_id": "A|Physical_port|[2 Solution Domain::2 System Structure::VCCS]|in p3",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Interface_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Hot Air Removal form VCCS",
+    "target_id": "A|Physical_port|[2 Solution Domain::2 System Structure::VCCS]|out p4",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Interface_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Hot Air Removal form VCCS",
+    "target_id": "A|Physical_port|[2 Solution Domain::2 System Structure::VCCS]|out p6",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Interface_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Output Information Display",
+    "target_id": "A|Control_port|[1 Problem Domain::2 White Box::2 Conceptual Subsystems Communication::VCCU]|in p1",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Interface_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Output Information Display",
+    "target_id": "A|Information_port|[1 Problem Domain::2 White Box::2 Conceptual Subsystems Communication::VCCU]|in p2",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Interface_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Output Information Display",
+    "target_id": "A|Information_port|[1 Problem Domain::2 White Box::2 Conceptual Subsystems Communication::VCCU]|out p4",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": true,
+    "gold_label": "Refine",
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Interface_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Output Information Display",
+    "target_id": "A|Information_port|[2 Solution Domain::2 System Structure::VCCS]|in p1",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Interface_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Output Information Display",
+    "target_id": "A|Information_port|[2 Solution Domain::2 System Structure::VCCS]|in p2",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Interface_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Output Information Display",
+    "target_id": "A|Information_port|[2 Solution Domain::2 System Structure::VCCS]|out p5",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": true,
+    "gold_label": "Satisfy",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Interface_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Output Information Display",
+    "target_id": "A|Part_property|[1 Problem Domain::2 White Box::2 Conceptual Subsystems Communication::VCCU]|Heating",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Interface_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Output Information Display",
+    "target_id": "A|Part_property|[1 Problem Domain::2 White Box::2 Conceptual Subsystems Communication::VCCU]|Processing",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Interface_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Output Information Display",
+    "target_id": "A|Part_property|[2 Solution Domain::2 System Structure::VCCS]|heating",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Interface_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Output Information Display",
+    "target_id": "A|Physical_port|[1 Problem Domain::2 White Box::2 Conceptual Subsystems Communication::VCCU]|in p3",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Interface_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Setting Desired Temperature",
+    "target_id": "A|Action|[1 Problem Domain::2 White Box::3 Functional Analysis::Reach Desired Temperature]|Get Ambient Temperature",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Interface_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Setting Desired Temperature",
+    "target_id": "A|Action|[1 Problem Domain::2 White Box::3 Functional Analysis::Reach Desired Temperature]|Get Desired Temperature",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Interface_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Setting Desired Temperature",
+    "target_id": "A|Action|[1 Problem Domain::2 White Box::3 Functional Analysis::Reach Desired Temperature]|Read Desired Temperature",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Interface_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Setting Desired Temperature",
+    "target_id": "A|Constraint_property|[2 Solution Domain::2 System Structure::VCCS]|Energy Consumption",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Interface_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Setting Desired Temperature",
+    "target_id": "A|Information_port|[2 Solution Domain::2 System Structure::VCCS]|in p1",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Interface_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Setting Desired Temperature",
+    "target_id": "A|Part_property|[1 Problem Domain::2 White Box::2 Conceptual Subsystems Communication::VCCU]|Cooling",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Interface_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Setting Desired Temperature",
+    "target_id": "A|Part_property|[1 Problem Domain::2 White Box::2 Conceptual Subsystems Communication::VCCU]|Heating",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Interface_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Setting Desired Temperature",
+    "target_id": "A|Part_property|[2 Solution Domain::2 System Structure::VCCS]|cooling",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Interface_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Setting Desired Temperature",
+    "target_id": "A|Part_property|[2 Solution Domain::2 System Structure::VCCS]|cp",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Interface_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Setting Desired Temperature",
+    "target_id": "A|Part_property|[2 Solution Domain::2 System Structure::VCCS]|heating",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Interface_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Waste Removal VCCS",
+    "target_id": "A|Constraint_property|[2 Solution Domain::2 System Structure::VCCS]|Energy Consumption",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Interface_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Waste Removal VCCS",
+    "target_id": "A|Constraint_property|[2 Solution Domain::2 System Structure::VCCS]|Max Energy Consumption",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Interface_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Waste Removal VCCS",
+    "target_id": "A|Part_property|[1 Problem Domain::2 White Box::2 Conceptual Subsystems Communication::VCCU]|Processing",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Interface_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Waste Removal VCCS",
+    "target_id": "A|Part_property|[2 Solution Domain::2 System Structure::VCCS]|cooling",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Interface_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Waste Removal VCCS",
+    "target_id": "A|Part_property|[2 Solution Domain::2 System Structure::VCCS]|cp",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Interface_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Waste Removal VCCS",
+    "target_id": "A|Part_property|[2 Solution Domain::2 System Structure::VCCS]|heating",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Interface_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Waste Removal VCCS",
+    "target_id": "A|Physical_port|[1 Problem Domain::2 White Box::2 Conceptual Subsystems Communication::VCCU]|in p3",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Interface_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Waste Removal VCCS",
+    "target_id": "A|Physical_port|[2 Solution Domain::2 System Structure::VCCS]|in p3",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Interface_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Waste Removal VCCS",
+    "target_id": "A|Physical_port|[2 Solution Domain::2 System Structure::VCCS]|out p6",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Interface_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Waste Removal VCCS",
+    "target_id": "A|Physical_port|[2 Solution Domain::2 System Structure::VCCS]|out p7",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[1 Problem Domain::1 Black Box::1 Stakeholder Needs::Stakeholder Needs::Design Constraints]|Total Mass",
+    "target_id": "A|Constraint_property|[2 Solution Domain::2 System Structure::VCCS]|Energy Consumption",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[1 Problem Domain::1 Black Box::1 Stakeholder Needs::Stakeholder Needs::Design Constraints]|Total Mass",
+    "target_id": "A|Constraint_property|[2 Solution Domain::2 System Structure::VCCS]|Max Energy Consumption",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[1 Problem Domain::1 Black Box::1 Stakeholder Needs::Stakeholder Needs::Design Constraints]|Total Mass",
+    "target_id": "A|Part_property|[1 Problem Domain::2 White Box::2 Conceptual Subsystems Communication::VCCU]|Cooling",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[1 Problem Domain::1 Black Box::1 Stakeholder Needs::Stakeholder Needs::Design Constraints]|Total Mass",
+    "target_id": "A|Part_property|[1 Problem Domain::2 White Box::2 Conceptual Subsystems Communication::VCCU]|Human-Machine Interacting",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[1 Problem Domain::1 Black Box::1 Stakeholder Needs::Stakeholder Needs::Design Constraints]|Total Mass",
+    "target_id": "A|Value_property|[1 Problem Domain::2 White Box::2 Conceptual Subsystems Communication::2 Conceptual Subsystems::1 Cooling::Cooling]|massCool",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": true,
+    "gold_label": "Refine",
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[1 Problem Domain::1 Black Box::1 Stakeholder Needs::Stakeholder Needs::Design Constraints]|Total Mass",
+    "target_id": "A|Value_property|[1 Problem Domain::2 White Box::2 Conceptual Subsystems Communication::2 Conceptual Subsystems::2 Heating::Heating]|massHeat",
+    "exists": true,
+    "relation_type": "Refine",
+    "in_labeled_csv": true,
+    "gold_label": "Refine",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Physical_Requirement|[1 Problem Domain::1 Black Box::1 Stakeholder Needs::Stakeholder Needs::Design Constraints]|Total Mass",
+    "target_id": "A|Value_property|[1 Problem Domain::2 White Box::2 Conceptual Subsystems Communication::2 Conceptual Subsystems::3 Processing::Processing]|massProcess",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[1 Problem Domain::1 Black Box::1 Stakeholder Needs::Stakeholder Needs::Design Constraints]|Total Mass",
+    "target_id": "A|Value_property|[1 Problem Domain::2 White Box::2 Conceptual Subsystems Communication::2 Conceptual Subsystems::4 Human-Machine Interacting::Human-Machine Interacting]|massHmi",
+    "exists": true,
+    "relation_type": "Refine",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[1 Problem Domain::1 Black Box::1 Stakeholder Needs::Stakeholder Needs::Design Constraints]|Total Mass",
+    "target_id": "A|Value_property|[1 Problem Domain::2 White Box::2 Conceptual Subsystems Communication::VCCU]|totalEnergyConsVCCU",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[1 Problem Domain::1 Black Box::1 Stakeholder Needs::Stakeholder Needs::Design Constraints]|Total Mass",
+    "target_id": "A|Value_property|[1 Problem Domain::2 White Box::2 Conceptual Subsystems Communication::VCCU]|totalMassVCCU",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[1 Problem Domain::1 Black Box::1 Stakeholder Needs::Stakeholder Needs::User Needs]|Energy Consumption",
+    "target_id": "A|Action|[1 Problem Domain::2 White Box::3 Functional Analysis::Reach Desired Temperature]|Heat Up Temperature to Desired",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[1 Problem Domain::1 Black Box::1 Stakeholder Needs::Stakeholder Needs::User Needs]|Energy Consumption",
+    "target_id": "A|Constraint_property|[2 Solution Domain::2 System Structure::VCCS]|Energy Consumption",
+    "exists": true,
+    "relation_type": "Refine",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[1 Problem Domain::1 Black Box::1 Stakeholder Needs::Stakeholder Needs::User Needs]|Energy Consumption",
+    "target_id": "A|Constraint_property|[2 Solution Domain::2 System Structure::VCCS]|Max Energy Consumption",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[1 Problem Domain::1 Black Box::1 Stakeholder Needs::Stakeholder Needs::User Needs]|Energy Consumption",
+    "target_id": "A|Value_property|[1 Problem Domain::2 White Box::2 Conceptual Subsystems Communication::2 Conceptual Subsystems::1 Cooling::Cooling]|energyConsCool",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": true,
+    "gold_label": "Refine",
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[1 Problem Domain::1 Black Box::1 Stakeholder Needs::Stakeholder Needs::User Needs]|Energy Consumption",
+    "target_id": "A|Value_property|[1 Problem Domain::2 White Box::2 Conceptual Subsystems Communication::2 Conceptual Subsystems::2 Heating::Heating]|energyConsHeat",
+    "exists": true,
+    "relation_type": "Refine",
+    "in_labeled_csv": true,
+    "gold_label": "Refine",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Physical_Requirement|[1 Problem Domain::1 Black Box::1 Stakeholder Needs::Stakeholder Needs::User Needs]|Energy Consumption",
+    "target_id": "A|Value_property|[1 Problem Domain::2 White Box::2 Conceptual Subsystems Communication::2 Conceptual Subsystems::2 Heating::Heating]|massHeat",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[1 Problem Domain::1 Black Box::1 Stakeholder Needs::Stakeholder Needs::User Needs]|Energy Consumption",
+    "target_id": "A|Value_property|[1 Problem Domain::2 White Box::2 Conceptual Subsystems Communication::2 Conceptual Subsystems::3 Processing::Processing]|energyConsProcess",
+    "exists": true,
+    "relation_type": "Refine",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[1 Problem Domain::1 Black Box::1 Stakeholder Needs::Stakeholder Needs::User Needs]|Energy Consumption",
+    "target_id": "A|Value_property|[1 Problem Domain::2 White Box::2 Conceptual Subsystems Communication::2 Conceptual Subsystems::4 Human-Machine Interacting::Human-Machine Interacting]|energyConsHmi",
+    "exists": true,
+    "relation_type": "Refine",
+    "in_labeled_csv": true,
+    "gold_label": "Refine",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Physical_Requirement|[1 Problem Domain::1 Black Box::1 Stakeholder Needs::Stakeholder Needs::User Needs]|Energy Consumption",
+    "target_id": "A|Value_property|[1 Problem Domain::2 White Box::2 Conceptual Subsystems Communication::VCCU]|totalEnergyConsVCCU",
+    "exists": true,
+    "relation_type": "Refine",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[1 Problem Domain::1 Black Box::1 Stakeholder Needs::Stakeholder Needs::User Needs]|Energy Consumption",
+    "target_id": "A|Value_property|[2 Solution Domain::2 System Structure::VCCS]|totalEnergyConsVCCS",
+    "exists": true,
+    "relation_type": "Refine",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[1 Problem Domain::1 Black Box::1 Stakeholder Needs::Stakeholder Needs::User Needs]|Sound Level",
+    "target_id": "A|Action|[1 Problem Domain::2 White Box::3 Functional Analysis::Reach Desired Temperature]|Cool Down Temperature to Desired",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[1 Problem Domain::1 Black Box::1 Stakeholder Needs::Stakeholder Needs::User Needs]|Sound Level",
+    "target_id": "A|Information_port|[2 Solution Domain::2 System Structure::VCCS]|in p1",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[1 Problem Domain::1 Black Box::1 Stakeholder Needs::Stakeholder Needs::User Needs]|Sound Level",
+    "target_id": "A|Part_property|[1 Problem Domain::2 White Box::2 Conceptual Subsystems Communication::VCCU]|Cooling",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[1 Problem Domain::1 Black Box::1 Stakeholder Needs::Stakeholder Needs::User Needs]|Sound Level",
+    "target_id": "A|Part_property|[1 Problem Domain::2 White Box::2 Conceptual Subsystems Communication::VCCU]|Heating",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": true,
+    "gold_label": "None",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Physical_Requirement|[1 Problem Domain::1 Black Box::1 Stakeholder Needs::Stakeholder Needs::User Needs]|Sound Level",
+    "target_id": "A|Physical_port|[1 Problem Domain::2 White Box::2 Conceptual Subsystems Communication::VCCU]|in p3",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[1 Problem Domain::1 Black Box::1 Stakeholder Needs::Stakeholder Needs::User Needs]|Sound Level",
+    "target_id": "A|Value_property|[1 Problem Domain::2 White Box::2 Conceptual Subsystems Communication::2 Conceptual Subsystems::1 Cooling::Cooling]|soundLevelCool",
+    "exists": true,
+    "relation_type": "Refine",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[1 Problem Domain::1 Black Box::1 Stakeholder Needs::Stakeholder Needs::User Needs]|Sound Level",
+    "target_id": "A|Value_property|[1 Problem Domain::2 White Box::2 Conceptual Subsystems Communication::2 Conceptual Subsystems::2 Heating::Heating]|soundLevelHeat",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[1 Problem Domain::1 Black Box::1 Stakeholder Needs::Stakeholder Needs::User Needs]|Sound Level",
+    "target_id": "A|Value_property|[1 Problem Domain::2 White Box::2 Conceptual Subsystems Communication::2 Conceptual Subsystems::3 Processing::Processing]|soundLevelProcess",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": true,
+    "gold_label": "Refine",
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[1 Problem Domain::1 Black Box::1 Stakeholder Needs::Stakeholder Needs::User Needs]|Sound Level",
+    "target_id": "A|Value_property|[1 Problem Domain::2 White Box::2 Conceptual Subsystems Communication::2 Conceptual Subsystems::4 Human-Machine Interacting::Human-Machine Interacting]|soundLevelHmi",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[1 Problem Domain::1 Black Box::1 Stakeholder Needs::Stakeholder Needs::User Needs]|Sound Level",
+    "target_id": "A|Value_property|[1 Problem Domain::2 White Box::2 Conceptual Subsystems Communication::VCCU]|soundLevelVCCU",
+    "exists": true,
+    "relation_type": "Refine",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Max Energy Consumption",
+    "target_id": "A|Constraint_property|[2 Solution Domain::2 System Structure::VCCS]|Energy Consumption",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": true,
+    "gold_label": "Satisfy",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Physical_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Max Energy Consumption",
+    "target_id": "A|Constraint_property|[2 Solution Domain::2 System Structure::VCCS]|Max Energy Consumption",
+    "exists": true,
+    "relation_type": "Satisfy",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Max Energy Consumption",
+    "target_id": "A|Part_property|[1 Problem Domain::2 White Box::2 Conceptual Subsystems Communication::VCCU]|Cooling",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Max Energy Consumption",
+    "target_id": "A|Part_property|[2 Solution Domain::2 System Structure::VCCS]|heating",
+    "exists": false,
+    "relation_type": "None",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Max Energy Consumption",
+    "target_id": "A|Value_property|[1 Problem Domain::2 White Box::2 Conceptual Subsystems Communication::2 Conceptual Subsystems::1 Cooling::Cooling]|energyConsCool",
+    "exists": true,
+    "relation_type": "Refine",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Max Energy Consumption",
+    "target_id": "A|Value_property|[1 Problem Domain::2 White Box::2 Conceptual Subsystems Communication::2 Conceptual Subsystems::2 Heating::Heating]|energyConsHeat",
+    "exists": true,
+    "relation_type": "Refine",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Max Energy Consumption",
+    "target_id": "A|Value_property|[1 Problem Domain::2 White Box::2 Conceptual Subsystems Communication::2 Conceptual Subsystems::3 Processing::Processing]|energyConsProcess",
+    "exists": true,
+    "relation_type": "Refine",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Max Energy Consumption",
+    "target_id": "A|Value_property|[1 Problem Domain::2 White Box::2 Conceptual Subsystems Communication::2 Conceptual Subsystems::4 Human-Machine Interacting::Human-Machine Interacting]|energyConsHmi",
+    "exists": true,
+    "relation_type": "Refine",
+    "in_labeled_csv": true,
+    "gold_label": "Refine",
+    "correct_end_to_end": true
+  },
+  {
+    "source_id": "B|Physical_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Max Energy Consumption",
+    "target_id": "A|Value_property|[1 Problem Domain::2 White Box::2 Conceptual Subsystems Communication::VCCU]|totalEnergyConsVCCU",
+    "exists": true,
+    "relation_type": "Refine",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  },
+  {
+    "source_id": "B|Physical_Requirement|[2 Solution Domain::1 System Requirements::SRS for VCCS]|Max Energy Consumption",
+    "target_id": "A|Value_property|[2 Solution Domain::2 System Structure::VCCS]|totalEnergyConsVCCS",
+    "exists": true,
+    "relation_type": "Refine",
+    "in_labeled_csv": false,
+    "gold_label": null,
+    "correct_end_to_end": false
+  }
+]

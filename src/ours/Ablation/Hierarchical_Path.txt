@@ -1,0 +1,17 @@
+    output_dict = {
+        "模型节点信息": {
+            "名称": model_node.get("Name", ""),
+            "功能描述": model_node.get("Description", ""),
+            "元素属性": model_node.get("Property", ""),
+            "元素类型": model_node.get("NType", "")
+        },
+        "需求节点信息": {
+            "名称": req_node.get("Name", ""),
+            "需求描述": req_node.get("Description", ""),
+            "需求属性": req_node.get("Property", ""),
+            "需求类型": req_node.get("NType", "")
+        },
+        "可能对追溯关系判断有帮助的案例": judge_cases,
+        "和模型节点处于同一子系统中的节点信息": subsystem_nodes,
+        "模型元素和需求元素之间可能存在的关系集合": relations_set
+    }

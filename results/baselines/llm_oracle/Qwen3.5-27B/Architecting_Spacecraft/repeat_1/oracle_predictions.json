@@ -1,0 +1,110 @@
+[
+  {
+    "sample_index": 1,
+    "SourceSequence": "4",
+    "gold_relation_type": "Refine",
+    "predicted_relation_type": "Refine",
+    "status": "ok",
+    "error": null,
+    "raw_response": "{\"relation_type\":\"Refine\"}"
+  },
+  {
+    "sample_index": 2,
+    "SourceSequence": "34",
+    "gold_relation_type": "Refine",
+    "predicted_relation_type": "Refine",
+    "status": "ok",
+    "error": null,
+    "raw_response": "{\"relation_type\":\"Refine\"}"
+  },
+  {
+    "sample_index": 3,
+    "SourceSequence": "64",
+    "gold_relation_type": "Refine",
+    "predicted_relation_type": "Refine",
+    "status": "ok",
+    "error": null,
+    "raw_response": "{\"relation_type\":\"Refine\"}"
+  },
+  {
+    "sample_index": 4,
+    "SourceSequence": "68",
+    "gold_relation_type": "Refine",
+    "predicted_relation_type": "Refine",
+    "status": "ok",
+    "error": null,
+    "raw_response": "{\"relation_type\":\"Refine\"}"
+  },
+  {
+    "sample_index": 5,
+    "SourceSequence": "81",
+    "gold_relation_type": "Refine",
+    "predicted_relation_type": "Refine",
+    "status": "ok",
+    "error": null,
+    "raw_response": "{\"relation_type\":\"Refine\"}"
+  },
+  {
+    "sample_index": 6,
+    "SourceSequence": "93",
+    "gold_relation_type": "Refine",
+    "predicted_relation_type": "Refine",
+    "status": "ok",
+    "error": null,
+    "raw_response": "{\"relation_type\":\"Refine\"}"
+  },
+  {
+    "sample_index": 7,
+    "SourceSequence": "115",
+    "gold_relation_type": "Refine",
+    "predicted_relation_type": "Refine",
+    "status": "ok",
+    "error": null,
+    "raw_response": "{\"relation_type\":\"Refine\"}"
+  },
+  {
+    "sample_index": 8,
+    "SourceSequence": "116",
+    "gold_relation_type": "Refine",
+    "predicted_relation_type": "Refine",
+    "status": "ok",
+    "error": null,
+    "raw_response": "{\"relation_type\":\"Refine\"}"
+  },
+  {
+    "sample_index": 9,
+    "SourceSequence": "117",
+    "gold_relation_type": "Refine",
+    "predicted_relation_type": "Satisfy",
+    "status": "ok",
+    "error": null,
+    "raw_response": "{\"relation_type\":\"Satisfy\"}"
+  },
+  {
+    "sample_index": 10,
+    "SourceSequence": "140",
+    "gold_relation_type": "Satisfy",
+    "predicted_relation_type": "Satisfy",
+    "status": "ok",
+    "error": null,
+    "raw_response": "{\"relation_type\":\"Satisfy\"}"
+  },
+  {
+    "sample_index": 11,
+    "SourceSequence": "148",
+    "gold_relation_type": "Satisfy",
+    "predicted_relation_type": "Satisfy",
+    "status": "ok",
+    "error": null,
+    "raw_response": "{\"relation_type\":\"Satisfy\"}"
+  },
+  {
+    "sample_index": 12,
+    "SourceSequence": "152",
+    "gold_relation_type": "Refine",
+    "predicted_relation_type": "Refine",
+    "status": "ok",
+    "error": null,
+    "raw_response": "{\"relation_type\":\"Refine\"}"
+  }
+]

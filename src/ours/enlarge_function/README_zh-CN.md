@@ -1,0 +1,8 @@
+# 语义增强
+
+中文 | [English](README.md)
+
+Get_Model_Function用于对重复元素的处理，
+输入数据集到enlarge_element函数，然后经过对模型元素的去重处理，使用generate_description产生元素描述
+然后将产生的描述作为新的属性列contextA插入到数据集中，
+产生新的一个数据集在GenerateContext文件夹下
